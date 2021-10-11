@@ -1,9 +1,0 @@
-{
-	"name": "SoftX",
-	"description": "A soft and comfy feel for Discord.",
-	"version": "1.0.0",
-	"author": "Gibbu#1211",
-	"theme": "dist/SoftX.theme.css",
-	"consent": ["ext_listing"],
-	"license": "MIT"
-}
