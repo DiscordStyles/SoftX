@@ -1,0 +1,21 @@
+:root {
+	--rs-small-spacing: 2px;
+	--rs-medium-spacing: 2px;
+	--rs-large-spacing: 4px;
+
+	--rs-small-width: 2px;
+	--rs-medium-width: 3px;
+	--rs-large-width: 3px;
+
+	--rs-avatar-shape: 50%;
+
+	--rs-online-color: #43b581;
+	--rs-idle-color: #faa61a;
+	--rs-dnd-color: #f04747;
+	--rs-offline-color: #636b75;
+	--rs-streaming-color: #643da7;
+	--rs-invisible-color: #747f8d;
+	--rs-phone-color: var(--rs-online-color);
+
+	--rs-phone-visible: block;
+}
