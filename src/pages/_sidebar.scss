@@ -1,0 +1,43 @@
+#app-mount {
+	.nowPlayingColumn-2sl4cE {
+		background: var(--bg-primary);
+	}
+	.container-lRFx4q {
+		background: transparent;
+	}
+	.scroller-2ZPeAD {
+		padding: 0 !important;
+		border: none;
+		margin: 0;
+	}
+	.header-2SF4Nh {
+		margin: 0;
+		padding: 16px;
+		border-bottom: 1px solid var(--border);
+		font-size: 16px;
+		line-height: 1;
+		font-weight: normal;
+		color: var(--text-normal);
+	}
+	.itemCard-v9viV7 {
+		border-radius: 0;
+		border: none;
+		border-bottom: 1px solid var(--border);
+		margin: 0;
+		background: transparent;
+		&:hover {
+			background: var(--background-modifier-hover);
+		}
+	}
+	.body-1ld4H7 {
+		border-radius: 6px;
+		border: 1px solid var(--border);
+		background: var(--bg-primary);
+	}
+	.section-2gLsgF {
+		background: transparent;
+	}
+	.separator-XqIyoz {
+		background: var(--border);
+	}
+}

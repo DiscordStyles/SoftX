@@ -1,0 +1,54 @@
+#app-mount {
+	.privateChannels-1nO12o,
+	.scroller-1JbKMe {
+		background: transparent;
+		div[style="height: 8px;"] {
+			display: none;
+		}
+	}
+
+	.searchBar-6Kv8R2 {
+		height: var(--toolbar-height);
+		box-shadow: none;
+		border-bottom: 1px solid var(--border);
+		padding: 0 12px;
+		margin-top: -1px;
+	}
+
+	.privateChannelsHeaderContainer-3NB1K1 {
+		padding: 18px;
+		height: auto;
+		align-items: center;
+		line-height: normal;
+	}
+	.channel-2QD9_O {
+		max-width: unset;
+		margin: 0;
+		padding: 0;
+		.layout-2DM8Md {
+			padding: 6px 18px;
+		}
+
+		&.selected-aXhQR6 {
+			color: rgb(var(--accent));
+			.layout-2DM8Md {
+				background: rgb(var(--accent), .2);
+				&::before {
+					content: "";
+					position: absolute;
+					left: 0;
+					height: 100%;
+					width: 2px;
+					background: rgb(var(--accent));
+					box-shadow: 0 0 calc(var(--glow-intensity) * 15px) calc(var(--glow-intensity) * 5px) rgb(var(--accent), .2);
+				}
+			}
+			.nameAndDecorators-5FJ2dg {
+				filter: drop-shadow(0 0 calc(var(--glow-intensity) * 5px) currentColor);
+			}
+			.subText-1KtqkB {
+				color: #fff;
+			}
+		}
+	}
+}

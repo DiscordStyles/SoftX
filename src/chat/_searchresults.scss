@@ -1,0 +1,28 @@
+#app-mount {
+	.searchResultsWrap-3-pOjs {
+		background: var(--bg-primary);
+		.scroller-3GIiMh {
+			margin-top: -56px;
+			padding-top: 64px;
+		}
+	}
+	.searchHeader-2XoQg7 {
+		background: var(--bg-primary);
+		border-bottom: 1px solid var(--border);
+		backdrop-filter: blur(5px);
+	}
+	.channelName-1JRO3C {
+		background: transparent;
+	}
+	.searchResult-9tQ1uo {
+		background: transparent;
+		margin-left: -16px;
+	}
+	.pageButton-2ruNwd {
+		&.activeButton-rvKcqq {
+			background: rgb(var(--accent), .1);
+			color: rgb(var(--accent));
+			text-shadow: 0 0 calc(var(--glow-intensity) * 10px) rgb(var(--accent));
+		}
+	}
+}

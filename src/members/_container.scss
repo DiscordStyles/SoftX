@@ -1,0 +1,13 @@
+#app-mount {
+	.membersWrap-2h-GB4 {
+		min-width: var(--members-width);
+		max-width: var(--members-width);
+	}
+	.members-1998pB {
+		background: var(--bg-primary);
+		width: 100%;
+		& > div {
+			background: transparent;
+		}
+	}
+}

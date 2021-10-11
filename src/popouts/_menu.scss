@@ -1,0 +1,50 @@
+#app-mount .menu-3sdvDG {
+	background: var(--bg-primary);
+	border: 1px solid var(--border);
+	box-shadow: none;
+	border-radius: 6px;
+	&::before {
+		content: "";
+		border-radius: 6px;
+		position: absolute;
+		top: 1px;
+		right: 1px;
+		bottom: 1px;
+		left: 1px;
+		backdrop-filter: blur(5px);
+		z-index: -1;
+	}
+	.scroller-3BxosC {
+		padding: 0;
+	}
+
+	[role="group"] {
+		&:first-child > .item-1tOPte:first-child {
+			border-radius: 6px 6px 0 0;
+		}
+		&:nth-last-child(2) > .item-1tOPte:last-child {
+			border-radius: 0 0 6px 6px;
+		}
+	}
+
+	.separator-2I32lJ {
+		margin: 0;
+		border-color: var(--border);
+	}
+
+	.item-1tOPte {
+		margin: 0;
+		border-radius: 0;
+		padding: 10px 14px;
+		&.focused-3afm-j {
+			background: var(--background-modifier-hover);
+		}
+		&.colorDanger-2qLCe1.focused-3afm-j {
+			background: hsl(var(--discord-red));
+		}
+	}
+
+	.submenuPaddingContainer-fiOCHc {
+		margin: 0 -4px;
+	}
+}

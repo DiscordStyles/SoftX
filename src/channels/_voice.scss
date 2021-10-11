@@ -1,0 +1,63 @@
+#app-mount {
+	.list-2luk8a {
+		padding: 0;
+		.draggable-2E_4tJ {
+			height: auto;
+		}
+	}
+	.voiceUser-1K6Xox {
+		height: auto;
+		.content-1Wq3SX {
+			padding: 4px 18px 4px 32px;
+			border-radius: 0;
+			margin: 0;
+		}
+		.icons-1dXQdz {
+			margin-right: 0;
+		}
+		.avatar-3tNQiO {
+			z-index: 1;
+			&.avatarSpeaking-2IGMRN {
+				box-shadow: inset 0 0 0 2px hsl(139,calc(var(--saturation-factor, 1)*47.3%),43.9%),
+										inset 0 0 0 3px var(--background-secondary),
+										0 0 calc(var(--channel-glow-intensity) * 10px) hsl(139,calc(var(--saturation-factor, 1)*47.3%),43.9%);
+			}
+		}
+		.liveSmall-1dy2uA {
+			box-shadow: 0 0 calc(var(--channel-glow-intensity) * 10px) hsl(var(--discord-red));
+			z-index: 1;
+		}
+
+		&.selected-3t3Csj {
+			.content-1Wq3SX {
+				background: transparent;
+			}
+			.username-3KYl0N {
+				text-shadow: 0 0 calc(var(--channel-glow-intensity) * 5px) currentColor;
+				&::before {
+					content: "";
+					position: absolute;
+					top: 0;
+					right: 0;
+					bottom: 0;
+					left: 0;
+					background: currentColor;
+					opacity: .2;
+					z-index: 0;
+					pointer-events: none;
+				}
+				&::after {
+					content: "";
+					position: absolute;
+					top: 0;
+					left: 0;
+					width: 2px;
+					height: 100%;
+					background: currentColor;
+					box-shadow: 0 0 calc(var(--channel-glow-intensity) * 15px) currentColor;
+					pointer-events: none;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,47 @@
+@use '../assets';
+
+#app-mount {
+	.sidebar-2K8pFh {
+		div[style="height: 84px;"],
+		.animatedContainer-1NSq4T {
+			display: none;
+		}
+	}
+	.selected-31Nl7x .header-2V-4Sw {
+		background: transparent;
+	}
+	.header-2V-4Sw {
+		height: var(--toolbar-height);
+		border-bottom: 1px solid var(--border);
+		filter: none;
+		box-shadow: none;
+		padding: 0 18px;
+
+		.name-1jkAdW {
+			font-weight: 500;
+		}
+		.button-1w5pas {
+			margin-left: 0;
+			mask: url(assets.$icon_cog) center/cover;
+			background: var(--interactive-normal);
+			width: 24px;
+			height: 24px;
+			g {
+				display: none;
+			}
+			&.open-1Te94t {
+				transform: rotate(-65deg);
+			}
+		}
+
+		&:hover {
+			background: transparent;
+		}
+	}
+	.guildIconContainer-2FW_iA {
+		display: none;
+	}
+	.headerButton-3in1-b {
+		background: transparent;
+	}
+}

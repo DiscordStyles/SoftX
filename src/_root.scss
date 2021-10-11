@@ -1,0 +1,47 @@
+:root {
+	--softx-version: '0.0.3 [BETA]';
+
+	--hue: 0deg;
+	--saturation: 0%;
+	--lightness: 10%;
+
+	--transition: .15s ease;
+
+	--chat-glow-intensity: var(--glow-intensity);
+	--channel-glow-intensity: var(--glow-intensity);
+	--members-glow-intensity: var(--glow-intensity);
+	--input-glow-intensity: var(--glow-intensity);
+
+	--TB-height: calc(var(--toolbar-height) - 1px);
+	--TB-width: 52px;
+	--TB-header-padding: 155px;
+
+	--border: hsl(var(--hue) var(--saturation) calc(var(--lightness) / 2) / .6);
+	--bg-primary: hsl(var(--hue) var(--saturation) var(--lightness) / calc(var(--opacity) + .05));
+	--bg-secondary: hsl(var(--hue) var(--saturation) var(--lightness) / calc(var(--opacity) + .1));
+	--bg-tertiary: hsl(var(--hue) var(--saturation) var(--lightness) / calc(var(--opacity) + .15));
+
+	--user-area: calc(var(--server-size) + 175px);
+	--toolbar-height: 74px;
+	--server-spacing: 16px;
+
+	--unread-colour: 255 255 255;
+
+	--scrollbar-background: rgb(255 255 255 / .05);
+	--scrollbar-background-hover: rgb(255 255 255 / .1);
+	--scrollbar-background-active: rgb(255 255 255 / .15);
+
+	--input-background: rgb(18 18 18 / .7);
+
+	--discord-red: 359 calc(var(--saturation-factor, 1) *82.6%) 59.4%;
+	--discord-green: 139 calc(var(--saturation-factor, 1) * 47.3%) 43.9%;
+
+	--settings-max-height: 800px;
+	--settings-max-width: 1200px;
+
+	--font-primary: var(--font, 'Whitney');
+	--font-display: var(--font, 'Whitney');
+	--channels-default: #aaa;
+	--background-modifier-hover: rgb(255 255 255 / .05);
+	--background-modifier-active: rgb(255 255 255 / .08);
+}
