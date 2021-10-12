@@ -8,17 +8,18 @@
 
 		.input-cIJ7To {
 			border: 2px solid transparent;
-			background: rgb(255 255 255 / .05);
+			background: rgb(255 255 255 / 0.05);
 			transition: var(--transition);
 			transition-property: border-color, box-shadow;
 			color: var(--text-normal);
 			border-radius: 6px;
 			&:hover {
-				border-color: rgb(255 255 255 / .05)
+				border-color: rgb(255 255 255 / 0.05);
 			}
 			&:focus {
 				border-color: rgb(var(--accent));
-				box-shadow: 0 0 calc(var(--glow-intensity) * 10px) calc(var(--glow-intensity) * 2px) rgb(var(--accent), .2);
+				box-shadow: 0 0 calc(var(--glow-intensity) * 10px) calc(var(--glow-intensity) * 2px)
+					rgb(var(--accent), 0.2);
 			}
 		}
 	}
@@ -44,12 +45,12 @@
 		bottom: 0;
 		left: 0;
 		background: inherit;
-		opacity: .2;
+		opacity: 0.2;
 	}
 	.roleName-32vpEy {
 		z-index: 1;
 	}
-	
+
 	.note-1oo11U {
 		margin: 0;
 	}

@@ -30,7 +30,7 @@ module.exports = (options) => {
 				to: undefined
 			})
 			.then(postcssRes => {
-				fs.writeFile(path.join(...options.output), postcssRes.css, (err) => {
+				fs.writeFile(path.join(...options.output), postcssRes.css.replace('@charset "UTF-8";\n', ""), (err) => {
 					if (err) console.error(err);
 					else console.log(`[SoftX] Successfully built ${options.target.join('/')} file. (${(result.stats.duration/60000 * 60).toFixed(2)}s)`);
 				})
