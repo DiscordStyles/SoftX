@@ -65,8 +65,8 @@
   box-shadow: 0 0 calc(var(--glow-intensity) * 10px) var(--rs-offline-color);
 }
 
-.wrapper-3t9DeA[style*="80px"] {
+.wrapper-3t9DeA[style*="80px"], .wrapper-3t9DeA[style*="120px"] {
   border-width: 0px;
-  margin-top: 6px;
-  margin-left: 6px;
+  margin-top: 7.5px;
+  margin-left: 7.5px;
 }
