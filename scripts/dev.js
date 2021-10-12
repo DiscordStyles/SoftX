@@ -10,5 +10,8 @@ const themesFolder = path.join(dataFolder, 'BetterDiscord', 'themes');
 chokidar.watch('src', {persistent: true})
 	.on('ready', () => console.log('[SoftX] Watching for changes...'))
 	.on('change', () => {
-		compile('src/SoftX.theme.scss', themesFolder, 'SoftX.theme.css');
+		compile({
+			target: ['src', 'SoftX.theme.scss'],
+			output: [themesFolder, 'SoftX.theme.css']
+		})
 	});

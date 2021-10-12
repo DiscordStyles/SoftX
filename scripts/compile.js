@@ -6,14 +6,15 @@ const autoprefixer = require('autoprefixer');
 
 /**
  * Compile, autoprefix and save SCSS.
- * @param {string} target The file to be compiled
- * @param {...string} output The destination and name of the file.
+ * @param {Object} options
+ * @param {string[]} options.target The path of the file to be compiled. Uses `path.join()`.
+ * @param {string[]} options.output The destination and name of the file. Uses `path.join()`.
  */
-module.exports = (target, ...output) => {
-	console.log(`[SoftX] Building ${target} file...`);
+module.exports = (options) => {
+	console.log(`[SoftX] Building ${options.target.join('/')} file...`);
 
 	sass.render({
-		file: target,
+		file: path.join(...options.target),
 		outputStyle: 'expanded',
 	}, (error, result) => {
 		if (error) {
@@ -29,9 +30,9 @@ module.exports = (target, ...output) => {
 				to: undefined
 			})
 			.then(postcssRes => {
-				fs.writeFile(path.join(...output), postcssRes.css, (err) => {
+				fs.writeFile(path.join(...options.output), postcssRes.css, (err) => {
 					if (err) console.error(err);
-					else console.log(`[SoftX] Successfully built ${target} file. (${(result.stats.duration/60000 * 60).toFixed(2)}s)`);
+					else console.log(`[SoftX] Successfully built ${options.target.join('/')} file. (${(result.stats.duration/60000 * 60).toFixed(2)}s)`);
 				})
 			})
 	})
