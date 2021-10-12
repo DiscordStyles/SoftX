@@ -1,0 +1,32 @@
+Just a list of things to theme:
+
+- [ ] Settings
+- [ ] Server Discovery
+- [ ] Game Library
+- [ ] BetterDiscord stuff
+- [ ] Stage discovery?
+- [ ] Threads
+- [ ] Modals
+	- [ ] Upload file
+	- [ ] User profile
+	- [ ] Invite people
+	- [ ] Create channel
+	- [ ] Create category
+	- [ ] Notification settings
+	- [ ] Privacy settings
+	- [ ] Add server
+	- [ ] Quick switch
+	- [ ] Channel topic
+- [ ] Popouts
+	- [ ] Threads
+	- [ ] Pinned messages/inbox
+	- [ ] Emoji/Gif/Sticker picker
+	- [ ] Available threads hovering channel
+	- [ ] RTC
+	- [ ] Auto complete
+	- [ ] Krisp
+- [ ] Inputs
+	- [ ] Text boxes
+	- [ ] Radio groups
+	- [ ] Switches
+	- [ ] Checkboxes

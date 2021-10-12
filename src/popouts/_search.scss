@@ -5,6 +5,12 @@
 		&:not(.focused-31_ccS) * {
 			cursor: pointer;
 		}
+		&.open-6_Y_aH {
+			.searchBar-3dMhjb {
+				border-color: rgb(var(--accent));
+				box-shadow: 0 0 calc(var(--glow-intensity) * 20px) calc(var(--glow-intensity) * 5px) rgb(var(--accent), .25);
+			}
+		}
 		&.focused-31_ccS {
 			position: fixed;
 			left: 50%;
@@ -17,19 +23,13 @@
 			border-radius: 12px;
 			.searchBar-3dMhjb {
 				background: var(--input-background);
-				border: 2px solid transparent;
 				height: 64px;
 				width: 500px;
 				padding: 0 0 0 12px;
 				box-sizing: border-box;
 				border-radius: 12px;
-				&:hover {
-					border-color: rgb(255 255 255 / .05);
-				}
-				&:focus-within {
-					border-color: rgb(var(--accent));
-					box-shadow: 0 0 calc(var(--glow-intensity) * 20px) calc(var(--glow-intensity) * 5px) rgb(var(--accent), .25);
-				}
+				border-color: rgb(var(--accent));
+				box-shadow: 0 0 calc(var(--glow-intensity) * 20px) calc(var(--glow-intensity) * 5px) rgb(var(--accent), .25);
 			}
 			.public-DraftEditor-content {
 				cursor: text;

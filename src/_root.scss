@@ -1,5 +1,5 @@
 :root {
-	--softx-version: '0.0.6 [BETA]';
+	--softx-version: '0.0.7 [BETA]';
 
 	--hue: 0deg;
 	--saturation: 0%;
@@ -44,4 +44,7 @@
 	--channels-default: #aaa;
 	--background-modifier-hover: rgb(255 255 255 / .05);
 	--background-modifier-active: rgb(255 255 255 / .08);
+	--brand-experiment: rgb(var(--accent), .35);
+	--brand-experiment-560: rgb(var(--accent), .55);
+	--brand-experiment-600: rgb(var(--accent), .4);
 }
