@@ -25,7 +25,7 @@ sass.render({
 			to: undefined
 		})
 		.then(postcssRes => {
-			fs.writeFile(path.join('dist', 'SoftX.css'), postcssRes.css, (err) => {
+			fs.writeFile(path.join('dist', 'SoftX.css'), postcssRes.css.replace('@charset "UTF-8";\n', ""), (err) => {
 				if (err) console.error(err);
 				else console.log(`[SoftX] Successfully built SoftX.css file. (${(result.stats.duration/60000 * 60).toFixed(2)}s)`);
 			})

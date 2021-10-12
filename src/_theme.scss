@@ -28,4 +28,24 @@
 	--opacity: .85;
 
 	--font: 'Inter';
+	
+	--rs-small-spacing: 2px;
+	--rs-medium-spacing: 4px;
+	--rs-large-spacing: 4px;
+
+	--rs-small-width: 1.5px;
+	--rs-medium-width: 2px;
+	--rs-large-width: 2px;
+
+	--rs-avatar-shape: 50%;
+
+	--rs-online-color: #43b581;
+	--rs-idle-color: #faa61a;
+	--rs-dnd-color: #f04747;
+	--rs-offline-color: #636b75;
+	--rs-streaming-color: #643da7;
+	--rs-invisible-color: #747f8d;
+	--rs-phone-color: var(--rs-online-color);
+
+	--rs-phone-visible: block;
 }

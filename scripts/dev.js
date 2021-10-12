@@ -30,7 +30,7 @@ chokidar.watch('src', {persistent: true})
 					to: undefined
 				})
 				.then(postcssRes => {
-					fs.writeFile(path.join(themesFolder, 'SoftX.theme.css'), postcssRes.css, (err) => {
+					fs.writeFile(path.join(themesFolder, 'SoftX.theme.css'), postcssRes.css.replace('@charset "UTF-8";\n', ""), (err) => {
 						if (err) console.error(err);
 						else console.log(`[SoftX] Built css file. (${(result.stats.duration/60000 * 60).toFixed(2)}s)`);
 					})
