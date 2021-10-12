@@ -39,31 +39,30 @@
   /* Color of the phone for mobile users | Default: var(--rs-online-color) */
   --rs-phone-visible: block;
   /* Visibility of the phone for mobile users | Default: block */
-  --radial-glow-intensity: var(--glow-intensity);
 }
 
 .wrapper-3t9DeA[aria-label*=Online i], .wrapper-3t9DeA[aria-label*=online i], .wrapper-3t9DeA[aria-label*=Conectado i], .wrapper-3t9DeA[aria-label*="En línea con móvil" i], .wrapper-3t9DeA[aria-label*="En ligne" i], .wrapper-3t9DeA[aria-label*="Na mreži" i] {
-  box-shadow: 0 0 calc(var(--radial-glow-intensity) * 10px) var(--rs-online-color);
+  box-shadow: 0 0 calc(var(--glow-intensity) * 10px) var(--rs-online-color);
 }
 
 .wrapper-3t9DeA[aria-label*=Idle i], .wrapper-3t9DeA[aria-label*=Inaktiv i], .wrapper-3t9DeA[aria-label*=Abwesend i], .wrapper-3t9DeA[aria-label*=Ausente i], .wrapper-3t9DeA[aria-label*=Inactif i], .wrapper-3t9DeA[aria-label*="U mirovanju" i] {
-  box-shadow: 0 0 calc(var(--radial-glow-intensity) * 10px) var(--rs-idle-color);
+  box-shadow: 0 0 calc(var(--glow-intensity) * 10px) var(--rs-idle-color);
 }
 
 .wrapper-3t9DeA[aria-label*="Do Not disturb" i], .wrapper-3t9DeA[aria-label*="Vil ikke forstyrres" i], .wrapper-3t9DeA[aria-label*="Bitte nicht stören" i], .wrapper-3t9DeA[aria-label*="No molestar" i], .wrapper-3t9DeA[aria-label*="Ne pas déranger" i], .wrapper-3t9DeA[aria-label*="Ne uznemiravaj" i] {
-  box-shadow: 0 0 calc(var(--radial-glow-intensity) * 10px) var(--rs-dnd-color);
+  box-shadow: 0 0 calc(var(--glow-intensity) * 10px) var(--rs-dnd-color);
 }
 
 .wrapper-3t9DeA[aria-label*=Streaming i], .wrapper-3t9DeA[aria-label*=Streamer i], .wrapper-3t9DeA[aria-label*=Streamt i], .wrapper-3t9DeA[aria-label*=Transmitiendo i], .wrapper-3t9DeA[aria-label*="En direct" i] {
-  box-shadow: 0 0 calc(var(--radial-glow-intensity) * 10px) var(--rs-streaming-color);
+  box-shadow: 0 0 calc(var(--glow-intensity) * 10px) var(--rs-streaming-color);
 }
 
 .wrapper-3t9DeA[aria-label*=Invisible i], .wrapper-3t9DeA[aria-label*=Usynlig i], .wrapper-3t9DeA[aria-label*=Unsichtbar i], .wrapper-3t9DeA[aria-label*="Nevidljiv/a" i] {
-  box-shadow: 0 0 calc(var(--radial-glow-intensity) * 10px) var(--rs-invisible-color);
+  box-shadow: 0 0 calc(var(--glow-intensity) * 10px) var(--rs-invisible-color);
 }
 
 .wrapper-3t9DeA[aria-label*=Offline i], .wrapper-3t9DeA[aria-label*=Desconectado i], .wrapper-3t9DeA[aria-label*="Hors ligne" i], .wrapper-3t9DeA[aria-label*="Izvan mreže" i] {
-  box-shadow: 0 0 calc(var(--radial-glow-intensity) * 10px) var(--rs-offline-color);
+  box-shadow: 0 0 calc(var(--glow-intensity) * 10px) var(--rs-offline-color);
 }
 
 .wrapper-3t9DeA[style*="80px"] {
