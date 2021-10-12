@@ -129,4 +129,15 @@
 			background: var(--interactive-normal);
 		}
 	}
+
+	// Replying
+	.attachedBars-tZDmyV {
+		background: transparent;
+		border-radius: 6px 6px 0 0;
+	}
+	.replyBar-1YLQ2F,
+	.threadSuggestionBar-2ufK2Z {
+		background: rgb(255 255 255 / .02);
+		border-bottom: 2px solid var(--border);
+	}
 }
