@@ -34,7 +34,7 @@
 
 	--rs-phone-visible: block; /* Visibility of the phone for mobile users | Default: block */
 
-	--radial-glow-intensity: 1;
+	--radial-glow-intensity: var(--glow-intensity);
 }
 
 // Currently supported by the following languages:
