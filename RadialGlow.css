@@ -39,7 +39,7 @@
   /* Color of the phone for mobile users | Default: var(--rs-online-color) */
   --rs-phone-visible: block;
   /* Visibility of the phone for mobile users | Default: block */
-  --radial-glow-intensity: 1;
+  --radial-glow-intensity: var(--glow-intensity);
 }
 
 .wrapper-3t9DeA[aria-label*=Online i], .wrapper-3t9DeA[aria-label*=online i], .wrapper-3t9DeA[aria-label*=Conectado i], .wrapper-3t9DeA[aria-label*="En línea con móvil" i], .wrapper-3t9DeA[aria-label*="En ligne" i], .wrapper-3t9DeA[aria-label*="Na mreži" i] {

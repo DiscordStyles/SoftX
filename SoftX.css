@@ -209,7 +209,8 @@ html.theme-light .container-3baos1 {
 .peopleList-3c4jOR,
 .scroller-2ZPeAD,
 .sidebarRegionScroller-3MXcoP,
-.contentRegionScroller-26nc1e {
+.contentRegionScroller-26nc1e,
+.scroller-RmtA4e {
   overflow: hidden overlay !important;
 }
 .members-1998pB::-webkit-scrollbar,
@@ -220,7 +221,8 @@ html.theme-light .container-3baos1 {
 .peopleList-3c4jOR::-webkit-scrollbar,
 .scroller-2ZPeAD::-webkit-scrollbar,
 .sidebarRegionScroller-3MXcoP::-webkit-scrollbar,
-.contentRegionScroller-26nc1e::-webkit-scrollbar {
+.contentRegionScroller-26nc1e::-webkit-scrollbar,
+.scroller-RmtA4e::-webkit-scrollbar {
   width: 8px;
   display: none;
   background: transparent !important;
@@ -233,7 +235,8 @@ html.theme-light .container-3baos1 {
 .peopleList-3c4jOR::-webkit-scrollbar-track,
 .scroller-2ZPeAD::-webkit-scrollbar-track,
 .sidebarRegionScroller-3MXcoP::-webkit-scrollbar-track,
-.contentRegionScroller-26nc1e::-webkit-scrollbar-track {
+.contentRegionScroller-26nc1e::-webkit-scrollbar-track,
+.scroller-RmtA4e::-webkit-scrollbar-track {
   margin: 0;
 }
 .members-1998pB::-webkit-scrollbar-track-piece,
@@ -244,7 +247,8 @@ html.theme-light .container-3baos1 {
 .peopleList-3c4jOR::-webkit-scrollbar-track-piece,
 .scroller-2ZPeAD::-webkit-scrollbar-track-piece,
 .sidebarRegionScroller-3MXcoP::-webkit-scrollbar-track-piece,
-.contentRegionScroller-26nc1e::-webkit-scrollbar-track-piece {
+.contentRegionScroller-26nc1e::-webkit-scrollbar-track-piece,
+.scroller-RmtA4e::-webkit-scrollbar-track-piece {
   background: transparent;
   border-color: transparent;
 }
@@ -256,7 +260,8 @@ html.theme-light .container-3baos1 {
 .peopleList-3c4jOR::-webkit-scrollbar-thumb,
 .scroller-2ZPeAD::-webkit-scrollbar-thumb,
 .sidebarRegionScroller-3MXcoP::-webkit-scrollbar-thumb,
-.contentRegionScroller-26nc1e::-webkit-scrollbar-thumb {
+.contentRegionScroller-26nc1e::-webkit-scrollbar-thumb,
+.scroller-RmtA4e::-webkit-scrollbar-thumb {
   background-color: var(--scrollbar-background);
   border-radius: 0;
   border-radius: var(--border-radius);
@@ -270,7 +275,8 @@ html.theme-light .container-3baos1 {
 .peopleList-3c4jOR::-webkit-scrollbar-thumb:hover,
 .scroller-2ZPeAD::-webkit-scrollbar-thumb:hover,
 .sidebarRegionScroller-3MXcoP::-webkit-scrollbar-thumb:hover,
-.contentRegionScroller-26nc1e::-webkit-scrollbar-thumb:hover {
+.contentRegionScroller-26nc1e::-webkit-scrollbar-thumb:hover,
+.scroller-RmtA4e::-webkit-scrollbar-thumb:hover {
   background-color: var(--scrollbar-background-hover);
 }
 .members-1998pB::-webkit-scrollbar-thumb:active,
@@ -281,7 +287,8 @@ html.theme-light .container-3baos1 {
 .peopleList-3c4jOR::-webkit-scrollbar-thumb:active,
 .scroller-2ZPeAD::-webkit-scrollbar-thumb:active,
 .sidebarRegionScroller-3MXcoP::-webkit-scrollbar-thumb:active,
-.contentRegionScroller-26nc1e::-webkit-scrollbar-thumb:active {
+.contentRegionScroller-26nc1e::-webkit-scrollbar-thumb:active,
+.scroller-RmtA4e::-webkit-scrollbar-thumb:active {
   background-color: var(--scrollbar-background-active);
 }
 .members-1998pB::-webkit-scrollbar-button, .members-1998pB::-webkit-scrollbar-corner,
@@ -300,7 +307,9 @@ html.theme-light .container-3baos1 {
 .sidebarRegionScroller-3MXcoP::-webkit-scrollbar-button,
 .sidebarRegionScroller-3MXcoP::-webkit-scrollbar-corner,
 .contentRegionScroller-26nc1e::-webkit-scrollbar-button,
-.contentRegionScroller-26nc1e::-webkit-scrollbar-corner {
+.contentRegionScroller-26nc1e::-webkit-scrollbar-corner,
+.scroller-RmtA4e::-webkit-scrollbar-button,
+.scroller-RmtA4e::-webkit-scrollbar-corner {
   display: none !important;
 }
 .members-1998pB:hover::-webkit-scrollbar,
@@ -311,7 +320,8 @@ html.theme-light .container-3baos1 {
 .peopleList-3c4jOR:hover::-webkit-scrollbar,
 .scroller-2ZPeAD:hover::-webkit-scrollbar,
 .sidebarRegionScroller-3MXcoP:hover::-webkit-scrollbar,
-.contentRegionScroller-26nc1e:hover::-webkit-scrollbar {
+.contentRegionScroller-26nc1e:hover::-webkit-scrollbar,
+.scroller-RmtA4e:hover::-webkit-scrollbar {
   display: block;
 }
 
@@ -623,9 +633,6 @@ html.theme-light .container-3baos1 {
   width: var(--channels-width);
   border-right: 1px solid var(--border);
   z-index: 1;
-}
-#app-mount .sidebar-2K8pFh .scroller-RmtA4e::-webkit-scrollbar {
-  display: none;
 }
 #app-mount .container-3w7J-x {
   background: transparent;
