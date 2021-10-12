@@ -103,8 +103,9 @@
 
 	// Mention
 	.wrapper-3WhCwL {
-		background: rgb(var(--accent), .15);
+		background: rgb(var(--accent), .1);
 		color: rgb(var(--accent));
+		text-shadow: 0 0 calc(var(--glow-intensity) * 5px) currentColor;
 		&:hover {
 			background: rgb(var(--accent));
 			color: #fff;

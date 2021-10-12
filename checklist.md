@@ -6,7 +6,7 @@ Just a list of things to theme:
 - [ ] BetterDiscord stuff
 - [ ] Stage discovery?
 - [ ] Threads
-- [ ] Modals
+- [ ] **Modals**
 	- [ ] Upload file
 	- [ ] User profile
 	- [ ] Invite people
@@ -17,7 +17,7 @@ Just a list of things to theme:
 	- [ ] Add server
 	- [ ] Quick switch
 	- [ ] Channel topic
-- [ ] Popouts
+- [ ] **Popouts**
 	- [ ] Threads
 	- [ ] Pinned messages/inbox
 	- [ ] Emoji/Gif/Sticker picker
@@ -25,8 +25,9 @@ Just a list of things to theme:
 	- [ ] RTC
 	- [ ] Auto complete
 	- [ ] Krisp
-- [ ] Inputs
-	- [ ] Text boxes
-	- [ ] Radio groups
-	- [ ] Switches
+- [ ] **Inputs**
+	- [x] Text boxes
+	- [x] Radio groups
+	- [x] Select
+	- [x] Switches
 	- [ ] Checkboxes

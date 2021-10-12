@@ -1,5 +1,5 @@
 :root {
-	--softx-version: '0.0.7 [BETA]';
+	--softx-version: '0.0.8 [BETA]';
 
 	--hue: 0deg;
 	--saturation: 0%;
@@ -32,13 +32,17 @@
 	--scrollbar-background-active: rgb(255 255 255 / .15);
 
 	--input-background: rgb(18 18 18 / .7);
+	--input-border: rgb(255 255 255 / .05);
 
 	--discord-red: 359 calc(var(--saturation-factor, 1) *82.6%) 59.4%;
 	--discord-green: 139 calc(var(--saturation-factor, 1) * 47.3%) 43.9%;
 
+	--settings-sidebar-width: 300px;
+	--settings-content-width: 900px;
 	--settings-max-height: 800px;
-	--settings-max-width: 1200px;
+	--settings-max-width: calc(var(--settings-sidebar-width) + var(--settings-content-width));
 
+	--text-link: rgb(var(--accent));
 	--font-primary: var(--font, 'Whitney');
 	--font-display: var(--font, 'Whitney');
 	--channels-default: #aaa;

@@ -1,0 +1,22 @@
+#app-mount {
+	.input-cIJ7To:not(.multiInput-2AiDV2):not(.multiInputField-3K361B),
+	.input-cIJ7To.multiInput-2AiDV2 {
+		border: 2px solid transparent;
+		background: var(--input-background);
+		border-radius: 6px;
+		transition: var(--transition);
+		transition-property: border-color, box-shadow;
+		&:hover {
+			border-color: var(--input-border);
+		}
+		&:focus-within {
+			border-color: rgb(var(--accent));
+			box-shadow: 0 0 calc(var(--input-glow-intensity) * 12px) calc(var(--input-glow-intensity) * 2px) rgb(var(--accent), .25);
+		}
+	}
+	.multiInputLast-33BbRU::before {
+		content: none;
+	}
+}
+
+// inputWrapper-31_8H8

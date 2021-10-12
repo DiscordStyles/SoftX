@@ -9,7 +9,7 @@ html, span:not([class*="spinner-"]):not([class*="spinnerItem"]) {
 	background-attachment: var(--background-attachment, fixed);
 	background-size: var(--background-size, cover);
 	background-position: var(--background-position, center);
-	filter: blur(var(--background-blur, 0px));
+	filter: blur(var(--background-blur, 0px)) hue-rotate(var(--background-hue, 0deg));
 }
 
 // Remove wack ass box shadow from chat
