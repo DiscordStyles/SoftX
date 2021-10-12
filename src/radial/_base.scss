@@ -370,9 +370,11 @@ $largeBase: selector.simple-selectors(".focusLock-Ns3yie.userPopout-xaxa6l.accou
 		}
 	}
 	#{$largeBase} {
-		border-width: 0px;
-		margin-top: 7.5px;
-		margin-left: 7.5px;
+		.wrapper-3t9DeA {
+			border-width: 0px;
+			margin-top: 7.5px;
+			margin-left: 7.5px;
+		}
 		#{selector.append(".wrapper-3t9DeA", selector.simple-selectors($parsedItem))} {
 			box-shadow: 0 0 calc(var(--glow-intensity) * 15px) calc(var(--glow-intensity) * 5px) var(--rs-#{$statusType}-color);
 		}
