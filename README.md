@@ -11,10 +11,13 @@ Powercord Install: `git clone https://github.com/DiscordStyles/SoftX`
 ## Previews
 
 Server Chat
-![Server Chat](https://i.imgur.com/HQFPUKv.png)
+![Server Chat](https://i.imgur.com/fLYDEsU.png)
 
 Server Search
 ![Server Search](https://i.imgur.com/2uUlwR1.png)
+
+Settings
+![Settings](https://i.imgur.com/KEC161G.png)
 
 ## Contributing
 
