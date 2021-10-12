@@ -6,3 +6,8 @@ compile({
 	target: ['src', '_base.scss'],
 	output: ['dist', 'SoftX.css']
 });
+
+compile({
+	target: ['src', 'RadialGlow.theme.scss'],
+	output: ['dist', 'RadialGlow.css']
+});

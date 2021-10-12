@@ -8,6 +8,8 @@
   "private": false,
   "scripts": {
     "dev": "node ./scripts/dev",
+    "dev:theme": "node ./scripts/dev --target=theme",
+    "dev:radialglow": "node ./scripts/dev --target=radialglow",
     "build": "node ./scripts/build"
   },
   "dependencies": {
