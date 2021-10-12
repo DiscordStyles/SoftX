@@ -1,5 +1,6 @@
 # SoftX
 __**WARNING**__: SoftX is in VERY early development. There **WILL** be bugs and things are likely to be changed.  
+
 A soft and comfy feel for Discord.
 
 - - -
@@ -10,7 +11,7 @@ Powercord Install: `git clone https://github.com/DiscordStyles/SoftX`
 ## Previews
 
 Server Chat
-![Server Chat](https://i.imgur.com/jahLZZX.png)
+![Server Chat](https://i.imgur.com/HQFPUKv.png)
 
 Server Search
 ![Server Search](https://i.imgur.com/2uUlwR1.png)

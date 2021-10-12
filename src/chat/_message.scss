@@ -21,6 +21,13 @@
 			color: rgb(var(--accent));
 			text-shadow: 0 0 calc(var(--input-glow-intensity) * 5px) rgb(var(--accent));
 		}
+		&.replying-1x3H0T {
+			background: rgb(var(--accent), .03);
+			&::before {
+				background: rgb(var(--accent));
+				box-shadow: 0 0 calc(var(--chat-glow-intensity) * 15px) calc(var(--chat-glow-intensity) * 5px) rgb(var(--accent), .2);
+			}
+		}
 	}
 
 	// Message actions
@@ -88,8 +95,8 @@
 		&[data-is-author-self="true"] .messageContent-2qWWxC:not(:empty):not(.repliedTextContent-1R3vnK) {
 			background: rgb(var(--accent), .15);
 		}
-		&.selected-2P5D_Z,
-		&:hover {
+		&.selected-2P5D_Z:not(.replying-1x3H0T),
+		&:not(.replying-1x3H0T):hover {
 			background: transparent !important;
 		}
 	}
