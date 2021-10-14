@@ -1,11 +1,14 @@
 Just a list of things to theme:
 
-- [ ] Settings
+- [ ] Settings - Most of Server Settings.
 - [ ] Server Discovery
 - [ ] Game Library
-- [ ] BetterDiscord stuff
 - [ ] Stage discovery?
 - [ ] Threads
+- [ ] **Chat**
+	- [ ] Reactions
+	- [ ] New message with Date
+	- [ ] Announcement bar
 - [ ] **Modals**
 	- [ ] Upload file
 	- [ ] User profile
@@ -30,4 +33,8 @@ Just a list of things to theme:
 	- [x] Radio groups
 	- [x] Select
 	- [x] Switches
-	- [ ] Checkboxes
+	- [x] Checkboxes
+- [ ] **BetterDiscord**
+	- [ ] Settings
+	- [ ] Toasts
+	- [ ] Modals

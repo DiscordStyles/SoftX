@@ -3,7 +3,7 @@
 		box-shadow: none;
 		border: 1px solid var(--border);
 		background: var(--bg-primary);
-		backdrop-filter: blur(10px);
+		backdrop-filter: blur(var(--blur));
 		border-radius: 6px;
 
 		.input-cIJ7To {

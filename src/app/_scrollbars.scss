@@ -1,14 +1,10 @@
 .members-1998pB,
-.scroller-2LSbBU,
-.menu-3sdvDG .scroller-3BxosC,
-.privateChannels-1nO12o .scroller-1JbKMe,
-.searchResultsWrap-3-pOjs .scroller-3GIiMh,
 .peopleList-3c4jOR,
-.scroller-2ZPeAD,
 .sidebarRegionScroller-3MXcoP,
 .contentRegionScroller-26nc1e,
-.scroller-RmtA4e,
-.customScroller-26gWhv {
+.customScroller-26gWhv,
+.list-I3aHXn,
+[class*="scrollerBase-"] {
 	overflow: hidden overlay !important;
 	&::-webkit-scrollbar {
 		width: 8px;

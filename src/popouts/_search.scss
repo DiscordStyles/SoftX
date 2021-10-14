@@ -53,9 +53,9 @@
 				right: -100vmax;
 				bottom: -100vmax;
 				left: -100vmax;
-				background: var(--bg-primary);
+				background: var(--backdrop-background);
 				z-index: -1;
-				backdrop-filter: blur(5px);
+				backdrop-filter: blur(var(--backdrop-blur));
 			}
 		}
 	}
@@ -107,7 +107,7 @@
 		border-radius: 12px;
 		background: var(--bg-primary);
 		border: 1px solid var(--border);
-		box-shadow: none;
+		box-shadow: var(--shadow-lg);
 	}
 	.resultsGroup-r_nuzN {
 		margin: 0;

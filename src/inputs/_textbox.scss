@@ -1,11 +1,14 @@
 #app-mount {
 	.input-cIJ7To:not(.multiInput-2AiDV2):not(.multiInputField-3K361B),
 	.input-cIJ7To.multiInput-2AiDV2 {
+		padding: 10px 16px;
+		height: auto;
 		border: 2px solid transparent;
 		background: var(--input-background);
 		border-radius: 6px;
 		transition: var(--transition);
 		transition-property: border-color, box-shadow;
+		color: var(--text-normal);
 		&:hover {
 			border-color: var(--input-border);
 		}

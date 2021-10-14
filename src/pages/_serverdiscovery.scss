@@ -1,0 +1,95 @@
+#app-mount {
+	.discoverHeader-Ijkm_M {
+		margin: 24px;
+	}
+	.categoryItem-1QIroW {
+		margin: 0;
+		padding: 0;
+		position: relative;
+		&.selectedCategoryItem-FHKU_o {
+			.layout-2DM8Md {
+				background: rgb(var(--accent), .1);
+				color: rgb(var(--accent));
+			}
+			path {
+				fill: rgb(var(--accent));
+			}
+			.avatar-3uk_u9,
+			.content-3QAtGj {
+				filter: drop-shadow(0 0 calc(var(--channel-glow-intensity) * 5px) rgb(var(--accent)));
+			}
+			&::before {
+				content: "";
+				position: absolute;
+				left: 0;
+				height: 100%;
+				width: 2px;
+				background: rgb(var(--accent));
+				box-shadow: 0 0 calc(var(--channel-glow-intensity) * 15px) calc(var(--channel-glow-intensity) * 5px) rgb(var(--accent), .2);
+			}
+		}
+	}
+
+	.pageWrapper-1PgVDX {
+		background: var(--bg-secondary);
+		.scroller-1d5FgU {
+			padding: 0 !important;
+		}
+	}
+	.searchHeader-2I26nG {
+		min-height: unset;
+		height: 240px;
+		border-bottom: 1px solid var(--border);
+		position: sticky;
+		top: 0;
+		z-index: 1;
+		background: var(--bg-primary);
+		backdrop-filter: blur(var(--blur));
+		margin: 0;
+		img {
+			display: none;
+		}
+	}
+	.searchBox-3Y2Vi7 {
+		overflow: visible;
+	}
+	.searchBox-2_mAlO {
+		box-shadow: none;
+		background: transparent;
+		position: relative;
+		padding: 0;
+		border: none;
+	}
+	.searchIcon-1a1-yA {
+		display: none;
+	}
+	.clear-U3WkKp {
+		position: absolute;
+		right: 16px;
+	}
+	.searchBoxInput-uJtBcv {
+		padding-right: 52px !important;
+	}
+	.cta-BiH9zX {
+		position: absolute;
+		margin-right: 0;
+		left: 50%;
+		transform: translateX(-50%);
+		top: 56px;
+	}
+
+	.guildListSection-2CS8vH {
+		padding: 24px;
+		box-sizing: border-box;
+	}
+	.footer-2jdoRS {
+		padding: 24px;
+	}
+	.card-3DjzTQ {
+		border-radius: 6px;
+		background: rgb(255 255 255 / .05);
+		&:hover {
+			box-shadow: var(--shadow-lg);
+		}
+	}
+}

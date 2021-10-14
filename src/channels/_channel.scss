@@ -33,7 +33,7 @@
 				.icon-1DeIlz,
 				.name-23GUGE {
 					color: rgb(var(--accent));
-					filter: drop-shadow(0 0 calc(var(--channel-glow-intensity) * 5px) currentColor);
+					filter: drop-shadow(0 0 calc(var(--channel-glow-intensity) * 5px) rgb(var(--accent)));
 				}
 			}
 		}

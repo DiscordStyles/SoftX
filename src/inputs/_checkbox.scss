@@ -1,0 +1,26 @@
+#app-mount {
+	.container-3auIfb {
+		border-radius: 4px;
+		height: 18px;
+		width: 34px;
+		border: 1px solid var(--border);
+	}
+	.slider-TkfMQL {
+		height: 12px;
+		margin: 2px;
+		rect[fill="white"] {
+			rx: 4;
+		}
+		&[style*="left: 0"],
+		&[style*="left: -1"],
+		&[style*="left: -2"],
+		&[style*="left: -3"] {
+			left: -1px !important;
+		}
+		&[style*="left: 10"],
+		&[style*="left: 11"],
+		&[style*="left: 12"] {
+			left: 14px !important;
+		}
+	}
+}

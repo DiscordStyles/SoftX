@@ -1,6 +1,6 @@
 #app-mount .layer-3QrUeG[aria-label*="SETTINGS"] {
 	background: var(--bg-primary);
-	backdrop-filter: blur(10px);
+	backdrop-filter: blur(var(--backdrop-blur));
 	top: 0;
 	left: 0;
 	padding: 0;

@@ -1,0 +1,123 @@
+#app-mount .layer-3QrUeG[aria-label="GUILD_SETTINGS"] {
+	// Roles
+	.page-3njELR {
+		position: relative;
+		width: 100%;
+		max-width: var(--settings-content-width);
+		min-width: calc(var(--settings-content-width) - 2px);
+		max-height: var(--settings-max-height);
+	}
+
+	.sidebar-dLM-kh {
+		height: var(--settings-max-height);
+	}
+	.titleContainer-2CXtJo {
+		padding: 24px;
+		margin: 0;
+		border-bottom: 1px solid var(--border);
+		background: var(--bg-primary);
+		backdrop-filter: blur(var(--blur));
+	}
+	.list-I3aHXn {
+		padding: 73px 0 0 !important;
+		margin-top: -73px;
+		.item-PXvHYJ {
+			border-radius: 0;
+			padding: 10px 24px;
+			height: auto;
+			margin: 0;
+			position: relative;
+			&:hover {
+				background: var(--background-modifier-hover);
+			}
+			&.selected-3s45Ha {
+				background: var(--background-modifier-active);
+				&::before {
+					content: "";
+					position: absolute;
+					top: 0;
+					left: 0;
+					height: 100%;
+					background: #fff;
+					box-shadow: 0 0 calc(var(--glow-intensity) * 10px) #fff;
+					width: 2px;
+				}
+			}
+		}
+	}
+
+
+
+	.scroller-3ZpLaI {
+		scroll-padding-top: 132px !important;
+	}
+	.contentWidth-xLB44s {
+		width: 100%;
+		max-width: unset;
+		padding: 24px 24px 0;
+	}
+	.headerContainer-1X2CD8 {
+		right: 0;
+		.header-2mZ9Ov {
+			margin-bottom: 0;
+		}
+	}
+	.header-2mZ9Ov {
+		margin: -24px -24px 24px;
+		padding: 24px 24px 0;
+		background: var(--bg-primary);
+		backdrop-filter: blur(var(--blur));
+		border-bottom: 1px solid var(--border);
+	}
+	.tabBar-11f3uI {
+		border: none;
+		margin: 0;
+	}
+	.tabBarItem-2QyJ0U {
+		border: none;
+		overflow: visible;
+		position: relative;
+		&.selected-3s45Ha {
+			border-color: rgb(var(--accent));
+			color: rgb(var(--accent));
+			text-shadow: 0 0 calc(var(--glow-intensity) * 10px) rgb(var(--accent));
+			&::before {
+				content: "";
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				width: 100%;
+				height: 1px;
+				background: rgb(var(--accent));
+				box-shadow: 0 0 calc(var(--glow-intensity) * 10px) rgb(var(--accent)), 0 0 calc(var(--glow-intensity) * 3px) rgb(var(--accent));
+			}
+		}
+	}
+	.searchContainer-3pUVEQ,
+	.searchContainer-2gy0Sr {
+		margin: 24px 0;
+	}
+	.container-cMG81i {
+		background: var(--input-background);
+		border-radius: 6px;
+		border: 2px solid transparent;
+		transition: var(--transition);
+		transition-property: border-color, box-shadow;
+		&:hover {
+			border-color: rgb(255 255 255 / .05);
+		}
+		&:focus-within {
+			border-color: rgb(var(--accent));
+			box-shadow: 0 0 calc(var(--input-glow-intensity) * 15px) calc(var(--input-glow-intensity) * 2px) rgb(var(--accent), .25);
+		}
+	}
+	.container-1Saj_P .list-3a9fyp {
+		scroll-padding-top: 193px !important;
+	}
+	.content-3YMskv > div[style="height: 201px;"] {
+		height: 193px !important;
+	}
+	.previewContainer-1KQDJS .theme-light {
+		display: none;
+	}
+}

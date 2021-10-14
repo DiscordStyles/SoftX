@@ -18,9 +18,9 @@
 		.avatar-3tNQiO {
 			z-index: 1;
 			&.avatarSpeaking-2IGMRN {
-				box-shadow: inset 0 0 0 2px hsl(139,calc(var(--saturation-factor, 1)*47.3%),43.9%),
+				box-shadow: inset 0 0 0 2px var(--talking-bar),
 										inset 0 0 0 3px var(--background-secondary),
-										0 0 calc(var(--channel-glow-intensity) * 10px) hsl(139,calc(var(--saturation-factor, 1)*47.3%),43.9%);
+										0 0 calc(var(--channel-glow-intensity) * 10px) var(--talking-glow);
 			}
 		}
 		.liveSmall-1dy2uA {

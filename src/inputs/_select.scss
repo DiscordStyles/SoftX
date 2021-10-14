@@ -17,7 +17,7 @@
 		border: 1px solid var(--border);
 		border-radius: 0 0 6px 6px;
 		background: var(--bg-primary);
-		backdrop-filter: blur(10px);
+		backdrop-filter: blur(var(--blur));
 	}
 	.option-3KoAJB {
 		position: relative;
