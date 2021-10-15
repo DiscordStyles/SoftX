@@ -35,7 +35,7 @@ html.theme-light {
 }
 
 // Remove animations
-.animatorLeft-1EQxU0 {
+.full-motion [class*="animator"] {
 	transform: none !important;
 	transition: none !important;
 }

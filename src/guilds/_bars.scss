@@ -1,0 +1,8 @@
+#app-mount {
+	[class*="unreadMentionsIndicator"] {
+		width: var(--guilds-width);
+	}
+	.bar-30k2ka {
+		box-shadow: 0 0 calc(var(--glow-intensity) * 10px) hsl(var(--discord-red));
+	}
+}

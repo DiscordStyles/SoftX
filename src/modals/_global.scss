@@ -1,0 +1,14 @@
+#app-mount {
+	.backdrop-1wrmKB {
+		background: var(--backdrop-background) !important;
+		backdrop-filter: blur(var(--backdrop-blur)) !important;
+		opacity: 1 !important;
+		animation: fadeIn .2s ease forwards;
+	}
+	.root-1gCeng {
+		box-shadow: none !important;
+		border-radius: 6px;
+		border: 1px solid var(--border);
+		background: var(--bg-primary);
+	}
+}

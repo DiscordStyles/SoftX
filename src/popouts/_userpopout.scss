@@ -31,24 +31,45 @@
 	.role-2irmRk {
 		border: 1px solid var(--border) !important;
 		height: auto;
-		padding: 8px 6px;
+		padding: 8px 10px;
 		border-radius: 6px;
 		background: var(--bg-primary);
 		position: relative;
 		overflow: hidden;
+		&:hover {
+			.roleCircle-3xAZ1j {
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				top: 0;
+				left: 0;
+				border-radius: 0;
+				z-index: 2;
+			}
+			.roleName-32vpEy {
+				opacity: 0;
+			}
+		}
 	}
-	.roleCircle-3xAZ1j::before {
-		content: "";
-		position: absolute;
-		top: 0;
-		right: 0;
-		bottom: 0;
-		left: 0;
-		background: inherit;
-		opacity: 0.2;
+	.roleCircle-3xAZ1j {
+		margin: 0;
+		width: 0;
+		height: 0;
+		&::before {
+			content: "";
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			background: inherit;
+			opacity: 0.2;
+			pointer-events: none;
+		}
 	}
 	.roleName-32vpEy {
 		z-index: 1;
+		margin: 0;
 	}
 
 	.note-1oo11U {

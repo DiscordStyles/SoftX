@@ -1,14 +1,14 @@
 Just a list of things to theme:
 
 - [ ] Settings - Most of Server Settings.
-- [ ] Server Discovery
+- [x] Server Discovery
 - [ ] Game Library
 - [ ] Stage discovery?
-- [ ] Threads
-- [ ] **Chat**
-	- [ ] Reactions
-	- [ ] New message with Date
-	- [ ] Announcement bar
+- [x] **Chat**
+	- [x] Reactions
+	- [x] New message with Date
+	- [x] Announcement bar
+	- [x] Threads
 - [ ] **Modals**
 	- [ ] Upload file
 	- [ ] User profile
@@ -21,12 +21,12 @@ Just a list of things to theme:
 	- [ ] Quick switch
 	- [ ] Channel topic
 - [ ] **Popouts**
-	- [ ] Threads
+	- [x] Threads
 	- [ ] Pinned messages/inbox
 	- [ ] Emoji/Gif/Sticker picker
 	- [ ] Available threads hovering channel
 	- [ ] RTC
-	- [ ] Auto complete
+	- [x] Auto complete
 	- [ ] Krisp
 - [ ] **Inputs**
 	- [x] Text boxes

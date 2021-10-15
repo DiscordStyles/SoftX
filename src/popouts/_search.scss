@@ -30,6 +30,7 @@
 				border-radius: 12px;
 				border-color: rgb(var(--accent));
 				box-shadow: 0 0 calc(var(--glow-intensity) * 20px) calc(var(--glow-intensity) * 5px) rgb(var(--accent), .25);
+				animation: fadeIn .2s ease forwards;
 			}
 			.public-DraftEditor-content {
 				cursor: text;
@@ -56,6 +57,7 @@
 				background: var(--backdrop-background);
 				z-index: -1;
 				backdrop-filter: blur(var(--backdrop-blur));
+				animation: fadeIn .2s ease forwards;
 			}
 		}
 	}
@@ -130,5 +132,13 @@
 		&.selected-rZcOL- {
 			background: rgb(255 255 255 / .05);
 		}
+	}
+}
+
+// Animations
+.full-motion {
+	.search-2oPWTC.focused-31_ccS::before,
+	.container-3ayLPN {
+		animation: fadeIn .2s ease forwards;
 	}
 }

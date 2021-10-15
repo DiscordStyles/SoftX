@@ -16,7 +16,7 @@
 			}
 			.avatar-3uk_u9,
 			.content-3QAtGj {
-				filter: drop-shadow(0 0 calc(var(--channel-glow-intensity) * 5px) rgb(var(--accent)));
+				filter: drop-shadow(0 0 calc(var(--glow-intensity) * 5px) rgb(var(--accent)));
 			}
 			&::before {
 				content: "";
@@ -25,11 +25,14 @@
 				height: 100%;
 				width: 2px;
 				background: rgb(var(--accent));
-				box-shadow: 0 0 calc(var(--channel-glow-intensity) * 15px) calc(var(--channel-glow-intensity) * 5px) rgb(var(--accent), .2);
+				box-shadow: 0 0 calc(var(--glow-intensity) * 15px) calc(var(--glow-intensity) * 5px) rgb(var(--accent), .2);
 			}
 		}
 	}
 
+	.viewWrapper-8-8h4T {
+		max-width: unset;
+	}
 	.pageWrapper-1PgVDX {
 		background: var(--bg-secondary);
 		.scroller-1d5FgU {
@@ -40,8 +43,13 @@
 		min-height: unset;
 		height: 240px;
 		border-bottom: 1px solid var(--border);
-		position: sticky;
+		position: fixed;
+		padding: 0;
 		top: 0;
+		display: flex;
+		justify-content: center;
+		width: calc(100% - var(--channels-width));
+		box-sizing: border-box;
 		z-index: 1;
 		background: var(--bg-primary);
 		backdrop-filter: blur(var(--blur));
@@ -63,12 +71,16 @@
 	.searchIcon-1a1-yA {
 		display: none;
 	}
+	.search-1iTphC {
+		width: 600px !important;
+	}
 	.clear-U3WkKp {
 		position: absolute;
-		right: 16px;
+		right: -24px;
 	}
 	.searchBoxInput-uJtBcv {
 		padding-right: 52px !important;
+		width: 100% !important;
 	}
 	.cta-BiH9zX {
 		position: absolute;
@@ -79,8 +91,11 @@
 	}
 
 	.guildListSection-2CS8vH {
-		padding: 24px;
+		padding: 248px 24px 24px;
 		box-sizing: border-box;
+	}
+	.guildList-3cJX3d {
+		grid-template-columns: repeat(auto-fill,minmax(290px, 1fr));
 	}
 	.footer-2jdoRS {
 		padding: 24px;
