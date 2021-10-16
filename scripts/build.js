@@ -8,6 +8,6 @@ compile({
 });
 
 compile({
-	target: ['src', 'RadialGlow.theme.scss'],
+	target: ['src', 'RadialGlow.scss'],
 	output: ['dist', 'RadialGlow.css']
 });

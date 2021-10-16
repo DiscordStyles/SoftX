@@ -1,0 +1,47 @@
+#app-mount {
+	.uploadModal-2ifh8j {
+		background: var(--bg-primary);
+		border-radius: 6px;
+		border: 1px solid var(--border);
+		box-shadow: none;
+		
+		.inner-3nWsbo {
+			margin: 0;
+		}
+		
+		.channelTextArea-2VhZ6z {
+			background: var(--input-background);
+			border: 2px solid transparent;
+			transition: var(--transition);
+			transition-property: border-color, box-shadow;
+			margin-bottom: 0;
+			&:hover {
+				border-color: rgb(255 255 255 / .05);
+			}
+			&:focus-within {
+				border-color: rgb(var(--accent));
+				box-shadow: 0 0 calc(var(--input-glow-intensity) * 20px) calc(var(--input-glow-intensity) * 5px) rgb(var(--accent), .25);
+			}
+		}
+		.slateTextArea-1Mkdgw {
+			padding-left: 16px;
+		}
+	}
+	.image-2yrs5j {
+		width: 100% !important;
+		height: auto !important;
+		max-height: 298px;
+		margin: 0 !important;
+		box-shadow: none;
+		background: transparent;
+		border-radius: 6px 6px 0 0;
+	}
+	.description-2ug5H_ {
+		border-top: 1px solid var(--border);
+		padding: 24px 24px 0;
+	}
+	.comment-4IWttf {
+		padding: 24px;
+		margin: 0;
+	}
+}

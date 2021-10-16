@@ -10,8 +10,8 @@ Just a list of things to theme:
 	- [x] Announcement bar
 	- [x] Threads
 - [ ] **Modals**
-	- [ ] Upload file
-	- [ ] User profile
+	- [x] Upload file
+	- [x] User profile
 	- [ ] Invite people
 	- [ ] Create channel
 	- [ ] Create category

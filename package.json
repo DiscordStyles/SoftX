@@ -7,8 +7,7 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "dev": "node ./scripts/dev --target=theme",
-    "dev:glow": "node ./scripts/dev --target=radialglow",
+    "dev": "node ./scripts/dev",
     "build": "node ./scripts/build"
   },
   "dependencies": {
