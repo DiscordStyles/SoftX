@@ -1,5 +1,5 @@
 :root {
-  --softx-version: "0.0.10 [BETA]";
+  --softx-version: "0.0.11 [BETA]";
   --hue: 0deg;
   --saturation: 0%;
   --lightness: 10%;
@@ -2452,6 +2452,14 @@ html.theme-light .container-3baos1 {
   border: 1px solid var(--border);
   background: var(--bg-primary);
 }
+#app-mount .footer-3mqk7D,
+#app-mount .footer-2gL1pp {
+  background: transparent;
+  border-top: 1px solid var(--border);
+  -webkit-backdrop-filter: blur(var(--blur));
+          backdrop-filter: blur(var(--blur));
+  box-shadow: none;
+}
 
 #app-mount .root-3QyAh1 {
   overflow: visible;
@@ -2615,11 +2623,14 @@ html.theme-light .container-3baos1 {
 #app-mount .relationshipButtons-pUQVkf .additionalActionsIcon-365LnQ {
   margin-left: 0;
 }
+#app-mount .customStatusActivity-nmH3DF {
+  padding: 0 24px 24px;
+}
 #app-mount .body-r6_QPy {
   background: transparent;
   height: 100%;
-  min-height: 320px;
-  max-height: 400px;
+  min-height: 340px;
+  max-height: 340px;
   border-top: 1px solid var(--border);
 }
 #app-mount .infoScroller-1Qu30O {
@@ -2647,8 +2658,111 @@ html.theme-light .container-3baos1 {
   margin: 0;
   width: 100%;
   box-sizing: border-box;
+  border-radius: 0 6px 6px 0;
+  border-color: var(--border);
+  padding: 12px 16px 12px 18px;
+  position: relative;
+}
+#app-mount .connectedAccount-2Jb-Z0 img[src*="37f15a06d062bdd0fc252d2b35d0b0bb"] + div::before {
+  --connection-colour: #3f8ff7;
+}
+#app-mount .connectedAccount-2Jb-Z0 img[src*="94dc6f30a819026fa295d85f1f72b4ab"] + div::before {
+  --connection-colour: #cea146;
+}
+#app-mount .connectedAccount-2Jb-Z0 img[src*="316ed923548387f8983e28a3804e6712"] + div::before {
+  --connection-colour: #0078d7;
+}
+#app-mount .connectedAccount-2Jb-Z0 img[src*=d897626dfa2016ea3ad0af935acb6070] + div::before, #app-mount .connectedAccount-2Jb-Z0 img[src*="6a853b4c87fce386cbfef4a2efbacb09"] + div::before {
+  --connection-colour: #fff;
+}
+#app-mount .connectedAccount-2Jb-Z0 img[src*=eaeac24163b35f7526704a3d9b3c7722] + div::before {
+  --connection-colour: #1ed760;
+}
+#app-mount .connectedAccount-2Jb-Z0 img[src*=ca71e0b8818221eea1deebbaf8dc6518] + div::before {
+  --connection-colour: #9146ff;
+}
+#app-mount .connectedAccount-2Jb-Z0 img[src*="57ee9535485efae7eb923ed4893abb57"] + div::before {
+  --connection-colour: #d9252a;
+}
+#app-mount .connectedAccount-2Jb-Z0 img[src*="85cf2b49d2a185c98ec8e383ad5a05d6"] + div::before {
+  --connection-colour: #1da1f2;
+}
+#app-mount .connectedAccountName-E1KzaT {
+  line-height: normal;
+}
+#app-mount .connectedAccountNameInner-2q3MVf {
+  --connection-colour: rgb(var(--accent));
+  overflow: visible;
+}
+#app-mount .connectedAccountNameInner-2q3MVf::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 2px;
+  background: var(--connection-colour);
+  box-shadow: 0 0 calc(var(--glow-intensity) * 10px) var(--connection-colour);
 }
 #app-mount .note-367eZJ {
+  margin: 0;
+}
+#app-mount .listScroller-3GmIYj {
+  padding: 0 !important;
+}
+#app-mount .listScroller-3GmIYj > div[style*=height] {
+  display: none;
+}
+#app-mount .listRow-1iDGel {
+  margin: 0;
+  padding: 8px 10px;
+}
+#app-mount .listRow-1iDGel:hover {
+  background: var(--background-modifier-hover);
+  border-radius: 0;
+}
+
+#app-mount .uploadModal-2ifh8j {
+  background: var(--bg-primary);
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  box-shadow: none;
+}
+#app-mount .uploadModal-2ifh8j .inner-3nWsbo {
+  margin: 0;
+}
+#app-mount .uploadModal-2ifh8j .channelTextArea-2VhZ6z {
+  background: var(--input-background);
+  border: 2px solid transparent;
+  transition: var(--transition);
+  transition-property: border-color, box-shadow;
+  margin-bottom: 0;
+}
+#app-mount .uploadModal-2ifh8j .channelTextArea-2VhZ6z:hover {
+  border-color: rgba(255, 255, 255, 0.05);
+}
+#app-mount .uploadModal-2ifh8j .channelTextArea-2VhZ6z:focus-within {
+  border-color: rgb(var(--accent));
+  box-shadow: 0 0 calc(var(--input-glow-intensity) * 20px) calc(var(--input-glow-intensity) * 5px) rgb(var(--accent), 0.25);
+}
+#app-mount .uploadModal-2ifh8j .slateTextArea-1Mkdgw {
+  padding-left: 16px;
+}
+#app-mount .image-2yrs5j {
+  width: 100% !important;
+  height: auto !important;
+  max-height: 298px;
+  margin: 0 !important;
+  box-shadow: none;
+  background: transparent;
+  border-radius: 6px 6px 0 0;
+}
+#app-mount .description-2ug5H_ {
+  border-top: 1px solid var(--border);
+  padding: 24px 24px 0;
+}
+#app-mount .comment-4IWttf {
+  padding: 24px;
   margin: 0;
 }
 

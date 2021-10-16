@@ -1,11 +1,3 @@
-/**
- * @name RadialGlow
- * @author Gibbu#1211 & p0rtl#6592
- * @version 1.0.0
- * @invite ZHthyCw
- * @description Adds glow for RadialStatus made for the SoftX theme.
- * @source https://github.com/DiscordStyles/SoftX
-*/
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
 :root {
   --rs-small-spacing: 2px;
