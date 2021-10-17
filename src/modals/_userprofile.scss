@@ -199,24 +199,24 @@
 		padding: 12px 16px 12px 18px;
 		position: relative;
 		img {
-			&[src*="37f15a06d062bdd0fc252d2b35d0b0bb"] + div::before {--connection-colour: #3f8ff7;} // Battle.net
-			&[src*="94dc6f30a819026fa295d85f1f72b4ab"] + div::before {--connection-colour: #cea146;} // League
-			&[src*="316ed923548387f8983e28a3804e6712"] + div::before {--connection-colour: #0078d7;} // Skype
+			&[src*="37f15a06d062bdd0fc252d2b35d0b0bb"] + div {--connection-colour: 63 143 247;} // Battle.net
+			&[src*="94dc6f30a819026fa295d85f1f72b4ab"] + div {--connection-colour: 206 161 70;} // League
+			&[src*="316ed923548387f8983e28a3804e6712"] + div {--connection-colour: 0 120 215;} // Skype
 			&[src*="d897626dfa2016ea3ad0af935acb6070"],
 			&[src*="6a853b4c87fce386cbfef4a2efbacb09"] {
-				& + div::before {--connection-colour: #fff;} // Steam & GitHub
+				& + div {--connection-colour: 255 255 255;} // Steam & GitHub
 			}
-			&[src*="eaeac24163b35f7526704a3d9b3c7722"] + div::before {--connection-colour: #1ed760;} // Spotify
-			&[src*="ca71e0b8818221eea1deebbaf8dc6518"] + div::before {--connection-colour: #9146ff;} // Twitch
-			&[src*="57ee9535485efae7eb923ed4893abb57"] + div::before {--connection-colour: #d9252a;} // YouTube
-			&[src*="85cf2b49d2a185c98ec8e383ad5a05d6"] + div::before {--connection-colour: #1da1f2;} // Twitter
+			&[src*="eaeac24163b35f7526704a3d9b3c7722"] + div {--connection-colour: 30 215 96;} // Spotify
+			&[src*="ca71e0b8818221eea1deebbaf8dc6518"] + div {--connection-colour: 145 70 255;} // Twitch
+			&[src*="57ee9535485efae7eb923ed4893abb57"] + div {--connection-colour: 217 37 42;} // YouTube
+			&[src*="85cf2b49d2a185c98ec8e383ad5a05d6"] + div {--connection-colour: 29 161 242;} // Twitter
 		}
 	}
 	.connectedAccountName-E1KzaT {
 		line-height: normal;
 	}
 	.connectedAccountNameInner-2q3MVf {
-		--connection-colour: rgb(var(--accent));
+		--connection-colour: var(--accent);
 
 		overflow: visible;
 		&::before {
@@ -226,8 +226,8 @@
 			left: 0;
 			height: 100%;
 			width: 2px;
-			background: var(--connection-colour);
-			box-shadow: 0 0 calc(var(--glow-intensity) * 10px) var(--connection-colour);
+			background: rgb(var(--connection-colour));
+			box-shadow: 0 0 calc(var(--glow-intensity) * 10px) rgb(var(--connection-colour));
 		}
 	}
 
