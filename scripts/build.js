@@ -8,3 +8,8 @@ compile({
 	target: build.target,
 	output: [...build.outputPath, `${name}.css`]
 });
+
+compile({
+	target: ['src', 'RadialGlow.css'],
+	output: [...build.outputPath, `RadialGlow.css`]
+});
