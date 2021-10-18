@@ -12,7 +12,7 @@
   /* Default: 2px */
   --rs-large-width: 2px;
   /* Default: 2px */
-  --rs-avatar-shape: 50%;
+  --rs-avatar-shape: var(--avatar-roundness, 50%);
   /* Border-radius for profile image | Default: 50% */
   /* Customizable colors */
   --rs-online-color: #43b581;
