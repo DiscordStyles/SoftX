@@ -23,8 +23,8 @@ Settings
 
 ## Contributing
 
-Looking to contribute to SoftX theme? Read the the [contributing.md](https://github.com/DiscordStyles/SoftX/blob/master/CONTRIBUTING.md) file.
+Looking to contribute to SoftX theme? Read the the [contributing.md](https://github.com/DiscordStyles/SoftX/blob/main/CONTRIBUTING.md) file.
 
 ## License
 
-See the [LICENSE](https://github.com/DiscordStyles/SoftX/blob/master/LICENSE.md) file for license rights and limitations (MIT).
+See the [LICENSE](https://github.com/DiscordStyles/SoftX/blob/main/LICENSE.md) file for license rights and limitations (MIT).

@@ -4,6 +4,7 @@ Just a list of things to theme:
 - [x] Server Discovery
 - [ ] Game Library
 - [ ] Stage discovery?
+- [x] Server boost
 - [x] **Chat**
 	- [x] Reactions
 	- [x] New message with Date

@@ -18,4 +18,15 @@
 		backdrop-filter: blur(var(--blur));
 		box-shadow: none;
 	}
+
+
+	// Parts for modals that don't need a separate file.
+
+	// Pin a message, message box
+	.message-2qRu38 {
+		background: transparent;
+		box-shadow: none;
+		padding: 0;
+		margin-left: -16px;
+	}
 }

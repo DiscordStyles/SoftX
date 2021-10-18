@@ -1,0 +1,24 @@
+#app-mount {
+	.wrapper-3qSb0d {
+		background: var(--bg-primary);
+	}
+	.navigationBar-2JJXBp {
+		height: calc(var(--TB-height) + 1px);
+		box-sizing: border-box;
+		background: transparent;
+		border-bottom: 1px solid var(--border);
+	}
+	.planCard-rYl0vk {
+		border-radius: 6px;
+		background: rgb(255 255 255 / .05);
+		border: 1px solid var(--border);
+		&:hover {
+			box-shadow: var(--shadow-lg);
+		}
+	}
+	.perksTable-7Z6tK2 {
+		background: rgb(255 255 255 / .05);
+		border: 1px solid var(--border);
+		border-radius: 6px;
+	}
+}

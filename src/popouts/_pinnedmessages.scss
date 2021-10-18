@@ -1,10 +1,13 @@
 #app-mount {
+	.messagesPopoutWrap-1MQ1bW {
+		width: 550px;
+	}
 	.header-ykumBX {
 		background: transparent;
 		border-bottom: 1px solid var(--border);
 		box-shadow: none;
 	}
-	.messagesPopout-24nkyi {
+	.messagesPopout-24nkyi:not(.scroller-2UmRce) {
 		padding: 12px !important;
 	}
 	.messageGroupWrapper-o-Zw7G {
@@ -17,5 +20,6 @@
 		padding-top: 0;
 		padding-right: 0;
 		padding-bottom: 0;
+		margin-left: -16px;
 	}
 }
