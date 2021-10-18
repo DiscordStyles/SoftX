@@ -1,0 +1,20 @@
+#app-mount {
+	.content-1LAB8Z {
+		padding: 24px !important;
+	}
+	.override-2YgiXd {
+		border-radius: 0;
+		background: rgb(255 255 255 / .02);
+		border: 1px solid var(--border);
+		margin-bottom: 0;
+		&:nth-child(2) {
+			border-radius: 6px 6px 0 0;
+		}
+		&:not(:last-child) {
+			border-bottom: none;
+		}
+		&:last-child {
+			border-radius: 0 0 6px 6px;
+		}
+	}
+}

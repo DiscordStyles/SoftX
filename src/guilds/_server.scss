@@ -32,11 +32,22 @@
 			mask: none !important;
 		}
 	}
-	.childWrapper-anI2G9 {
+	.childWrapper-anI2G9,
+	.circleIconButton-1XqULR {
 		background: rgb(255 255 255 / .1);
 	}
-	.wrapper-1BJsBx.selected-bZ3Lue {
+	.wrapper-1BJsBx.selected-bZ3Lue,
+	.circleIconButton-1XqULR:hover {
 		background: rgb(255 255 255 / .15);
+	}
+	.circleIconButton-1XqULR.selected-2jcQaY path {
+		fill: rgb(var(--accent));
+	}
+
+	.wrapper-sa6paO {
+		width: 100%;
+		height: 100%;
+		overflow: visible;
 	}
 
 	[class*="pill"] {

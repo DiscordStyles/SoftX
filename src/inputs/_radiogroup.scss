@@ -8,6 +8,10 @@
 	.itemFilled-3llgIC {
 		background: transparent;
 		margin-bottom: 0;
+
+		.icon-3pNFyS {
+			display: none;
+		}
 		
 		&:first-child {
 			border-radius: 6px 6px 0 0;
@@ -26,8 +30,10 @@
 		}
 		
 		&[aria-checked="true"] .radioBar-bMNUI- {
-			color: var(--radio-bar-colour);
-			text-shadow: 0 0 calc(var(--glow-intensity) * 10px) var(--radio-bar-colour);
+			[class*="size"] {
+				color: var(--radio-bar-colour);
+				text-shadow: 0 0 calc(var(--glow-intensity) * 10px) var(--radio-bar-colour);
+			}
 			path {
 				color: var(--interactive-active);
 			}

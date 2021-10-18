@@ -13,18 +13,18 @@ Just a list of things to theme:
 	- [x] Upload file
 	- [x] User profile
 	- [ ] Invite people
-	- [ ] Create channel
-	- [ ] Create category
-	- [ ] Notification settings
-	- [ ] Privacy settings
+	- [x] Create channel
+	- [x] Create category
+	- [x] Notification settings
+	- [x] Privacy settings
 	- [ ] Add server
-	- [ ] Quick switch
-	- [ ] Channel topic
+	- [x] Quick switch
+	- [x] Channel topic
 - [ ] **Popouts**
 	- [x] Threads
 	- [ ] Pinned messages/inbox
 	- [ ] Emoji/Gif/Sticker picker
-	- [ ] Available threads hovering channel
+	- [x] Available threads hovering channel
 	- [ ] RTC
 	- [x] Auto complete
 	- [ ] Krisp
