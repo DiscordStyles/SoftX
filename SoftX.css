@@ -2721,6 +2721,9 @@ html.theme-light .container-3baos1 {
   background: var(--background-modifier-hover);
   border-radius: 0;
 }
+#app-mount .listAvatar-1BbvHX.iconActiveMedium-1UaEIR {
+  border-radius: 6px;
+}
 
 #app-mount .uploadModal-2ifh8j {
   background: var(--bg-primary);
