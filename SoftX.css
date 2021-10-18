@@ -1144,6 +1144,10 @@ html.theme-light .container-3baos1 {
   pointer-events: none;
 }
 
+#app-mount .unread-1xRYoj {
+  background: hsl(var(--discord-red));
+}
+
 #app-mount .chat-3bRxxu {
   background: transparent;
 }
@@ -2210,6 +2214,30 @@ html.theme-light .container-3baos1 {
   flex: 1 1 auto;
 }
 
+#app-mount .messagesPopoutWrap-1MQ1bW {
+  width: 550px;
+}
+#app-mount .header-ykumBX {
+  background: transparent;
+  border-bottom: 1px solid var(--border);
+  box-shadow: none;
+}
+#app-mount .messagesPopout-24nkyi:not(.scroller-2UmRce) {
+  padding: 12px !important;
+}
+#app-mount .messageGroupWrapper-o-Zw7G {
+  border-radius: 0;
+  border: none;
+  background: transparent;
+  margin-bottom: 32px;
+}
+#app-mount .messageGroupCozy-2iY6cT {
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  margin-left: -16px;
+}
+
 #app-mount .messagesPopoutWrap-1MQ1bW,
 #app-mount .recentMentionsPopout-3rCiI6 {
   background: var(--bg-primary);
@@ -2217,6 +2245,13 @@ html.theme-light .container-3baos1 {
   border: 1px solid var(--border);
   -webkit-backdrop-filter: blur(var(--blur));
           backdrop-filter: blur(var(--blur));
+}
+#app-mount .recentMentionsPopout-3rCiI6 .scroller-tlc3kG {
+  padding: 0 !important;
+}
+#app-mount .recentMentionsPopout-3rCiI6 .scroller-tlc3kG > div {
+  border-bottom: 1px solid var(--border);
+  padding: 16px;
 }
 #app-mount .header-2-Imhb {
   background: transparent;
@@ -2266,30 +2301,27 @@ html.theme-light .container-3baos1 {
   position: static;
   padding: 0 0 16px 14px;
 }
+#app-mount .messages-3G3erD {
+  background: transparent;
+  padding: 0;
+}
 #app-mount .messageContainer-gbhlwo {
   padding: 0;
   border-radius: 0;
   background: transparent;
 }
 
-#app-mount .header-ykumBX {
-  background: transparent;
-  border-bottom: 1px solid var(--border);
+#app-mount .popoutContent-33P_eV {
+  background: var(--bg-primary);
+  border-radius: 6px;
+  -webkit-backdrop-filter: blur(var(--blur));
+          backdrop-filter: blur(var(--blur));
+  border: 1px solid var(--border);
   box-shadow: none;
 }
-#app-mount .messagesPopout-24nkyi {
-  padding: 12px !important;
-}
-#app-mount .messageGroupWrapper-o-Zw7G {
-  border-radius: 0;
-  border: none;
+#app-mount .guildSection-1EoFKd {
   background: transparent;
-  margin-bottom: 32px;
-}
-#app-mount .messageGroupCozy-2iY6cT {
-  padding-top: 0;
-  padding-right: 0;
-  padding-bottom: 0;
+  border-top: 1px solid var(--border);
 }
 
 #app-mount .tabBody-3YRQ8W::before {
@@ -2492,6 +2524,36 @@ html.theme-light .container-3baos1 {
 }
 #app-mount .card-3DjzTQ:hover {
   box-shadow: var(--shadow-lg);
+}
+
+#app-mount .wrapper-3qSb0d {
+  background: var(--bg-primary);
+}
+#app-mount .navigationBar-2JJXBp {
+  height: calc(var(--TB-height) + 1px);
+  box-sizing: border-box;
+  background: transparent;
+  border-bottom: 1px solid var(--border);
+}
+#app-mount .planCard-rYl0vk {
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border);
+}
+#app-mount .planCard-rYl0vk:hover {
+  box-shadow: var(--shadow-lg);
+}
+#app-mount .perksTable-7Z6tK2 {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+}
+
+#app-mount .applicationStore-1pNvnv {
+  background: transparent;
+}
+#app-mount .scroller-9moviB {
+  background: var(--bg-secondary);
 }
 
 #app-mount .layer-3QrUeG[aria-label*=SETTINGS] {
@@ -2809,6 +2871,12 @@ html.theme-light .container-3baos1 {
   -webkit-backdrop-filter: blur(var(--blur));
           backdrop-filter: blur(var(--blur));
   box-shadow: none;
+}
+#app-mount .message-2qRu38 {
+  background: transparent;
+  box-shadow: none;
+  padding: 0;
+  margin-left: -16px;
 }
 
 #app-mount .root-3QyAh1 {
