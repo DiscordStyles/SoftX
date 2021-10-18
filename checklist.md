@@ -22,8 +22,8 @@ Just a list of things to theme:
 	- [x] Channel topic
 - [ ] **Popouts**
 	- [x] Threads
-	- [ ] Pinned messages/inbox
-	- [ ] Emoji/Gif/Sticker picker
+	- [x] Pinned messages/inbox
+	- [x] Emoji/Gif/Sticker picker
 	- [x] Available threads hovering channel
 	- [ ] RTC
 	- [x] Auto complete

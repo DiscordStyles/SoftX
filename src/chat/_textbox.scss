@@ -73,6 +73,7 @@
 	.channelTextArea-rNsIhG {
 		background: var(--input-background);
 		border: 2px solid transparent;
+		border-radius: 6px;
 		transition: var(--transition);
 		transition-property: border-color, box-shadow;
 		&:hover {
