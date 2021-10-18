@@ -5,10 +5,14 @@
 	.folder-1hbNCn {
 		background: rgb(255 255 255 / .05);
 	}
+	.folderIconWrapper-1_bOZe {
+		border-radius: 0;
+	}
 	.expandedFolderBackground-1cujaW {
 		left: 50%;
 		transform: translateX(-50%);
 		background: rgb(255 255 255 / .05);
 		width: var(--server-size);
+		border-radius: clamp(0%, var(--server-roundness, 50%), 30px);
 	}
 }

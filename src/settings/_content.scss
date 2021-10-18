@@ -7,10 +7,10 @@
 	}
 	.contentRegionScroller-26nc1e {
 		background: transparent;
-		width: 100%;
+		width: calc(90vw - 302px);
 		max-height: var(--settings-max-height);
-		min-height: var(--settings-max-height);
 		max-width: var(--settings-content-width);
+		height: 90vh;
 	}
 	.contentColumnDefault-1VQkGM {
 		max-width: unset;
@@ -29,9 +29,8 @@
 	// Custom scroller bullshit. Why Discord. WHY?
 	.customColumn-Rb6toI, 
 	.contentColumn-2hrIYH {
-		width: 100%;
+		width: calc(90vh - 300px);
 		max-width: var(--settings-content-width);
-		min-width: calc(var(--settings-content-width) - 2px);
 		padding-right: 32px;
 	}
 	.contentColumn-2hrIYH > .customColumn-Rb6toI {

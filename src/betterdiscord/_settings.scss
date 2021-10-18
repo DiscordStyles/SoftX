@@ -1,0 +1,104 @@
+#app-mount {
+	.bd-addon-controls {
+		position: sticky;
+		top: 0;
+		padding: 16px 32px;
+		margin: 0 -32px;
+		background: var(--bg-primary);
+		border-bottom: 1px solid var(--border);
+		backdrop-filter: blur(var(--blur));
+		z-index: 1;
+	}
+
+	.bd-search-wrapper {
+		padding: 0;
+		border-radius: 0;
+		background: transparent;
+		position: relative;
+		.bd-search {
+			padding: 8px 12px;
+			background: var(--input-background);
+			border: 2px solid transparent;
+			border-radius: 6px;
+			transition: var(--transition);
+			transition-property: border-color, box-shadow;
+			position: relative;
+			width: 250px;
+			&:hover {
+				border-color: rgb(255 255 255 / .05);
+			}
+			&:focus-within {
+				border-color: rgb(var(--accent));
+				box-shadow: 0 0 calc(var(--input-glow-intensity) * 15px) calc(var(--input-glow-intensity) * 2px) rgb(var(--accent), .25);
+			}
+		}
+		& > svg {
+			pointer-events: none;
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			right: 12px;
+		}
+	}
+
+	.bd-addon-list {
+		margin-top: 24px;
+		.bd-switch {
+			position: static;
+			&.bd-switch-checked {
+				&::before {
+					content: "";
+					position: absolute;
+					top: 0;
+					right: 0;
+					bottom: 0;
+					left: 0;
+					background: rgb(var(--accent), .07);
+					z-index: -1;
+					pointer-events: none;
+				}
+				&::after {
+					content: "";
+					position: absolute;
+					top: 0;
+					left: 0;
+					height: 100%;
+					width: 2px;
+					background: rgb(var(--accent));
+					box-shadow: 0 0 calc(var(--glow-intensity) * 15px) calc(var(--glow-intensity) * 5px) rgb(var(--accent), .2);
+					pointer-events: none;
+				}
+			}
+			input {
+				width: 40px;
+				height: 24px;
+			}
+		}
+	}
+
+	.bd-addon-card {
+		border-radius: 6px;
+		background: rgb(255 255 255 / .02);
+		border: 1px solid var(--border);
+		margin-bottom: 0;
+		border-radius: 0;
+		position: relative;
+		&:first-child {
+			border-radius: 6px 6px 0 0;
+		}
+		&:not(:last-child) {
+			border-bottom: none;
+		}
+		&:last-child {
+			border-radius: 0 0 6px 6px;
+		}
+	}
+	.bd-addon-header {
+		background: transparent;
+		padding-bottom: 0;
+	}
+	.bd-description {
+		padding: 0;
+		margin-bottom: 0;
+	}
+}

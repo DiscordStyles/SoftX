@@ -47,11 +47,13 @@
 			left: 16px;
 			width: var(--chat-avatar-size);
 			height: var(--chat-avatar-size);
+			border-radius: var(--avatar-roundness, 50%);
 		}
 		.header-23xsNx {
 			overflow: visible;
 			margin-left: 0;
 			margin-bottom: 10px;
+			padding-left: 0;
 		}
 		.messageContent-2qWWxC:not(:empty):not(.repliedTextContent-1R3vnK) {
 			display: inline-block;

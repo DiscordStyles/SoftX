@@ -15,16 +15,18 @@
 	.standardSidebarView-3F1I7i {
 		max-width: var(--settings-max-width);
 		max-height: var(--settings-max-height);
+		width: 90vw;
+		height: 90vh;
 		position: unset;
 		background: var(--bg-primary);
 		border: 1px solid var(--border);
 		border-radius: 6px;
-		width: 100%;
 	}
 	.contentRegion-3nDuYy {
 		flex: 1 1 auto;
 		position: unset;
 		height: 100%;
+		// width: calc(90vw - 300px);
 	}
 
 	.toolsContainer-1edPuj {

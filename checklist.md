@@ -29,13 +29,16 @@ Just a list of things to theme:
 	- [ ] RTC
 	- [x] Auto complete
 	- [ ] Krisp
-- [ ] **Inputs**
+- [x] **Inputs**
 	- [x] Text boxes
 	- [x] Radio groups
 	- [x] Select
 	- [x] Switches
 	- [x] Checkboxes
 - [ ] **BetterDiscord**
-	- [ ] Settings
-	- [ ] Toasts
+	- [x] Settings
+	- [x] Toasts
 	- [ ] Modals
+- [ ] **Plugin support**
+	- [ ] DateViewer by Hammy
+	- [ ] Theme/Plugin repo by DevilBro

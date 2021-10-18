@@ -84,9 +84,6 @@
 			box-shadow: 0 0 calc(var(--input-glow-intensity) * 20px) calc(var(--input-glow-intensity) * 5px) rgb(var(--accent), .25);
 		}
 	}
-	.slateContainer-3Qkn2x {
-		min-height: 54px !important;
-	}
 	.slateTextArea-1Mkdgw,
 	.placeholder-37qJjk {
 		padding: 16px 0;
@@ -95,7 +92,6 @@
 		background: transparent;
 	}
 	.attachButton-2WznTc {
-		height: 100%;
 		svg {
 			mask: url(assets.$icon_paper-clip) center/cover;
 			background: var(--interactive-muted);
@@ -116,21 +112,18 @@
 		}
 	}
 
-	.buttons-3JBrkn {
-		height: 54px;
-		& > button[aria-label] {
-			svg {
-				mask: url(assets.$icon_gift) center/cover;
-				background: var(--interactive-muted);
-				transition: var(--transition);
-				transition-property: background;
-				path {
-					display: none;
-				}
+	.buttons-3JBrkn > button[aria-label] {
+		svg {
+			mask: url(assets.$icon_gift) center/cover;
+			background: var(--interactive-muted);
+			transition: var(--transition);
+			transition-property: background;
+			path {
+				display: none;
 			}
-			&:hover svg {
-				background: var(--interactive-normal);
-			}
+		}
+		&:hover svg {
+			background: var(--interactive-normal);
 		}
 	}
 
@@ -152,6 +145,25 @@
 		padding: 24px 0;
 		.buttonContainer-3AU1Ij {
 			margin-right: 24px;
+		}
+	}
+}
+
+// chat font-size fixes
+$sizes: (
+	'12': 48,
+	'14': 51,
+	'15': 52,
+	'16': 54,
+	'18': 56,
+	'20': 59,
+	'24': 65
+);
+@each $selector, $value in $sizes {
+	.font-size-#{$selector} {
+		.slateContainer-3Qkn2x,
+		.buttons-3JBrkn {
+			min-height: $value+px !important;
 		}
 	}
 }

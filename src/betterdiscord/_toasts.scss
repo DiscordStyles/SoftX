@@ -1,0 +1,49 @@
+@use '../assets';
+
+.bd-toasts .bd-toast {
+	padding: 12px 16px;
+	backdrop-filter: blur(var(--blur));
+	box-shadow: none;
+	background: rgb(255 255 255 / .1);
+	border: 1px solid var(--border);
+	border-radius: 6px;
+
+	&.toast-success {
+		background: hsl(153 46% 49% / .7);
+		&::before {
+			mask: url(assets.$icon_check-circle);
+		}
+	}
+	&.toast-warn {
+		background: hsl(39 100% 50% / .7);
+		&::before {
+			mask: url(assets.$icon_exclamation-circle);
+		}
+	}
+	&.toast-error {
+		background: hsl(0 85% 61% / .7);
+		&::before {
+			mask: url(assets.$icon_x-circle);
+		}
+	}
+	&.toast-info {
+		background: hsl(212 72% 59% / .7);
+		&::before {
+			mask: url(assets.$icon_information-circle);
+		}
+	}
+
+	&.icon {
+		background-image: none;
+		display: flex;
+		align-items: center;
+		&::before {
+			content: "";
+			width: 24px;
+			height: 24px;
+			display: block;
+			margin-right: 8px;
+			background: #fff;
+		}
+	}
+}
