@@ -10,6 +10,6 @@ compile({
 });
 
 compile({
-	target: ['src', 'RadialGlow.css'],
+	target: ['src', 'RadialGlow.scss'],
 	output: [...build.outputPath, `RadialGlow.css`]
 });
