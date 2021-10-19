@@ -1,0 +1,76 @@
+// Theme/Plugin repo by DevilBro
+
+#app-mount {
+	.contentTransitionWrap-3hqOEW {
+		position: relative;
+	}
+
+	.repoList-9JnAPs {
+		.contentRegionScroller-26nc1e {
+			padding-top: 96px;
+		}
+	}
+
+	.repoHeader-2KfNvH {
+		padding: 0;
+		position: absolute;
+		top: 0;
+		width: calc(100% - 2px);
+		box-sizing: border-box;
+		z-index: 1000;
+		background: var(--bg-primary);
+		backdrop-filter: blur(var(--blur));
+		& > div {
+			max-width: unset;
+			padding: 0;
+			&:first-child {
+				padding: 24px 24px 0 24px;
+			}
+			&:last-child {
+				padding: 0 24px;
+				border-color: var(--border);
+			}
+		}
+		.container-cMG81i {
+			background: var(--input-background);
+			border: 2px solid transparent;
+			border-radius: 6px;
+			transition: var(--transition);
+			transition-property: border-color, box-shadow;
+			.input-3Xdcic {
+				padding: 4px 10px;
+				height: auto;
+			}
+			.iconLayout-3OgqU3 {
+				height: 100%;
+				width: 32px;
+			}
+			&:hover {
+				border-color: rgb(255 255 255 / .05);
+			}
+			&:focus-within {
+				border-color: rgb(var(--accent));
+				box-shadow: 0 0 calc(var(--input-glow-intensity) * 15px) calc(var(--input-glow-intensity) * 2px) rgb(var(--accent), .25);
+			}
+		}
+	}
+
+	.card-x5zW6z {
+		background: rgb(255 255 255 / 0.02);
+		border: 1px solid var(--border);
+		box-shadow: none;
+
+		.header-4hHJgv {
+			border-bottom: 1px solid var(--border);
+		}
+		.iconWrapper-eK7GO6 {
+			border-radius: 6px;
+			background: var(--bg-primary);
+			border: 1px solid var(--border);
+		}
+
+		&:hover {
+			box-shadow: var(--shadow-lg);
+		}
+	}
+}

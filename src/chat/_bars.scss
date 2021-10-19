@@ -15,6 +15,14 @@
 		height: auto;
 		padding: 10px 16px;
 	}
+	.unreadBar-3t3sYc {
+		opacity: 1;
+		visibility: visible;
+		&[aria-hidden="true"] {
+			opacity: 0;
+			visibility: hidden;
+		}
+	}
 	
 	// Old messages
 	.jumpToPresentBar-G1R9s6 {

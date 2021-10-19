@@ -41,4 +41,4 @@ Just a list of things to theme:
 	- [ ] Modals
 - [ ] **Plugin support**
 	- [ ] DateViewer by Hammy
-	- [ ] Theme/Plugin repo by DevilBro
+	- [x] Theme/Plugin repo by DevilBro

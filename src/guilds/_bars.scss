@@ -4,5 +4,14 @@
 	}
 	.bar-30k2ka {
 		box-shadow: 0 0 calc(var(--glow-intensity) * 10px) hsl(var(--discord-red));
+		opacity: 1;
+		visibility: visible;
+		&[aria-hidden="true"] {
+			opacity: 0;
+			visibility: hidden;
+		}
+	}
+	.unreadMentionsIndicatorBottom-2mDYbI {
+		bottom: calc(var(--user-area) + 10px);
 	}
 }

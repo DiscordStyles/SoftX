@@ -4,83 +4,83 @@
 	.root-3QyAh1 {
 		overflow: visible;
 		border-radius: 0;
+		.tabBarContainer-37hZsr {
+			position: absolute;
+			top: -1px;
+			left: -57px;
+			height: 100%;
+			width: 56px;
+			border: 1px solid var(--border);
+			padding: 0;
+			background: var(--bg-primary);
+			z-index: 1;
+			border-radius: 6px 0 0 6px;
+			overflow: hidden;
+		}
+		.tabBar-3nvOPa {
+			flex-direction: column;
+		}
+		.tabBarItem-3dfX8P {
+			border: none;
+			position: relative;
+			overflow: visible;
+			font-size: 0;
+			height: 48px;
+			margin: 0;
+			width: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			&::after {
+				content: "";
+				width: 24px;
+				height: 24px;
+				background: var(--interactive-normal);
+			}
+	
+			&[aria-controls="user_info-tab"]::after {
+				mask: url(assets.$icon_information-circle);
+			}
+			&[aria-controls="activity-tab"]::after {
+				mask: url(assets.$icon_rss);
+			}
+			&[aria-controls="mutual_guilds-tab"]::after {
+				mask: url(assets.$icon_server);
+			}
+			&[aria-controls="mutual_friends-tab"]::after {
+				mask: url(assets.$icon_users);
+			}
+	
+			&:hover {
+				background: var(--background-modifier-hover);
+				&::after {
+					background: var(--interactive-hover);
+				}
+			}
+			&.selected-3s45Ha {
+				color: rgb(var(--accent));
+				text-shadow: 0 0 calc(var(--glow-intensity) * 10px) rgb(var(--accent), .8);
+				&::before {
+					content: "";
+					position: absolute;
+					bottom: -1px;
+					left: 0;
+					width: 2px;
+					height: 100%;
+					background: rgb(var(--accent));
+					box-shadow: 0 0 calc(var(--glow-intensity) * 10px) rgb(var(--accent));
+				}
+				&::after {
+					background: rgb(var(--accent));
+				}
+			}
+		}
 	}
 	
 	.topSection-y3p-_D {
 		background: transparent;
 	}
 	
-	.tabBarContainer-37hZsr {
-		position: absolute;
-		top: -1px;
-		left: -57px;
-		height: 100%;
-		width: 56px;
-		border: 1px solid var(--border);
-		padding: 0;
-		background: var(--bg-primary);
-		z-index: 1;
-		border-radius: 6px 0 0 6px;
-		overflow: hidden;
-	}
-	.tabBar-3nvOPa {
-		flex-direction: column;
-	}
-	.tabBarItem-3dfX8P {
-		border: none;
-		position: relative;
-		overflow: visible;
-		font-size: 0;
-		height: 48px;
-		margin: 0;
-		width: 100%;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		&::after {
-			content: "";
-			width: 24px;
-			height: 24px;
-			background: var(--interactive-normal);
-		}
-
-		&[aria-controls="user_info-tab"]::after {
-			mask: url(assets.$icon_information-circle);
-		}
-		&[aria-controls="activity-tab"]::after {
-			mask: url(assets.$icon_rss);
-		}
-		&[aria-controls="mutual_guilds-tab"]::after {
-			mask: url(assets.$icon_server);
-		}
-		&[aria-controls="mutual_friends-tab"]::after {
-			mask: url(assets.$icon_users);
-		}
-
-		&:hover {
-			background: var(--background-modifier-hover);
-			&::after {
-				background: var(--interactive-hover);
-			}
-		}
-		&.selected-3s45Ha {
-			color: rgb(var(--accent));
-			text-shadow: 0 0 calc(var(--glow-intensity) * 10px) rgb(var(--accent), .8);
-			&::before {
-				content: "";
-				position: absolute;
-				bottom: -1px;
-				left: 0;
-				width: 2px;
-				height: 100%;
-				background: rgb(var(--accent));
-				box-shadow: 0 0 calc(var(--glow-intensity) * 10px) rgb(var(--accent));
-			}
-			&::after {
-				background: rgb(var(--accent));
-			}
-		}
-	}
 	.header-4zuFdR {
 		position: unset;
 		display: flex;
