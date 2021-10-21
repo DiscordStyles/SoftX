@@ -1,5 +1,5 @@
 :root {
-  --softx-version: "1.0.2";
+  --softx-version: "1.0.3";
   --hue: 0deg;
   --saturation: 0%;
   --lightness: 10%;
@@ -233,7 +233,8 @@ html.theme-light .container-3baos1 {
 .contentRegionScroller-26nc1e,
 .customScroller-26gWhv,
 .list-I3aHXn,
-[class*=scrollerBase-] {
+[class*=scrollerBase-],
+.container-3ayLPN {
   overflow: hidden overlay !important;
 }
 .members-1998pB::-webkit-scrollbar,
@@ -242,7 +243,8 @@ html.theme-light .container-3baos1 {
 .contentRegionScroller-26nc1e::-webkit-scrollbar,
 .customScroller-26gWhv::-webkit-scrollbar,
 .list-I3aHXn::-webkit-scrollbar,
-[class*=scrollerBase-]::-webkit-scrollbar {
+[class*=scrollerBase-]::-webkit-scrollbar,
+.container-3ayLPN::-webkit-scrollbar {
   width: 8px;
   display: none;
   background: transparent !important;
@@ -253,7 +255,8 @@ html.theme-light .container-3baos1 {
 .contentRegionScroller-26nc1e::-webkit-scrollbar-track,
 .customScroller-26gWhv::-webkit-scrollbar-track,
 .list-I3aHXn::-webkit-scrollbar-track,
-[class*=scrollerBase-]::-webkit-scrollbar-track {
+[class*=scrollerBase-]::-webkit-scrollbar-track,
+.container-3ayLPN::-webkit-scrollbar-track {
   margin: 0;
 }
 .members-1998pB::-webkit-scrollbar-track-piece,
@@ -262,7 +265,8 @@ html.theme-light .container-3baos1 {
 .contentRegionScroller-26nc1e::-webkit-scrollbar-track-piece,
 .customScroller-26gWhv::-webkit-scrollbar-track-piece,
 .list-I3aHXn::-webkit-scrollbar-track-piece,
-[class*=scrollerBase-]::-webkit-scrollbar-track-piece {
+[class*=scrollerBase-]::-webkit-scrollbar-track-piece,
+.container-3ayLPN::-webkit-scrollbar-track-piece {
   background: transparent;
   border-color: transparent;
 }
@@ -272,7 +276,8 @@ html.theme-light .container-3baos1 {
 .contentRegionScroller-26nc1e::-webkit-scrollbar-thumb,
 .customScroller-26gWhv::-webkit-scrollbar-thumb,
 .list-I3aHXn::-webkit-scrollbar-thumb,
-[class*=scrollerBase-]::-webkit-scrollbar-thumb {
+[class*=scrollerBase-]::-webkit-scrollbar-thumb,
+.container-3ayLPN::-webkit-scrollbar-thumb {
   background-color: var(--scrollbar-background);
   border-radius: 0;
   border-radius: var(--border-radius);
@@ -284,7 +289,8 @@ html.theme-light .container-3baos1 {
 .contentRegionScroller-26nc1e::-webkit-scrollbar-thumb:hover,
 .customScroller-26gWhv::-webkit-scrollbar-thumb:hover,
 .list-I3aHXn::-webkit-scrollbar-thumb:hover,
-[class*=scrollerBase-]::-webkit-scrollbar-thumb:hover {
+[class*=scrollerBase-]::-webkit-scrollbar-thumb:hover,
+.container-3ayLPN::-webkit-scrollbar-thumb:hover {
   background-color: var(--scrollbar-background-hover);
 }
 .members-1998pB::-webkit-scrollbar-thumb:active,
@@ -293,7 +299,8 @@ html.theme-light .container-3baos1 {
 .contentRegionScroller-26nc1e::-webkit-scrollbar-thumb:active,
 .customScroller-26gWhv::-webkit-scrollbar-thumb:active,
 .list-I3aHXn::-webkit-scrollbar-thumb:active,
-[class*=scrollerBase-]::-webkit-scrollbar-thumb:active {
+[class*=scrollerBase-]::-webkit-scrollbar-thumb:active,
+.container-3ayLPN::-webkit-scrollbar-thumb:active {
   background-color: var(--scrollbar-background-active);
 }
 .members-1998pB::-webkit-scrollbar-button, .members-1998pB::-webkit-scrollbar-corner,
@@ -308,7 +315,9 @@ html.theme-light .container-3baos1 {
 .list-I3aHXn::-webkit-scrollbar-button,
 .list-I3aHXn::-webkit-scrollbar-corner,
 [class*=scrollerBase-]::-webkit-scrollbar-button,
-[class*=scrollerBase-]::-webkit-scrollbar-corner {
+[class*=scrollerBase-]::-webkit-scrollbar-corner,
+.container-3ayLPN::-webkit-scrollbar-button,
+.container-3ayLPN::-webkit-scrollbar-corner {
   display: none !important;
 }
 .members-1998pB:hover::-webkit-scrollbar,
@@ -317,7 +326,8 @@ html.theme-light .container-3baos1 {
 .contentRegionScroller-26nc1e:hover::-webkit-scrollbar,
 .customScroller-26gWhv:hover::-webkit-scrollbar,
 .list-I3aHXn:hover::-webkit-scrollbar,
-[class*=scrollerBase-]:hover::-webkit-scrollbar {
+[class*=scrollerBase-]:hover::-webkit-scrollbar,
+.container-3ayLPN:hover::-webkit-scrollbar {
   display: block;
 }
 
@@ -1870,6 +1880,8 @@ html.theme-light .container-3baos1 {
   background: var(--bg-primary);
   border: 1px solid var(--border);
   box-shadow: var(--shadow-lg);
+  max-height: 60vh;
+  overflow: hidden auto;
 }
 #app-mount .resultsGroup-r_nuzN {
   margin: 0;
@@ -1899,6 +1911,30 @@ html.theme-light .container-3baos1 {
           animation: fadeIn 0.2s ease forwards;
 }
 
+@media only screen and (max-width: 1200px) {
+  #app-mount .search-2oPWTC:not(.focused-31_ccS) {
+    height: 24px;
+  }
+  #app-mount .search-2oPWTC:not(.focused-31_ccS) .searchBar-3dMhjb {
+    background: transparent;
+    border: none;
+    width: 24px;
+    height: 24px;
+  }
+  #app-mount .search-2oPWTC:not(.focused-31_ccS) .iconContainer-O4O2CN {
+    width: 18px;
+    height: 18px;
+  }
+  #app-mount .search-2oPWTC:not(.focused-31_ccS) .icon-3cZ1F_ {
+    color: var(--interactive-normal);
+    width: 20px;
+    height: 20px;
+  }
+  #app-mount .search-2oPWTC:not(.focused-31_ccS) .search-36MZv- .icon-38sknP svg {
+    width: 100%;
+    height: 100%;
+  }
+}
 #app-mount .userPopout-xaxa6l {
   box-shadow: none;
   border: 1px solid var(--border);
@@ -2400,6 +2436,14 @@ html.theme-light .container-3baos1 {
 #app-mount .guildSection-1EoFKd {
   background: transparent;
   border-top: 1px solid var(--border);
+}
+
+#app-mount #status-picker .description-2L932D {
+  display: none;
+}
+
+#app-mount .input-1GLP_D {
+  padding-left: 36px !important;
 }
 
 #app-mount .tabBody-3YRQ8W::before {
@@ -2996,16 +3040,16 @@ html.theme-light .container-3baos1 {
   background: var(--interactive-normal);
 }
 #app-mount .root-3QyAh1 .tabBarItem-3dfX8P[aria-controls=user_info-tab]::after {
-  -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>');
-          mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>');
+  -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>');
+          mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>');
 }
 #app-mount .root-3QyAh1 .tabBarItem-3dfX8P[aria-controls=activity-tab]::after {
-  -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 5c7.18 0 13 5.82 13 13M6 11a7 7 0 017 7m-6 0a1 1 0 11-2 0 1 1 0 012 0z" /></svg>');
-          mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 5c7.18 0 13 5.82 13 13M6 11a7 7 0 017 7m-6 0a1 1 0 11-2 0 1 1 0 012 0z" /></svg>');
+  -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 5c7.18 0 13 5.82 13 13M6 11a7 7 0 017 7m-6 0a1 1 0 11-2 0 1 1 0 012 0z" /></svg>');
+          mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 5c7.18 0 13 5.82 13 13M6 11a7 7 0 017 7m-6 0a1 1 0 11-2 0 1 1 0 012 0z" /></svg>');
 }
 #app-mount .root-3QyAh1 .tabBarItem-3dfX8P[aria-controls=mutual_guilds-tab]::after {
-  -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01" /></svg>');
-          mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01" /></svg>');
+  -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01" /></svg>');
+          mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01" /></svg>');
 }
 #app-mount .root-3QyAh1 .tabBarItem-3dfX8P[aria-controls=mutual_friends-tab]::after {
   -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" /></svg>');
@@ -3496,29 +3540,29 @@ html.theme-light .container-3baos1 {
   background: rgba(67, 182, 131, 0.7);
 }
 .bd-toasts .bd-toast.toast-success::before {
-  -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>');
-          mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>');
+  -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>');
+          mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>');
 }
 .bd-toasts .bd-toast.toast-warn {
   background: rgba(255, 166, 0, 0.7);
 }
 .bd-toasts .bd-toast.toast-warn::before {
-  -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>');
-          mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>');
+  -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>');
+          mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>');
 }
 .bd-toasts .bd-toast.toast-error {
   background: rgba(240, 71, 71, 0.7);
 }
 .bd-toasts .bd-toast.toast-error::before {
-  -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>');
-          mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>');
+  -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>');
+          mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>');
 }
 .bd-toasts .bd-toast.toast-info {
   background: rgba(75, 145, 226, 0.7);
 }
 .bd-toasts .bd-toast.toast-info::before {
-  -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>');
-          mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>');
+  -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>');
+          mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>');
 }
 .bd-toasts .bd-toast.icon {
   background-image: none;
