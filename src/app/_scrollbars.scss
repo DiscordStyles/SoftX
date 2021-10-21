@@ -4,7 +4,8 @@
 .contentRegionScroller-26nc1e,
 .customScroller-26gWhv,
 .list-I3aHXn,
-[class*="scrollerBase-"] {
+[class*="scrollerBase-"],
+.container-3ayLPN {
 	overflow: hidden overlay !important;
 	&::-webkit-scrollbar {
 		width: 8px;

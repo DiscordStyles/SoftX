@@ -1,3 +1,5 @@
+@use '../assets';
+
 #app-mount {
 	// Search
 	.search-2oPWTC {
@@ -110,6 +112,8 @@
 		background: var(--bg-primary);
 		border: 1px solid var(--border);
 		box-shadow: var(--shadow-lg);
+		max-height: 60vh;
+		overflow: hidden auto;
 	}
 	.resultsGroup-r_nuzN {
 		margin: 0;
@@ -140,5 +144,35 @@
 	.search-2oPWTC.focused-31_ccS::before,
 	.container-3ayLPN {
 		animation: fadeIn .2s ease forwards;
+	}
+}
+
+// Responsive stuff
+@media only screen and (max-width: 1200px) {
+	#app-mount {
+		.search-2oPWTC:not(.focused-31_ccS) {
+			height: 24px;
+			.searchBar-3dMhjb {
+				background: transparent;
+				border: none;
+				width: 24px;
+				height: 24px;
+			}
+			.iconContainer-O4O2CN {
+				width: 18px;
+				height: 18px;
+			}
+			.icon-3cZ1F_ {
+				color: var(--interactive-normal);
+				width: 20px;
+				height: 20px;
+			}
+			.search-36MZv- .icon-38sknP {
+				svg {
+					width: 100%;
+					height: 100%;
+				}
+			}
+		}
 	}
 }
