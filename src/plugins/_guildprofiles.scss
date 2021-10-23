@@ -1,0 +1,46 @@
+@use '../assets';
+
+#app-mount {
+	.guild-profile {
+		.header-4zuFdR {
+			justify-content: flex-start;
+		}
+		.badgeList-1R1WgZ {
+			flex-wrap: nowrap;
+			margin-bottom: 6px;
+		}
+		.header-top {
+			flex-direction: column;
+			justify-content: flex-start;
+			margin-bottom: 10px;
+			margin-left: 10px;
+			align-items: flex-start;
+		}
+		.guild-info > div:first-child {
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			grid-gap: 12px;
+			& > div {
+				margin: 0;
+			}
+		}
+		.h5-18_1nd {
+			color: var(--header-primary);
+		}
+	}
+
+	.root-3QyAh1 .tabBarItem-3dfX8P {
+		&[aria-controls="guild_info-tab"]::after {
+			mask: url(assets.$icon_server);
+		}
+		&[aria-controls="guild_roles-tab"]::after {
+			mask: url(assets.$icon_tag);
+		}
+		&[aria-controls="friends-tab"]::after {
+			mask: url(assets.$icon_users);
+		}
+		&[aria-controls="blocked_users-tab"]::after {
+			mask: url(assets.$icon_user-remove);
+		}
+	}
+}

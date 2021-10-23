@@ -62,6 +62,7 @@
 			padding: var(--chat-bubble-padding);
 			border-radius: 6px;
 			overflow: visible;
+			max-width: 100%;
 			code {
 				background: rgb(255 255 255 / .03);
 				border: none;

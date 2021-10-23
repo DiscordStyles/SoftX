@@ -1,5 +1,5 @@
 :root {
-	--softx-version: '1.0.3';
+	--softx-version: '1.0.4';
 
 	--hue: 0deg;
 	--saturation: 0%;
@@ -41,6 +41,9 @@
 
 	--backdrop-background: var(--bg-primary);
 	--backdrop-blur: 10px;
+
+	--channel-height: 38px;
+	--member-height: 54px;
 
 	--scrollbar-background: rgb(255 255 255 / .05);
 	--scrollbar-background-hover: rgb(255 255 255 / .1);
