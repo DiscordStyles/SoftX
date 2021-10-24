@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const postcss = require('postcss');
 const autoprefixer = require('autoprefixer');
-const {name, compiler} = require('./config.json');
+const {compiler} = require('./config.json');
 
 /**
  * Compile, autoprefix and save SCSS.
@@ -13,7 +13,7 @@ const {name, compiler} = require('./config.json');
  */
 module.exports = (options) => {
 	console.clear();
-	console.log(`[${name}] Building ${options.target.join('/')} file...`);
+	console.log(`Building ${options.target.join('/')} file...`);
 
 	// Check if path exists, if not make it.
 	const dirPath = options.output.filter(el => !el.includes('.')).join('/');
@@ -32,7 +32,7 @@ module.exports = (options) => {
 
 		let output = Buffer.from(result.css).toString();
 
-		if (compiler.postcss) {
+		if (compiler.prefix) {
 			await postcss([autoprefixer]).process(output, {
 				from: undefined,
 				to: undefined
@@ -43,7 +43,7 @@ module.exports = (options) => {
 
 		fs.writeFile(path.join(...options.output), output.replace('@charset "UTF-8";\n', ""), (err) => {
 			if (err) console.error(err);
-			else console.log(`[${name}] Successfully built ${options.target.join('/')} file. (${(result.stats.duration/60000 * 60).toFixed(2)}s)`);
+			else console.log(`Successfully built ${options.target.join('/')} file. (${(result.stats.duration/60000 * 60).toFixed(2)}s)`);
 		})
 	})
 }

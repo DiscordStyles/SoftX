@@ -1,13 +1,21 @@
 {
-	"name": "SoftX",
 	"compiler": {
-		"postcss": true
+		"prefix": true
 	},
-	"dev": {
-		"target": ["src", "main.scss"]
-	},
-	"build": {
-		"target": ["src", "_base.scss"],
-		"outputPath": ["dist"]
-	}
+	"dev": [
+		{
+			"target": ["src", "main.scss"],
+			"output": ["SoftX.theme.css"]
+		}
+	],
+	"build": [
+		{
+			"target": ["src", "_base.scss"],
+			"output": ["dist", "SoftX.css"]
+		},
+		{
+			"target": ["src", "RadialGlow.scss"],
+			"output": ["dist", "RadialGlow.css"]
+		}
+	]
 }

@@ -9,12 +9,14 @@ const dataFolder = process.env.APPDATA || (process.platform == 'darwin' ? proces
 const themesFolder = path.join(dataFolder, 'BetterDiscord', 'themes');
 
 chokidar.watch('src', {persistent: true})
-	.on('ready', () => console.log(`[${name}] Watching for changes...`))
+	.on('ready', () => console.log(`Watching for changes...`))
 	.on('change', () => {
 		console.clear();
 
-		compile({
-			target: dev.target,
-			output: [themesFolder, `${name}.theme.css`]
-		});
+		dev.forEach(step => {
+			compile({
+				target: step.target,
+				output: [themesFolder, ...step.output]
+			})
+		})
 	});

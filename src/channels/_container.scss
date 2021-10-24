@@ -5,6 +5,9 @@
 		width: var(--channels-width);
 		border-right: 1px solid var(--border);
 		z-index: 1;
+		&.hidden-3iamF5 {
+			display: none;
+		}
 	}
 	.scrolling-1Cdwk- .content-3YMskv {
 		pointer-events: all !important;
