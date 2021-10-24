@@ -46,6 +46,10 @@
 	}
 	.mainContent-u_9PKf {
 		padding: 0;
+		&::before {
+			top: 0;
+			bottom: 0;
+		}
 	}
 
 	// Threads
