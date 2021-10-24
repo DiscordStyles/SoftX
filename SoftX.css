@@ -31,7 +31,7 @@
   --unread-colour: 255 255 255;
   --backdrop-background: var(--bg-primary);
   --backdrop-blur: 10px;
-  --channel-height: 38px;
+  --channel-height: 40px;
   --member-height: 54px;
   --scrollbar-background: rgb(255 255 255 / .05);
   --scrollbar-background-hover: rgb(255 255 255 / .1);
@@ -877,6 +877,9 @@ html.theme-light .container-3baos1 {
   border-right: 1px solid var(--border);
   z-index: 1;
 }
+#app-mount .scrolling-1Cdwk- .content-3YMskv {
+  pointer-events: all !important;
+}
 #app-mount .container-3w7J-x {
   background: transparent;
 }
@@ -925,6 +928,10 @@ html.theme-light .container-3baos1 {
 }
 #app-mount .mainContent-u_9PKf {
   padding: 0;
+}
+#app-mount .mainContent-u_9PKf::before {
+  top: 0;
+  bottom: 0;
 }
 #app-mount .container-3JKcAb .spine--Wla_O {
   height: 22px;
@@ -975,7 +982,7 @@ html.theme-light .container-3baos1 {
 }
 
 #app-mount .containerDefault-3tr_sE {
-  padding-top: 10px;
+  padding-top: 18px;
 }
 #app-mount .wrapper-PY0fhH {
   padding: 0 18px 0 42px;
