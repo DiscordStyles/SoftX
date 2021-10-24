@@ -1,5 +1,5 @@
 :root {
-  --softx-version: "1.0.4";
+  --softx-version: "1.0.5";
   --hue: 0deg;
   --saturation: 0%;
   --lightness: 10%;
@@ -33,6 +33,7 @@
   --backdrop-blur: 10px;
   --channel-height: 40px;
   --member-height: 54px;
+  --dm-height: 56px;
   --scrollbar-background: rgb(255 255 255 / .05);
   --scrollbar-background-hover: rgb(255 255 255 / .1);
   --scrollbar-background-active: rgb(255 255 255 / .15);
@@ -574,6 +575,9 @@ html.theme-light .container-3baos1 {
   outline: none !important;
   margin-bottom: var(--user-area);
 }
+#app-mount .guilds-1SWlCJ.hidden-3dXt4k {
+  display: none;
+}
 #app-mount .guildSeparator-EOYZLM {
   height: 1px;
   background: var(--border);
@@ -877,6 +881,9 @@ html.theme-light .container-3baos1 {
   border-right: 1px solid var(--border);
   z-index: 1;
 }
+#app-mount .sidebar-2K8pFh.hidden-3iamF5 {
+  display: none;
+}
 #app-mount .scrolling-1Cdwk- .content-3YMskv {
   pointer-events: all !important;
 }
@@ -1022,7 +1029,8 @@ html.theme-light .container-3baos1 {
   padding: 0;
 }
 #app-mount .channel-2QD9_O .layout-2DM8Md {
-  padding: 6px 18px;
+  padding: 0 18px;
+  height: var(--dm-height);
 }
 #app-mount .channel-2QD9_O.selected-aXhQR6 {
   color: rgb(var(--accent));
