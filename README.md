@@ -3,7 +3,7 @@
 A soft and comfy feel for Discord.
 
 - - -
-BetterDiscord Download: Soon:tm:  
+BetterDiscord Download: [https://betterdiscord.app/theme/SoftX](https://betterdiscord.app/Download?id=515)  
 Powercord Install: `git clone https://github.com/DiscordStyles/SoftX`
 - - -
 
