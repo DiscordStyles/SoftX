@@ -5,14 +5,14 @@
 	}
 	
 	// Container
-	.listItem-2Ig28I {
+	.listItem-1hlISG {
 		width: 100%;
 		margin-bottom: var(--server-spacing);
 	}
 	
 	// Active state
-	.blobContainer-tHk012,
-	.listItemWrapper-2MsAsM {
+	.blobContainer-pmnxKB,
+	.listItemWrapper-t7zeg3 {
 		transition: var(--transition);
 		transition-property: transform;
 		&:active {
@@ -34,14 +34,14 @@
 
 	// No icon, other buttons
 	.childWrapper-anI2G9,
-	.circleIconButton-hZmpE8 {
+	.circleIconButton-1XqULR {
 		background: rgb(255 255 255 / .1);
 	}
 	.wrapper-1BJsBx.selected-bZ3Lue,
-	.circleIconButton-hZmpE8:hover {
+	.circleIconButton-1XqULR:hover {
 		background: rgb(255 255 255 / .15);
 	}
-	.circleIconButton-hZmpE8.selected-2jcQaY path {
+	.circleIconButton-1XqULR.selected-2jcQaY path {
 		fill: rgb(var(--accent));
 	}
 
