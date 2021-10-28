@@ -1,0 +1,21 @@
+#app-mount {
+	.container-3fNISf {
+		margin: 0;
+		padding: 12px 0;
+		.textArea-2LMFQQ {
+			margin-bottom: 12px;
+			padding: 0 12px;
+		}
+		.divider-3C88Um {
+			border-color: var(--border);
+		}
+	}
+	.progressBarContainer-DLPbha {
+		background: rgb(255 255 255 / .05);
+		margin: 0 12px 12px;
+		width: calc(100% - 24px);
+		.progressBar-UDQ4AC {
+			background: linear-gradient(90deg, rgb(var(--accent), .1), rgb(var(--accent)));
+		}
+	}
+}

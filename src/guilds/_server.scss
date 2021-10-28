@@ -1,19 +1,18 @@
 #app-mount {
-	.wrapper-3Njo_c {
-		width: 100%;
-	}
-
-	.listItem-1hlISG {
-		width: 100%;
-		margin-bottom: var(--server-spacing);
-	}
-
+	// DM spacing
 	.scroller-1Bvpku > div[style]:not([class]) {
 		margin-bottom: var(--server-spacing);
 	}
 	
-	.blobContainer-pmnxKB,
-	.listItemWrapper-t7zeg3 {
+	// Container
+	.listItem-2Ig28I {
+		width: 100%;
+		margin-bottom: var(--server-spacing);
+	}
+	
+	// Active state
+	.blobContainer-tHk012,
+	.listItemWrapper-2MsAsM {
 		transition: var(--transition);
 		transition-property: transform;
 		&:active {
@@ -32,15 +31,17 @@
 			mask: none !important;
 		}
 	}
+
+	// No icon, other buttons
 	.childWrapper-anI2G9,
-	.circleIconButton-1XqULR {
+	.circleIconButton-hZmpE8 {
 		background: rgb(255 255 255 / .1);
 	}
 	.wrapper-1BJsBx.selected-bZ3Lue,
-	.circleIconButton-1XqULR:hover {
+	.circleIconButton-hZmpE8:hover {
 		background: rgb(255 255 255 / .15);
 	}
-	.circleIconButton-1XqULR.selected-2jcQaY path {
+	.circleIconButton-hZmpE8.selected-2jcQaY path {
 		fill: rgb(var(--accent));
 	}
 

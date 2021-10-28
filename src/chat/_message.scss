@@ -1,5 +1,7 @@
 #app-mount {
 
+	$message: '.messageContent-2qWWxC:not(:empty):not(.repliedTextContent-1R3vnK):not(.threadMessageAccessoryContent-1LHM39)';
+
 	.message-2qnXI6 {
 		.channelTextArea-3bF57p {
 			background: var(--input-background);
@@ -55,7 +57,7 @@
 			margin-bottom: 10px;
 			padding-left: 0;
 		}
-		.messageContent-2qWWxC:not(:empty):not(.repliedTextContent-1R3vnK) {
+		#{$message} {
 			display: var(--chat-bubble-display);
 			margin: 0;
 			background: var(--chat-bubble-bg);
@@ -81,7 +83,7 @@
 			margin-top: 10px;
 		}
 
-		&.groupStart-23k01U .messageContent-2qWWxC:not(:empty):not(.repliedTextContent-1R3vnK) {
+		&.groupStart-23k01U #{$message} {
 			margin-top: -5px;
 		}
 		&.mentioned-xhSam7 {
@@ -89,13 +91,13 @@
 			&::before {
 				content: none;
 			}
-			.messageContent-2qWWxC:not(:empty):not(.repliedTextContent-1R3vnK) {
+			#{$message} {
 				background: var(--background-mentioned);
 				box-shadow: inset 2px 0 0 var(--info-warning-foreground);
 				border-radius: 0 6px 6px 0;
 			}
 		}
-		&[data-is-author-self="true"] .messageContent-2qWWxC:not(:empty):not(.repliedTextContent-1R3vnK) {
+		&[data-is-author-self="true"] #{$message} {
 			background: var(--chat-bubble-bg-self);
 		}
 		&.selected-2P5D_Z:not(.replying-1x3H0T),

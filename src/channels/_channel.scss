@@ -1,3 +1,5 @@
+@use '../assets';
+
 #app-mount {
 	.wrapper-2jXpOf {
 		padding: 0;
@@ -52,10 +54,31 @@
 		}
 	}
 
+	.wrapper-2jXpOf.typeThread-3ESTm- {
+		.content-1x5b-n {
+			position: relative;
+			padding-left: 64px;
+			&::after {
+				position: absolute;
+				left: 36px;
+				width: 24px;
+				height: 24px;
+				content: "";
+				mask: url(assets.$icon_triangle-right);
+				background: var(--channels-default);
+			}
+		}
+		&.modeSelected-346R90 {
+			.content-1x5b-n::after {
+				background: rgb(var(--accent));
+			}
+		}
+	}
+
 	// Threads
 	.container-3JKcAb {
 		.spine--Wla_O {
-			height: 22px;
+			display: none;
 		}
 		.content-1x5b-n {
 			padding-left: 42px;

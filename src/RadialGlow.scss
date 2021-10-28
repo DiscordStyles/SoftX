@@ -1,7 +1,7 @@
-@use "sass:selector";
-@use "sass:map";
+@use 'sass:selector';
+@use 'sass:map';
 
-@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
+@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
 
 :root {
 	--rs-small-spacing: 2px; /* Spacing between profile image and outer ring on small icons (e.g. member list) | Default: 2px */
@@ -35,57 +35,58 @@
 // Croatian
 
 $statusMap: (
-	"online": (
-		"Online",
-		"online", // German
-		"Conectado", // Spanish
-		"En línea con móvil", // Spanish
-		"En ligne", // French
-		"Na mreži", // Croatian
+	'online': (
+		'Online',
+		'online', // German
+		'Conectado', // Spanish
+		'En línea con móvil', // Spanish
+		'En ligne', // French
+		'Na mreži', // Croatian
 	),
-	"idle": (
-		"Idle",
-		"Inaktiv", // Danish
-		"Abwesend", // German
-		"Ausente", // Spanish
-		"Inactif", // French
-		"U mirovanju", // Croatian
+	'idle': (
+		'Idle',
+		'Inaktiv', // Danish
+		'Abwesend', // German
+		'Ausente', // Spanish
+		'Inactif', // French
+		'U mirovanju', // Croatian
 	),
-	"dnd": (
-		"Do Not disturb",
-		"Vil ikke forstyrres", // Danish
-		"Bitte nicht stören", // German
-		"No molestar", // Spanish
-		"Ne pas déranger", // French
-		"Ne uznemiravaj", // Croatian
+	'dnd': (
+		'Do Not disturb',
+		'Vil ikke forstyrres', // Danish
+		'Bitte nicht stören', // German
+		'No molestar', // Spanish
+		'Ne pas déranger', // French
+		'Ne uznemiravaj', // Croatian
 	),
-	"streaming": (
-		"Streaming",
-		"Streamer", // Danish
-		"Streamt", // German
-		"Transmitiendo", // Spanish
-		"En direct", // French
+	'streaming': (
+		'Streaming',
+		'Streamer', // Danish
+		'Streamt', // German
+		'Transmitiendo', // Spanish
+		'En direct', // French
 	),
-	"invisible": (
-		"Invisible",
-		"Usynlig", // Danish
-		"Unsichtbar", // German
-		"Nevidljiv/a", // Croatian
+	'invisible': (
+		'Invisible',
+		'Usynlig', // Danish
+		'Unsichtbar', // German
+		'Nevidljiv/a', // Croatian
 	),
-	"offline": (
-		"Offline",
-		"Desconectado", // Spanish
-		"Hors ligne", // French
-		"Izvan mreže", // Croatian
+	'offline': (
+		'Offline',
+		'Desconectado', // Spanish
+		'Hors ligne', // French
+		'Izvan mreže', // Croatian
 	),
 );
 
 @each $statusType, $statusList in $statusMap {
 	$parsedItem: null;
 	@each $status in $statusList {
-		$parsedItem: $parsedItem + "[aria-label*='" + $status + "' i]";
+		$parsedItem: $parsedItem + '[aria-label*="' + $status + '" i]';
 	}
-	#{selector.append(".wrapper-3t9DeA", selector.simple-selectors($parsedItem))} {
+	#{selector.append('.wrapper-3t9DeA', selector.simple-selectors($parsedItem))},
+	#{selector.append('.avatarWrapper', '[data-status="#{$statusType}"]')} .wrapper-3t9DeA {
 		box-shadow: 0 0 calc(var(--glow-intensity) * 10px) var(--rs-#{$statusType}-color);
 	}
 }
@@ -96,5 +97,21 @@ $statusMap: (
 		border-width: 0px;
 		margin-top: 7.5px;
 		margin-left: 7.5px;
+	}
+}
+
+// StatusEverywhere by Strencher
+#app-mount {
+	.wrapper-3t9DeA.StatusEverywhere-avatar-chatAvatar {
+		margin: 0;
+	}
+	.avatarWrapper {
+		border-radius: var(--rs-avatar-shape);
+		.pointerEvents-2zdfdO {
+			stroke: var(--status-color) !important;
+			&[width="30"] {
+				width: calc(100% - 9px) !important;
+			}
+		}
 	}
 }
