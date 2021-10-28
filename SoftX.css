@@ -587,17 +587,17 @@ html.theme-light .container-3baos1 {
 #app-mount .scroller-1Bvpku > div[style]:not([class]) {
   margin-bottom: var(--server-spacing);
 }
-#app-mount .listItem-2Ig28I {
+#app-mount .listItem-1hlISG {
   width: 100%;
   margin-bottom: var(--server-spacing);
 }
-#app-mount .blobContainer-tHk012,
-#app-mount .listItemWrapper-2MsAsM {
+#app-mount .blobContainer-pmnxKB,
+#app-mount .listItemWrapper-t7zeg3 {
   transition: var(--transition);
   transition-property: transform;
 }
-#app-mount .blobContainer-tHk012:active,
-#app-mount .listItemWrapper-2MsAsM:active {
+#app-mount .blobContainer-pmnxKB:active,
+#app-mount .listItemWrapper-t7zeg3:active {
   transform: scale(0.9);
 }
 #app-mount .wrapper-25eVIn {
@@ -614,14 +614,14 @@ html.theme-light .container-3baos1 {
           mask: none !important;
 }
 #app-mount .childWrapper-anI2G9,
-#app-mount .circleIconButton-hZmpE8 {
+#app-mount .circleIconButton-1XqULR {
   background: rgba(255, 255, 255, 0.1);
 }
 #app-mount .wrapper-1BJsBx.selected-bZ3Lue,
-#app-mount .circleIconButton-hZmpE8:hover {
+#app-mount .circleIconButton-1XqULR:hover {
   background: rgba(255, 255, 255, 0.15);
 }
-#app-mount .circleIconButton-hZmpE8.selected-2jcQaY path {
+#app-mount .circleIconButton-1XqULR.selected-2jcQaY path {
   fill: rgb(var(--accent));
 }
 #app-mount .wrapper-sa6paO {
@@ -834,19 +834,19 @@ html.theme-light .container-3baos1 {
   box-shadow: 0 0 calc(var(--glow-intensity) * 15px) calc(var(--glow-intensity) * 5px) rgb(var(--accent), 0.25);
 }
 
-#app-mount .wrapper-shyHJt {
+#app-mount .wrapper-3Njo_c {
   width: 100%;
 }
-#app-mount .wrapper-shyHJt ul[role=group] {
+#app-mount .wrapper-3Njo_c ul[role=group] {
   height: auto !important;
 }
-#app-mount .folder-2w6LX1 {
+#app-mount .folder-1hbNCn {
   background: rgba(255, 255, 255, 0.05);
 }
 #app-mount .folderIconWrapper-1_bOZe {
   border-radius: 0;
 }
-#app-mount .expandedFolderBackground-3ZDF05 {
+#app-mount .expandedFolderBackground-1cujaW {
   left: 50%;
   transform: translateX(-50%);
   background: rgba(255, 255, 255, 0.05);
