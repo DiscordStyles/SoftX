@@ -587,7 +587,7 @@ html.theme-light .container-3baos1 {
 #app-mount .scroller-1Bvpku > div[style]:not([class]) {
   margin-bottom: var(--server-spacing);
 }
-#app-mount .listItem-1hlISG {
+#app-mount .listItem-2Ig28I {
   width: 100%;
   margin-bottom: var(--server-spacing);
 }
@@ -614,14 +614,14 @@ html.theme-light .container-3baos1 {
           mask: none !important;
 }
 #app-mount .childWrapper-anI2G9,
-#app-mount .circleIconButton-1XqULR {
+#app-mount .circleIconButton-hZmpE8 {
   background: rgba(255, 255, 255, 0.1);
 }
 #app-mount .wrapper-1BJsBx.selected-bZ3Lue,
-#app-mount .circleIconButton-1XqULR:hover {
+#app-mount .circleIconButton-hZmpE8:hover {
   background: rgba(255, 255, 255, 0.15);
 }
-#app-mount .circleIconButton-1XqULR.selected-2jcQaY path {
+#app-mount .circleIconButton-hZmpE8.selected-3mFF3I path {
   fill: rgb(var(--accent));
 }
 #app-mount .wrapper-sa6paO {
@@ -834,19 +834,19 @@ html.theme-light .container-3baos1 {
   box-shadow: 0 0 calc(var(--glow-intensity) * 15px) calc(var(--glow-intensity) * 5px) rgb(var(--accent), 0.25);
 }
 
-#app-mount .wrapper-3Njo_c {
+#app-mount .wrapper-shyHJt {
   width: 100%;
 }
-#app-mount .wrapper-3Njo_c ul[role=group] {
+#app-mount .wrapper-shyHJt ul[role=group] {
   height: auto !important;
 }
-#app-mount .folder-1hbNCn {
+#app-mount .folder-2w6LX1 {
   background: rgba(255, 255, 255, 0.05);
 }
-#app-mount .folderIconWrapper-1_bOZe {
+#app-mount .folderIconWrapper-1Ml_1q {
   border-radius: 0;
 }
-#app-mount .expandedFolderBackground-1cujaW {
+#app-mount .expandedFolderBackground-3ZDF05 {
   left: 50%;
   transform: translateX(-50%);
   background: rgba(255, 255, 255, 0.05);
@@ -1910,6 +1910,7 @@ html.theme-light .container-3baos1 {
 }
 #app-mount .DraftEditor-root {
   padding: 0;
+  max-width: 428px;
 }
 #app-mount .DraftEditor-editorContainer {
   height: 100%;
@@ -1939,6 +1940,9 @@ html.theme-light .container-3baos1 {
   box-shadow: var(--shadow-lg);
   max-height: 60vh;
   overflow: hidden auto;
+}
+#app-mount .queryContainer-RKFJW- {
+  background: transparent;
 }
 #app-mount .resultsGroup-r_nuzN {
   margin: 0;
