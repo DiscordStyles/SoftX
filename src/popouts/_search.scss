@@ -83,6 +83,7 @@
 	}
 	.DraftEditor-root {
 		padding: 0;
+		max-width: 428px;
 	}
 	.DraftEditor-editorContainer {
 		height: 100%;
@@ -114,6 +115,9 @@
 		box-shadow: var(--shadow-lg);
 		max-height: 60vh;
 		overflow: hidden auto;
+	}
+	.queryContainer-RKFJW- {
+		background: transparent;
 	}
 	.resultsGroup-r_nuzN {
 		margin: 0;
