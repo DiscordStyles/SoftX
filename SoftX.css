@@ -1712,8 +1712,11 @@ html.theme-light .container-3baos1 {
   min-width: var(--members-width);
   max-width: var(--members-width);
 }
-#app-mount .members-1998pB {
+#app-mount .container-2wlB3z {
   background: var(--bg-primary);
+}
+#app-mount .members-1998pB {
+  background: transparent;
   width: 100%;
 }
 #app-mount .members-1998pB > div {
