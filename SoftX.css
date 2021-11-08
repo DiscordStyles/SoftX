@@ -1722,6 +1722,9 @@ html.theme-light .container-3baos1 {
 #app-mount .members-1998pB > div {
   background: transparent;
 }
+#app-mount .content-yTz4x3 > .membersWrap-2h-GB4 > .members-1998pB {
+  background: var(--bg-primary);
+}
 
 #app-mount .membersGroup-v9BXpm {
   text-shadow: 0 0 calc(var(--members-glow-intensity) * 10px) currentColor;
