@@ -591,13 +591,13 @@ html.theme-light .container-3baos1 {
   width: 100%;
   margin-bottom: var(--server-spacing);
 }
-#app-mount .blobContainer-pmnxKB,
-#app-mount .listItemWrapper-t7zeg3 {
+#app-mount .blobContainer-tHk012,
+#app-mount .listItemWrapper-2MsAsM {
   transition: var(--transition);
   transition-property: transform;
 }
-#app-mount .blobContainer-pmnxKB:active,
-#app-mount .listItemWrapper-t7zeg3:active {
+#app-mount .blobContainer-tHk012:active,
+#app-mount .listItemWrapper-2MsAsM:active {
   transform: scale(0.9);
 }
 #app-mount .wrapper-25eVIn {
