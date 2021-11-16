@@ -1,12 +1,22 @@
 @use '../assets';
 
 #app-mount {
-	.sidebar-2K8pFh {
-		div[style="height: 84px;"],
-		.animatedContainer-1NSq4T {
-			display: none;
-		}
+	.animatedContainer-1NSq4T {
+		margin-top: var(--toolbar-height);
+		background: transparent;
+		transform: none !important;
 	}
+	.bannerImage-3KhIJ6 {
+		width: var(--channels-width);
+		transform: none !important;
+	}
+	.bannerImg-2NHyzX {
+		width: 100%;
+	}
+	.content-3YMskv > div[style="height: 84px;"] {
+		margin-top: 48px;
+	}
+
 	.selected-31Nl7x .header-2V-4Sw {
 		background: transparent;
 	}

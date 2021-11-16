@@ -65,37 +65,32 @@
 		height: 100%;
 		width: 33.33%;
 		margin: 0;
-		button {
-			height: 100%;
-			width: 100%;
-			border-radius: 0;
-			position: relative;
-			padding: 0;
-			transition: none;
-			&:hover {
-				background: var(--background-modifier-hover);
-				.contents-18-Yxp::before {
-					background: var(--interactive-hover);
+		position: relative;
+		border-radius: 0;
+		transition: none;
+		&:hover {
+			background: var(--background-modifier-hover);
+			.contents-18-Yxp::before {
+				background: var(--interactive-hover);
+			}
+		}
+		&.navButtonActive-1MkytQ {
+			background: rgb(var(--accent), .1);
+			.contents-18-Yxp {
+				filter: drop-shadow(0 0 calc(var(--channel-glow-intensity) * 5px) rgb(var(--accent)));
+				&::before {
+					background: rgb(var(--accent));
 				}
 			}
-			&.navButtonActive-1MkytQ {
-				background: rgb(var(--accent), .1);
-				.contents-18-Yxp {
-					filter: drop-shadow(0 0 calc(var(--channel-glow-intensity) * 5px) rgb(var(--accent)));
-					&::before {
-						background: rgb(var(--accent));
-					}
-				}
-				&::before {
-					content: "";
-					position: absolute;
-					top: 0;
-					left: 0;
-					width: 100%;
-					height: 2px;
-					background: rgb(var(--accent));
-					box-shadow: 0 0 calc(var(--glow-intensity) * 15px) calc(var(--glow-intensity) * 5px) rgb(var(--accent), .2);
-				}
+			&::before {
+				content: "";
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 2px;
+				background: rgb(var(--accent));
+				box-shadow: 0 0 calc(var(--glow-intensity) * 15px) calc(var(--glow-intensity) * 5px) rgb(var(--accent), .2);
 			}
 		}
 		.contents-18-Yxp {

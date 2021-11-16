@@ -4,8 +4,14 @@ html, span:not([class*="spinner-"]):not([class*="spinnerItem"]) {
 }
 
 // Background
+body,
+#app-mount,
+.app-2rEoOp {
+	background: transparent;
+}
 .bg-h5JY_x {
-	background: var(--background-image);
+	background-image: var(--background-image);
+	background-color: transparent;
 	background-attachment: var(--background-attachment, fixed);
 	background-size: var(--background-size, cover);
 	background-position: var(--background-position, center);
