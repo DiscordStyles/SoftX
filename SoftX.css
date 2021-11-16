@@ -61,8 +61,15 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
           backface-visibility: hidden;
 }
 
+body,
+#app-mount,
+.app-2rEoOp {
+  background: transparent;
+}
+
 .bg-h5JY_x {
-  background: var(--background-image);
+  background-image: var(--background-image);
+  background-color: transparent;
   background-attachment: var(--background-attachment, fixed);
   background-size: var(--background-size, cover);
   background-position: var(--background-position, center);
@@ -964,9 +971,20 @@ html.theme-light .container-3baos1 {
   padding-left: 42px;
 }
 
-#app-mount .sidebar-2K8pFh div[style="height: 84px;"],
-#app-mount .sidebar-2K8pFh .animatedContainer-1NSq4T {
-  display: none;
+#app-mount .animatedContainer-1NSq4T {
+  margin-top: var(--toolbar-height);
+  background: transparent;
+  transform: none !important;
+}
+#app-mount .bannerImage-3KhIJ6 {
+  width: var(--channels-width);
+  transform: none !important;
+}
+#app-mount .bannerImg-2NHyzX {
+  width: 100%;
+}
+#app-mount .content-3YMskv > div[style="height: 84px;"] {
+  margin-top: 48px;
 }
 #app-mount .selected-31Nl7x .header-2V-4Sw {
   background: transparent;
@@ -2229,31 +2247,26 @@ html.theme-light .container-3baos1 {
   height: 100%;
   width: 33.33%;
   margin: 0;
-}
-#app-mount .navItem-3Wp_oJ button {
-  height: 100%;
-  width: 100%;
-  border-radius: 0;
   position: relative;
-  padding: 0;
+  border-radius: 0;
   transition: none;
 }
-#app-mount .navItem-3Wp_oJ button:hover {
+#app-mount .navItem-3Wp_oJ:hover {
   background: var(--background-modifier-hover);
 }
-#app-mount .navItem-3Wp_oJ button:hover .contents-18-Yxp::before {
+#app-mount .navItem-3Wp_oJ:hover .contents-18-Yxp::before {
   background: var(--interactive-hover);
 }
-#app-mount .navItem-3Wp_oJ button.navButtonActive-1MkytQ {
+#app-mount .navItem-3Wp_oJ.navButtonActive-1MkytQ {
   background: rgb(var(--accent), 0.1);
 }
-#app-mount .navItem-3Wp_oJ button.navButtonActive-1MkytQ .contents-18-Yxp {
+#app-mount .navItem-3Wp_oJ.navButtonActive-1MkytQ .contents-18-Yxp {
   filter: drop-shadow(0 0 calc(var(--channel-glow-intensity) * 5px) rgb(var(--accent)));
 }
-#app-mount .navItem-3Wp_oJ button.navButtonActive-1MkytQ .contents-18-Yxp::before {
+#app-mount .navItem-3Wp_oJ.navButtonActive-1MkytQ .contents-18-Yxp::before {
   background: rgb(var(--accent));
 }
-#app-mount .navItem-3Wp_oJ button.navButtonActive-1MkytQ::before {
+#app-mount .navItem-3Wp_oJ.navButtonActive-1MkytQ::before {
   content: "";
   position: absolute;
   top: 0;
