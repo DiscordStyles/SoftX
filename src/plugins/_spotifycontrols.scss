@@ -1,0 +1,22 @@
+#app-mount {
+	.container-6sXIoE {
+		border-color: var(--border);
+		margin-bottom: 0;
+		padding: 16px;
+
+		.timeline-UWmgAx {
+			margin: 16px 0 0 0;
+		}
+		.grabber-7sd5f5 {
+			width: 12px;
+			height: 12px;
+			margin-top: -4px;
+			margin-left: -4px;
+			box-shadow: 0 0 calc(var(--glow-intensity) * 10px) calc(var(--glow-intensity) * 2px) rgb(255 255 255 / .3);
+		}
+		.barFill-Dhkah7 {
+			background: rgb(var(--accent));
+			box-shadow: 0 0 calc(var(--glow-intensity) * 10px) calc(var(--glow-intensity) * 2px) rgb(var(--accent), .3);
+		}
+	}
+}

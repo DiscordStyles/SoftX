@@ -1,0 +1,30 @@
+.styledGuildsAsChannels-DNHtg_ #app-mount {
+	.guilds-1SWlCJ {
+		width: calc(var(--guilds-width) * 2 + 44px) !important;
+	}
+	.listItem-2Ig28I {
+		margin: 0 16px var(--server-spacing);
+		[class^="pill"] {
+			left: -4px;
+			top: -4px;
+			transform: none;
+			width: calc(100% - 26px);
+			height: calc(100% + 8px);
+			overflow: visible;
+			margin-left: -2px;
+			box-sizing: border-box;
+			.item-2hkk8m {
+				height: 100% !important;
+				width: 100%;
+				margin: 0;
+				border-radius: 4px;
+			}
+		}
+	}
+	.expandedFolderBackground-3ZDF05 {
+		width: calc(100% - 34px);
+		border-radius: 4px;
+		top: 1px;
+		margin-left: -1px;
+	}
+}
