@@ -3782,3 +3782,52 @@ html.theme-light .container-3baos1 {
   width: var(--chat-avatar-size) !important;
   height: var(--chat-avatar-size) !important;
 }
+
+#app-mount .container-6sXIoE {
+  border-color: var(--border);
+  margin-bottom: 0;
+  padding: 16px;
+}
+#app-mount .container-6sXIoE .timeline-UWmgAx {
+  margin: 16px 0 0 0;
+}
+#app-mount .container-6sXIoE .grabber-7sd5f5 {
+  width: 12px;
+  height: 12px;
+  margin-top: -4px;
+  margin-left: -4px;
+  box-shadow: 0 0 calc(var(--glow-intensity) * 10px) calc(var(--glow-intensity) * 2px) rgba(255, 255, 255, 0.3);
+}
+#app-mount .container-6sXIoE .barFill-Dhkah7 {
+  background: rgb(var(--accent));
+  box-shadow: 0 0 calc(var(--glow-intensity) * 10px) calc(var(--glow-intensity) * 2px) rgb(var(--accent), 0.3);
+}
+
+.styledGuildsAsChannels-DNHtg_ #app-mount .guilds-1SWlCJ {
+  width: calc(var(--guilds-width) * 2 + 44px) !important;
+}
+.styledGuildsAsChannels-DNHtg_ #app-mount .listItem-2Ig28I {
+  margin: 0 16px var(--server-spacing);
+}
+.styledGuildsAsChannels-DNHtg_ #app-mount .listItem-2Ig28I [class^=pill] {
+  left: -4px;
+  top: -4px;
+  transform: none;
+  width: calc(100% - 26px);
+  height: calc(100% + 8px);
+  overflow: visible;
+  margin-left: -2px;
+  box-sizing: border-box;
+}
+.styledGuildsAsChannels-DNHtg_ #app-mount .listItem-2Ig28I [class^=pill] .item-2hkk8m {
+  height: 100% !important;
+  width: 100%;
+  margin: 0;
+  border-radius: 4px;
+}
+.styledGuildsAsChannels-DNHtg_ #app-mount .expandedFolderBackground-3ZDF05 {
+  width: calc(100% - 34px);
+  border-radius: 4px;
+  top: 1px;
+  margin-left: -1px;
+}
