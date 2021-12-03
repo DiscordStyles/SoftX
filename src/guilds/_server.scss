@@ -72,7 +72,7 @@
 		}
 		@for $i from 0 through 8 {
 			span[style*="height: #{$i}"] {
-				box-shadow: 0 0 calc(var(--glow-intensity) * 15px) calc(var(--glow-intensity) * 5px) rgb(var(--unread-colour) / .25);
+				box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--unread-colour) / .25);
 				border-color: rgb(var(--unread-colour));
 			}
 		}
@@ -88,7 +88,7 @@
 			span[style*="height: #{$i}"] {
 				transform: scale(1) !important;
 				border-color: rgb(var(--accent));
-				box-shadow: 0 0 calc(var(--glow-intensity) * 15px) calc(var(--glow-intensity) * 5px) rgb(var(--accent), .25);
+				box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--accent), .25);
 			}
 		}
 	}

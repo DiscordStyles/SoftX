@@ -2,3 +2,7 @@
 @use 'base';
 
 @use './RadialGlow';
+
+:root {
+    --server-glow-intensity: 0;
+}
