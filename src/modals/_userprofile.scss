@@ -1,10 +1,10 @@
 @use '../assets';
 
 #app-mount {
-	.root-3QyAh1 {
+	.root-8LYsGj {
 		overflow: visible;
 		border-radius: 0;
-		.tabBarContainer-37hZsr {
+		.tabBarContainer-sCZC4w {
 			position: absolute;
 			top: -1px;
 			left: -57px;
@@ -17,10 +17,10 @@
 			border-radius: 6px 0 0 6px;
 			overflow: hidden;
 		}
-		.tabBar-3nvOPa {
+		.tabBar-2hXqzU {
 			flex-direction: column;
 		}
-		.tabBarItem-3dfX8P {
+		.tabBarItem-30Te4- {
 			border: none;
 			position: relative;
 			overflow: visible;
@@ -57,7 +57,7 @@
 					background: var(--interactive-hover);
 				}
 			}
-			&.selected-3s45Ha {
+			&.selected-g-kMVV {
 				color: rgb(var(--accent));
 				text-shadow: 0 0 calc(var(--glow-intensity) * 10px) rgb(var(--accent), .8);
 				&::before {
@@ -77,11 +77,11 @@
 		}
 	}
 	
-	.topSection-y3p-_D {
+	.topSection-13QKHs {
 		background: transparent;
 	}
 	
-	.header-4zuFdR {
+	.header-S26rhB {
 		position: unset;
 		display: flex;
 		width: 100%;
@@ -90,31 +90,31 @@
 		padding: 0 24px;
 		box-sizing: border-box;
 		margin-top: -60px;
-		.avatar-AvHqJA {
+		.avatar-3QF_VA {
 			position: relative;
 			left: 0;
 			margin-left: 0;
 			top: 0;
 		}
 	}
-	.headerTop-547GTz {
+	.headerTop-1PNKck {
 		position: static;
 		margin-bottom: 30px;
 	}
-	.badgeList-1R1WgZ {
+	.badgeList-2aoHPw {
 		padding-right: 0;
 		margin-right: 0;
 	}
-	.nameTag-ECvD8P {
+	.nameTag-2Nlmsy {
 		margin: 12px 24px 24px;
 	}
-	.relationshipButtons-pUQVkf {
+	.relationshipButtons-3ByBpj {
 		position: absolute;
 		bottom: 16px;
 		left: -56px;
 		flex-direction: column;
 		z-index: 2;
-		.actionButton-3vN-m0 {
+		.actionButton-iarQTd {
 			height: 48px;
 			width: 56px;
 			padding: 0;
@@ -132,13 +132,13 @@
 			}
 			&:hover {
 				background: var(--background-modifier-hover);
-				.contents-18-Yxp {
+				.contents-3ca1mk {
 					opacity: 1;
 					visibility: visible;
 				}
 			}
 		}
-		.contents-18-Yxp {
+		.contents-3ca1mk {
 			position: absolute;
 			top: -46px;
 			background: var(--bg-primary);
@@ -154,43 +154,43 @@
 			pointer-events: none;
 			user-select: none;
 		}
-		.additionalActionsIcon-365LnQ {
+		.additionalActionsIcon-3Cy8UU {
 			margin-left: 0;
 		}
 	}
-	.customStatusActivity-nmH3DF {
+	.customStatusActivity-WKWGD- {
 		padding: 0 24px 24px;
 	}
 	
-	.body-r6_QPy {
+	.body-1Ukv50 {
 		background: transparent;
 		height: 100%;
 		min-height: 340px;
 		max-height: 340px;
 		border-top: 1px solid var(--border);
 	}
-	.infoScroller-1Qu30O {
+	.infoScroller-1QMpon {
 		padding: 24px !important;
 		& > div[style*="height: 24px"] {
 			display: none;
 		}
 	}
-	.userInfoSection-q_35fn {
+	.userInfoSection-2u2hir {
 		padding: 0;
 		border: none;
-		& + .userInfoSection-q_35fn {
+		& + .userInfoSection-2u2hir {
 			margin-top: 42px;
 		}
 	}
-	.userBio-3tlrzS {
+	.userBio-2-tr00 {
 		margin-bottom: 24px;
 	}
-	.connectedAccounts-QlRa4m {
+	.connectedAccounts-1YaT2t {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		grid-gap: 24px;
 	}
-	.connectedAccount-2Jb-Z0 {
+	.connectedAccount-1xKpli {
 		margin: 0;
 		width: 100%;
 		box-sizing: border-box;
@@ -213,10 +213,10 @@
 			&[src*="f3224f560c8f5974355596a4f7e9ce19"] + div {--connection-colour: 255 69 0;} // Reddit
 		}
 	}
-	.connectedAccountName-E1KzaT {
+	.connectedAccountName-j0meX4 {
 		line-height: normal;
 	}
-	.connectedAccountNameInner-2q3MVf {
+	.connectedAccountNameInner-t24B11 {
 		--connection-colour: var(--accent);
 
 		overflow: visible;
@@ -233,16 +233,16 @@
 	}
 
 
-	.note-367eZJ {
+	.note-3M15gE {
 		margin: 0;
 	}
-	.listScroller-3GmIYj {
+	.listScroller-entkMk {
 		padding: 0 !important;
 		& > div[style*="height"] {
 			display: none;
 		}
 	}
-	.listRow-1iDGel {
+	.listRow-2nO1T6 {
 		margin: 0;
 		padding: 8px 10px;
 		&:hover {
@@ -250,7 +250,7 @@
 			border-radius: 0;
 		}
 	}
-	.listAvatar-1BbvHX.iconActiveMedium-1UaEIR {
+	.listAvatar-1BbvHX.iconActiveMedium-27_R5B {
 		border-radius: 6px;
 	}
 }

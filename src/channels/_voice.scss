@@ -1,38 +1,38 @@
 #app-mount {
-	.list-2luk8a {
+	.list-2x9Cl9 {
 		padding: 0;
-		.draggable-2E_4tJ {
+		.draggable-S2aEx4 {
 			height: auto;
 		}
 	}
-	.voiceUser-1K6Xox {
+	.voiceUser-3nRK-K {
 		height: auto;
-		.content-1Wq3SX {
+		.content-1Tgc42 {
 			padding: 4px 18px 4px 32px;
 			border-radius: 0;
 			margin: 0;
 		}
-		.icons-1dXQdz {
+		.icons-2mwuFp {
 			margin-right: 0;
 		}
-		.avatar-3tNQiO {
+		.avatar-3FKimL {
 			z-index: 1;
-			&.avatarSpeaking-2IGMRN {
+			&.avatarSpeaking-2pCGrZ {
 				box-shadow: inset 0 0 0 2px var(--talking-bar),
 										inset 0 0 0 3px var(--background-secondary),
 										0 0 calc(var(--channel-glow-intensity) * 10px) var(--talking-glow);
 			}
 		}
-		.liveSmall-1dy2uA {
+		.liveSmall-1Urjcy {
 			box-shadow: 0 0 calc(var(--channel-glow-intensity) * 10px) hsl(var(--discord-red));
 			z-index: 1;
 		}
 
-		&.selected-3t3Csj {
-			.content-1Wq3SX {
+		&.selected-1oxcpH {
+			.content-1Tgc42 {
 				background: transparent;
 			}
-			.username-3KYl0N {
+			.username-vAneIW {
 				text-shadow: 0 0 calc(var(--channel-glow-intensity) * 5px) currentColor;
 				&::before {
 					content: "";

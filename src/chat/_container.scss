@@ -1,27 +1,27 @@
 #app-mount {
-	.chat-3bRxxu {
+	.chat-2ZfjoI {
 		background: transparent;
-		.chatContent-a9vAAp {
+		.chatContent-3KubbW {
 			background: var(--bg-secondary);
 			border-right: 1px solid var(--border);
 		}
-		.scroller-2LSbBU {
+		.scroller-kQBbkU {
 			mask: linear-gradient(black 98%, transparent 100%) !important;
 		}
-		&.threadSidebarOpen-vdkwIh {
+		&.threadSidebarOpen-1LSXvU {
 			border-radius: 0;
 		}
 	}
-	.content-yTz4x3 {
+	.content-1jQy2l {
 		z-index: 1;
 	}
-	.messagesWrapper-1sRNjr {
+	.messagesWrapper-RpOMA3 {
 		margin-bottom: 8px;
 	}
 
 	// Placeholder messages
-	.wrapper-3vR61M,
-	.wrapper-1F5TKx {
+	.wrapper-3HVHpV,
+	.wrapper-15CKyy {
 		background: transparent;
 	}
 }

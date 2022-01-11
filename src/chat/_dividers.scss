@@ -1,5 +1,5 @@
 #app-mount {
-	.divider-3_HH5L {
+	.divider-IqmEqJ {
 		border: none;
 		margin: 0;
 		height: auto;
@@ -15,24 +15,24 @@
 			display: block;
 			width: 100%;
 		}
-		.content-1o0f9g {
+		.content-3spvdd {
 			border-radius: 6px;
 			margin: 0;
 			padding: 8px 12px;
 		}
-		&:not(.isUnread-3Ef-o9) {
+		&:not(.isUnread-3Lojb-) {
 			&::before,
-			.content-1o0f9g {
+			.content-3spvdd {
 				background: var(--border);
 			}
 		}
-		&.isUnread-3Ef-o9 {
+		&.isUnread-3Lojb- {
 			margin: 8px 0;
 			&::before {
 				order: 1;
 				background: hsl(var(--discord-red));
 			}
-			.content-1o0f9g {
+			.content-3spvdd {
 				order: 2;
 				margin-right: 12px;
 				background: hsl(var(--discord-red) / .2);
@@ -40,7 +40,7 @@
 			}
 		}
 	}
-	.unreadPill-2HyYtt {
+	.unreadPill-3nEWYM {
 		position: relative;
 		top: 0;
 		left: 0;

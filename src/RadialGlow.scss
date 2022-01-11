@@ -85,13 +85,13 @@ $statusMap: (
 	@each $status in $statusList {
 		$parsedItem: $parsedItem + '[aria-label*="' + $status + '" i]';
 	}
-	#{selector.append('.wrapper-3t9DeA', selector.simple-selectors($parsedItem))},
-	#{selector.append('.avatarWrapper', '[data-status="#{$statusType}"]')} .wrapper-3t9DeA {
+	#{selector.append('.wrapper-1VLyxH', selector.simple-selectors($parsedItem))},
+	#{selector.append('.avatarWrapper', '[data-status="#{$statusType}"]')} .wrapper-1VLyxH {
 		box-shadow: 0 0 calc(var(--glow-intensity) * 10px) var(--rs-#{$statusType}-color);
 	}
 }
 
-.wrapper-3t9DeA {
+.wrapper-1VLyxH {
 	&[style*="80px"],
 	&[style*="120px"] {
 		border-width: 0px;
@@ -102,12 +102,12 @@ $statusMap: (
 
 // StatusEverywhere by Strencher
 #app-mount {
-	.wrapper-3t9DeA.StatusEverywhere-avatar-chatAvatar {
+	.wrapper-1VLyxH.StatusEverywhere-avatar-chatAvatar {
 		margin: 0;
 	}
 	.avatarWrapper {
 		border-radius: var(--rs-avatar-shape);
-		.pointerEvents-2zdfdO {
+		.pointerEvents-9SZWKj {
 			stroke: var(--status-color) !important;
 			&[width="30"] {
 				width: calc(100% - 9px) !important;

@@ -1,6 +1,6 @@
-#app-mount .layer-3QrUeG[aria-label="GUILD_SETTINGS"] {
+#app-mount .layer-86YKbF[aria-label="GUILD_SETTINGS"] {
 	// Roles
-	.page-3njELR {
+	.page-15bX59 {
 		position: relative;
 		width: 100%;
 		max-width: var(--settings-content-width);
@@ -8,20 +8,20 @@
 		max-height: var(--settings-max-height);
 	}
 
-	.sidebar-dLM-kh {
+	.sidebar-3K3Z4C {
 		height: var(--settings-max-height);
 	}
-	.titleContainer-2CXtJo {
+	.titleContainer-3fPic2 {
 		padding: 24px;
 		margin: 0;
 		border-bottom: 1px solid var(--border);
 		background: var(--bg-primary);
 		backdrop-filter: blur(var(--blur));
 	}
-	.list-I3aHXn {
+	.list-1AJFv_ {
 		padding: 73px 0 0 !important;
 		margin-top: -73px;
-		.item-PXvHYJ {
+		.item-3XjbnG {
 			border-radius: 0;
 			padding: 10px 24px;
 			height: auto;
@@ -30,7 +30,7 @@
 			&:hover {
 				background: var(--background-modifier-hover);
 			}
-			&.selected-3s45Ha {
+			&.selected-g-kMVV {
 				background: var(--background-modifier-active);
 				&::before {
 					content: "";
@@ -48,36 +48,36 @@
 
 
 
-	.scroller-3ZpLaI {
+	.scroller-39BnzZ {
 		scroll-padding-top: 132px !important;
 	}
-	.contentWidth-xLB44s {
+	.contentWidth-3aWel5 {
 		width: 100%;
 		max-width: unset;
 		padding: 24px 24px 0;
 	}
-	.headerContainer-1X2CD8 {
+	.headerContainer-7V7BBm {
 		right: 0;
-		.header-2mZ9Ov {
+		.header-JUTO-g {
 			margin-bottom: 0;
 		}
 	}
-	.header-2mZ9Ov {
+	.header-JUTO-g {
 		margin: -24px -24px 24px;
 		padding: 24px 24px 0;
 		background: var(--bg-primary);
 		backdrop-filter: blur(var(--blur));
 		border-bottom: 1px solid var(--border);
 	}
-	.tabBar-11f3uI {
+	.tabBar-3DfKkN {
 		border: none;
 		margin: 0;
 	}
-	.tabBarItem-2QyJ0U {
+	.tabBarItem-3nPo4Z {
 		border: none;
 		overflow: visible;
 		position: relative;
-		&.selected-3s45Ha {
+		&.selected-g-kMVV {
 			border-color: rgb(var(--accent));
 			color: rgb(var(--accent));
 			text-shadow: 0 0 calc(var(--glow-intensity) * 10px) rgb(var(--accent));
@@ -93,11 +93,11 @@
 			}
 		}
 	}
-	.searchContainer-3pUVEQ,
-	.searchContainer-2gy0Sr {
+	.searchContainer-2kJ46v,
+	.searchContainer-23hFke {
 		margin: 24px 0;
 	}
-	.container-cMG81i {
+	.container-2oNtJn {
 		background: var(--input-background);
 		border-radius: 6px;
 		border: 2px solid transparent;
@@ -111,13 +111,13 @@
 			box-shadow: 0 0 calc(var(--input-glow-intensity) * 15px) calc(var(--input-glow-intensity) * 2px) rgb(var(--accent), .25);
 		}
 	}
-	.container-1Saj_P .list-3a9fyp {
+	.container-3JOVER .list-38_JVu {
 		scroll-padding-top: 193px !important;
 	}
-	.content-3YMskv > div[style="height: 201px;"] {
+	.content-2a4AW9 > div[style="height: 201px;"] {
 		height: 193px !important;
 	}
-	.previewContainer-1KQDJS .theme-light {
+	.previewContainer-1xQAsw .theme-light {
 		display: none;
 	}
 }

@@ -1,11 +1,11 @@
 @use '../assets';
 
 #app-mount {
-	.wrapper-2jXpOf {
+	.wrapper-NhbLHG {
 		padding: 0;
 
-		&.modeUnread-1qO3K1 {
-			.unread-2lAfLh {
+		&.modeUnread-3Cxepe {
+			.unread-36eUEm {
 				box-shadow: 0 0 calc(var(--channel-glow-intensity) * 10px) calc(var(--channel-glow-intensity) * 2px) rgb(var(--unread-colour) / .3);
 				width: 2px;
 				height: 15px;
@@ -13,15 +13,15 @@
 				transform: translateY(-50%);
 				border-radius: 0;
 			}
-			.icon-1DeIlz,
-			.name-23GUGE {
+			.icon-2W8DHg,
+			.name-28HaxV {
 				color: #fff;
 				filter: drop-shadow(0 0 calc(var(--channel-glow-intensity) * 5px) rgb(var(--unread-colour) / .3)) drop-shadow(0 0 calc(var(--channel-glow-intensity) * 2px) rgb(var(--unread-colour) / .2));
 			}
 		}
 
-		&.modeSelected-346R90 {
-			.content-1x5b-n {
+		&.modeSelected-3DmyhH {
+			.content-1gYQeQ {
 				background: rgb(var(--accent), .1);
 				&::before {
 					content: "";
@@ -32,21 +32,21 @@
 					background: rgb(var(--accent));
 					box-shadow: 0 0 calc(var(--channel-glow-intensity) * 15px) calc(var(--channel-glow-intensity) * 5px) rgb(var(--accent), .2);
 				}
-				.icon-1DeIlz,
-				.name-23GUGE {
+				.icon-2W8DHg,
+				.name-28HaxV {
 					color: rgb(var(--accent));
 					filter: drop-shadow(0 0 calc(var(--channel-glow-intensity) * 5px) rgb(var(--accent)));
 				}
 			}
 		}
 	}
-	.content-1x5b-n {
+	.content-1gYQeQ {
 		margin: 0;
 		padding: 0 18px;
 		height: var(--channel-height);
 		border-radius: 0;
 	}
-	.mainContent-u_9PKf {
+	.mainContent-20q_Hp {
 		padding: 0;
 		&::before {
 			top: 0;
@@ -54,8 +54,8 @@
 		}
 	}
 
-	.wrapper-2jXpOf.typeThread-3ESTm- {
-		.content-1x5b-n {
+	.wrapper-NhbLHG.typeThread-2Aqh6X {
+		.content-1gYQeQ {
 			position: relative;
 			padding-left: 64px;
 			&::after {
@@ -68,19 +68,19 @@
 				background: var(--channels-default);
 			}
 		}
-		&.modeSelected-346R90 {
-			.content-1x5b-n::after {
+		&.modeSelected-3DmyhH {
+			.content-1gYQeQ::after {
 				background: rgb(var(--accent));
 			}
 		}
 	}
 
 	// Threads
-	.container-3JKcAb {
-		.spine--Wla_O {
+	.container-1Bj0eq {
+		.spine-29OFwR {
 			display: none;
 		}
-		.content-1x5b-n {
+		.content-1gYQeQ {
 			padding-left: 42px;
 		}
 	}

@@ -1,12 +1,12 @@
 #app-mount {
-	.userPopout-xaxa6l {
+	.userPopout-2j1gM4 {
 		box-shadow: none;
 		border: 1px solid var(--border);
 		background: var(--bg-primary);
 		backdrop-filter: blur(var(--blur));
 		border-radius: 6px;
 
-		.input-cIJ7To {
+		.input-2g-os5 {
 			border: 2px solid transparent;
 			background: rgb(255 255 255 / 0.05);
 			transition: var(--transition);
@@ -18,13 +18,12 @@
 			}
 			&:focus {
 				border-color: rgb(var(--accent));
-				box-shadow: 0 0 calc(var(--glow-intensity) * 10px) calc(var(--glow-intensity) * 2px)
-					rgb(var(--accent), 0.2);
+				box-shadow: 0 0 calc(var(--glow-intensity) * 10px) calc(var(--glow-intensity) * 2px) rgb(var(--accent), 0.2);
 			}
 		}
 	}
 
-	.bodyInnerWrapper-26fQXj {
+	.bodyInnerWrapper-2bQs1k {
 		background: transparent;
 	}
 
@@ -37,7 +36,7 @@
 		position: relative;
 		overflow: hidden;
 		&:hover {
-			.roleCircle-3xAZ1j {
+			.roleCircle-1EgnFN {
 				width: 100%;
 				height: 100%;
 				position: absolute;
@@ -46,12 +45,12 @@
 				border-radius: 0;
 				z-index: 2;
 			}
-			.roleName-32vpEy {
+			.roleName-2ZJJYR {
 				opacity: 0;
 			}
 		}
 	}
-	.roleCircle-3xAZ1j {
+	.roleCircle-1EgnFN {
 		margin: 0;
 		width: 0;
 		height: 0;
@@ -67,16 +66,16 @@
 			pointer-events: none;
 		}
 	}
-	.roleName-32vpEy {
+	.roleName-2ZJJYR {
 		z-index: 1;
 		margin: 0;
 	}
 
-	.note-1oo11U {
+	.note-Go5ZP2 {
 		margin: 0;
 	}
 
-	.footer-3UKYOU {
+	.footer-3naVBw {
 		background: transparent;
 	}
 }

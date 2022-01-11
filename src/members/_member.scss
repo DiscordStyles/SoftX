@@ -1,15 +1,16 @@
 #app-mount {
-	.member-3-YXUe {
+	.member-2gU6Ar {
 		max-width: 100%;
 		margin: 0;
 		padding: 0;
-		&.selected-aXhQR6 {
-			.layout-2DM8Md {
+		&.selected-1-Z6gm {
+			.layout-1qmrhw {
 				background: transparent;
 			}
-			.roleColor-rz2vM0 {
+			.roleColor-nA7BqX {
 				text-shadow: 0 0 calc(var(--members-glow-intensity) * 10px) currentColor;
 				overflow: visible;
+				filter: none;
 				&::before {
 					content: "";
 					position: absolute;
@@ -34,21 +35,21 @@
 					pointer-events: none;
 				}
 			}
-			.activityText-yGKsKm {
+			.activityText-1rR-8O {
 				color: #fff;
 				z-index: 1;
 			}
 		}
 	}
-	.layout-2DM8Md {
+	.layout-1qmrhw {
 		padding: 0 16px;
 		height: var(--member-height);
 		border-radius: 0;
-		.name-uJV0GL,
-		.content-3QAtGj {
+		.name-3Vmqxm,
+		.content-1U25dZ {
 			overflow: visible;
 		}
-		.avatar-3uk_u9 {
+		.avatar-6qzftW {
 			z-index: 1;
 		}
 	}

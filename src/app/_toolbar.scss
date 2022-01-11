@@ -1,7 +1,7 @@
 @use '../assets';
 
 #app-mount {
-	.container-1r6BKw {
+	.container-ZMc96U {
 		background: var(--bg-primary);
 		height: var(--toolbar-height);
 		padding-left: 24px;
@@ -52,16 +52,16 @@
 			d: path(assets.$path_inbox);
 		}
 	}
-	.toolbar-1t6TWx {
+	.toolbar-3_r2xA {
 		margin-left: 24px;
-		.iconWrapper-2OrFZ1 {
+		.iconWrapper-2awDjA {
 			order: 1;
 			margin: 0 24px 0 0;
-			.iconBadge-qZ4Ksk {
+			.iconBadge-3Mmg92 {
 				border-radius: 50%;
 				box-shadow: 0 0 calc(var(--glow-intensity) * 10px) calc(var(--glow-intensity) * 1px) hsl(var(--discord-red));
 			}
-			&.selected-1GqIat {
+			&.selected-29KTGM {
 				filter: drop-shadow(0 0 calc(var(--glow-intensity) * 8px) rgb(var(--accent), .35))
 								drop-shadow(0 0 calc(var(--glow-intensity) * 2px) rgb(var(--accent), .35));
 				svg path {
@@ -76,19 +76,19 @@
 			margin-right: 24px;
 		}
 	}
-	.children-19S4PO {
+	.children-3xh0VB {
 		height: 100%;
-		.iconWrapper-2OrFZ1 {
+		.iconWrapper-2awDjA {
 			grid-area: icon;
 			margin-left: 0;
 		}
-		.title-29uC1r {
+		.title-17SveM {
 			margin-right: 24px;
 		}
-		.topic-TCb_qw {
+		.topic-11NuQZ {
 			grid-area: bottom;
 		}
-		.status-1XNdyw {
+		.status-12NUUC {
 			margin-right: 0;
 			&::after {
 				content: attr(aria-label);
@@ -101,7 +101,7 @@
 				height: 16px;
 			}
 		}
-		.divider-3FBTu8 {
+		.divider-q3P9HC {
 			display: none;
 		}
 
@@ -110,9 +110,9 @@
 		}
 	}
 
-	.tabBar-ZmDY9v {
+	.tabBar-ra-EuL {
 		height: 100%;
-		.item-3HknzM {
+		.item-3mHhwr {
 			border-radius: 0;
 			background: transparent !important;
 			overflow: visible;
@@ -122,7 +122,7 @@
 				background: var(--background-modifier-hover) !important;
 				color: var(--interactive-hover) !important;
 			}
-			&.selected-3s45Ha,
+			&.selected-g-kMVV,
 			&[aria-selected="true"] {
 				background: var(--background-modifier-active) !important;
 				color: var(--interactive-active) !important;
@@ -141,7 +141,7 @@
 	}
 
 	// Open thread sidebar
-	.threadSidebarOpen-vdkwIh .container-1r6BKw {
+	.threadSidebarOpen-1LSXvU .container-ZMc96U {
 		border-right: 1px solid var(--border);
 	}
 }

@@ -1,4 +1,4 @@
-#app-mount .layer-3QrUeG[aria-label*="SETTINGS"] {
+#app-mount .layer-86YKbF[aria-label*="SETTINGS"] {
 	background: var(--bg-primary);
 	backdrop-filter: blur(var(--backdrop-blur));
 	top: 0;
@@ -12,7 +12,7 @@
 	justify-content: center;
 	z-index: 1;
 
-	.standardSidebarView-3F1I7i {
+	.standardSidebarView-E9Pc3j {
 		max-width: var(--settings-max-width);
 		max-height: var(--settings-max-height);
 		width: 90vw;
@@ -22,14 +22,14 @@
 		border: 1px solid var(--border);
 		border-radius: 6px;
 	}
-	.contentRegion-3nDuYy {
+	.contentRegion-3HkfJJ {
 		flex: 1 1 auto;
 		position: unset;
 		height: 100%;
 		// width: calc(90vw - 300px);
 	}
 
-	.toolsContainer-1edPuj {
+	.toolsContainer-25FL6V {
 		padding-top: 0;
 		top: 0;
 		left: 0;
@@ -39,15 +39,15 @@
 		z-index: -1;
 		opacity: 0;
 	}
-	.tools-3-3s-N,
-	.container-1sFeqf {
+	.tools-kIrEGr,
+	.container-O54IuJ {
 		width: 100%;
 		height: 100%;
 	}
-	.keybind-KpFkfr {
+	.keybind-13vtq8 {
 		display: none;
 	}
-	.closeButton-1tv5uR {
+	.closeButton-PCZcma {
 		background: transparent;
 		border: none;
 		border-radius: 0;

@@ -1,5 +1,5 @@
 #app-mount {
-	.select-2fjwPw {
+	.select-1Ia3hD {
 		border: 2px solid transparent;
 		background: var(--input-background);
 		transition: var(--transition);
@@ -7,22 +7,22 @@
 		&:hover {
 			border-color: var(--input-border);
 		}
-		&.open-kZ53_U {
+		&.open-1FRZsK {
 			border-color: rgb(var(--accent));
 			box-shadow: 0 0 calc(var(--input-glow-intensity) * 12px) calc(var(--input-glow-intensity) * 2px) rgb(var(--accent), .25);
 		}
 	}
 
-	.popout-VcNcHB {
+	.popout-1KHNAq {
 		border: 1px solid var(--border);
 		border-radius: 0 0 6px 6px;
 		background: var(--bg-primary);
 		backdrop-filter: blur(var(--blur));
 	}
-	.option-3KoAJB {
+	.option-2eIyOn {
 		position: relative;
 		padding: 12px 18px;
-		.selectedIcon-3uS11H {
+		.selectedIcon-19TbzU {
 			color: rgb(var(--accent));
 			filter: drop-shadow(0 0 calc(var(--glow-intensity) * 5px) rgb(var(--accent), .35));
 		}
@@ -30,7 +30,7 @@
 
 		&:hover,
 		&:focus,
-		&.focused-1T6PE5 {
+		&.focused-ODgjnC {
 			background: var(--background-modifier-hover);
 		}
 		&[aria-selected="true"] {
@@ -49,7 +49,7 @@
 			}
 		}
 	}
-	.deviceOption-o4yLlI {
+	.deviceOption-MlVM0P {
 		overflow: visible;
 	}
 }

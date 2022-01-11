@@ -1,4 +1,4 @@
-#app-mount .menu-3sdvDG {
+#app-mount .menu-1QACrS {
 	background: var(--bg-primary);
 	border: 1px solid var(--border);
 	box-shadow: none;
@@ -14,42 +14,42 @@
 		backdrop-filter: blur(5px);
 		z-index: -1;
 	}
-	.scroller-3BxosC {
+	.scroller-1bVxF5 {
 		padding: 0;
 	}
 
 	[role="group"] {
-		&:first-child > .item-1tOPte:first-child {
+		&:first-child > .item-1OdjEX:first-child {
 			border-radius: 6px 6px 0 0;
 		}
-		&:nth-last-child(2) > .item-1tOPte:last-child {
+		&:nth-last-child(2) > .item-1OdjEX:last-child {
 			border-radius: 0 0 6px 6px;
 		}
 	}
 
-	.separator-2I32lJ {
+	.separator-1So4YB {
 		margin: 0;
 		border-color: var(--border);
 	}
 
-	.item-1tOPte {
+	.item-1OdjEX {
 		margin: 0;
 		border-radius: 0;
 		padding: 10px 14px;
-		&.focused-3afm-j {
+		&.focused-3qFvc8 {
 			background: var(--background-modifier-hover);
 		}
-		&.colorDanger-2qLCe1.focused-3afm-j {
+		&.colorDanger-3n-KnP.focused-3qFvc8 {
 			background: hsl(var(--discord-red));
 		}
 	}
 
-	.submenuPaddingContainer-fiOCHc {
+	.submenuPaddingContainer-_k62dJ {
 		margin: 0 -4px;
 	}
 
-	.hideInteraction-1iHO1O {
-		.labelContainer-1BLJti {
+	.hideInteraction-2jPGL_ {
+		.hideInteraction-2jPGL_ {
 			padding: 0 0 8px;
 		}
 	}

@@ -1,6 +1,6 @@
 #app-mount {
-	.input-cIJ7To:not(.multiInput-2AiDV2):not(.multiInputField-3K361B),
-	.input-cIJ7To.multiInput-2AiDV2 {
+	.input-2g-os5:not(.multiInput-1VARjC):not(.multiInputField-1zyopx),
+	.input-2g-os5.multiInput-1VARjC {
 		padding: 10px 16px;
 		height: auto;
 		border: 2px solid transparent;
@@ -17,19 +17,17 @@
 			box-shadow: 0 0 calc(var(--input-glow-intensity) * 12px) calc(var(--input-glow-intensity) * 2px) rgb(var(--accent), .25);
 		}
 	}
-	.multiInputLast-33BbRU::before {
+	.multiInputLast-35zVz0::before {
 		content: none;
 	}
 
 	// Icon prefix
-	.inputWrapper-24Isu7 .inputPrefix-1gzNds {
+	.inputWrapper-BB4B- .inputPrefix-1HHwWv {
 		top: 14px;
 		left: 12px;
 		pointer-events: none;
-		& + .input-cIJ7To:not(.multiInput-2AiDV2):not(.multiInputField-3K361B) {
+		& + .input-2g-os5:not(.multiInput-1VARjC):not(.multiInputField-1zyopx) {
 			padding-left: 38px;
 		}
 	}
 }
-
-// inputWrapper-31_8H8

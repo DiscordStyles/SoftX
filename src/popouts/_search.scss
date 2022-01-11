@@ -2,18 +2,18 @@
 
 #app-mount {
 	// Search
-	.search-2oPWTC {
+	.search-1FM8Qc {
 		order: -1;
-		&:not(.focused-31_ccS) * {
+		&:not(.focused-8aNhVB) * {
 			cursor: pointer;
 		}
-		&.open-6_Y_aH {
-			.searchBar-3dMhjb {
+		&.open-3y3yI_ {
+			.searchBar-zdmu7v {
 				border-color: rgb(var(--accent));
 				box-shadow: 0 0 calc(var(--glow-intensity) * 20px) calc(var(--glow-intensity) * 5px) rgb(var(--accent), .25);
 			}
 		}
-		&.focused-31_ccS {
+		&.focused-8aNhVB {
 			position: fixed;
 			left: 50%;
 			top: 20%;
@@ -23,7 +23,7 @@
 			align-items: center;
 			justify-content: center;
 			border-radius: 12px;
-			.searchBar-3dMhjb {
+			.searchBar-zdmu7v {
 				background: var(--input-background);
 				height: 64px;
 				width: 500px;
@@ -41,11 +41,11 @@
 			.public-DraftEditorPlaceholder-root {
 				font-size: 24px;
 			}
-			.icon-38sknP {
+			.icon-1nNws_ {
 				width: 56px;
 			}
-			.iconContainer-O4O2CN,
-			.icon-3cZ1F_ {
+			.iconContainer-1RqWJj,
+			.icon-18rqoe {
 				width: 24px;
 				height: 24px;
 			}
@@ -63,13 +63,13 @@
 			}
 		}
 	}
-	.search-36MZv- {
+	.search-39IXmY {
 		margin: 0 24px 0 0;
-		.icon-38sknP {
+		.icon-1nNws_ {
 			height: 100%;
 		}
 	}
-	.searchBar-3dMhjb {
+	.searchBar-zdmu7v {
 		background: rgb(255 255 255 / .05);
 		border: 2px solid transparent;
 		padding: 0;
@@ -102,7 +102,7 @@
 	}
 
 	// Suggestions
-	.container-3ayLPN {
+	.container-2McqkF {
 		position: fixed;
 		left: 50%;
 		top: calc(20% + 76px);
@@ -116,20 +116,20 @@
 		max-height: 60vh;
 		overflow: hidden auto;
 	}
-	.queryContainer-RKFJW- {
+	.queryContainer-ZunrLZ {
 		background: transparent;
 	}
-	.resultsGroup-r_nuzN {
+	.resultsGroup-1BPR25 {
 		margin: 0;
 		padding: 0;
 		&::before {
 			content: none;
 		}
 	}
-	.header-2N-gMV {
+	.header-3A13BX {
 		padding: 14px 12px;
 	}
-	.option-96V44q {
+	.option-2KkUJO {
 		margin: 0;
 		border-radius: 0;
 		padding: 4px 12px;
@@ -145,8 +145,8 @@
 
 // Animations
 .full-motion {
-	.search-2oPWTC.focused-31_ccS::before,
-	.container-3ayLPN {
+	.search-1FM8Qc.focused-8aNhVB::before,
+	.container-2McqkF {
 		animation: fadeIn .2s ease forwards;
 	}
 }
@@ -154,24 +154,24 @@
 // Responsive stuff
 @media only screen and (max-width: 1200px) {
 	#app-mount {
-		.search-2oPWTC:not(.focused-31_ccS) {
+		.search-1FM8Qc:not(.focused-8aNhVB) {
 			height: 24px;
-			.searchBar-3dMhjb {
+			.searchBar-zdmu7v {
 				background: transparent;
 				border: none;
 				width: 24px;
 				height: 24px;
 			}
-			.iconContainer-O4O2CN {
+			.iconContainer-1RqWJj {
 				width: 18px;
 				height: 18px;
 			}
-			.icon-3cZ1F_ {
+			.icon-18rqoe {
 				color: var(--interactive-normal);
 				width: 20px;
 				height: 20px;
 			}
-			.search-36MZv- .icon-38sknP {
+			.search-39IXmY .icon-1nNws_ {
 				svg {
 					width: 100%;
 					height: 100%;
