@@ -2051,7 +2051,7 @@ html.theme-light .container-YkUktl {
 #app-mount .bodyInnerWrapper-2bQs1k {
   background: transparent;
 }
-#app-mount .role-2irmRk {
+#app-mount .role-2TIOKu {
   border: 1px solid var(--border) !important;
   height: auto;
   padding: 8px 10px;
@@ -2060,7 +2060,7 @@ html.theme-light .container-YkUktl {
   position: relative;
   overflow: hidden;
 }
-#app-mount .role-2irmRk:hover .roleCircle-1EgnFN {
+#app-mount .role-2TIOKu:hover .roleCircle-1EgnFN {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -2069,13 +2069,14 @@ html.theme-light .container-YkUktl {
   border-radius: 0;
   z-index: 2;
 }
-#app-mount .role-2irmRk:hover .roleName-2ZJJYR {
+#app-mount .role-2TIOKu:hover .roleName-2ZJJYR {
   opacity: 0;
 }
 #app-mount .roleCircle-1EgnFN {
   margin: 0;
   width: 0;
   height: 0;
+  filter: none;
 }
 #app-mount .roleCircle-1EgnFN::before {
   content: "";
