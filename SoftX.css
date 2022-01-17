@@ -1,5 +1,5 @@
 :root {
-  --softx-version: "1.0.7";
+  --softx-version: "1.0.8";
   --hue: 0deg;
   --saturation: 0%;
   --lightness: 10%;
@@ -1709,12 +1709,13 @@ html.theme-light .container-YkUktl {
   order: 0;
 }
 
-#app-mount .threadSidebar-1o3BTy {
+#app-mount .container-3XgAHv {
   border-radius: 0;
   margin: 0;
   background: var(--bg-primary);
+  border-left: 1px solid var(--border);
 }
-#app-mount .chat-3JZdy8::before {
+#app-mount .chat-1-OBC7::before {
   content: none;
 }
 
@@ -3790,9 +3791,11 @@ html.theme-light .container-YkUktl {
 }
 
 #app-mount .container-6sXIoE {
-  border-color: var(--border);
+  border: none;
+  border-top: 1px solid var(--border);
   margin-bottom: 0;
   padding: 16px;
+  order: -1;
 }
 #app-mount .container-6sXIoE .timeline-UWmgAx {
   margin: 16px 0 0 0;
