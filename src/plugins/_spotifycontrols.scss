@@ -1,8 +1,10 @@
 #app-mount {
 	.container-6sXIoE {
-		border-color: var(--border);
+		border: none;
+		border-top: 1px solid var(--border);
 		margin-bottom: 0;
 		padding: 16px;
+		order: -1;
 
 		.timeline-UWmgAx {
 			margin: 16px 0 0 0;
