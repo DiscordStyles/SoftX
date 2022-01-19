@@ -1,5 +1,5 @@
 :root {
-  --softx-version: "1.0.8";
+  --softx-version: "1.0.9";
   --hue: 0deg;
   --saturation: 0%;
   --lightness: 10%;
@@ -30,6 +30,8 @@
   --server-spacing: 16px;
   --guild-scrollbar: none;
   --unread-colour: 255 255 255;
+  --server-unread-colour: var(--unread-colour);
+  --server-hover-colour: 255 255 255;
   --backdrop-background: var(--bg-primary);
   --backdrop-blur: 10px;
   --channel-height: 40px;
@@ -652,94 +654,95 @@ html.theme-light .container-YkUktl {
   margin: 0;
   border-radius: var(--server-roundness, 50%);
   background: transparent;
-  border: 2px solid #fff;
+  border: 2px solid transparent;
+  box-shadow: none;
   transform: none !important;
   transition: var(--transition);
   transition-property: box-shadow;
 }
 #app-mount [class*=pill] span[style*="height: 0"] {
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--unread-colour)/0.25);
-  border-color: rgb(var(--unread-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour)/0.25);
+  border-color: rgb(var(--server-unread-colour));
 }
 #app-mount [class*=pill] span[style*="height: 1"] {
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--unread-colour)/0.25);
-  border-color: rgb(var(--unread-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour)/0.25);
+  border-color: rgb(var(--server-unread-colour));
 }
 #app-mount [class*=pill] span[style*="height: 2"] {
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--unread-colour)/0.25);
-  border-color: rgb(var(--unread-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour)/0.25);
+  border-color: rgb(var(--server-unread-colour));
 }
 #app-mount [class*=pill] span[style*="height: 3"] {
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--unread-colour)/0.25);
-  border-color: rgb(var(--unread-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour)/0.25);
+  border-color: rgb(var(--server-unread-colour));
 }
 #app-mount [class*=pill] span[style*="height: 4"] {
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--unread-colour)/0.25);
-  border-color: rgb(var(--unread-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour)/0.25);
+  border-color: rgb(var(--server-unread-colour));
 }
 #app-mount [class*=pill] span[style*="height: 5"] {
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--unread-colour)/0.25);
-  border-color: rgb(var(--unread-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour)/0.25);
+  border-color: rgb(var(--server-unread-colour));
 }
 #app-mount [class*=pill] span[style*="height: 6"] {
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--unread-colour)/0.25);
-  border-color: rgb(var(--unread-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour)/0.25);
+  border-color: rgb(var(--server-unread-colour));
 }
 #app-mount [class*=pill] span[style*="height: 7"] {
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--unread-colour)/0.25);
-  border-color: rgb(var(--unread-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour)/0.25);
+  border-color: rgb(var(--server-unread-colour));
 }
 #app-mount [class*=pill] span[style*="height: 8"] {
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--unread-colour)/0.25);
-  border-color: rgb(var(--unread-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour)/0.25);
+  border-color: rgb(var(--server-unread-colour));
 }
 #app-mount [class*=pill] span[style*="height: 9"] {
-  border-color: #fff;
-  box-shadow: none;
+  border-color: rgb(var(--server-hover-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour)/0.25);
 }
 #app-mount [class*=pill] span[style*="height: 10"] {
-  border-color: #fff;
-  box-shadow: none;
+  border-color: rgb(var(--server-hover-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour)/0.25);
 }
 #app-mount [class*=pill] span[style*="height: 11"] {
-  border-color: #fff;
-  box-shadow: none;
+  border-color: rgb(var(--server-hover-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour)/0.25);
 }
 #app-mount [class*=pill] span[style*="height: 12"] {
-  border-color: #fff;
-  box-shadow: none;
+  border-color: rgb(var(--server-hover-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour)/0.25);
 }
 #app-mount [class*=pill] span[style*="height: 13"] {
-  border-color: #fff;
-  box-shadow: none;
+  border-color: rgb(var(--server-hover-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour)/0.25);
 }
 #app-mount [class*=pill] span[style*="height: 14"] {
-  border-color: #fff;
-  box-shadow: none;
+  border-color: rgb(var(--server-hover-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour)/0.25);
 }
 #app-mount [class*=pill] span[style*="height: 15"] {
-  border-color: #fff;
-  box-shadow: none;
+  border-color: rgb(var(--server-hover-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour)/0.25);
 }
 #app-mount [class*=pill] span[style*="height: 16"] {
-  border-color: #fff;
-  box-shadow: none;
+  border-color: rgb(var(--server-hover-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour)/0.25);
 }
 #app-mount [class*=pill] span[style*="height: 17"] {
-  border-color: #fff;
-  box-shadow: none;
+  border-color: rgb(var(--server-hover-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour)/0.25);
 }
 #app-mount [class*=pill] span[style*="height: 18"] {
-  border-color: #fff;
-  box-shadow: none;
+  border-color: rgb(var(--server-hover-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour)/0.25);
 }
 #app-mount [class*=pill] span[style*="height: 19"] {
-  border-color: #fff;
-  box-shadow: none;
+  border-color: rgb(var(--server-hover-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour)/0.25);
 }
 #app-mount [class*=pill] span[style*="height: 20"] {
-  border-color: #fff;
-  box-shadow: none;
+  border-color: rgb(var(--server-hover-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour)/0.25);
 }
 #app-mount [class*=pill] span[style*="height: 21"] {
   transform: scale(1) !important;
@@ -1495,6 +1498,10 @@ html.theme-light .container-YkUktl {
   transition: var(--transition);
   transition-property: border-color, box-shadow;
 }
+#app-mount .channelTextArea-1FufC0 .divider-2rZFJK {
+  border-top: 2px solid rgba(255, 255, 255, 0.05);
+  margin: 0 0 0 12px;
+}
 #app-mount .channelTextArea-1FufC0:hover {
   border-color: rgba(255, 255, 255, 0.05);
 }
@@ -1543,6 +1550,10 @@ html.theme-light .container-YkUktl {
 }
 #app-mount .buttons-uaqb-5 > button[aria-label]:hover svg {
   background: var(--interactive-normal);
+}
+#app-mount .upload-3GTSF9 {
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 6px;
 }
 #app-mount .attachedBars-2BCP3l {
   background: transparent;
