@@ -76,6 +76,12 @@
 		border-radius: 6px;
 		transition: var(--transition);
 		transition-property: border-color, box-shadow;
+
+		.divider-2rZFJK {
+			border-top: 2px solid rgb(255 255 255 / .05);
+			margin: 0 0 0 12px;
+		}
+		
 		&:hover {
 			border-color: rgb(255 255 255 / .05);
 		}
@@ -128,6 +134,11 @@
 				background: var(--interactive-normal);
 			}
 		}
+	}
+
+	.upload-3GTSF9 {
+		background: rgb(255 255 255 / .02);
+		border-radius: 6px;
 	}
 
 	// Replying

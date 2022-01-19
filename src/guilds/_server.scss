@@ -65,22 +65,23 @@
 			margin: 0;
 			border-radius: var(--server-roundness, 50%);
 			background: transparent;
-			border: 2px solid #fff;
+			border: 2px solid transparent;
+			box-shadow: none;
 			transform: none !important;
 			transition: var(--transition);
 			transition-property: box-shadow;
 		}
 		@for $i from 0 through 8 {
 			span[style*="height: #{$i}"] {
-				box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--unread-colour) / .25);
-				border-color: rgb(var(--unread-colour));
+				box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour) / .25);
+				border-color: rgb(var(--server-unread-colour));
 			}
 		}
 		// Hovered
 		@for $i from 9 through 20 {
 			span[style*="height: #{$i}"] {
-				border-color: #fff;
-				box-shadow: none;
+				border-color: rgb(var(--server-hover-colour));
+				box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour) / .25);
 			}
 		}
 		// Selected
