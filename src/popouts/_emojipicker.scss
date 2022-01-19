@@ -18,6 +18,9 @@
 			border-left: 1px solid var(--border);
 			box-shadow: none;
 		}
+	}
+	.contentWrapper-3vHNP2,
+	.emojiPicker-6YCk8a {
 		[class^="searchBar"],
 		.container-1SX9VC {
 			background: var(--input-background);
@@ -47,6 +50,21 @@
 			}
 		}
 	}
+	.wrapper-3u51GQ:not(.emojiPickerInExpressionPicker-2nOwH8) .emojiPicker-6YCk8a {
+		background: var(--bg-primary);
+		border: 1px solid var(--border);
+		border-radius: 6px;
+		box-shadow: var(--shadow-lg);
+
+		.emojiListRowMediumSize-2_-xbz {
+			grid-template-columns: repeat(auto-fill, 40px);
+		}
+
+		& + .wrapper-22rqw6 {
+			top: 57px;
+		}
+	}
+	
 
 	.nav-1zWVQw {
 		position: absolute;
@@ -201,6 +219,9 @@
 		background: var(--bg-primary);
 		border-bottom: 1px solid var(--border);
 		backdrop-filter: blur(var(--blur));
+	}
+	.emojiItem-277VFM.emojiItemSelected-2Lg50V {
+		background: rgb(255 255 255 / .1);
 	}
 
 	.inspector-DFKXwB {
