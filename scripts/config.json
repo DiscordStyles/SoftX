@@ -16,6 +16,10 @@
 		{
 			"target": ["src", "RadialGlow.scss"],
 			"output": ["dist", "RadialGlow.css"]
+		},
+		{
+			"target": ["src", "VerticalUserArea.scss"],
+			"output": ["dist", "VerticalUserArea.css"]
 		}
 	]
 }

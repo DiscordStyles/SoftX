@@ -1,0 +1,37 @@
+#app-mount {
+	.guilds-2JjMmN .tree-3agP2X {
+		outline: none !important;
+		margin-bottom: var(--user-area);
+	}
+
+	.panels-3wFtMD > .container-YkUktl {
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		flex-direction: column-reverse;
+		padding: 0 0 24px;
+		width: var(--guilds-width);
+		height: auto;
+		& > [style="flex: 0 1 auto;"] {
+			flex-direction: column;
+			width: 100%;
+			.button-12Fmur {
+				width: 100%;
+				border-radius: 0;
+				padding: 12px 0;
+				height: auto;
+			}
+		}
+		.avatarWrapper-1B9FTW {
+			margin-right: 0;
+			margin-top: 12px;
+		}
+		.avatar-1EWyVD {
+			width: 42px !important;
+			height: 42px !important;
+		}
+		& > .nameTag-sc-gpq {
+			display: none;
+		}
+	}
+}
