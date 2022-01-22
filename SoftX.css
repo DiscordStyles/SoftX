@@ -916,9 +916,6 @@ html.theme-light .container-YkUktl {
   opacity: 0;
   visibility: hidden;
 }
-#app-mount .guilds-2JjMmN .unreadMentionsIndicatorBottom-3RJMnQ {
-  bottom: calc(var(--user-area) + 10px);
-}
 
 #app-mount .sidebar-1tnWFu {
   border-radius: 0;

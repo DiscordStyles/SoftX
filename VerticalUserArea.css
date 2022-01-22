@@ -2,6 +2,9 @@
   outline: none !important;
   margin-bottom: var(--user-area, 220px);
 }
+#app-mount .guilds-2JjMmN .unreadMentionsIndicatorBottom-3RJMnQ {
+  bottom: calc(var(--user-area) + 10px);
+}
 #app-mount .panels-3wFtMD > .container-YkUktl {
   position: fixed;
   bottom: 0;
