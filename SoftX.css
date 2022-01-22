@@ -1,5 +1,5 @@
 :root {
-  --softx-version: "1.0.10";
+  --softx-version: "1.1.0";
   --hue: 0deg;
   --saturation: 0%;
   --lightness: 10%;
@@ -620,10 +620,6 @@ html.theme-light .container-YkUktl {
 #app-mount .guilds-2JjMmN .scroller-3X7KbA:hover::-webkit-scrollbar {
   display: var(--guild-scrollbar);
 }
-#app-mount .guilds-2JjMmN .tree-3agP2X {
-  outline: none !important;
-  margin-bottom: var(--user-area);
-}
 #app-mount .guilds-2JjMmN.hidden-10MsGQ {
   display: none;
 }
@@ -908,19 +904,19 @@ html.theme-light .container-YkUktl {
   box-shadow: 0 0 10px 3px hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%, 0.5);
 }
 
-#app-mount [class*=unreadMentionsIndicator] {
+#app-mount .guilds-2JjMmN [class*=unreadMentionsIndicator] {
   width: var(--guilds-width);
 }
-#app-mount .bar-2eAyLE {
+#app-mount .guilds-2JjMmN .bar-2eAyLE {
   box-shadow: 0 0 calc(var(--glow-intensity) * 10px) hsl(var(--discord-red));
   opacity: 1;
   visibility: visible;
 }
-#app-mount .bar-2eAyLE[aria-hidden=true] {
+#app-mount .guilds-2JjMmN .bar-2eAyLE[aria-hidden=true] {
   opacity: 0;
   visibility: hidden;
 }
-#app-mount .unreadMentionsIndicatorBottom-3RJMnQ {
+#app-mount .guilds-2JjMmN .unreadMentionsIndicatorBottom-3RJMnQ {
   bottom: calc(var(--user-area) + 10px);
 }
 
@@ -1193,35 +1189,10 @@ html.theme-light .container-YkUktl {
   padding: 10px 16px;
   border-bottom: 1px solid var(--border);
 }
-#app-mount .panels-3wFtMD > .container-YkUktl {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  flex-direction: column-reverse;
-  padding: 0 0 24px;
-  width: var(--guilds-width);
-  height: auto;
-}
-#app-mount .panels-3wFtMD > .container-YkUktl > [style="flex: 0 1 auto;"] {
-  flex-direction: column;
-  width: 100%;
-}
-#app-mount .panels-3wFtMD > .container-YkUktl > [style="flex: 0 1 auto;"] .button-12Fmur {
-  width: 100%;
-  border-radius: 0;
-  padding: 12px 0;
-  height: auto;
-}
-#app-mount .panels-3wFtMD > .container-YkUktl .avatarWrapper-1B9FTW {
-  margin-right: 0;
-  margin-top: 12px;
-}
-#app-mount .panels-3wFtMD > .container-YkUktl .avatar-1EWyVD {
-  width: 42px !important;
-  height: 42px !important;
-}
-#app-mount .panels-3wFtMD > .container-YkUktl > .nameTag-sc-gpq {
-  display: none;
+#app-mount .container-YkUktl {
+  padding: 0 16px;
+  height: 64px;
+  border-top: 1px solid var(--border);
 }
 
 #app-mount .list-2x9Cl9 {
@@ -1281,8 +1252,13 @@ html.theme-light .container-YkUktl {
   pointer-events: none;
 }
 
-#app-mount .unread-2wipsx {
-  background: hsl(var(--discord-red));
+#app-mount .sidebar-1tnWFu .unread-XRkyaQ {
+  overflow: visible;
+}
+#app-mount .sidebar-1tnWFu .unread-2wipsx {
+  background: white;
+  color: #000;
+  box-shadow: 0 0 calc(var(--glow-intensity) * 10px) white;
 }
 
 #app-mount .container-3fNISf {
@@ -2616,16 +2592,16 @@ html.theme-light .container-YkUktl {
 #app-mount .container-2cd8Mz {
   background: transparent;
 }
+#app-mount .container-2cd8Mz .title-338goq {
+  margin: 0;
+  padding: 16px;
+}
 #app-mount .peopleColumn-1wMU14 {
   background: var(--bg-secondary);
   border-right: 1px solid var(--border);
 }
 #app-mount .peopleList-2VBrVI {
   margin: 0;
-}
-#app-mount .title-338goq {
-  margin: 0;
-  padding: 16px;
 }
 #app-mount .peopleListItem-u6dGxF {
   margin: 0;
