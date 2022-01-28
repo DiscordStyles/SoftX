@@ -1,5 +1,5 @@
 :root {
-  --softx-version: "1.1.0";
+  --softx-version: "1.1.1";
   --hue: 0deg;
   --saturation: 0%;
   --lightness: 10%;
@@ -3367,12 +3367,15 @@ html.theme-light .container-YkUktl {
 #app-mount .connectedAccount-1xKpli img[src*=f3224f560c8f5974355596a4f7e9ce19] + div {
   --connection-colour: 255 69 0;
 }
+#app-mount .connectedAccount-1xKpli img[src*="1fa6585cbb8c0fe21188e26d19fc6609"] + div {
+  --connection-colour: 55 178 56;
+}
 #app-mount .connectedAccountName-j0meX4 {
   line-height: normal;
+  max-width: 140px;
 }
 #app-mount .connectedAccountNameInner-t24B11 {
   --connection-colour: var(--accent);
-  overflow: visible;
 }
 #app-mount .connectedAccountNameInner-t24B11::before {
   content: "";
