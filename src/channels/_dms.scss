@@ -25,29 +25,35 @@
 		max-width: unset;
 		margin: 0;
 		padding: 0;
-		.layout-1qmrhw {
+		border-radius: 0;
+		.layout-1LjVue {
 			padding: 0 18px;
 			height: var(--dm-height);
+			border-radius: 0;
+		}
+		.content-66wMin {
+			overflow: visible;
+		}
+		.name-2m3Cms {
+			overflow: visible;
 		}
 
-		&.selected-1-Z6gm {
+		.selected-3veCBZ {
 			color: rgb(var(--accent));
-			.layout-1qmrhw {
-				background: rgb(var(--accent), .2);
-				&::before {
-					content: "";
-					position: absolute;
-					left: 0;
-					height: 100%;
-					width: 2px;
-					background: rgb(var(--accent));
-					box-shadow: 0 0 calc(var(--glow-intensity) * 15px) calc(var(--glow-intensity) * 5px) rgb(var(--accent), .2);
-				}
+			background: rgb(var(--accent), .2);
+			&::before {
+				content: "";
+				position: absolute;
+				left: 0;
+				height: 100%;
+				width: 2px;
+				background: rgb(var(--accent));
+				box-shadow: 0 0 calc(var(--glow-intensity) * 15px) calc(var(--glow-intensity) * 5px) rgb(var(--accent), .2);
 			}
-			.nameAndDecorators-3ERwy2 {
+			.name-2m3Cms {
 				filter: drop-shadow(0 0 calc(var(--glow-intensity) * 5px) currentColor);
 			}
-			.subText-OGOWMj {
+			.subText-3Sk0zy {
 				color: #fff;
 			}
 		}
