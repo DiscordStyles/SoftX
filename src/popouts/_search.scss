@@ -2,18 +2,22 @@
 
 #app-mount {
 	// Search
-	.search-1FM8Qc {
+	.search-2Mwzzq {
 		order: -1;
-		&:not(.focused-8aNhVB) * {
+		
+		.searchBar-jGtisZ {
+			width: 250px;
+			transition: none;
+		}
+
+		&:not(.focused-1xh-wG) * {
 			cursor: pointer;
 		}
-		&.open-3y3yI_ {
-			.searchBar-zdmu7v {
-				border-color: rgb(var(--accent));
-				box-shadow: 0 0 calc(var(--glow-intensity) * 20px) calc(var(--glow-intensity) * 5px) rgb(var(--accent), .25);
-			}
+		&.open-1F8u2c .searchBar-jGtisZ {
+			border-color: rgb(var(--accent));
+			box-shadow: 0 0 calc(var(--glow-intensity) * 20px) calc(var(--glow-intensity) * 5px) rgb(var(--accent), .25);
 		}
-		&.focused-8aNhVB {
+		&.focused-1xh-wG {
 			position: fixed;
 			left: 50%;
 			top: 20%;
@@ -23,7 +27,7 @@
 			align-items: center;
 			justify-content: center;
 			border-radius: 12px;
-			.searchBar-zdmu7v {
+			.searchBar-jGtisZ {
 				background: var(--input-background);
 				height: 64px;
 				width: 500px;
@@ -41,7 +45,7 @@
 			.public-DraftEditorPlaceholder-root {
 				font-size: 24px;
 			}
-			.icon-1nNws_ {
+			.icon-tZMHgY {
 				width: 56px;
 			}
 			.iconContainer-1RqWJj,
@@ -65,11 +69,11 @@
 	}
 	.search-39IXmY {
 		margin: 0 24px 0 0;
-		.icon-1nNws_ {
+		.icon-tZMHgY {
 			height: 100%;
 		}
 	}
-	.searchBar-zdmu7v {
+	.searchBar-jGtisZ {
 		background: rgb(255 255 255 / .05);
 		border: 2px solid transparent;
 		padding: 0;
@@ -119,33 +123,40 @@
 	.queryContainer-ZunrLZ {
 		background: transparent;
 	}
-	.resultsGroup-1BPR25 {
+	.resultsGroup-cfY57t {
 		margin: 0;
 		padding: 0;
 		&::before {
 			content: none;
 		}
 	}
-	.header-3A13BX {
+	.header-1BR0Ro {
 		padding: 14px 12px;
 	}
-	.option-2KkUJO {
+	.option-ayUoaq {
 		margin: 0;
 		border-radius: 0;
 		padding: 4px 12px;
+		line-height: normal;
+		&::before {
+			height: 100%;
+		}
 		&::after {
 			background: linear-gradient(90deg, transparent, var(--bg-primary));
 		}
 		
-		&.selected-rZcOL- {
+		&[aria-selected="true"] {
 			background: rgb(255 255 255 / .05);
 		}
+	}
+	.plusIcon-1RVszG {
+		top: 12px;
 	}
 }
 
 // Animations
 .full-motion {
-	.search-1FM8Qc.focused-8aNhVB::before,
+	.search-1FM8Qc.focused-1xh-wG::before,
 	.container-2McqkF {
 		animation: fadeIn .2s ease forwards;
 	}
@@ -154,9 +165,9 @@
 // Responsive stuff
 @media only screen and (max-width: 1200px) {
 	#app-mount {
-		.search-1FM8Qc:not(.focused-8aNhVB) {
+		.search-1FM8Qc:not(.focused-1xh-wG) {
 			height: 24px;
-			.searchBar-zdmu7v {
+			.searchBar-jGtisZ {
 				background: transparent;
 				border: none;
 				width: 24px;
@@ -171,11 +182,9 @@
 				width: 20px;
 				height: 20px;
 			}
-			.search-39IXmY .icon-1nNws_ {
-				svg {
-					width: 100%;
-					height: 100%;
-				}
+			.search-39IXmY .icon-tZMHgY svg {
+				width: 100%;
+				height: 100%;
 			}
 		}
 	}
