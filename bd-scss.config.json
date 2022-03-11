@@ -14,11 +14,11 @@
 			"output": ["dist", "SoftX.css"]
 		},
 		{
-			"target": ["src", "RadialGlow.scss"],
+			"target": ["src", "addons", "_radialglow.scss"],
 			"output": ["dist", "RadialGlow.css"]
 		},
 		{
-			"target": ["src", "VerticalUserArea.scss"],
+			"target": ["src", "addons", "_verticaluserarea.scss"],
 			"output": ["dist", "VerticalUserArea.css"]
 		}
 	]
