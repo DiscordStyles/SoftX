@@ -3746,6 +3746,88 @@ html.theme-light .container-YkUktl {
   background: #fff;
 }
 
+:root {
+  --channeldms-popout-width: 500px;
+  --channeldms-popout-collapsed: 50px;
+}
+
+#app-mount .ChannelDms-channelmembers-wrap .privateChannels-oVe7HL {
+  width: var(--members-width);
+  background: var(--bg-primary);
+}
+#app-mount .ChannelDms-channelmembers-header {
+  padding: 0;
+  background: var(--bg-primary);
+  border-bottom: 1px solid var(--border);
+  overflow: visible;
+}
+#app-mount .ChannelDms-channelmembers-header .item-3XjbnG {
+  margin: 0;
+  flex: 1;
+  border-radius: 0;
+  background: transparent;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+#app-mount .ChannelDms-channelmembers-header .item-3XjbnG.selected-g-kMVV {
+  background: rgb(var(--accent), 0.1);
+  color: rgb(var(--accent));
+  text-shadow: 0 0 calc(var(--members-glow-intensity) * 10px) currentColor;
+  box-shadow: 0 1px 0 rgb(var(--accent)), inset 0 -1px 0 rgb(var(--accent));
+}
+#app-mount .ChannelDms-channelpopout-popout {
+  background: var(--bg-primary);
+  -webkit-backdrop-filter: blur(var(--blur));
+          backdrop-filter: blur(var(--blur));
+  box-shadow: none;
+  border: 1px solid var(--border);
+  border-radius: 0;
+  width: var(--channeldms-popout-width);
+}
+#app-mount .ChannelDms-channelpopout-popout .chatContent-3KubbW {
+  margin-top: -48px;
+  height: 609px;
+}
+#app-mount .ChannelDms-channelpopout-popout.ChannelDms-channelpopout-collapsed {
+  width: var(--channeldms-popout-collapsed);
+}
+#app-mount .ChannelDms-channelpopout-removeButton,
+#app-mount .ChannelDms-channelpopout-collapseButton {
+  z-index: 2;
+  background-color: var(--bg-primary);
+  border-radius: 0;
+  border: 1px solid var(--border);
+  box-shadow: none;
+}
+#app-mount .ChannelDms-channelpopout-collapseButton {
+  top: 10px;
+}
+#app-mount .ChannelDms-channelpopout-collapseButton svg {
+  width: 18px;
+  height: 18px;
+}
+#app-mount .ChannelDms-channelpopout-content {
+  border-radius: 0;
+}
+#app-mount .ChannelDms-channelpopout-header {
+  background: var(--bg-primary);
+  padding: 12px;
+  position: relative;
+  z-index: 1;
+  -webkit-backdrop-filter: blur(var(--blur));
+          backdrop-filter: blur(var(--blur));
+  box-shadow: none;
+  border-bottom: 1px solid var(--border);
+}
+#app-mount .ChannelDms-channelpopout-channelIcon {
+  width: 18px;
+  height: 18px;
+}
+#app-mount .ChannelDms-channelpopout-headerName {
+  font-size: 16px;
+}
+
 #app-mount .contentTransitionWrap-1YD530 {
   position: relative;
 }
