@@ -1,0 +1,13 @@
+#app-mount {
+	.membersWrap-3NUR2t.hasCounter .members-3WRCEx {
+		margin-top: 0;
+		padding-top: 48px;
+	}
+	#MemberCount {
+		background: transparent;
+		width: var(--members-width);
+		border-bottom: 1px solid var(--border);
+		z-index: 2;
+		backdrop-filter: blur(var(--blur));
+	}
+}
