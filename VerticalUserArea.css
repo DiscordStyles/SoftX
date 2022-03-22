@@ -1,5 +1,7 @@
 #app-mount .guilds-2JjMmN .tree-3agP2X {
   outline: none !important;
+}
+#app-mount .guilds-2JjMmN .scroller-3X7KbA {
   margin-bottom: var(--user-area, 220px);
 }
 #app-mount .guilds-2JjMmN .unreadMentionsIndicatorBottom-3RJMnQ {
