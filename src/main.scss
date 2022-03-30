@@ -1,6 +1,6 @@
-@use 'theme';
-@use 'base';
+@use "./theme";
+@use "./base";
 
 // Addons
-@use './addons/radialglow';
-@use './addons/verticaluserarea';
+@use "./addons/radialglow";
+@use "./addons/verticaluserarea";

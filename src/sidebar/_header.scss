@@ -26,7 +26,19 @@
 		filter: none;
 		box-shadow: none;
 		padding: 0 18px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
 
+		.headerContent-2SNbie {
+			flex: 1;
+		}
+		.headerChildren-2qV9P8 {
+			display: flex;
+			.button-2BMPJJ {
+				top: 0;
+			}
+		}
 		.name-3Uvkvr {
 			font-weight: 500;
 		}

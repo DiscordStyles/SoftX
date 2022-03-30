@@ -1,15 +1,16 @@
 #app-mount {
 	// New messages
 	.newMessagesBar-1hF-9G {
-		top: 0;
-		right: 0;
-		left: 0;
-		background: var(--bg-secondary);
-		border-bottom: 1px solid var(--border);
+		top: 12px;
+		right: 12px;
+		left: 12px;
+		background: rgb(var(--accent), .1);
+		border: 1px solid var(--border);
 		border-radius: 0;
 		box-shadow: none;
 		opacity: 1;
 		backdrop-filter: blur(3px);
+		border-radius: 6px;
 	}
 	.barButtonBase-Sk2mdB {
 		height: auto;
@@ -26,7 +27,7 @@
 	
 	// Old messages
 	.jumpToPresentBar-1cEnH0 {
-		background: var(--bg-primary);
+		background: rgb(var(--accent), .1);
 		border: 1px solid var(--border);
 		padding: 0;
 		opacity: 1;

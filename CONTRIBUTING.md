@@ -4,15 +4,16 @@ This will help you get started.
 
 ## Prerequisites
 - Basic knowledge of NodeJS.
+- Have [PNPM](https://pnpm.io/) installed.
 - Basic knowledge of SCSS/CSS.
 - Basic knowledge of Git/GitHub.
 - Basic knowledge of the terminal/command prompt.
 
 Install Dependencies:  
-Open a terminal/command prompt and use the following command: `npm install` in the SoftX folder.
+Open a terminal/command prompt and use the following command: `pnpm install` in the SoftX folder.
 
 ## Development
-Run the `dev` script with: `npm run dev`.  
+Run the `dev` script with: `pnpm run dev`.  
 This will watch for changes inside the `/src` folder and then auto compile them into your BetterDiscord themes folder.
 
 ## Deploying
