@@ -16,4 +16,14 @@
 			border-color: transparent !important;
 		}
 	}
+
+	[role="menuitemcheckbox"][aria-checked="true"] {
+		.checkbox-hADx5o {
+			color: rgb(var(--accent), .15);
+		}
+		.check-3HZJs4 {
+			color: rgb(var(--accent));
+			filter: drop-shadow(0 0 calc(var(--glow-intensity) * 5px) rgb(var(--accent)));
+		}
+	}
 }
