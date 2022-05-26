@@ -3913,8 +3913,8 @@ body #ChannelsPreview::before {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: calc(var(--server-size) + 8px);
-  height: calc(var(--server-size) + 8px);
+  width: calc(var(--server-size, 48px) + 8px);
+  height: calc(var(--server-size, 48px) + 8px);
   overflow: visible;
   margin-left: -2px;
 }
