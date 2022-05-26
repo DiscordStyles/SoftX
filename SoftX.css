@@ -1,5 +1,5 @@
 :root {
-  --softx-version: "1.1.5";
+  --softx-version: "1.1.6";
   --hue: 0deg;
   --saturation: 0%;
   --lightness: 10%;
@@ -30,8 +30,6 @@
   --server-spacing: 16px;
   --guild-scrollbar: none;
   --unread-colour: 255 255 255;
-  --server-unread-colour: var(--unread-colour);
-  --server-hover-colour: 255 255 255;
   --backdrop-background: var(--bg-primary);
   --backdrop-blur: 10px;
   --channel-height: 40px;
@@ -623,22 +621,6 @@ html.theme-light .container-YkUktl {
   width: var(--server-size);
 }
 
-#app-mount .scroller-3X7KbA > div[style]:not([class]) {
-  margin-bottom: var(--server-spacing);
-}
-#app-mount .listItem-3SmSlK {
-  width: 100%;
-  margin-bottom: var(--server-spacing);
-}
-#app-mount .blobContainer-ikKyFs,
-#app-mount .listItemWrapper-3d87LP {
-  transition: var(--transition);
-  transition-property: transform;
-}
-#app-mount .blobContainer-ikKyFs:active,
-#app-mount .listItemWrapper-3d87LP:active {
-  transform: scale(0.9);
-}
 #app-mount .wrapper-28eC3z {
   width: var(--server-size);
   height: var(--server-size);
@@ -646,11 +628,6 @@ html.theme-light .container-YkUktl {
 #app-mount .svg-2zuE5p {
   width: var(--server-size);
   height: var(--server-size);
-}
-#app-mount .svg-2zuE5p foreignObject {
-  border-radius: var(--server-roundness, 50%);
-  -webkit-mask: none !important;
-          mask: none !important;
 }
 #app-mount .childWrapper-1j_1ub,
 #app-mount .circleIconButton-1VxDrg {
@@ -667,211 +644,6 @@ html.theme-light .container-YkUktl {
   width: 100%;
   height: 100%;
   overflow: visible;
-}
-#app-mount [class*=pill] {
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  width: calc(var(--server-size) + 8px);
-  height: calc(var(--server-size) + 8px);
-  overflow: visible;
-  margin-left: -2px;
-}
-#app-mount [class*=pill] .item-2LIpTv {
-  height: 100% !important;
-  width: 100%;
-  margin: 0;
-  border-radius: var(--server-roundness, 50%);
-  background: transparent;
-  border: 2px solid transparent;
-  box-shadow: none;
-  transform: none !important;
-  transition: var(--transition);
-  transition-property: box-shadow;
-}
-#app-mount [class*=pill] span[style*="height: 0"] {
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour)/0.25);
-  border-color: rgb(var(--server-unread-colour));
-}
-#app-mount [class*=pill] span[style*="height: 1"] {
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour)/0.25);
-  border-color: rgb(var(--server-unread-colour));
-}
-#app-mount [class*=pill] span[style*="height: 2"] {
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour)/0.25);
-  border-color: rgb(var(--server-unread-colour));
-}
-#app-mount [class*=pill] span[style*="height: 3"] {
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour)/0.25);
-  border-color: rgb(var(--server-unread-colour));
-}
-#app-mount [class*=pill] span[style*="height: 4"] {
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour)/0.25);
-  border-color: rgb(var(--server-unread-colour));
-}
-#app-mount [class*=pill] span[style*="height: 5"] {
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour)/0.25);
-  border-color: rgb(var(--server-unread-colour));
-}
-#app-mount [class*=pill] span[style*="height: 6"] {
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour)/0.25);
-  border-color: rgb(var(--server-unread-colour));
-}
-#app-mount [class*=pill] span[style*="height: 7"] {
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour)/0.25);
-  border-color: rgb(var(--server-unread-colour));
-}
-#app-mount [class*=pill] span[style*="height: 8"] {
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour)/0.25);
-  border-color: rgb(var(--server-unread-colour));
-}
-#app-mount [class*=pill] span[style*="height: 9"] {
-  border-color: rgb(var(--server-hover-colour));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour)/0.25);
-}
-#app-mount [class*=pill] span[style*="height: 10"] {
-  border-color: rgb(var(--server-hover-colour));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour)/0.25);
-}
-#app-mount [class*=pill] span[style*="height: 11"] {
-  border-color: rgb(var(--server-hover-colour));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour)/0.25);
-}
-#app-mount [class*=pill] span[style*="height: 12"] {
-  border-color: rgb(var(--server-hover-colour));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour)/0.25);
-}
-#app-mount [class*=pill] span[style*="height: 13"] {
-  border-color: rgb(var(--server-hover-colour));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour)/0.25);
-}
-#app-mount [class*=pill] span[style*="height: 14"] {
-  border-color: rgb(var(--server-hover-colour));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour)/0.25);
-}
-#app-mount [class*=pill] span[style*="height: 15"] {
-  border-color: rgb(var(--server-hover-colour));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour)/0.25);
-}
-#app-mount [class*=pill] span[style*="height: 16"] {
-  border-color: rgb(var(--server-hover-colour));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour)/0.25);
-}
-#app-mount [class*=pill] span[style*="height: 17"] {
-  border-color: rgb(var(--server-hover-colour));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour)/0.25);
-}
-#app-mount [class*=pill] span[style*="height: 18"] {
-  border-color: rgb(var(--server-hover-colour));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour)/0.25);
-}
-#app-mount [class*=pill] span[style*="height: 19"] {
-  border-color: rgb(var(--server-hover-colour));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour)/0.25);
-}
-#app-mount [class*=pill] span[style*="height: 20"] {
-  border-color: rgb(var(--server-hover-colour));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour)/0.25);
-}
-#app-mount [class*=pill] span[style*="height: 21"] {
-  transform: scale(1) !important;
-  border-color: rgb(var(--accent));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--accent), 0.25);
-}
-#app-mount [class*=pill] span[style*="height: 22"] {
-  transform: scale(1) !important;
-  border-color: rgb(var(--accent));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--accent), 0.25);
-}
-#app-mount [class*=pill] span[style*="height: 23"] {
-  transform: scale(1) !important;
-  border-color: rgb(var(--accent));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--accent), 0.25);
-}
-#app-mount [class*=pill] span[style*="height: 24"] {
-  transform: scale(1) !important;
-  border-color: rgb(var(--accent));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--accent), 0.25);
-}
-#app-mount [class*=pill] span[style*="height: 25"] {
-  transform: scale(1) !important;
-  border-color: rgb(var(--accent));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--accent), 0.25);
-}
-#app-mount [class*=pill] span[style*="height: 26"] {
-  transform: scale(1) !important;
-  border-color: rgb(var(--accent));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--accent), 0.25);
-}
-#app-mount [class*=pill] span[style*="height: 27"] {
-  transform: scale(1) !important;
-  border-color: rgb(var(--accent));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--accent), 0.25);
-}
-#app-mount [class*=pill] span[style*="height: 28"] {
-  transform: scale(1) !important;
-  border-color: rgb(var(--accent));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--accent), 0.25);
-}
-#app-mount [class*=pill] span[style*="height: 29"] {
-  transform: scale(1) !important;
-  border-color: rgb(var(--accent));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--accent), 0.25);
-}
-#app-mount [class*=pill] span[style*="height: 30"] {
-  transform: scale(1) !important;
-  border-color: rgb(var(--accent));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--accent), 0.25);
-}
-#app-mount [class*=pill] span[style*="height: 31"] {
-  transform: scale(1) !important;
-  border-color: rgb(var(--accent));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--accent), 0.25);
-}
-#app-mount [class*=pill] span[style*="height: 32"] {
-  transform: scale(1) !important;
-  border-color: rgb(var(--accent));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--accent), 0.25);
-}
-#app-mount [class*=pill] span[style*="height: 33"] {
-  transform: scale(1) !important;
-  border-color: rgb(var(--accent));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--accent), 0.25);
-}
-#app-mount [class*=pill] span[style*="height: 34"] {
-  transform: scale(1) !important;
-  border-color: rgb(var(--accent));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--accent), 0.25);
-}
-#app-mount [class*=pill] span[style*="height: 35"] {
-  transform: scale(1) !important;
-  border-color: rgb(var(--accent));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--accent), 0.25);
-}
-#app-mount [class*=pill] span[style*="height: 36"] {
-  transform: scale(1) !important;
-  border-color: rgb(var(--accent));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--accent), 0.25);
-}
-#app-mount [class*=pill] span[style*="height: 37"] {
-  transform: scale(1) !important;
-  border-color: rgb(var(--accent));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--accent), 0.25);
-}
-#app-mount [class*=pill] span[style*="height: 38"] {
-  transform: scale(1) !important;
-  border-color: rgb(var(--accent));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--accent), 0.25);
-}
-#app-mount [class*=pill] span[style*="height: 39"] {
-  transform: scale(1) !important;
-  border-color: rgb(var(--accent));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--accent), 0.25);
-}
-#app-mount [class*=pill] span[style*="height: 40"] {
-  transform: scale(1) !important;
-  border-color: rgb(var(--accent));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--accent), 0.25);
 }
 
 #app-mount .wrapper-38slSD {
@@ -2297,7 +2069,8 @@ body .footer-GXWBBp,
 }
 #app-mount .contentWrapper-3vHNP2 .header-11eigE,
 #app-mount .contentWrapper-3vHNP2 .header-uVCAlo,
-#app-mount .contentWrapper-3vHNP2 .header-JHwfVI {
+#app-mount .contentWrapper-3vHNP2 .header-JHwfVI,
+#app-mount .contentWrapper-3vHNP2 .header-2TLOnc {
   padding: 16px;
   margin-left: 128px;
   border-left: 1px solid var(--border);
@@ -2467,7 +2240,7 @@ body .footer-GXWBBp,
   background: rgb(var(--accent));
   box-shadow: 0 0 calc(var(--glow-intensity) * 15px) calc(var(--glow-intensity) * 5px) rgb(var(--accent), 0.2);
 }
-#app-mount .categoryItemGuildCategory-3MisqI,
+#app-mount .categoryItemGuildCategory-3mvXlo,
 #app-mount .stickerCategory-2f6iSo {
   width: 100%;
   height: 48px;
@@ -2477,23 +2250,23 @@ body .footer-GXWBBp,
   align-items: center;
   justify-content: center;
 }
-#app-mount .categoryItemGuildCategory-3MisqI foreignObject,
+#app-mount .categoryItemGuildCategory-3mvXlo foreignObject,
 #app-mount .stickerCategory-2f6iSo foreignObject {
   -webkit-mask: none;
           mask: none;
 }
-#app-mount .categoryItemGuildCategory-3MisqI img,
-#app-mount .categoryItemGuildCategory-3MisqI .guildIcon-2SUGiq,
+#app-mount .categoryItemGuildCategory-3mvXlo img,
+#app-mount .categoryItemGuildCategory-3mvXlo .guildIcon-2SUGiq,
 #app-mount .stickerCategory-2f6iSo img,
 #app-mount .stickerCategory-2f6iSo .guildIcon-2SUGiq {
   border-radius: 6px;
   background: rgba(255, 255, 255, 0.05);
 }
-#app-mount .categoryItemGuildCategory-3MisqI:hover,
+#app-mount .categoryItemGuildCategory-3mvXlo:hover,
 #app-mount .stickerCategory-2f6iSo:hover {
   background: var(--background-modifier-hover);
 }
-#app-mount .categoryItemGuildCategory-3MisqI:hover .guildIcon-2SUGiq,
+#app-mount .categoryItemGuildCategory-3mvXlo:hover .guildIcon-2SUGiq,
 #app-mount .stickerCategory-2f6iSo:hover .guildIcon-2SUGiq {
   background: rgba(255, 255, 255, 0.1);
 }
@@ -2536,6 +2309,9 @@ body .footer-GXWBBp,
 }
 #app-mount .wrapper-1NB3WY {
   flex: 1 1 auto;
+}
+#app-mount #gif-picker-tab-panel .content-A8TzKf {
+  border-top: 1px solid var(--border);
 }
 
 #app-mount .messagesPopoutWrap-3zryHW {
@@ -3193,6 +2969,16 @@ body .footer-GXWBBp,
 }
 .platform-osx #app-mount .guilds-2JjMmN .scroller-3X7KbA {
   padding-top: 6px;
+}
+
+#app-mount .typeWindows-2-g3UY::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 22px;
+  background: var(--bg-secondary);
+  border-bottom: 1px solid var(--border);
 }
 
 #app-mount .backdrop-2ByYRN {
@@ -4089,4 +3875,242 @@ body #ChannelsPreview {
 }
 body #ChannelsPreview::before {
   content: none;
+}
+
+:root {
+  --server-unread-colour: 255, 255, 255;
+  --server-hover-colour: 255, 255, 255;
+  --server-selected-colour: 0, 231, 169;
+  --server-spacing: 16px;
+  --server-glow-intensity: 1;
+}
+
+#app-mount .wrapper-38slSD ul[role=group] {
+  height: auto !important;
+}
+#app-mount .scroller-3X7KbA > div[style]:not([class]) {
+  margin-bottom: var(--server-spacing);
+}
+#app-mount .listItem-3SmSlK {
+  width: 100%;
+  margin-bottom: var(--server-spacing);
+}
+#app-mount .blobContainer-ikKyFs,
+#app-mount .listItemWrapper-3d87LP {
+  transition: var(--transition, 0.15s ease);
+  transition-property: transform;
+}
+#app-mount .blobContainer-ikKyFs:active,
+#app-mount .listItemWrapper-3d87LP:active {
+  transform: scale(0.9);
+}
+#app-mount .svg-2zuE5p foreignObject {
+  border-radius: var(--server-roundness, 50%);
+  -webkit-mask: none !important;
+          mask: none !important;
+}
+#app-mount [class*=pill] {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: calc(var(--server-size) + 8px);
+  height: calc(var(--server-size) + 8px);
+  overflow: visible;
+  margin-left: -2px;
+}
+#app-mount [class*=pill] .item-2LIpTv {
+  height: 100% !important;
+  width: 100%;
+  margin: 0;
+  border-radius: var(--server-roundness, 50%);
+  background: transparent;
+  border: 2px solid transparent;
+  box-shadow: none;
+  transform: none !important;
+  transition: var(--transition);
+  transition-property: box-shadow;
+}
+#app-mount [class*=pill] span[style*="height: 0"] {
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour), 0.25);
+  border-color: rgb(var(--server-unread-colour));
+}
+#app-mount [class*=pill] span[style*="height: 1"] {
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour), 0.25);
+  border-color: rgb(var(--server-unread-colour));
+}
+#app-mount [class*=pill] span[style*="height: 2"] {
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour), 0.25);
+  border-color: rgb(var(--server-unread-colour));
+}
+#app-mount [class*=pill] span[style*="height: 3"] {
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour), 0.25);
+  border-color: rgb(var(--server-unread-colour));
+}
+#app-mount [class*=pill] span[style*="height: 4"] {
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour), 0.25);
+  border-color: rgb(var(--server-unread-colour));
+}
+#app-mount [class*=pill] span[style*="height: 5"] {
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour), 0.25);
+  border-color: rgb(var(--server-unread-colour));
+}
+#app-mount [class*=pill] span[style*="height: 6"] {
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour), 0.25);
+  border-color: rgb(var(--server-unread-colour));
+}
+#app-mount [class*=pill] span[style*="height: 7"] {
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour), 0.25);
+  border-color: rgb(var(--server-unread-colour));
+}
+#app-mount [class*=pill] span[style*="height: 8"] {
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour), 0.25);
+  border-color: rgb(var(--server-unread-colour));
+}
+#app-mount [class*=pill] span[style*="height: 9"] {
+  border-color: rgb(var(--server-hover-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour), 0.25);
+}
+#app-mount [class*=pill] span[style*="height: 10"] {
+  border-color: rgb(var(--server-hover-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour), 0.25);
+}
+#app-mount [class*=pill] span[style*="height: 11"] {
+  border-color: rgb(var(--server-hover-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour), 0.25);
+}
+#app-mount [class*=pill] span[style*="height: 12"] {
+  border-color: rgb(var(--server-hover-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour), 0.25);
+}
+#app-mount [class*=pill] span[style*="height: 13"] {
+  border-color: rgb(var(--server-hover-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour), 0.25);
+}
+#app-mount [class*=pill] span[style*="height: 14"] {
+  border-color: rgb(var(--server-hover-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour), 0.25);
+}
+#app-mount [class*=pill] span[style*="height: 15"] {
+  border-color: rgb(var(--server-hover-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour), 0.25);
+}
+#app-mount [class*=pill] span[style*="height: 16"] {
+  border-color: rgb(var(--server-hover-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour), 0.25);
+}
+#app-mount [class*=pill] span[style*="height: 17"] {
+  border-color: rgb(var(--server-hover-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour), 0.25);
+}
+#app-mount [class*=pill] span[style*="height: 18"] {
+  border-color: rgb(var(--server-hover-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour), 0.25);
+}
+#app-mount [class*=pill] span[style*="height: 19"] {
+  border-color: rgb(var(--server-hover-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour), 0.25);
+}
+#app-mount [class*=pill] span[style*="height: 20"] {
+  border-color: rgb(var(--server-hover-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour), 0.25);
+}
+#app-mount [class*=pill] span[style*="height: 21"] {
+  transform: scale(1) !important;
+  border-color: rgb(var(--accent));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--accent), 0.25);
+}
+#app-mount [class*=pill] span[style*="height: 22"] {
+  transform: scale(1) !important;
+  border-color: rgb(var(--accent));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--accent), 0.25);
+}
+#app-mount [class*=pill] span[style*="height: 23"] {
+  transform: scale(1) !important;
+  border-color: rgb(var(--accent));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--accent), 0.25);
+}
+#app-mount [class*=pill] span[style*="height: 24"] {
+  transform: scale(1) !important;
+  border-color: rgb(var(--accent));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--accent), 0.25);
+}
+#app-mount [class*=pill] span[style*="height: 25"] {
+  transform: scale(1) !important;
+  border-color: rgb(var(--accent));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--accent), 0.25);
+}
+#app-mount [class*=pill] span[style*="height: 26"] {
+  transform: scale(1) !important;
+  border-color: rgb(var(--accent));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--accent), 0.25);
+}
+#app-mount [class*=pill] span[style*="height: 27"] {
+  transform: scale(1) !important;
+  border-color: rgb(var(--accent));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--accent), 0.25);
+}
+#app-mount [class*=pill] span[style*="height: 28"] {
+  transform: scale(1) !important;
+  border-color: rgb(var(--accent));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--accent), 0.25);
+}
+#app-mount [class*=pill] span[style*="height: 29"] {
+  transform: scale(1) !important;
+  border-color: rgb(var(--accent));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--accent), 0.25);
+}
+#app-mount [class*=pill] span[style*="height: 30"] {
+  transform: scale(1) !important;
+  border-color: rgb(var(--accent));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--accent), 0.25);
+}
+#app-mount [class*=pill] span[style*="height: 31"] {
+  transform: scale(1) !important;
+  border-color: rgb(var(--accent));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--accent), 0.25);
+}
+#app-mount [class*=pill] span[style*="height: 32"] {
+  transform: scale(1) !important;
+  border-color: rgb(var(--accent));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--accent), 0.25);
+}
+#app-mount [class*=pill] span[style*="height: 33"] {
+  transform: scale(1) !important;
+  border-color: rgb(var(--accent));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--accent), 0.25);
+}
+#app-mount [class*=pill] span[style*="height: 34"] {
+  transform: scale(1) !important;
+  border-color: rgb(var(--accent));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--accent), 0.25);
+}
+#app-mount [class*=pill] span[style*="height: 35"] {
+  transform: scale(1) !important;
+  border-color: rgb(var(--accent));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--accent), 0.25);
+}
+#app-mount [class*=pill] span[style*="height: 36"] {
+  transform: scale(1) !important;
+  border-color: rgb(var(--accent));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--accent), 0.25);
+}
+#app-mount [class*=pill] span[style*="height: 37"] {
+  transform: scale(1) !important;
+  border-color: rgb(var(--accent));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--accent), 0.25);
+}
+#app-mount [class*=pill] span[style*="height: 38"] {
+  transform: scale(1) !important;
+  border-color: rgb(var(--accent));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--accent), 0.25);
+}
+#app-mount [class*=pill] span[style*="height: 39"] {
+  transform: scale(1) !important;
+  border-color: rgb(var(--accent));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--accent), 0.25);
+}
+#app-mount [class*=pill] span[style*="height: 40"] {
+  transform: scale(1) !important;
+  border-color: rgb(var(--accent));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--accent), 0.25);
 }
