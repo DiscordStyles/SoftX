@@ -75,7 +75,7 @@
 		@for $i from 21 through 40 {
 			span[style*="height: #{$i}"] {
 				transform: scale(1) !important;
-				border-color: rgb(var(--accent));
+				border-color: rgb(var(--server-selected-colour));
 				box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), .25);
 			}
 		}
