@@ -20,6 +20,10 @@
 		{
 			"target": ["src", "addons", "_verticaluserarea.scss"],
 			"output": ["dist", "VerticalUserArea.css"]
+		},
+		{
+			"target": ["src", "addons", "_serverrings.scss"],
+			"output": ["dist", "ServerRings.css"]
 		}
 	]
 }
