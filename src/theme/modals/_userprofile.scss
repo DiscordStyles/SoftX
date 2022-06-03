@@ -39,16 +39,16 @@
 			}
 	
 			&[aria-controls="user_info-tab"]::after {
-				mask: url(assets.$icon_information-circle);
+				-webkit-mask: url(assets.$icon_information-circle);
 			}
 			&[aria-controls="activity-tab"]::after {
-				mask: url(assets.$icon_rss);
+				-webkit-mask: url(assets.$icon_rss);
 			}
 			&[aria-controls="mutual_guilds-tab"]::after {
-				mask: url(assets.$icon_server);
+				-webkit-mask: url(assets.$icon_server);
 			}
 			&[aria-controls="mutual_friends-tab"]::after {
-				mask: url(assets.$icon_users);
+				-webkit-mask: url(assets.$icon_users);
 			}
 	
 			&:hover {
@@ -128,7 +128,7 @@
 				width: 24px;
 				height: 24px;
 				background: var(--interactive-normal);
-				mask: url(assets.$icon_cog);
+				-webkit-mask: url(assets.$icon_cog);
 			}
 			&:hover {
 				background: var(--background-modifier-hover);

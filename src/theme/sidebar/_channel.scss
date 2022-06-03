@@ -64,7 +64,7 @@
 				width: 24px;
 				height: 24px;
 				content: "";
-				mask: url(assets.$icon_triangle-right);
+				-webkit-mask: url(assets.$icon_triangle-right);
 				background: var(--channels-default);
 			}
 		}

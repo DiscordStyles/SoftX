@@ -35,7 +35,7 @@
 	
 	.svg-2zuE5p foreignObject {
 		border-radius: var(--server-roundness, 50%);
-		mask: none !important;
+		-webkit-mask: none !important;
 	}
 
 	[class*="pill"] {

@@ -125,13 +125,13 @@
 			}
 		}
 		&[aria-controls="gif-picker-tab-panel"] .contents-3ca1mk::before {
-			mask: url(assets.$icon_photograph);
+			-webkit-mask: url(assets.$icon_photograph);
 		}
 		&[aria-controls="sticker-picker-tab-panel"] .contents-3ca1mk::before {
-			mask: url(assets.$icon_sparkles);
+			-webkit-mask: url(assets.$icon_sparkles);
 		}
 		&[aria-controls="emoji-picker-tab-panel"] .contents-3ca1mk::before {
-			mask: url(assets.$icon_emoji-happy);
+			-webkit-mask: url(assets.$icon_emoji-happy);
 		}
 	}
 
@@ -185,7 +185,7 @@
 		align-items: center;
 		justify-content: center;
 		foreignObject {
-			mask: none;
+			-webkit-mask: none;
 		}
 		img,
 		.guildIcon-2SUGiq {

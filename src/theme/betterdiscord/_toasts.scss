@@ -11,25 +11,25 @@
 	&.toast-success {
 		background: hsl(153 46% 49% / .7);
 		&::before {
-			mask: url(assets.$icon_check-circle);
+			-webkit-mask: url(assets.$icon_check-circle);
 		}
 	}
 	&.toast-warn {
 		background: hsl(39 100% 50% / .7);
 		&::before {
-			mask: url(assets.$icon_exclamation-circle);
+			-webkit-mask: url(assets.$icon_exclamation-circle);
 		}
 	}
 	&.toast-error {
 		background: hsl(0 85% 61% / .7);
 		&::before {
-			mask: url(assets.$icon_x-circle);
+			-webkit-mask: url(assets.$icon_x-circle);
 		}
 	}
 	&.toast-info {
 		background: hsl(212 72% 59% / .7);
 		&::before {
-			mask: url(assets.$icon_information-circle);
+			-webkit-mask: url(assets.$icon_information-circle);
 		}
 	}
 

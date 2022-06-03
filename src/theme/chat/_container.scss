@@ -6,7 +6,7 @@
 			border-right: 1px solid var(--border);
 		}
 		.scroller-kQBbkU {
-			mask: linear-gradient(black 98%, transparent 100%) !important;
+			-webkit-mask: linear-gradient(black 98%, transparent 100%) !important;
 		}
 		&.threadSidebarOpen-1LSXvU {
 			border-radius: 0;
