@@ -28,7 +28,6 @@
 #app-mount .svg-2zuE5p foreignObject {
   border-radius: var(--server-roundness, 50%);
   -webkit-mask: none !important;
-          mask: none !important;
 }
 #app-mount [class*=pill] {
   left: 50%;
