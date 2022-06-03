@@ -1,36 +1,21 @@
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
 :root {
-  --rs-small-spacing: 2px;
-  /* Spacing between profile image and outer ring on small icons (e.g. member list) | Default: 2px */
-  --rs-medium-spacing: 4px;
-  /* Spacing between profile image and outer ring on medium icons (e.g. user popout) | Default: 4px */
-  --rs-large-spacing: 4px;
-  /* Spacing between profile image and outer ring on medium icons (e.g. user popout fullscreen) | Default: 4px */
-  --rs-small-width: 1.5px;
-  /* Ring width (follows same sizing as above) | Default: 1.5px */
-  --rs-medium-width: 2px;
-  /* Default: 2px */
-  --rs-large-width: 2px;
-  /* Default: 2px */
-  --rs-avatar-shape: var(--avatar-roundness, 50%);
-  /* Border-radius for profile image | Default: 50% */
+  --rs-small-spacing: 2px; /* Spacing between profile image and outer ring on small icons (e.g. member list) | Default: 2px */
+  --rs-medium-spacing: 4px; /* Spacing between profile image and outer ring on medium icons (e.g. user popout) | Default: 4px */
+  --rs-large-spacing: 4px; /* Spacing between profile image and outer ring on medium icons (e.g. user popout fullscreen) | Default: 4px */
+  --rs-small-width: 1.5px; /* Ring width (follows same sizing as above) | Default: 1.5px */
+  --rs-medium-width: 2px; /* Default: 2px */
+  --rs-large-width: 2px; /* Default: 2px */
+  --rs-avatar-shape: var(--avatar-roundness, 50%); /* Border-radius for profile image | Default: 50% */
   /* Customizable colors */
-  --rs-online-color: #43b581;
-  /* Default: #43b581 */
-  --rs-idle-color: #faa61a;
-  /* Default: #faa61a */
-  --rs-dnd-color: #f04747;
-  /* Default: #f04747 */
-  --rs-offline-color: #636b75;
-  /* Default: #636b75 */
-  --rs-streaming-color: #643da7;
-  /* Default: #643da7 */
-  --rs-invisible-color: #747f8d;
-  /* Default: #747f8d */
-  --rs-phone-color: var(--rs-online-color);
-  /* Color of the phone for mobile users | Default: var(--rs-online-color) */
-  --rs-phone-visible: block;
-  /* Visibility of the phone for mobile users | Default: block */
+  --rs-online-color: #43b581; /* Default: #43b581 */
+  --rs-idle-color: #faa61a; /* Default: #faa61a */
+  --rs-dnd-color: #f04747; /* Default: #f04747 */
+  --rs-offline-color: #636b75; /* Default: #636b75 */
+  --rs-streaming-color: #643da7; /* Default: #643da7 */
+  --rs-invisible-color: #747f8d; /* Default: #747f8d */
+  --rs-phone-color: var(--rs-online-color); /* Color of the phone for mobile users | Default: var(--rs-online-color) */
+  --rs-phone-visible: block; /* Visibility of the phone for mobile users | Default: block */
 }
 
 .wrapper-1VLyxH[aria-label*=Online i], .wrapper-1VLyxH[aria-label*=online i], .wrapper-1VLyxH[aria-label*=Conectado i], .wrapper-1VLyxH[aria-label*="En línea con móvil" i], .wrapper-1VLyxH[aria-label*="En ligne" i], .wrapper-1VLyxH[aria-label*="Na mreži" i],
