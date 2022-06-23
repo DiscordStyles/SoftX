@@ -10,7 +10,7 @@ A soft and comfy feel for Discord.
 ## Download
 
 BetterDiscord Download: [https://betterdiscord.app/theme/SoftX](https://betterdiscord.app/Download?id=515)  
-Powercord Install: `git clone https://github.com/DiscordStyles/SoftX`
+Powercord Install: `git clone https://github.com/DiscordStyles/SoftX --branch deploy`
 
 ## Contributing
 
