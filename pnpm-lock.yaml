@@ -1,10 +1,10 @@
 lockfileVersion: 5.4
 
 specifiers:
-  bd-scss: ^2.0.6
+  bd-scss: ^2.0.7
 
 dependencies:
-  bd-scss: 2.0.6
+  bd-scss: 2.0.7
 
 packages:
 
@@ -24,7 +24,7 @@ packages:
       postcss: ^8.1.0
     dependencies:
       browserslist: 4.21.2
-      caniuse-lite: 1.0.30001367
+      caniuse-lite: 1.0.30001368
       fraction.js: 4.2.0
       normalize-range: 0.1.2
       picocolors: 1.0.0
@@ -32,8 +32,8 @@ packages:
       postcss-value-parser: 4.2.0
     dev: false
 
-  /bd-scss/2.0.6:
-    resolution: {integrity: sha512-CGB60hZouLHpqlH6ebP4m9C5ZDPsRCfaV6ArOaIiPIFM1NY9/f0yB7NtBwKSDqw2Bf/w2LJPjUeZfK3J6HgLAw==}
+  /bd-scss/2.0.7:
+    resolution: {integrity: sha512-m3xQwwg3OcTgWFkJxT65P5JSiM2ejmHptHs7I8GoPqydSo/xZ8ZFuJ2gKUUfzvgZ4yjRACyjgFhkZq5thF8loA==}
     hasBin: true
     dependencies:
       autoprefixer: 10.4.7_postcss@8.4.14
@@ -61,14 +61,14 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001367
+      caniuse-lite: 1.0.30001368
       electron-to-chromium: 1.4.196
       node-releases: 2.0.6
       update-browserslist-db: 1.0.5_browserslist@4.21.2
     dev: false
 
-  /caniuse-lite/1.0.30001367:
-    resolution: {integrity: sha512-XDgbeOHfifWV3GEES2B8rtsrADx4Jf+juKX2SICJcaUhjYBO3bR96kvEIHa15VU6ohtOhBZuPGGYGbXMRn0NCw==}
+  /caniuse-lite/1.0.30001368:
+    resolution: {integrity: sha512-wgfRYa9DenEomLG/SdWgQxpIyvdtH3NW8Vq+tB6AwR9e56iOIcu1im5F/wNdDf04XlKHXqIx4N8Jo0PemeBenQ==}
     dev: false
 
   /chalk/5.0.1:
