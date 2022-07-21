@@ -1,10 +1,10 @@
 lockfileVersion: 5.4
 
 specifiers:
-  bd-scss: ^2.0.7
+  bd-scss: ^2.0.8
 
 dependencies:
-  bd-scss: 2.0.7
+  bd-scss: 2.0.8
 
 packages:
 
@@ -32,8 +32,8 @@ packages:
       postcss-value-parser: 4.2.0
     dev: false
 
-  /bd-scss/2.0.7:
-    resolution: {integrity: sha512-m3xQwwg3OcTgWFkJxT65P5JSiM2ejmHptHs7I8GoPqydSo/xZ8ZFuJ2gKUUfzvgZ4yjRACyjgFhkZq5thF8loA==}
+  /bd-scss/2.0.8:
+    resolution: {integrity: sha512-jyGYhhu0C8LpObuCxiGRa/yoxknfIQJTRh5mLChJ5epoegHRM3MrMmUA2xS5LAUrOI/yINYSH/2uKYYqVs+a/g==}
     hasBin: true
     dependencies:
       autoprefixer: 10.4.7_postcss@8.4.14
