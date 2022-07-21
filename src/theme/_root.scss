@@ -1,5 +1,5 @@
 :root {
-	--softx-version: '1.1.6';
+	--softx-version: '1.1.7';
 
 	--hue: 0deg;
 	--saturation: 0%;
@@ -18,7 +18,7 @@
 
 	--TB-height: calc(var(--toolbar-height) - 1px);
 	--TB-width: 52px;
-	--TB-header-padding: 155px;
+	--TB-header-padding: 155px !important;
 
 	--shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -1px rgb(0 0 0 / 0.06);
 	--shadow-lg: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 10px 10px -5px rgb(0 0 0 / 0.04);

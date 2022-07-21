@@ -51,7 +51,7 @@
 				box-shadow: 0 0 calc(var(--glow-intensity) * 15px) calc(var(--glow-intensity) * 5px) rgb(var(--accent), .2);
 			}
 			.name-2m3Cms {
-				filter: drop-shadow(0 0 calc(var(--glow-intensity) * 5px) currentColor);
+				filter: drop-shadow(0 0 calc(var(--glow-intensity) * 5px) rgb(var(--accent)));
 			}
 			.subText-3Sk0zy {
 				color: #fff;

@@ -1,7 +1,13 @@
-#app-mount .popout-TdhJ6Z {
+#app-mount .container-18GwIk {
 	background: var(--bg-primary);
 	border-radius: 6px;
 	backdrop-filter: blur(var(--blur));
 	border: 1px solid var(--border);
 	animation: fadeIn .2s ease forwards;
+	box-shadow: none;
+
+	.header-3_zmOb {
+		background: transparent;
+		border-bottom: 1px solid var(--border);
+	}
 }
