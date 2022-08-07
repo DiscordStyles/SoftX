@@ -1,5 +1,5 @@
 :root {
-  --softx-version: "1.1.7";
+  --softx-version: "1.1.8";
   --hue: 0deg;
   --saturation: 0%;
   --lightness: 10%;
@@ -974,6 +974,16 @@ html.theme-light .container-YkUktl {
   padding: 0 16px;
   height: 64px;
   border-top: 1px solid var(--border);
+}
+#app-mount .nameTag-sc-gpq {
+  display: none;
+}
+#app-mount .avatarWrapper-1B9FTW {
+  margin: 0;
+  min-width: unset;
+}
+#app-mount .avatarWrapper-1B9FTW:hover {
+  background: transparent;
 }
 
 #app-mount .list-2x9Cl9 {
