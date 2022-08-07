@@ -72,14 +72,7 @@
 		height: 64px;
 		border-top: 1px solid var(--border);
 	}
-	.nameTag-sc-gpq {
-		display: none;
-	}
 	.avatarWrapper-1B9FTW {
-		margin: 0;
-		min-width: unset;
-		&:hover {
-			background: transparent;
-		}
+		flex: 1;
 	}
 }

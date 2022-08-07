@@ -39,8 +39,15 @@
 			width: 42px !important;
 			height: 42px !important;
 		}
-		& > .nameTag-sc-gpq {
-			display: none;
+	}
+	.nameTag-sc-gpq {
+		display: none;
+	}
+	.avatarWrapper-1B9FTW {
+		margin: 0;
+		min-width: unset;
+		&:hover {
+			background: transparent;
 		}
 	}
 }
