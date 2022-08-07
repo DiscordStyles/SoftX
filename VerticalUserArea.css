@@ -35,6 +35,13 @@
   width: 42px !important;
   height: 42px !important;
 }
-#app-mount .panels-3wFtMD > .container-YkUktl > .nameTag-sc-gpq {
+#app-mount .nameTag-sc-gpq {
   display: none;
+}
+#app-mount .avatarWrapper-1B9FTW {
+  margin: 0;
+  min-width: unset;
+}
+#app-mount .avatarWrapper-1B9FTW:hover {
+  background: transparent;
 }

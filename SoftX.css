@@ -975,15 +975,8 @@ html.theme-light .container-YkUktl {
   height: 64px;
   border-top: 1px solid var(--border);
 }
-#app-mount .nameTag-sc-gpq {
-  display: none;
-}
 #app-mount .avatarWrapper-1B9FTW {
-  margin: 0;
-  min-width: unset;
-}
-#app-mount .avatarWrapper-1B9FTW:hover {
-  background: transparent;
+  flex: 1;
 }
 
 #app-mount .list-2x9Cl9 {
