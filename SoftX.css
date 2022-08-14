@@ -1,5 +1,5 @@
 :root {
-  --softx-version: "1.1.8";
+  --softx-version: "1.1.9";
   --hue: 0deg;
   --saturation: 0%;
   --lightness: 10%;
@@ -405,6 +405,13 @@ html.theme-light .container-YkUktl {
 }
 #app-mount .inputWrapper-BB4B- .inputPrefix-1HHwWv + .input-2g-os5:not(.multiInput-1VARjC):not(.multiInputField-1zyopx) {
   padding-left: 38px;
+}
+#app-mount .inputWrapper-1YNMmM > svg {
+  left: 12px;
+  top: 12px;
+}
+#app-mount .inputWrapper-1YNMmM > svg + .input-2g-os5 {
+  padding-left: 48px !important;
 }
 
 #app-mount [role=radiogroup][aria-orientation=vertical] {
@@ -1573,6 +1580,74 @@ body .footer-GXWBBp,
 }
 #app-mount .reaction-2A2y9y.reactionMe-3I9gFK .reactionCount-1zkLcN {
   color: rgb(var(--accent));
+}
+
+#app-mount .container-3wLKDe {
+  background: var(--bg-secondary);
+  border-right: 1px solid var(--border);
+}
+#app-mount .content-2a4AW9 {
+  padding: 0;
+  width: 100%;
+  border-right: 1px solid var(--border);
+}
+#app-mount .sidebarContainer-1kWKqZ {
+  margin: 0;
+  padding: 0;
+}
+#app-mount .headerRow-1MKoR- {
+  padding: 0;
+}
+#app-mount .header-1Uy0p6 {
+  height: auto;
+  min-height: auto;
+  margin: 0;
+  border: none;
+  background: transparent;
+  box-shadow: none;
+}
+#app-mount .titleContainer-2YK93J {
+  gap: 16px;
+  align-items: center;
+}
+#app-mount .container-JhuCwn {
+  padding: 16px;
+  cursor: default;
+  border-bottom: 1px solid var(--border);
+}
+#app-mount .container-JhuCwn:hover {
+  background: transparent;
+}
+#app-mount .input-2g-os5 {
+  margin: 0;
+}
+#app-mount .sortContainer-33Xf0u {
+  padding: 16px;
+}
+#app-mount .row-uezxzk {
+  padding: 0;
+}
+#app-mount .row-uezxzk:not(:last-child) {
+  border-bottom: 1px solid var(--border);
+}
+#app-mount .mainCard-3KBsBI {
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  transition: none;
+}
+#app-mount .mainCard-3KBsBI:not(.header-1Uy0p6):hover {
+  box-shadow: none;
+  transform: none;
+  background: var(--background-modifier-hover);
+}
+#app-mount .sidebarCard-1Gn1ch,
+#app-mount .container-2IhveL {
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid var(--border);
+  margin: 0;
 }
 
 #app-mount .membersWrap-3NUR2t {
@@ -2779,6 +2854,13 @@ body .footer-GXWBBp,
   border-color: var(--border);
 }
 
+#app-mount .standardSidebarView-E9Pc3j .content-2a4AW9 {
+  min-width: 100%;
+  margin: 0;
+}
+#app-mount .standardSidebarView-E9Pc3j .content-2a4AW9 > div[style="height: 60px;"] {
+  display: none;
+}
 #app-mount .contentRegion-3HkfJJ {
   background: transparent;
 }
@@ -2797,13 +2879,6 @@ body .footer-GXWBBp,
   width: 100%;
   padding: 32px;
   z-index: 1;
-}
-#app-mount .content-2a4AW9 {
-  min-width: 100%;
-  margin: 0;
-}
-#app-mount .content-2a4AW9 > div[style="height: 60px;"] {
-  display: none;
 }
 #app-mount .customColumn-2n-oKU,
 #app-mount .contentColumn-1C7as6 {
@@ -3898,6 +3973,211 @@ body #ChannelsPreview::before {
   width: 100%;
   margin-bottom: var(--server-spacing);
 }
+#app-mount .listItem-3SmSlK [class*=pill] {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: calc(var(--server-size, 48px) + 8px);
+  height: calc(var(--server-size, 48px) + 8px);
+  overflow: visible;
+  margin-left: -2px;
+}
+#app-mount .listItem-3SmSlK [class*=pill] .item-2LIpTv {
+  height: 100% !important;
+  width: 100%;
+  margin: 0;
+  border-radius: var(--server-roundness, 50%);
+  background: transparent;
+  border: 2px solid transparent;
+  box-shadow: none;
+  transform: none !important;
+  transition: var(--transition);
+  transition-property: box-shadow;
+}
+#app-mount .listItem-3SmSlK [class*=pill] span[style*="height: 0"] {
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour), 0.25);
+  border-color: rgb(var(--server-unread-colour));
+}
+#app-mount .listItem-3SmSlK [class*=pill] span[style*="height: 1"] {
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour), 0.25);
+  border-color: rgb(var(--server-unread-colour));
+}
+#app-mount .listItem-3SmSlK [class*=pill] span[style*="height: 2"] {
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour), 0.25);
+  border-color: rgb(var(--server-unread-colour));
+}
+#app-mount .listItem-3SmSlK [class*=pill] span[style*="height: 3"] {
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour), 0.25);
+  border-color: rgb(var(--server-unread-colour));
+}
+#app-mount .listItem-3SmSlK [class*=pill] span[style*="height: 4"] {
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour), 0.25);
+  border-color: rgb(var(--server-unread-colour));
+}
+#app-mount .listItem-3SmSlK [class*=pill] span[style*="height: 5"] {
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour), 0.25);
+  border-color: rgb(var(--server-unread-colour));
+}
+#app-mount .listItem-3SmSlK [class*=pill] span[style*="height: 6"] {
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour), 0.25);
+  border-color: rgb(var(--server-unread-colour));
+}
+#app-mount .listItem-3SmSlK [class*=pill] span[style*="height: 7"] {
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour), 0.25);
+  border-color: rgb(var(--server-unread-colour));
+}
+#app-mount .listItem-3SmSlK [class*=pill] span[style*="height: 8"] {
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour), 0.25);
+  border-color: rgb(var(--server-unread-colour));
+}
+#app-mount .listItem-3SmSlK [class*=pill] span[style*="height: 9"] {
+  border-color: rgb(var(--server-hover-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour), 0.25);
+}
+#app-mount .listItem-3SmSlK [class*=pill] span[style*="height: 10"] {
+  border-color: rgb(var(--server-hover-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour), 0.25);
+}
+#app-mount .listItem-3SmSlK [class*=pill] span[style*="height: 11"] {
+  border-color: rgb(var(--server-hover-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour), 0.25);
+}
+#app-mount .listItem-3SmSlK [class*=pill] span[style*="height: 12"] {
+  border-color: rgb(var(--server-hover-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour), 0.25);
+}
+#app-mount .listItem-3SmSlK [class*=pill] span[style*="height: 13"] {
+  border-color: rgb(var(--server-hover-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour), 0.25);
+}
+#app-mount .listItem-3SmSlK [class*=pill] span[style*="height: 14"] {
+  border-color: rgb(var(--server-hover-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour), 0.25);
+}
+#app-mount .listItem-3SmSlK [class*=pill] span[style*="height: 15"] {
+  border-color: rgb(var(--server-hover-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour), 0.25);
+}
+#app-mount .listItem-3SmSlK [class*=pill] span[style*="height: 16"] {
+  border-color: rgb(var(--server-hover-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour), 0.25);
+}
+#app-mount .listItem-3SmSlK [class*=pill] span[style*="height: 17"] {
+  border-color: rgb(var(--server-hover-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour), 0.25);
+}
+#app-mount .listItem-3SmSlK [class*=pill] span[style*="height: 18"] {
+  border-color: rgb(var(--server-hover-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour), 0.25);
+}
+#app-mount .listItem-3SmSlK [class*=pill] span[style*="height: 19"] {
+  border-color: rgb(var(--server-hover-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour), 0.25);
+}
+#app-mount .listItem-3SmSlK [class*=pill] span[style*="height: 20"] {
+  border-color: rgb(var(--server-hover-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour), 0.25);
+}
+#app-mount .listItem-3SmSlK [class*=pill] span[style*="height: 21"] {
+  transform: scale(1) !important;
+  border-color: rgb(var(--server-selected-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
+}
+#app-mount .listItem-3SmSlK [class*=pill] span[style*="height: 22"] {
+  transform: scale(1) !important;
+  border-color: rgb(var(--server-selected-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
+}
+#app-mount .listItem-3SmSlK [class*=pill] span[style*="height: 23"] {
+  transform: scale(1) !important;
+  border-color: rgb(var(--server-selected-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
+}
+#app-mount .listItem-3SmSlK [class*=pill] span[style*="height: 24"] {
+  transform: scale(1) !important;
+  border-color: rgb(var(--server-selected-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
+}
+#app-mount .listItem-3SmSlK [class*=pill] span[style*="height: 25"] {
+  transform: scale(1) !important;
+  border-color: rgb(var(--server-selected-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
+}
+#app-mount .listItem-3SmSlK [class*=pill] span[style*="height: 26"] {
+  transform: scale(1) !important;
+  border-color: rgb(var(--server-selected-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
+}
+#app-mount .listItem-3SmSlK [class*=pill] span[style*="height: 27"] {
+  transform: scale(1) !important;
+  border-color: rgb(var(--server-selected-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
+}
+#app-mount .listItem-3SmSlK [class*=pill] span[style*="height: 28"] {
+  transform: scale(1) !important;
+  border-color: rgb(var(--server-selected-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
+}
+#app-mount .listItem-3SmSlK [class*=pill] span[style*="height: 29"] {
+  transform: scale(1) !important;
+  border-color: rgb(var(--server-selected-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
+}
+#app-mount .listItem-3SmSlK [class*=pill] span[style*="height: 30"] {
+  transform: scale(1) !important;
+  border-color: rgb(var(--server-selected-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
+}
+#app-mount .listItem-3SmSlK [class*=pill] span[style*="height: 31"] {
+  transform: scale(1) !important;
+  border-color: rgb(var(--server-selected-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
+}
+#app-mount .listItem-3SmSlK [class*=pill] span[style*="height: 32"] {
+  transform: scale(1) !important;
+  border-color: rgb(var(--server-selected-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
+}
+#app-mount .listItem-3SmSlK [class*=pill] span[style*="height: 33"] {
+  transform: scale(1) !important;
+  border-color: rgb(var(--server-selected-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
+}
+#app-mount .listItem-3SmSlK [class*=pill] span[style*="height: 34"] {
+  transform: scale(1) !important;
+  border-color: rgb(var(--server-selected-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
+}
+#app-mount .listItem-3SmSlK [class*=pill] span[style*="height: 35"] {
+  transform: scale(1) !important;
+  border-color: rgb(var(--server-selected-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
+}
+#app-mount .listItem-3SmSlK [class*=pill] span[style*="height: 36"] {
+  transform: scale(1) !important;
+  border-color: rgb(var(--server-selected-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
+}
+#app-mount .listItem-3SmSlK [class*=pill] span[style*="height: 37"] {
+  transform: scale(1) !important;
+  border-color: rgb(var(--server-selected-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
+}
+#app-mount .listItem-3SmSlK [class*=pill] span[style*="height: 38"] {
+  transform: scale(1) !important;
+  border-color: rgb(var(--server-selected-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
+}
+#app-mount .listItem-3SmSlK [class*=pill] span[style*="height: 39"] {
+  transform: scale(1) !important;
+  border-color: rgb(var(--server-selected-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
+}
+#app-mount .listItem-3SmSlK [class*=pill] span[style*="height: 40"] {
+  transform: scale(1) !important;
+  border-color: rgb(var(--server-selected-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
+}
 #app-mount .blobContainer-ikKyFs,
 #app-mount .listItemWrapper-3d87LP {
   transition: var(--transition, 0.15s ease);
@@ -3911,209 +4191,4 @@ body #ChannelsPreview::before {
   border-radius: var(--server-roundness, 50%);
   -webkit-mask: none !important;
           mask: none !important;
-}
-#app-mount [class*=pill] {
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  width: calc(var(--server-size, 48px) + 8px);
-  height: calc(var(--server-size, 48px) + 8px);
-  overflow: visible;
-  margin-left: -2px;
-}
-#app-mount [class*=pill] .item-2LIpTv {
-  height: 100% !important;
-  width: 100%;
-  margin: 0;
-  border-radius: var(--server-roundness, 50%);
-  background: transparent;
-  border: 2px solid transparent;
-  box-shadow: none;
-  transform: none !important;
-  transition: var(--transition);
-  transition-property: box-shadow;
-}
-#app-mount [class*=pill] span[style*="height: 0"] {
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour), 0.25);
-  border-color: rgb(var(--server-unread-colour));
-}
-#app-mount [class*=pill] span[style*="height: 1"] {
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour), 0.25);
-  border-color: rgb(var(--server-unread-colour));
-}
-#app-mount [class*=pill] span[style*="height: 2"] {
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour), 0.25);
-  border-color: rgb(var(--server-unread-colour));
-}
-#app-mount [class*=pill] span[style*="height: 3"] {
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour), 0.25);
-  border-color: rgb(var(--server-unread-colour));
-}
-#app-mount [class*=pill] span[style*="height: 4"] {
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour), 0.25);
-  border-color: rgb(var(--server-unread-colour));
-}
-#app-mount [class*=pill] span[style*="height: 5"] {
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour), 0.25);
-  border-color: rgb(var(--server-unread-colour));
-}
-#app-mount [class*=pill] span[style*="height: 6"] {
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour), 0.25);
-  border-color: rgb(var(--server-unread-colour));
-}
-#app-mount [class*=pill] span[style*="height: 7"] {
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour), 0.25);
-  border-color: rgb(var(--server-unread-colour));
-}
-#app-mount [class*=pill] span[style*="height: 8"] {
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour), 0.25);
-  border-color: rgb(var(--server-unread-colour));
-}
-#app-mount [class*=pill] span[style*="height: 9"] {
-  border-color: rgb(var(--server-hover-colour));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour), 0.25);
-}
-#app-mount [class*=pill] span[style*="height: 10"] {
-  border-color: rgb(var(--server-hover-colour));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour), 0.25);
-}
-#app-mount [class*=pill] span[style*="height: 11"] {
-  border-color: rgb(var(--server-hover-colour));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour), 0.25);
-}
-#app-mount [class*=pill] span[style*="height: 12"] {
-  border-color: rgb(var(--server-hover-colour));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour), 0.25);
-}
-#app-mount [class*=pill] span[style*="height: 13"] {
-  border-color: rgb(var(--server-hover-colour));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour), 0.25);
-}
-#app-mount [class*=pill] span[style*="height: 14"] {
-  border-color: rgb(var(--server-hover-colour));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour), 0.25);
-}
-#app-mount [class*=pill] span[style*="height: 15"] {
-  border-color: rgb(var(--server-hover-colour));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour), 0.25);
-}
-#app-mount [class*=pill] span[style*="height: 16"] {
-  border-color: rgb(var(--server-hover-colour));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour), 0.25);
-}
-#app-mount [class*=pill] span[style*="height: 17"] {
-  border-color: rgb(var(--server-hover-colour));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour), 0.25);
-}
-#app-mount [class*=pill] span[style*="height: 18"] {
-  border-color: rgb(var(--server-hover-colour));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour), 0.25);
-}
-#app-mount [class*=pill] span[style*="height: 19"] {
-  border-color: rgb(var(--server-hover-colour));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour), 0.25);
-}
-#app-mount [class*=pill] span[style*="height: 20"] {
-  border-color: rgb(var(--server-hover-colour));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour), 0.25);
-}
-#app-mount [class*=pill] span[style*="height: 21"] {
-  transform: scale(1) !important;
-  border-color: rgb(var(--server-selected-colour));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
-}
-#app-mount [class*=pill] span[style*="height: 22"] {
-  transform: scale(1) !important;
-  border-color: rgb(var(--server-selected-colour));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
-}
-#app-mount [class*=pill] span[style*="height: 23"] {
-  transform: scale(1) !important;
-  border-color: rgb(var(--server-selected-colour));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
-}
-#app-mount [class*=pill] span[style*="height: 24"] {
-  transform: scale(1) !important;
-  border-color: rgb(var(--server-selected-colour));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
-}
-#app-mount [class*=pill] span[style*="height: 25"] {
-  transform: scale(1) !important;
-  border-color: rgb(var(--server-selected-colour));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
-}
-#app-mount [class*=pill] span[style*="height: 26"] {
-  transform: scale(1) !important;
-  border-color: rgb(var(--server-selected-colour));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
-}
-#app-mount [class*=pill] span[style*="height: 27"] {
-  transform: scale(1) !important;
-  border-color: rgb(var(--server-selected-colour));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
-}
-#app-mount [class*=pill] span[style*="height: 28"] {
-  transform: scale(1) !important;
-  border-color: rgb(var(--server-selected-colour));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
-}
-#app-mount [class*=pill] span[style*="height: 29"] {
-  transform: scale(1) !important;
-  border-color: rgb(var(--server-selected-colour));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
-}
-#app-mount [class*=pill] span[style*="height: 30"] {
-  transform: scale(1) !important;
-  border-color: rgb(var(--server-selected-colour));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
-}
-#app-mount [class*=pill] span[style*="height: 31"] {
-  transform: scale(1) !important;
-  border-color: rgb(var(--server-selected-colour));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
-}
-#app-mount [class*=pill] span[style*="height: 32"] {
-  transform: scale(1) !important;
-  border-color: rgb(var(--server-selected-colour));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
-}
-#app-mount [class*=pill] span[style*="height: 33"] {
-  transform: scale(1) !important;
-  border-color: rgb(var(--server-selected-colour));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
-}
-#app-mount [class*=pill] span[style*="height: 34"] {
-  transform: scale(1) !important;
-  border-color: rgb(var(--server-selected-colour));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
-}
-#app-mount [class*=pill] span[style*="height: 35"] {
-  transform: scale(1) !important;
-  border-color: rgb(var(--server-selected-colour));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
-}
-#app-mount [class*=pill] span[style*="height: 36"] {
-  transform: scale(1) !important;
-  border-color: rgb(var(--server-selected-colour));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
-}
-#app-mount [class*=pill] span[style*="height: 37"] {
-  transform: scale(1) !important;
-  border-color: rgb(var(--server-selected-colour));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
-}
-#app-mount [class*=pill] span[style*="height: 38"] {
-  transform: scale(1) !important;
-  border-color: rgb(var(--server-selected-colour));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
-}
-#app-mount [class*=pill] span[style*="height: 39"] {
-  transform: scale(1) !important;
-  border-color: rgb(var(--server-selected-colour));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
-}
-#app-mount [class*=pill] span[style*="height: 40"] {
-  transform: scale(1) !important;
-  border-color: rgb(var(--server-selected-colour));
-  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-selected-colour), 0.25);
 }
