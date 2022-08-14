@@ -1,4 +1,11 @@
 #app-mount {
+	.standardSidebarView-E9Pc3j .content-2a4AW9 {
+		min-width: 100%;
+		margin: 0;
+		& > div[style="height: 60px;"] {
+			display: none;
+		}
+	}
 	.contentRegion-3HkfJJ {
 		background: transparent;
 		& > .customColumn-2n-oKU {
@@ -17,13 +24,6 @@
 		width: 100%;
 		padding: 32px;
 		z-index: 1;
-	}
-	.content-2a4AW9 {
-		min-width: 100%;
-		margin: 0;
-		& > div[style="height: 60px;"] {
-			display: none;
-		}
 	}
 
 	// Custom scroller bullshit. Why Discord. WHY?
