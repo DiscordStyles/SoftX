@@ -2763,7 +2763,7 @@ body .footer-GXWBBp,
   max-height: var(--settings-max-height);
   width: 90vw;
   height: 90vh;
-  position: unset;
+  position: unset !important;
   background: var(--bg-primary);
   border: 1px solid var(--border);
   border-radius: 6px;
