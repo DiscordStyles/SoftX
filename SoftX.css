@@ -985,6 +985,11 @@ html.theme-light .container-YkUktl {
 #app-mount .avatarWrapper-1B9FTW {
   flex: 1;
 }
+#app-mount .avatarWrapper-1B9FTW .svg-2azL_l {
+  width: 50px;
+  height: 50px;
+  transform: translate(1px, 1px);
+}
 
 #app-mount .list-2x9Cl9 {
   padding: 0;
@@ -1812,8 +1817,7 @@ body .footer-GXWBBp,
   border-radius: 12px;
   border-color: rgb(var(--accent));
   box-shadow: 0 0 calc(var(--glow-intensity) * 20px) calc(var(--glow-intensity) * 5px) rgb(var(--accent), 0.25);
-  -webkit-animation: fadeIn 0.2s ease forwards;
-          animation: fadeIn 0.2s ease forwards;
+  animation: fadeIn 0.2s ease forwards;
 }
 #app-mount .search-2Mwzzq.focused-1xh-wG .public-DraftEditor-content {
   cursor: text;
@@ -1841,8 +1845,7 @@ body .footer-GXWBBp,
   z-index: -1;
   -webkit-backdrop-filter: blur(var(--backdrop-blur));
           backdrop-filter: blur(var(--backdrop-blur));
-  -webkit-animation: fadeIn 0.2s ease forwards;
-          animation: fadeIn 0.2s ease forwards;
+  animation: fadeIn 0.2s ease forwards;
 }
 #app-mount .search-39IXmY {
   margin: 0 24px 0 0;
@@ -1929,8 +1932,7 @@ body .footer-GXWBBp,
 
 .full-motion .search-1FM8Qc.focused-1xh-wG::before,
 .full-motion .container-2McqkF {
-  -webkit-animation: fadeIn 0.2s ease forwards;
-          animation: fadeIn 0.2s ease forwards;
+  animation: fadeIn 0.2s ease forwards;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -2043,8 +2045,7 @@ body .footer-GXWBBp,
   -webkit-backdrop-filter: blur(var(--blur));
           backdrop-filter: blur(var(--blur));
   border: 1px solid var(--border);
-  -webkit-animation: fadeIn 0.2s ease forwards;
-          animation: fadeIn 0.2s ease forwards;
+  animation: fadeIn 0.2s ease forwards;
   box-shadow: none;
 }
 #app-mount .container-18GwIk .header-3_zmOb {
@@ -2125,8 +2126,7 @@ body .footer-GXWBBp,
 }
 
 .full-motion .userPopout-2j1gM4 {
-  -webkit-animation: fadeIn 0.2s ease forwards;
-          animation: fadeIn 0.2s ease forwards;
+  animation: fadeIn 0.2s ease forwards;
 }
 
 #app-mount .contentWrapper-3vHNP2 {
@@ -3065,8 +3065,7 @@ body .footer-GXWBBp,
   -webkit-backdrop-filter: blur(var(--backdrop-blur)) !important;
           backdrop-filter: blur(var(--backdrop-blur)) !important;
   opacity: 1 !important;
-  -webkit-animation: fadeIn 0.2s ease forwards;
-          animation: fadeIn 0.2s ease forwards;
+  animation: fadeIn 0.2s ease forwards;
 }
 #app-mount .root-g14mjS {
   box-shadow: none !important;
@@ -3480,8 +3479,7 @@ body .footer-GXWBBp,
 
 .full-motion .input-3r5zZY,
 .full-motion .scroller-2qwVWY {
-  -webkit-animation: fadeIn 0.2s ease forwards;
-          animation: fadeIn 0.2s ease forwards;
+  animation: fadeIn 0.2s ease forwards;
 }
 
 #app-mount .perks-26lTSw {
@@ -3499,29 +3497,12 @@ body .footer-GXWBBp,
   padding-left: 40px !important;
 }
 
-@-webkit-keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
 @keyframes fadeIn {
   from {
     opacity: 0;
   }
   to {
     opacity: 1;
-  }
-}
-@-webkit-keyframes fadeOut {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
   }
 }
 @keyframes fadeOut {
@@ -3533,7 +3514,6 @@ body .footer-GXWBBp,
   }
 }
 #app-mount .bd-addon-controls {
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
   padding: 16px 32px;

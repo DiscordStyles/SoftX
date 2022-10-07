@@ -48,12 +48,6 @@
   box-shadow: 0 0 calc(var(--glow-intensity) * 10px) var(--rs-offline-color);
 }
 
-.wrapper-1VLyxH[style*="80px"], .wrapper-1VLyxH[style*="120px"] {
-  border-width: 0px;
-  margin-top: 7.5px;
-  margin-left: 7.5px;
-}
-
 #app-mount .wrapper-1VLyxH.StatusEverywhere-avatar-chatAvatar {
   margin: 0;
 }
