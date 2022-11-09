@@ -1,5 +1,5 @@
 :root {
-	--softx-version: '1.1.9';
+	--softx-version: '1.1.10';
 
 	--hue: 0deg;
 	--saturation: 0%;
@@ -24,9 +24,13 @@
 	--shadow-lg: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 10px 10px -5px rgb(0 0 0 / 0.04);
 
 	--border: hsl(var(--hue) var(--saturation) calc(var(--lightness) / 2) / .6);
+
 	--bg-primary: hsl(var(--hue) var(--saturation) var(--lightness) / calc(var(--opacity) + .05));
 	--bg-secondary: hsl(var(--hue) var(--saturation) var(--lightness) / calc(var(--opacity) + .1));
 	--bg-tertiary: hsl(var(--hue) var(--saturation) var(--lightness) / calc(var(--opacity) + .15));
+
+	--fg-primary: hsl(0 0% 100% / .1);
+	--fg-secondary: hsl(0 0% 100% / .05);
 
 	--chat-bubble-bg: rgba(255, 255, 255, 0.03);
 	--chat-bubble-bg-self: rgb(var(--accent), 0.15);

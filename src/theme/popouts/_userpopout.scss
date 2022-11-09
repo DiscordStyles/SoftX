@@ -1,69 +1,55 @@
 #app-mount {
-	.userPopout-2j1gM4 {
-		box-shadow: none;
+	.userPopoutOuter-3AVBmJ {
+		border-radius: 0;
 		border: 1px solid var(--border);
-		background: var(--bg-primary);
 		backdrop-filter: blur(var(--blur));
-		border-radius: 6px;
-
-		.input-2g-os5 {
-			border: 2px solid transparent;
-			background: rgb(255 255 255 / 0.05);
-			transition: var(--transition);
-			transition-property: border-color, box-shadow;
-			color: var(--text-normal);
-			border-radius: 6px;
-			&:hover {
-				border-color: rgb(255 255 255 / 0.05);
-			}
-			&:focus {
-				border-color: rgb(var(--accent));
-				box-shadow: 0 0 calc(var(--glow-intensity) * 10px) calc(var(--glow-intensity) * 2px) rgb(var(--accent), 0.2);
-			}
-		}
-
-		.role-2TIOKu {
-			border: 1px solid var(--border) !important;
-			height: auto;
-			padding: 8px 10px;
-			border-radius: 6px;
-			background: var(--bg-primary);
-			position: relative;
-			overflow: hidden;
-			&:hover .roleCircle-3K9O3d {
-				opacity: 1;
-			}
-		}
-		.roleRemoveButton-17oXnT {
-			position: absolute;
-			inset: 0;
-			z-index: 0;
-		}
-		.roleCircle-3K9O3d {
-			margin: 0;
-			filter: none;
-			position: absolute;
-			height: 100%;
-			width: 100%;
+		box-shadow: none;
+		background: transparent;
+		padding: 0;
+		
+		.banner-2boKnS {
 			border-radius: 0;
-			opacity: .2;
 		}
-		.roleName-2ZJJYR {
-			position: relative;
-			z-index: 2;
-			margin: 0;
+		.avatarPositionPremiumNoBanner-nWzERs {
+			top: 42px;
+			left: 18px;
+		}
+		.avatarPositionPremiumBanner-2nq2Fy {
+			top: 72px;
+			left: 18px;
+		}
+
+		&[style*="--profile-gradient-primary-color"] .input-2g-os5:focus-within {
+			border-color: var(--profile-gradient-primary-color, rgb(var(--accent))) !important;
+    	box-shadow: 0 0 calc(var(--input-glow-intensity) * 12px) calc(var(--input-glow-intensity) * 2px) var(--profile-gradient-primary-color, rgb(var(--accent), .25)) !important;
+		}
+		&.theme-light {
+			--profile-body-divider-color: var(--border) !important;
+			--profile-body-background-color: var(--fg-secondary) !important;
+			--header-primary: #fff !important;
+			--header-secondary: #aaa !important;
+			--text-normal: var(--primary-dark-200) !important;
+			--profile-role-pill-border-color: transparent !important;
+			--profile-role-pill-background-color: var(--fg-secondary) !important;
+			--input-background: hsl(0 0% 7% / 0.7) !important;
 		}
 	}
-
-	.bodyInnerWrapper-2bQs1k {
+	.userProfileInner-3F03PX {
+		border-radius: 0;
 		background: transparent;
+		&::before {
+			width: 100%;
+			height: 100%;
+			background: transparent;
+		}
 	}
-
-	.note-Go5ZP2 {
+	.overlayBackground-1KgwVi {
 		margin: 0;
-	}
-
-	.footer-3naVBw {
+		padding-top: 16px;
 		background: transparent;
+	}
+	.messageInputContainer-2rGDH8 {
+		border: none;
+		border-radius: 0;
 	}
 }

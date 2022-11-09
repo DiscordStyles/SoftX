@@ -1,8 +1,19 @@
-#app-mount #status-picker {
-	.description-3Cwkxk {
-		display: none;
-	}
-	.statusItem-2hiCNB {
-		padding: 0;
+#app-mount {
+	.accountProfilePopoutWrapper-3GskID {
+		&::before {
+			content: '';
+			position: absolute;
+			z-index: -1;
+			inset: 0;
+			backdrop-filter: blur(var(--blur));
+		}
+		left: 0;
+		.userPopoutOuter-3AVBmJ {
+			background: var(--bg-primary);
+			backdrop-filter: none;
+		}
+		.menu-KSaHL1 {
+			max-width: unset;
+		}
 	}
 }
