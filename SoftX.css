@@ -1,3 +1,13 @@
+.theme-light {
+  --user-popout-bg: hsl(0 0% 100% / .25);
+  --user-popout-text: black;
+}
+
+.theme-dark {
+  --user-popout-bg: hsl(0 0% 0% / .25);
+  --user-popout-text: white;
+}
+
 :root {
   --softx-version: "1.1.10";
   --hue: 0deg;
@@ -1998,6 +2008,69 @@ body .footer-GXWBBp,
   top: 72px;
   left: 18px;
 }
+#app-mount .userPopoutOuter-3AVBmJ .scroller-1jBQYo {
+  padding: 0 16px !important;
+}
+#app-mount .userPopoutOuter-3AVBmJ .input-2g-os5 {
+  background: var(--user-popout-bg) !important;
+}
+#app-mount .userPopoutOuter-3AVBmJ .input-2g-os5::-moz-placeholder {
+  color: var(--user-popout-text);
+}
+#app-mount .userPopoutOuter-3AVBmJ .input-2g-os5::placeholder {
+  color: var(--user-popout-text);
+}
+#app-mount .userPopoutOuter-3AVBmJ .roles-3zC7MX {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+#app-mount .userPopoutOuter-3AVBmJ .role-2TIOKu {
+  margin: 0;
+  border: none;
+  height: auto;
+  padding: 8px;
+  display: flex;
+  background: transparent;
+  position: relative;
+  overflow: hidden;
+}
+#app-mount .userPopoutOuter-3AVBmJ .roleRemoveButton-17oXnT {
+  position: absolute;
+  inset: 0;
+}
+#app-mount .userPopoutOuter-3AVBmJ .roleRemoveButton-17oXnT[aria-hidden=false]:hover .roleCircle-3K9O3d {
+  opacity: 1;
+}
+#app-mount .userPopoutOuter-3AVBmJ .roleRemoveButton-17oXnT[aria-hidden=false]:hover ~ .roleName-2ZJJYR {
+  opacity: 0;
+  pointer-events: none;
+}
+#app-mount .userPopoutOuter-3AVBmJ .roleCircle-3K9O3d {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 0;
+  z-index: -1;
+  filter: none;
+  opacity: 0.35;
+}
+#app-mount .userPopoutOuter-3AVBmJ .roleName-2ZJJYR {
+  margin: 0;
+  color: #fff;
+}
+#app-mount .userPopoutOuter-3AVBmJ[style*="--profile-gradient-primary-color"] .userProfileInner-3F03PX::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(var(--profile-gradient-primary-color), var(--profile-gradient-primary-color) 120px, var(--profile-gradient-secondary-color));
+  opacity: 0.5;
+  pointer-events: none;
+  z-index: -1;
+}
 #app-mount .userPopoutOuter-3AVBmJ[style*="--profile-gradient-primary-color"] .input-2g-os5:focus-within {
   border-color: var(--profile-gradient-primary-color, rgb(var(--accent))) !important;
   box-shadow: 0 0 calc(var(--input-glow-intensity) * 12px) calc(var(--input-glow-intensity) * 2px) var(--profile-gradient-primary-color, rgb(var(--accent), 0.25)) !important;
@@ -2017,9 +2090,10 @@ body .footer-GXWBBp,
   background: transparent;
 }
 #app-mount .userProfileInner-3F03PX::before {
-  width: 100%;
-  height: 100%;
-  background: transparent;
+  content: none;
+}
+#app-mount .userProfileInner-3F03PX.userProfileInnerThemedNonPremium-1gT-zY {
+  background: var(--fg-primary);
 }
 #app-mount .overlayBackground-1KgwVi {
   margin: 0;
