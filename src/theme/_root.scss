@@ -1,3 +1,12 @@
+.theme-light {
+	--user-popout-bg: hsl(0 0% 100% / .25);
+	--user-popout-text: black;
+}
+.theme-dark {
+	--user-popout-bg: hsl(0 0% 0% / .25);
+	--user-popout-text: white;
+}
+
 :root {
 	--softx-version: '1.1.10';
 
