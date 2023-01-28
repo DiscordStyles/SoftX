@@ -9,7 +9,7 @@
 }
 
 :root {
-  --softx-version: "1.1.10";
+  --softx-version: "1.1.11";
   --hue: 0deg;
   --saturation: 0%;
   --lightness: 10%;
@@ -936,6 +936,7 @@ html.theme-light .container-YkUktl {
   border-top: 1px solid var(--border);
 }
 #app-mount .container-1zzFcN {
+  background: transparent;
   border: none;
   padding: 0;
 }
@@ -990,6 +991,7 @@ html.theme-light .container-YkUktl {
   border-bottom: 1px solid var(--border);
 }
 #app-mount .container-YkUktl {
+  background: transparent;
   padding: 0 16px;
   height: 64px;
   border-top: 1px solid var(--border);
