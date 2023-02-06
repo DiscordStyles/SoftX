@@ -9,7 +9,7 @@
 }
 
 :root {
-  --softx-version: "1.1.11";
+  --softx-version: "1.1.12";
   --hue: 0deg;
   --saturation: 0%;
   --lightness: 10%;
@@ -855,6 +855,9 @@ html.theme-light .container-YkUktl {
 #app-mount .headerButton-1nmDZ3 {
   background: transparent;
 }
+#app-mount .communityInfoContainer-1dMVpU {
+  display: none;
+}
 
 #app-mount .containerDefault-3TQ5YN {
   padding-top: 18px;
@@ -908,11 +911,11 @@ html.theme-light .container-YkUktl {
 #app-mount .channel-1Shao0 .name-2m3Cms {
   overflow: visible;
 }
-#app-mount .channel-1Shao0 .selected-3veCBZ {
+#app-mount .channel-1Shao0 .selected-26oxtA {
   color: rgb(var(--accent));
   background: rgb(var(--accent), 0.2);
 }
-#app-mount .channel-1Shao0 .selected-3veCBZ::before {
+#app-mount .channel-1Shao0 .selected-26oxtA::before {
   content: "";
   position: absolute;
   left: 0;
@@ -921,10 +924,10 @@ html.theme-light .container-YkUktl {
   background: rgb(var(--accent));
   box-shadow: 0 0 calc(var(--glow-intensity) * 15px) calc(var(--glow-intensity) * 5px) rgb(var(--accent), 0.2);
 }
-#app-mount .channel-1Shao0 .selected-3veCBZ .name-2m3Cms {
+#app-mount .channel-1Shao0 .selected-26oxtA .name-2m3Cms {
   filter: drop-shadow(0 0 calc(var(--glow-intensity) * 5px) rgb(var(--accent)));
 }
-#app-mount .channel-1Shao0 .selected-3veCBZ .subText-3Sk0zy {
+#app-mount .channel-1Shao0 .selected-26oxtA .subText-3Sk0zy {
   color: #fff;
 }
 
@@ -998,11 +1001,6 @@ html.theme-light .container-YkUktl {
 }
 #app-mount .avatarWrapper-1B9FTW {
   flex: 1;
-}
-#app-mount .avatarWrapper-1B9FTW .svg-2azL_l {
-  width: 50px;
-  height: 50px;
-  transform: translate(1px, 1px);
 }
 
 #app-mount .list-2x9Cl9 {
@@ -1667,6 +1665,22 @@ body .footer-GXWBBp,
   border-radius: 0;
   border-bottom: 1px solid var(--border);
   margin: 0;
+}
+
+#app-mount .userPanelOuter-xc-WYi {
+  position: relative;
+  background: var(--bg-primary);
+}
+#app-mount .userPanelOuter-xc-WYi.userProfileOuterThemed-3EfHmv::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(var(--profile-gradient-primary-color), var(--profile-gradient-secondary-color));
+  opacity: 0.75;
+  z-index: -1;
 }
 
 #app-mount .membersWrap-3NUR2t {
