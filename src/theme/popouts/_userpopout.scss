@@ -6,7 +6,7 @@
 		box-shadow: none;
 		background: transparent;
 		padding: 0;
-		
+
 		.banner-2boKnS {
 			border-radius: 0;
 		}
@@ -36,7 +36,7 @@
 			margin: 0;
 			border: none;
 			height: auto;
-			padding: 8px;
+			padding: 6px 8px;
 			display: flex;
 			background: transparent;
 			position: relative;
@@ -45,8 +45,8 @@
 		.roleRemoveButton-17oXnT {
 			position: absolute;
 			inset: 0;
-			&[aria-hidden="false"]:hover {
-				.roleCircle-3K9O3d {
+			&[aria-hidden='false']:hover {
+				.roleCircle-3TFUOr {
 					opacity: 1;
 				}
 				& ~ .roleName-2ZJJYR {
@@ -55,7 +55,7 @@
 				}
 			}
 		}
-		.roleCircle-3K9O3d {
+		.roleCircle-3TFUOr {
 			margin: 0;
 			position: absolute;
 			top: 0;
@@ -65,26 +65,31 @@
 			border-radius: 0;
 			z-index: -1;
 			filter: none;
-			opacity: .35;
+			opacity: 0.35;
 		}
 		.roleName-2ZJJYR {
 			margin: 0;
 			color: #fff;
 		}
 
-		&[style*="--profile-gradient-primary-color"] {
+		&[style*='--profile-gradient-primary-color'] {
 			.userProfileInner-3F03PX::before {
 				content: '';
 				width: 100%;
 				height: 100%;
-				background: linear-gradient(var(--profile-gradient-primary-color),var(--profile-gradient-primary-color) 120px,var(--profile-gradient-secondary-color));
-				opacity: .5;
+				background: linear-gradient(
+					var(--profile-gradient-primary-color),
+					var(--profile-gradient-primary-color) 120px,
+					var(--profile-gradient-secondary-color)
+				);
+				opacity: 0.5;
 				pointer-events: none;
 				z-index: -1;
 			}
 			.input-2g-os5:focus-within {
 				border-color: var(--profile-gradient-primary-color, rgb(var(--accent))) !important;
-				box-shadow: 0 0 calc(var(--input-glow-intensity) * 12px) calc(var(--input-glow-intensity) * 2px) var(--profile-gradient-primary-color, rgb(var(--accent), .25)) !important;
+				box-shadow: 0 0 calc(var(--input-glow-intensity) * 12px) calc(var(--input-glow-intensity) * 2px)
+					var(--profile-gradient-primary-color, rgb(var(--accent), 0.25)) !important;
 			}
 		}
 		&.theme-light {
@@ -116,5 +121,15 @@
 	.messageInputContainer-2rGDH8 {
 		border: none;
 		border-radius: 0;
+	}
+	.messageInput-1KI8l8 {
+		background: var(--fg-secondary);
+		&::placeholder {
+			color: #fff;
+			opacity: 0.35;
+		}
+		&:focus {
+			background: var(--fg-primary);
+		}
 	}
 }
