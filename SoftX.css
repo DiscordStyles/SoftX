@@ -1,19 +1,19 @@
 .theme-light {
-  --user-popout-bg: hsl(0 0% 100% / .25);
+  --user-popout-bg: hsl(0 0% 100% / 0.25);
   --user-popout-text: black;
 }
 
 .theme-dark {
-  --user-popout-bg: hsl(0 0% 0% / .25);
+  --user-popout-bg: hsl(0 0% 0% / 0.25);
   --user-popout-text: white;
 }
 
 :root {
-  --softx-version: "1.1.12";
+  --softx-version: "1.1.13";
   --hue: 0deg;
   --saturation: 0%;
   --lightness: 10%;
-  --transition: .15s ease;
+  --transition: 0.15s ease;
   --chat-glow-intensity: var(--glow-intensity);
   --channel-glow-intensity: var(--glow-intensity);
   --members-glow-intensity: var(--glow-intensity);
@@ -27,12 +27,12 @@
   --TB-header-padding: 155px !important;
   --shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -1px rgb(0 0 0 / 0.06);
   --shadow-lg: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 10px 10px -5px rgb(0 0 0 / 0.04);
-  --border: hsl(var(--hue) var(--saturation) calc(var(--lightness) / 2) / .6);
-  --bg-primary: hsl(var(--hue) var(--saturation) var(--lightness) / calc(var(--opacity) + .05));
-  --bg-secondary: hsl(var(--hue) var(--saturation) var(--lightness) / calc(var(--opacity) + .1));
-  --bg-tertiary: hsl(var(--hue) var(--saturation) var(--lightness) / calc(var(--opacity) + .15));
-  --fg-primary: hsl(0 0% 100% / .1);
-  --fg-secondary: hsl(0 0% 100% / .05);
+  --border: hsl(var(--hue) var(--saturation) calc(var(--lightness) / 2) / 0.6);
+  --bg-primary: hsl(var(--hue) var(--saturation) var(--lightness) / calc(var(--opacity) + 0.05));
+  --bg-secondary: hsl(var(--hue) var(--saturation) var(--lightness) / calc(var(--opacity) + 0.1));
+  --bg-tertiary: hsl(var(--hue) var(--saturation) var(--lightness) / calc(var(--opacity) + 0.15));
+  --fg-primary: hsl(0 0% 100% / 0.1);
+  --fg-secondary: hsl(0 0% 100% / 0.05);
   --chat-bubble-bg: rgba(255, 255, 255, 0.03);
   --chat-bubble-bg-self: rgb(var(--accent), 0.15);
   --chat-bubble-padding: 10px 14px;
@@ -47,11 +47,11 @@
   --channel-height: 40px;
   --member-height: 54px;
   --dm-height: 56px;
-  --scrollbar-background: rgb(255 255 255 / .05);
-  --scrollbar-background-hover: rgb(255 255 255 / .1);
-  --scrollbar-background-active: rgb(255 255 255 / .15);
-  --input-background: rgb(18 18 18 / .7);
-  --input-border: rgb(255 255 255 / .05);
+  --scrollbar-background: rgb(255 255 255 / 0.05);
+  --scrollbar-background-hover: rgb(255 255 255 / 0.1);
+  --scrollbar-background-active: rgb(255 255 255 / 0.15);
+  --input-background: rgb(18 18 18 / 0.7);
+  --input-border: rgb(255 255 255 / 0.05);
   --discord-red: 359 calc(var(--saturation-factor, 1) * 82.6%) 59.4%;
   --discord-green: 139 calc(var(--saturation-factor, 1) * 47.3%) 43.9%;
   --settings-sidebar-width: 300px;
@@ -62,11 +62,11 @@
   --font-primary: var(--font, "Whitney");
   --font-display: var(--font, "Whitney");
   --channels-default: #aaa;
-  --background-modifier-hover: rgb(255 255 255 / .05);
-  --background-modifier-active: rgb(255 255 255 / .08);
-  --brand-experiment: rgb(var(--accent), .35);
-  --brand-experiment-560: rgb(var(--accent), .55);
-  --brand-experiment-600: rgb(var(--accent), .4);
+  --background-modifier-hover: rgb(255 255 255 / 0.05);
+  --background-modifier-active: rgb(255 255 255 / 0.08);
+  --brand-experiment: rgb(var(--accent), 0.35);
+  --brand-experiment-560: rgb(var(--accent), 0.55);
+  --brand-experiment-600: rgb(var(--accent), 0.4);
 }
 
 html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
@@ -1717,12 +1717,12 @@ body .footer-GXWBBp,
 #app-mount .member-2gU6Ar.selected-1-Z6gm .layout-1qmrhw {
   background: transparent;
 }
-#app-mount .member-2gU6Ar.selected-1-Z6gm .username-u-ebrn {
+#app-mount .member-2gU6Ar.selected-1-Z6gm .username-3_PJ5r {
   text-shadow: 0 0 calc(var(--members-glow-intensity) * 10px) currentColor;
   overflow: visible;
   filter: none;
 }
-#app-mount .member-2gU6Ar.selected-1-Z6gm .username-u-ebrn::before {
+#app-mount .member-2gU6Ar.selected-1-Z6gm .username-3_PJ5r::before {
   content: "";
   position: absolute;
   top: 0;
@@ -1734,7 +1734,7 @@ body .footer-GXWBBp,
   z-index: 0;
   pointer-events: none;
 }
-#app-mount .member-2gU6Ar.selected-1-Z6gm .username-u-ebrn::after {
+#app-mount .member-2gU6Ar.selected-1-Z6gm .username-3_PJ5r::after {
   content: "";
   position: absolute;
   top: 0;
@@ -1763,13 +1763,13 @@ body .footer-GXWBBp,
   z-index: 1;
 }
 
-#app-mount .menu-1QACrS:not(#account.menu-KSaHL1) {
+#app-mount .menu-2TXYjN:not(#account.menu-2TXYjN) {
   background: var(--bg-primary);
   border: 1px solid var(--border);
   box-shadow: none;
   border-radius: 6px;
 }
-#app-mount .menu-1QACrS:not(#account.menu-KSaHL1)::before {
+#app-mount .menu-2TXYjN:not(#account.menu-2TXYjN)::before {
   content: "";
   border-radius: 6px;
   position: absolute;
@@ -1781,34 +1781,34 @@ body .footer-GXWBBp,
           backdrop-filter: blur(5px);
   z-index: -1;
 }
-#app-mount .menu-1QACrS:not(#account.menu-KSaHL1) .scroller-1bVxF5 {
+#app-mount .menu-2TXYjN:not(#account.menu-2TXYjN) .scroller-nxCRu_ {
   padding: 0;
 }
-#app-mount .menu-1QACrS:not(#account.menu-KSaHL1) [role=group]:first-child > .item-1OdjEX:first-child {
+#app-mount .menu-2TXYjN:not(#account.menu-2TXYjN) [role=group]:first-child > .item-5ApiZt:first-child {
   border-radius: 6px 6px 0 0;
 }
-#app-mount .menu-1QACrS:not(#account.menu-KSaHL1) [role=group]:nth-last-child(2) > .item-1OdjEX:last-child {
+#app-mount .menu-2TXYjN:not(#account.menu-2TXYjN) [role=group]:nth-last-child(2) > .item-5ApiZt:last-child {
   border-radius: 0 0 6px 6px;
 }
-#app-mount .menu-1QACrS:not(#account.menu-KSaHL1) .separator-1So4YB {
+#app-mount .menu-2TXYjN:not(#account.menu-2TXYjN) .separator-12G2Op {
   margin: 0;
   border-color: var(--border);
 }
-#app-mount .menu-1QACrS:not(#account.menu-KSaHL1) .item-1OdjEX {
+#app-mount .menu-2TXYjN:not(#account.menu-2TXYjN) .item-5ApiZt {
   margin: 0;
   border-radius: 0;
   padding: 10px 14px;
 }
-#app-mount .menu-1QACrS:not(#account.menu-KSaHL1) .item-1OdjEX.focused-3qFvc8 {
+#app-mount .menu-2TXYjN:not(#account.menu-2TXYjN) .item-5ApiZt.focused-3LIdPu {
   background: var(--background-modifier-hover);
 }
-#app-mount .menu-1QACrS:not(#account.menu-KSaHL1) .item-1OdjEX.colorDanger-3n-KnP.focused-3qFvc8 {
+#app-mount .menu-2TXYjN:not(#account.menu-2TXYjN) .item-5ApiZt.colorDanger-3umuSx.focused-3LIdPu {
   background: hsl(var(--discord-red));
 }
-#app-mount .menu-1QACrS:not(#account.menu-KSaHL1) .submenuPaddingContainer-_k62dJ {
+#app-mount .menu-2TXYjN:not(#account.menu-2TXYjN) .submenuPaddingContainer-QgnL1r {
   margin: 0 -4px;
 }
-#app-mount .menu-1QACrS:not(#account.menu-KSaHL1) .hideInteraction-2jPGL_ .hideInteraction-2jPGL_ {
+#app-mount .menu-2TXYjN:not(#account.menu-2TXYjN) .hideInteraction-2jPGL_ .hideInteraction-2jPGL_ {
   padding: 0 0 8px;
 }
 
@@ -2595,8 +2595,14 @@ body .footer-GXWBBp,
   -webkit-backdrop-filter: none;
           backdrop-filter: none;
 }
-#app-mount .accountProfilePopoutWrapper-3GskID .menu-KSaHL1 {
+#app-mount .accountProfilePopoutWrapper-3GskID .menu-2TXYjN {
   max-width: unset;
+}
+#app-mount .statusItem-2a1giL {
+  padding: 0;
+}
+#app-mount .statusItem-2a1giL .description-22_U3B {
+  display: none;
 }
 
 #app-mount .input-3eeNNl {
@@ -2914,27 +2920,27 @@ body .footer-GXWBBp,
   width: 300px;
   border-right: 1px solid var(--border);
 }
-#app-mount .sidebarRegion-1VBisG .header-2Kx1US {
+#app-mount .sidebarRegion-1VBisG .header-2F5_LB {
   padding: 10px 18px;
   color: var(--text-muted);
 }
-#app-mount .sidebarRegion-1VBisG .separator-2wx7h6 {
+#app-mount .sidebarRegion-1VBisG .separator-2N511j {
   height: 0;
   background: transparent;
   margin-bottom: 18px;
 }
-#app-mount .sidebarRegion-1VBisG .item-3XjbnG {
+#app-mount .sidebarRegion-1VBisG .item-2GWPIy {
   padding: 10px 18px;
   margin: 0;
   border-radius: 0;
 }
-#app-mount .sidebarRegion-1VBisG .item-3XjbnG.selected-g-kMVV {
+#app-mount .sidebarRegion-1VBisG .item-2GWPIy.selected-1sf9UK {
   background: rgb(var(--accent), 0.1) !important;
   position: relative;
   color: rgb(var(--accent)) !important;
   text-shadow: 0 0 calc(var(--glow-intensity) * 12px) rgb(var(--accent)), 0 0 calc(var(--glow-intensity) * 5px) rgb(var(--accent), 0.2);
 }
-#app-mount .sidebarRegion-1VBisG .item-3XjbnG.selected-g-kMVV::before {
+#app-mount .sidebarRegion-1VBisG .item-2GWPIy.selected-1sf9UK::before {
   content: "";
   position: absolute;
   top: 0;
@@ -4262,7 +4268,7 @@ body #ChannelsPreview::before {
 #app-mount .listItemWrapper-3d87LP:active {
   transform: scale(0.9);
 }
-#app-mount .svg-2zuE5p foreignObject {
+#app-mount .svg-2ifYOU foreignObject {
   border-radius: var(--server-roundness, 50%);
   -webkit-mask: none !important;
           mask: none !important;
