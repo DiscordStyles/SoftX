@@ -2045,7 +2045,7 @@ body .footer-GXWBBp,
   margin: 0;
   border: none;
   height: auto;
-  padding: 8px;
+  padding: 6px 8px;
   display: flex;
   background: transparent;
   position: relative;
@@ -2055,14 +2055,14 @@ body .footer-GXWBBp,
   position: absolute;
   inset: 0;
 }
-#app-mount .userPopoutOuter-3AVBmJ .roleRemoveButton-17oXnT[aria-hidden=false]:hover .roleCircle-3K9O3d {
+#app-mount .userPopoutOuter-3AVBmJ .roleRemoveButton-17oXnT[aria-hidden=false]:hover .roleCircle-3TFUOr {
   opacity: 1;
 }
 #app-mount .userPopoutOuter-3AVBmJ .roleRemoveButton-17oXnT[aria-hidden=false]:hover ~ .roleName-2ZJJYR {
   opacity: 0;
   pointer-events: none;
 }
-#app-mount .userPopoutOuter-3AVBmJ .roleCircle-3K9O3d {
+#app-mount .userPopoutOuter-3AVBmJ .roleCircle-3TFUOr {
   margin: 0;
   position: absolute;
   top: 0;
@@ -2119,6 +2119,20 @@ body .footer-GXWBBp,
 #app-mount .messageInputContainer-2rGDH8 {
   border: none;
   border-radius: 0;
+}
+#app-mount .messageInput-1KI8l8 {
+  background: var(--fg-secondary);
+}
+#app-mount .messageInput-1KI8l8::-moz-placeholder {
+  color: #fff;
+  opacity: 0.35;
+}
+#app-mount .messageInput-1KI8l8::placeholder {
+  color: #fff;
+  opacity: 0.35;
+}
+#app-mount .messageInput-1KI8l8:focus {
+  background: var(--fg-primary);
 }
 
 #app-mount .container-18GwIk {
