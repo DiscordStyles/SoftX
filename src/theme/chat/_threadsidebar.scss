@@ -1,11 +1,17 @@
 #app-mount {
+	.resizeHandle-PBRzPC {
+		background: var(--fg-primary);
+	}
 	.container-3XgAHv {
+		border-radius: 0;
+	}
+	.chatContent-3KubbW {
 		border-radius: 0;
 		margin: 0;
 		background: var(--bg-primary);
 		border-left: 1px solid var(--border);
 	}
-	.chat-1-OBC7::before {
+	.chat-25x62K::before {
 		content: none;
 	}
 }

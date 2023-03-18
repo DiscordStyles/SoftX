@@ -15,7 +15,12 @@
 	.container-1NXEtd {
 		background: transparent;
 	}
-	.content-2a4AW9 > div[style="height: 16px;"] {
+	.content-2a4AW9 > div[style='height: 16px;'] {
 		display: none;
+	}
+	.sectionDivider-189lqb {
+		margin: 0;
+		background: var(--border);
+		margin-top: 12px;
 	}
 }

@@ -4,7 +4,7 @@
 		border-right: 1px solid var(--border);
 	}
 
-	.content-2a4AW9 {
+	.content-yjf30S {
 		padding: 0;
 		width: 100%;
 		border-right: 1px solid var(--border);
@@ -16,6 +16,7 @@
 
 	.headerRow-1MKoR- {
 		padding: 0;
+		border-bottom: 1px solid var(--border);
 	}
 	.header-1Uy0p6 {
 		height: auto;
@@ -45,6 +46,22 @@
 		padding: 16px;
 	}
 
+	.tagsContainer-2bBw1x {
+		padding: 16px;
+	}
+	.pill-3pRQlO,
+	.sortDropdown-hY93nR {
+		background: var(--fg-secondary);
+		color: #fff;
+		&:hover {
+			background: var(--fg-primary);
+		}
+	}
+	.pill-3pRQlO.selected-24z1Ou {
+		border-color: rgb(var(--accent));
+		background: rgb(var(--accent), 0.1);
+	}
+
 	.row-uezxzk {
 		padding: 0;
 		&:not(:last-child) {
@@ -61,6 +78,11 @@
 			transform: none;
 			background: var(--background-modifier-hover);
 		}
+	}
+	.matchingPostsRow-2IiEQ1 {
+		border-radius: 0;
+		background: var(--fg-primary);
+		border-bottom: 1px solid var(--border);
 	}
 
 	.sidebarCard-1Gn1ch,
