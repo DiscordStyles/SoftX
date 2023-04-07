@@ -1,6 +1,5 @@
 body,
 #app-mount {
-
 	$message: '.messageContent-2t3eCI:not(:empty):not(.repliedTextContent-2hOYMB):not(.threadMessageAccessoryContent-1HTTUq)';
 
 	.message-2CShn3 {
@@ -13,11 +12,12 @@ body,
 				padding-left: 16px;
 			}
 			&:hover {
-				border-color: rgb(255 255 255 / .05);
+				border-color: rgb(255 255 255 / 0.05);
 			}
 			&:focus-within {
 				border-color: rgb(var(--accent));
-				box-shadow: 0 0 calc(var(--input-glow-intensity) * 20px) calc(var(--input-glow-intensity) * 5px) rgb(var(--accent), .25);
+				box-shadow: 0 0 calc(var(--input-glow-intensity) * 20px) calc(var(--input-glow-intensity) * 5px)
+					rgb(var(--accent), 0.25);
 			}
 		}
 		.operations-3q3u6E .anchor-1MIwyf {
@@ -25,17 +25,18 @@ body,
 			text-shadow: 0 0 calc(var(--input-glow-intensity) * 5px) rgb(var(--accent));
 		}
 		&.replying-eZ7p5z {
-			background: rgb(var(--accent), .03);
+			background: rgb(var(--accent), 0.03);
 			&::before {
 				background: rgb(var(--accent));
-				box-shadow: 0 0 calc(var(--chat-glow-intensity) * 15px) calc(var(--chat-glow-intensity) * 5px) rgb(var(--accent), .2);
+				box-shadow: 0 0 calc(var(--chat-glow-intensity) * 15px) calc(var(--chat-glow-intensity) * 5px)
+					rgb(var(--accent), 0.2);
 			}
 		}
 	}
 
 	// Message actions
 	.wrapper-2vIMkT {
-		background: rgb(255 255 255 / .03);
+		background: rgb(255 255 255 / 0.03);
 		border: 1px solid var(--border);
 		backdrop-filter: blur(5px);
 		box-shadow: none;
@@ -67,7 +68,7 @@ body,
 			overflow: visible;
 			max-width: 100%;
 			code {
-				background: rgb(255 255 255 / .03);
+				background: rgb(255 255 255 / 0.03);
 				border: none;
 			}
 		}
@@ -98,7 +99,7 @@ body,
 				border-radius: 0 6px 6px 0;
 			}
 		}
-		&[data-is-author-self="true"] #{$message} {
+		&[data-is-author-self='true'] #{$message} {
 			background: var(--chat-bubble-bg-self);
 		}
 		&.selected-2LX7Jy:not(.replying-eZ7p5z),
@@ -108,7 +109,7 @@ body,
 		&.hasThread-2k82W0::after {
 			left: calc(var(--chat-avatar-size) - 3px);
 			width: calc(var(--chat-avatar-size) - 13px);
-			border-color: rgb(255 255 255 / .15);
+			border-color: rgb(255 255 255 / 0.15);
 			bottom: 40px;
 		}
 	}
@@ -116,13 +117,13 @@ body,
 	// Thread
 	.container-3i3IzO {
 		margin-top: 0;
-		background: rgb(255 255 255 / .05);
+		background: rgb(255 255 255 / 0.05);
 		margin-bottom: 12px;
 	}
 
 	// Mention
 	.wrapper-1ZcZW- {
-		background: rgb(var(--accent), .1);
+		background: rgb(var(--accent), 0.1);
 		color: rgb(var(--accent));
 		text-shadow: 0 0 calc(var(--glow-intensity) * 5px) currentColor;
 		&:hover {
@@ -135,22 +136,22 @@ body,
 	.repliedMessage-3Z6XBG::before {
 		left: calc(var(--chat-avatar-size) / 2 * -1 + var(--gutter) * -1 + 5px);
 	}
-	
+
 	// Embeds, invites, ect...
 	.embedFull-1HGV2S,
 	.wrapper-1HIH0j {
-		background: rgb(255 255 255 / .03);
+		background: rgb(255 255 255 / 0.03);
 	}
 	.wrapperAudio-1Bzv_Z {
 		border: none;
-		background: rgb(255 255 255 / .03);
+		background: rgb(255 255 255 / 0.03);
 	}
 	.textContainer-36wgKK {
-		background: rgb(255 255 255 / .03);
+		background: rgb(255 255 255 / 0.03);
 		border: none;
 	}
 	.footer-GXWBBp {
-		background: rgb(255 255 255 / .05);
+		background: rgb(255 255 255 / 0.05);
 		border: none;
 	}
 }

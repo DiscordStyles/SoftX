@@ -49,11 +49,11 @@
 		background: var(--input-background);
 		border: 2px solid transparent;
 		&:hover {
-			border-color: rgb(255 255 255 / .05);
+			border-color: rgb(255 255 255 / 0.05);
 		}
 		&:focus-within {
 			border-color: rgb(var(--accent));
-			box-shadow: 0 0 calc(var(--glow-intensity) * 20px) calc(var(--glow-intensity) * 5px) rgb(var(--accent), .25);
+			box-shadow: 0 0 calc(var(--glow-intensity) * 20px) calc(var(--glow-intensity) * 5px) rgb(var(--accent), 0.25);
 		}
 	}
 }

@@ -6,7 +6,8 @@
 
 		&.modeUnread-3Cxepe {
 			.unread-36eUEm {
-				box-shadow: 0 0 calc(var(--channel-glow-intensity) * 10px) calc(var(--channel-glow-intensity) * 2px) rgb(var(--unread-colour) / .3);
+				box-shadow: 0 0 calc(var(--channel-glow-intensity) * 10px) calc(var(--channel-glow-intensity) * 2px)
+					rgb(var(--unread-colour) / 0.3);
 				width: 2px;
 				height: 15px;
 				margin: 0;
@@ -16,21 +17,23 @@
 			.icon-2W8DHg,
 			.name-28HaxV {
 				color: #fff;
-				filter: drop-shadow(0 0 calc(var(--channel-glow-intensity) * 5px) rgb(var(--unread-colour) / .3)) drop-shadow(0 0 calc(var(--channel-glow-intensity) * 2px) rgb(var(--unread-colour) / .2));
+				filter: drop-shadow(0 0 calc(var(--channel-glow-intensity) * 5px) rgb(var(--unread-colour) / 0.3))
+					drop-shadow(0 0 calc(var(--channel-glow-intensity) * 2px) rgb(var(--unread-colour) / 0.2));
 			}
 		}
 
 		&.modeSelected-3DmyhH {
 			.content-1gYQeQ {
-				background: rgb(var(--accent), .1);
+				background: rgb(var(--accent), 0.1);
 				&::before {
-					content: "";
+					content: '';
 					position: absolute;
 					left: 0;
 					height: 100%;
 					width: 2px;
 					background: rgb(var(--accent));
-					box-shadow: 0 0 calc(var(--channel-glow-intensity) * 15px) calc(var(--channel-glow-intensity) * 5px) rgb(var(--accent), .2);
+					box-shadow: 0 0 calc(var(--channel-glow-intensity) * 15px) calc(var(--channel-glow-intensity) * 5px)
+						rgb(var(--accent), 0.2);
 				}
 				.icon-2W8DHg,
 				.name-28HaxV {
@@ -63,7 +66,7 @@
 				left: 36px;
 				width: 24px;
 				height: 24px;
-				content: "";
+				content: '';
 				mask: url(assets.$icon_triangle-right);
 				background: var(--channels-default);
 			}

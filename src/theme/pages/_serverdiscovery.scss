@@ -8,7 +8,7 @@
 		position: relative;
 		&.selectedCategoryItem-FHKU_o {
 			.layout-1qmrhw {
-				background: rgb(var(--accent), .1);
+				background: rgb(var(--accent), 0.1);
 				color: rgb(var(--accent));
 			}
 			path {
@@ -19,13 +19,13 @@
 				filter: drop-shadow(0 0 calc(var(--glow-intensity) * 5px) rgb(var(--accent)));
 			}
 			&::before {
-				content: "";
+				content: '';
 				position: absolute;
 				left: 0;
 				height: 100%;
 				width: 2px;
 				background: rgb(var(--accent));
-				box-shadow: 0 0 calc(var(--glow-intensity) * 15px) calc(var(--glow-intensity) * 5px) rgb(var(--accent), .2);
+				box-shadow: 0 0 calc(var(--glow-intensity) * 15px) calc(var(--glow-intensity) * 5px) rgb(var(--accent), 0.2);
 			}
 		}
 	}
@@ -95,14 +95,14 @@
 		box-sizing: border-box;
 	}
 	.guildList-3-B_6n {
-		grid-template-columns: repeat(auto-fill,minmax(290px, 1fr));
+		grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
 	}
 	.footer-26kPv_ {
 		padding: 24px;
 	}
 	.card-2TuZPZ {
 		border-radius: 6px;
-		background: rgb(255 255 255 / .05);
+		background: rgb(255 255 255 / 0.05);
 		&:hover {
 			box-shadow: var(--shadow-lg);
 		}

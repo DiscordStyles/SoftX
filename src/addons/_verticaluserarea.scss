@@ -10,7 +10,6 @@
 			bottom: calc(var(--user-area) + 10px);
 		}
 	}
-	
 
 	.panels-3wFtMD > .container-YkUktl {
 		background: transparent;
@@ -22,7 +21,7 @@
 		width: var(--guilds-width, 72px);
 		height: auto;
 		border-top: none;
-		& > [style="flex: 0 1 auto;"] {
+		& > [style='flex: 0 1 auto;'] {
 			flex-direction: column;
 			width: 100%;
 			.button-12Fmur {

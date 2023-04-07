@@ -4,23 +4,22 @@ about: Something needs fixing
 title: Brief description of the bug
 labels: bug
 assignees: ''
-
 ---
 
 **Describe the bug**  
-*((A clear and concise description of what the bug is))*  
+_((A clear and concise description of what the bug is))_
 
 **To Reproduce**  
-*((Steps to reproduce the behavior))*  
+_((Steps to reproduce the behavior))_
 
 **Screenshots**  
-*((If applicable, add screenshots to help explain your problem))*  
+_((If applicable, add screenshots to help explain your problem))_
 
 **Infomation (please complete the following information):**  
-Discord channel: *((Stable/PTB/Canary))*  
-OS: *((Windows/Linux/OSX))*  
-Mod: *((BetterDiscord/Powercord))*  
-Discord language: *((Your language))*  
+Discord channel: _((Stable/PTB/Canary))_  
+OS: _((Windows/Linux/OSX))_  
+Mod: _((BetterDiscord/Powercord))_  
+Discord language: _((Your language))_
 
 **Additional context**  
-*((Add any other context about the problem here. Remove if not applicable.))*  
+_((Add any other context about the problem here. Remove if not applicable.))_

@@ -2,7 +2,7 @@
 	.privateChannels-oVe7HL,
 	.scroller-WSmht3 {
 		background: transparent;
-		div[style="height: 8px;"] {
+		div[style='height: 8px;'] {
 			display: none;
 		}
 	}
@@ -40,15 +40,15 @@
 
 		.selected-26oxtA {
 			color: rgb(var(--accent));
-			background: rgb(var(--accent), .2);
+			background: rgb(var(--accent), 0.2);
 			&::before {
-				content: "";
+				content: '';
 				position: absolute;
 				left: 0;
 				height: 100%;
 				width: 2px;
 				background: rgb(var(--accent));
-				box-shadow: 0 0 calc(var(--glow-intensity) * 15px) calc(var(--glow-intensity) * 5px) rgb(var(--accent), .2);
+				box-shadow: 0 0 calc(var(--glow-intensity) * 15px) calc(var(--glow-intensity) * 5px) rgb(var(--accent), 0.2);
 			}
 			.name-2m3Cms {
 				filter: drop-shadow(0 0 calc(var(--glow-intensity) * 5px) rgb(var(--accent)));

@@ -4,11 +4,11 @@
 		border-radius: 6px;
 		border: 1px solid var(--border);
 		box-shadow: none;
-		
+
 		.inner-rBP-MS {
 			margin: 0;
 		}
-		
+
 		.channelTextArea-1VQBuV {
 			background: var(--input-background);
 			border: 2px solid transparent;
@@ -16,11 +16,12 @@
 			transition-property: border-color, box-shadow;
 			margin-bottom: 0;
 			&:hover {
-				border-color: rgb(255 255 255 / .05);
+				border-color: rgb(255 255 255 / 0.05);
 			}
 			&:focus-within {
 				border-color: rgb(var(--accent));
-				box-shadow: 0 0 calc(var(--input-glow-intensity) * 20px) calc(var(--input-glow-intensity) * 5px) rgb(var(--accent), .25);
+				box-shadow: 0 0 calc(var(--input-glow-intensity) * 20px) calc(var(--input-glow-intensity) * 5px)
+					rgb(var(--accent), 0.25);
 			}
 		}
 		.slateTextArea-27tjG0 {

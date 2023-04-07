@@ -3,7 +3,7 @@
 		background: transparent;
 		padding: 0;
 	}
-	
+
 	// Connected voice
 	.wrapper-3Hk9OB:not(:empty) {
 		border-top: 1px solid var(--border);
@@ -33,6 +33,7 @@
 	}
 	.actionButtons-2vEOUh {
 		padding: 0;
+		& > div > button,
 		& > button {
 			margin: 0;
 			border-radius: 0;
@@ -40,8 +41,11 @@
 			height: 42px;
 			font-size: 0;
 			transition: none;
+			.contents-3NembX {
+				display: flex;
+			}
 			svg {
-				margin: 0;
+				margin: auto;
 				color: var(--interactive-normal);
 				transition: var(--transition);
 				transition-property: color;
@@ -60,7 +64,7 @@
 		border-bottom: none;
 		padding: 16px;
 	}
-	
+
 	// Voice users
 	.voiceUsers-3gPcwY {
 		padding: 10px 16px;

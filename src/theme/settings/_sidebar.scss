@@ -26,19 +26,20 @@
 		margin: 0;
 		border-radius: 0;
 		&.selected-1sf9UK {
-			background: rgb(var(--accent), .1) !important;
+			background: rgb(var(--accent), 0.1) !important;
 			position: relative;
 			color: rgb(var(--accent)) !important;
-			text-shadow: 0 0 calc(var(--glow-intensity) * 12px) rgb(var(--accent)), 0 0 calc(var(--glow-intensity) * 5px) rgb(var(--accent), .2);
+			text-shadow: 0 0 calc(var(--glow-intensity) * 12px) rgb(var(--accent)),
+				0 0 calc(var(--glow-intensity) * 5px) rgb(var(--accent), 0.2);
 			&::before {
-				content: "";
+				content: '';
 				position: absolute;
 				top: 0;
 				left: 0;
 				height: 100%;
 				width: 2px;
 				background: rgb(var(--accent));
-				box-shadow: 0 0 calc(var(--glow-intensity) * 15px) calc(var(--glow-intensity) * 5px) rgb(var(--accent), .2);
+				box-shadow: 0 0 calc(var(--glow-intensity) * 15px) calc(var(--glow-intensity) * 5px) rgb(var(--accent), 0.2);
 			}
 		}
 	}

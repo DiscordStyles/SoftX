@@ -10,7 +10,7 @@
 		flex-direction: row-reverse;
 		align-items: center;
 		&::before {
-			content: "";
+			content: '';
 			height: 1px;
 			display: block;
 			width: 100%;
@@ -35,8 +35,8 @@
 			.content-3spvdd {
 				order: 2;
 				margin-right: 12px;
-				background: hsl(var(--discord-red) / .2);
-				text-shadow: 0 0 calc(var(--chat-glow-intensity) * 5px) hsl(var(--discord-red) / .5);
+				background: hsl(var(--discord-red) / 0.2);
+				text-shadow: 0 0 calc(var(--chat-glow-intensity) * 5px) hsl(var(--discord-red) / 0.5);
 			}
 		}
 	}

@@ -1,6 +1,6 @@
 #app-mount {
-	.input-2g-os5:not(.multiInput-1VARjC):not(.multiInputField-1zyopx),
-	.input-2g-os5.multiInput-1VARjC {
+	.input-3O04eu:not(.multiInput-1VARjC):not(.multiInputField-1zyopx),
+	.input-3O04eu.multiInput-1VARjC {
 		padding: 10px 16px;
 		height: auto;
 		border: 2px solid transparent;
@@ -14,7 +14,8 @@
 		}
 		&:focus-within {
 			border-color: rgb(var(--accent));
-			box-shadow: 0 0 calc(var(--input-glow-intensity) * 12px) calc(var(--input-glow-intensity) * 2px) rgb(var(--accent), .25);
+			box-shadow: 0 0 calc(var(--input-glow-intensity) * 12px) calc(var(--input-glow-intensity) * 2px)
+				rgb(var(--accent), 0.25);
 		}
 	}
 	.multiInputLast-35zVz0::before {
@@ -26,7 +27,7 @@
 		top: 14px;
 		left: 12px;
 		pointer-events: none;
-		& + .input-2g-os5:not(.multiInput-1VARjC):not(.multiInputField-1zyopx) {
+		& + .input-3O04eu:not(.multiInput-1VARjC):not(.multiInputField-1zyopx) {
 			padding-left: 38px;
 		}
 	}
@@ -34,7 +35,7 @@
 	.inputWrapper-1YNMmM > svg {
 		left: 12px;
 		top: 12px;
-		& + .input-2g-os5 {
+		& + .input-3O04eu {
 			padding-left: 48px !important;
 		}
 	}

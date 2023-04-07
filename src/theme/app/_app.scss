@@ -1,5 +1,6 @@
 // Wack ass text flickering
-html, span:not([class*="spinner-"]):not([class*="spinnerItem"]) {
+html,
+span:not([class*='spinner-']):not([class*='spinnerItem']) {
 	backface-visibility: hidden;
 }
 
@@ -26,7 +27,7 @@ body,
 // Light more wanrning
 html.theme-light {
 	.app-2CXKsg::after {
-		content: "SoftX is not build for Lightmode.\APlease switch to Dark mode in your Discord Appearance Settings.";
+		content: 'SoftX is not build for Lightmode.\APlease switch to Dark mode in your Discord Appearance Settings.';
 		line-height: 1.5;
 		white-space: pre-wrap;
 		border-top: 1px solid var(--border);
@@ -41,7 +42,7 @@ html.theme-light {
 }
 
 // Remove animations
-.full-motion [class*="animator"] {
+.full-motion [class*='animator'] {
 	transform: none !important;
 	transition: none !important;
 }
@@ -53,7 +54,7 @@ html.theme-light {
 }
 
 // Versioning
-[aria-label="USER_SETTINGS"] .info-1sUqUG > span:first-child::before {
+[aria-label='USER_SETTINGS'] .info-1sUqUG > span:first-child::before {
 	display: block;
-	content: "SoftX v" var(--softx-version);
+	content: 'SoftX v' var(--softx-version);
 }

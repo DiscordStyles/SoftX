@@ -25,11 +25,12 @@
 			position: relative;
 			width: 250px;
 			&:hover {
-				border-color: rgb(255 255 255 / .05);
+				border-color: rgb(255 255 255 / 0.05);
 			}
 			&:focus-within {
 				border-color: rgb(var(--accent));
-				box-shadow: 0 0 calc(var(--input-glow-intensity) * 15px) calc(var(--input-glow-intensity) * 2px) rgb(var(--accent), .25);
+				box-shadow: 0 0 calc(var(--input-glow-intensity) * 15px) calc(var(--input-glow-intensity) * 2px)
+					rgb(var(--accent), 0.25);
 			}
 		}
 		& > svg {
@@ -47,25 +48,25 @@
 			position: static;
 			&.bd-switch-checked {
 				&::before {
-					content: "";
+					content: '';
 					position: absolute;
 					top: 0;
 					right: 0;
 					bottom: 0;
 					left: 0;
-					background: rgb(var(--accent), .07);
+					background: rgb(var(--accent), 0.07);
 					z-index: -1;
 					pointer-events: none;
 				}
 				&::after {
-					content: "";
+					content: '';
 					position: absolute;
 					top: 0;
 					left: 0;
 					height: 100%;
 					width: 2px;
 					background: rgb(var(--accent));
-					box-shadow: 0 0 calc(var(--glow-intensity) * 15px) calc(var(--glow-intensity) * 5px) rgb(var(--accent), .2);
+					box-shadow: 0 0 calc(var(--glow-intensity) * 15px) calc(var(--glow-intensity) * 5px) rgb(var(--accent), 0.2);
 					pointer-events: none;
 				}
 			}
@@ -78,7 +79,7 @@
 
 	.bd-addon-card {
 		border-radius: 6px;
-		background: rgb(255 255 255 / .02);
+		background: rgb(255 255 255 / 0.02);
 		border: 1px solid var(--border);
 		margin-bottom: 0;
 		border-radius: 0;

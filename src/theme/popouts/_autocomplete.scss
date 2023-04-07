@@ -27,9 +27,9 @@
 					background: var(--background-modifier-hover);
 				}
 				&.selected-3B2w1z {
-					background: rgb(var(--accent), .1);
+					background: rgb(var(--accent), 0.1);
 					&::before {
-						content: "";
+						content: '';
 						position: absolute;
 						top: 0;
 						left: 0;
@@ -79,6 +79,6 @@
 // Animations
 .full-motion {
 	.userPopout-2j1gM4 {
-		animation: fadeIn .2s ease forwards;
+		animation: fadeIn 0.2s ease forwards;
 	}
 }

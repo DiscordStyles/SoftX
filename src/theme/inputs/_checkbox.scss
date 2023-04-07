@@ -2,24 +2,24 @@
 	.checkbox-f1HnKB {
 		border-radius: 6px;
 
-		path{
-			&[fill^="hsl(139"] {
+		path {
+			&[fill^='hsl(139'] {
 				fill: rgb(var(--accent));
 			}
-			&[fill^="hsl(235"] {
+			&[fill^='hsl(235'] {
 				fill: #fff;
 			}
 		}
 
-		&[style*="var(--control-brand-foreground)"] {
-			background: rgb(var(--accent), .4) !important;
+		&[style*='var(--control-brand-foreground)'] {
+			background: rgb(var(--accent), 0.4) !important;
 			border-color: transparent !important;
 		}
 	}
 
-	[role="menuitemcheckbox"][aria-checked="true"] {
+	[role='menuitemcheckbox'][aria-checked='true'] {
 		.checkbox-hADx5o {
-			color: rgb(var(--accent), .15);
+			color: rgb(var(--accent), 0.15);
 		}
 		.check-3HZJs4 {
 			color: rgb(var(--accent));

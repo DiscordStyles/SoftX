@@ -2,7 +2,7 @@
 	.standardSidebarView-E9Pc3j .content-2a4AW9 {
 		min-width: 100%;
 		margin: 0;
-		& > div[style="height: 60px;"] {
+		& > div[style='height: 60px;'] {
 			display: none;
 		}
 	}
@@ -27,7 +27,7 @@
 	}
 
 	// Custom scroller bullshit. Why Discord. WHY?
-	.customColumn-2n-oKU, 
+	.customColumn-2n-oKU,
 	.contentColumn-1C7as6 {
 		width: calc(90vh - 300px);
 		max-width: var(--settings-content-width);
@@ -36,7 +36,7 @@
 	.contentColumn-1C7as6 > .customColumn-2n-oKU {
 		padding-right: 0;
 	}
-	.customScroller-m1-jZn>div {
+	.customScroller-m1-jZn > div {
 		max-width: var(--settings-content-width);
 		padding: 32px;
 	}

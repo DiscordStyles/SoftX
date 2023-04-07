@@ -37,47 +37,72 @@
 $statusMap: (
 	'online': (
 		'Online',
-		'online', // German
-		'Conectado', // Spanish
-		'En línea con móvil', // Spanish
-		'En ligne', // French
-		'Na mreži', // Croatian
+		'online',
+		// German
+		'Conectado',
+		// Spanish
+		'En línea con móvil',
+		// Spanish
+		'En ligne',
+		// French
+		'Na mreži',
+		// Croatian
 	),
 	'idle': (
 		'Idle',
-		'Inaktiv', // Danish
-		'Abwesend', // German
-		'Ausente', // Spanish
-		'Inactif', // French
-		'U mirovanju', // Croatian
+		'Inaktiv',
+		// Danish
+		'Abwesend',
+		// German
+		'Ausente',
+		// Spanish
+		'Inactif',
+		// French
+		'U mirovanju',
+		// Croatian
 	),
 	'dnd': (
 		'Do Not disturb',
-		'Vil ikke forstyrres', // Danish
-		'Bitte nicht stören', // German
-		'No molestar', // Spanish
-		'Ne pas déranger', // French
-		'Ne uznemiravaj', // Croatian
+		'Vil ikke forstyrres',
+		// Danish
+		'Bitte nicht stören',
+		// German
+		'No molestar',
+		// Spanish
+		'Ne pas déranger',
+		// French
+		'Ne uznemiravaj',
+		// Croatian
 	),
 	'streaming': (
 		'Streaming',
-		'Streamer', // Danish
-		'Streamt', // German
-		'Transmitiendo', // Spanish
-		'En direct', // French
+		'Streamer',
+		// Danish
+		'Streamt',
+		// German
+		'Transmitiendo',
+		// Spanish
+		'En direct',
+		// French
 	),
 	'invisible': (
 		'Invisible',
-		'Usynlig', // Danish
-		'Unsichtbar', // German
-		'Nevidljiv/a', // Croatian
+		'Usynlig',
+		// Danish
+		'Unsichtbar',
+		// German
+		'Nevidljiv/a',
+		// Croatian
 	),
 	'offline': (
 		'Offline',
-		'Desconectado', // Spanish
-		'Hors ligne', // French
-		'Izvan mreže', // Croatian
-	),
+		'Desconectado',
+		// Spanish
+		'Hors ligne',
+		// French
+		'Izvan mreže',
+		// Croatian
+	)
 );
 
 @each $statusType, $statusList in $statusMap {
@@ -100,7 +125,7 @@ $statusMap: (
 		border-radius: var(--rs-avatar-shape);
 		.pointerEvents-9SZWKj {
 			stroke: var(--status-color) !important;
-			&[width="30"] {
+			&[width='30'] {
 				width: calc(100% - 9px) !important;
 			}
 		}

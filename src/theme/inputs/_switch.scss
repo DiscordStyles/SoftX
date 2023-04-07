@@ -16,23 +16,20 @@
 		margin: 0;
 		padding: 0 6px;
 		cursor: var(--cursor);
-		background: hsl(0 0% 100% / .2);
-		transition: background .15s ease, border-color .15s ease;
+		background: hsl(0 0% 100% / 0.2);
+		transition: background 0.15s ease, border-color 0.15s ease;
 		&::before {
-			content: "";
+			content: '';
 			width: 14px;
 			height: 14px;
 			border-radius: 7px;
 			display: block;
 			background: #fff;
-			transition: background .15s ease,
-									transform .15s ease,
-									width .15s ease,
-									height .15s ease;
+			transition: background 0.15s ease, transform 0.15s ease, width 0.15s ease, height 0.15s ease;
 		}
 		&:hover {
 			&:not(:checked) {
-				background: hsl(0 0% 100% / .15) !important;
+				background: hsl(0 0% 100% / 0.15) !important;
 			}
 			&::before {
 				width: 16px;
@@ -50,8 +47,8 @@
 				transform: translateX(22px);
 			}
 			&:hover {
-				box-shadow: inset 0 0 0 100vmax hsl(0 0% 0% / .12);
-				border-color: hsl(0 0% 0% / .12);
+				box-shadow: inset 0 0 0 100vmax hsl(0 0% 0% / 0.12);
+				border-color: hsl(0 0% 0% / 0.12);
 			}
 			&:active::before {
 				transform: translateX(18px);

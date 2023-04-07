@@ -4,7 +4,7 @@
 		top: 12px;
 		right: 12px;
 		left: 12px;
-		background: rgb(var(--accent), .1);
+		background: rgb(var(--accent), 0.1);
 		border: 1px solid var(--border);
 		border-radius: 0;
 		box-shadow: none;
@@ -19,15 +19,15 @@
 	.unreadBar-elBRZx {
 		opacity: 1;
 		visibility: visible;
-		&[aria-hidden="true"] {
+		&[aria-hidden='true'] {
 			opacity: 0;
 			visibility: hidden;
 		}
 	}
-	
+
 	// Old messages
 	.jumpToPresentBar-1cEnH0 {
-		background: rgb(var(--accent), .1);
+		background: rgb(var(--accent), 0.1);
 		border: 1px solid var(--border);
 		padding: 0;
 		opacity: 1;

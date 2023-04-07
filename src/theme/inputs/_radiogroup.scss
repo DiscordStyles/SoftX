@@ -1,8 +1,8 @@
 #app-mount {
-	[role="radiogroup"][aria-orientation="vertical"] {
+	[role='radiogroup'][aria-orientation='vertical'] {
 		border: 1px solid var(--border);
 		border-radius: 6px;
-		background: rgb(255 255 255 / .02);
+		background: rgb(255 255 255 / 0.02);
 	}
 
 	.itemFilled-1cPbtg {
@@ -12,7 +12,7 @@
 		.icon-1ykL9s {
 			display: none;
 		}
-		
+
 		&:first-child {
 			border-radius: 6px 6px 0 0;
 			.radioBar-3w9XY-::before {
@@ -28,9 +28,9 @@
 		&:not(:last-child) {
 			border-bottom: 1px solid var(--border);
 		}
-		
-		&[aria-checked="true"] .radioBar-3w9XY- {
-			[class*="size"] {
+
+		&[aria-checked='true'] .radioBar-3w9XY- {
+			[class*='size'] {
 				color: var(--radio-bar-colour);
 				text-shadow: 0 0 calc(var(--glow-intensity) * 10px) var(--radio-bar-colour);
 			}
@@ -55,7 +55,7 @@
 		position: relative;
 		grid-gap: 16px;
 		&::before {
-			content: "";
+			content: '';
 			position: absolute;
 			left: 0;
 			top: 0;

@@ -4,7 +4,7 @@
 	// Search
 	.search-2Mwzzq {
 		order: -1;
-		
+
 		.searchBar-jGtisZ {
 			width: 250px;
 			transition: none;
@@ -15,7 +15,7 @@
 		}
 		&.open-1F8u2c .searchBar-jGtisZ {
 			border-color: rgb(var(--accent));
-			box-shadow: 0 0 calc(var(--glow-intensity) * 20px) calc(var(--glow-intensity) * 5px) rgb(var(--accent), .25);
+			box-shadow: 0 0 calc(var(--glow-intensity) * 20px) calc(var(--glow-intensity) * 5px) rgb(var(--accent), 0.25);
 		}
 		&.focused-1xh-wG {
 			position: fixed;
@@ -35,8 +35,8 @@
 				box-sizing: border-box;
 				border-radius: 12px;
 				border-color: rgb(var(--accent));
-				box-shadow: 0 0 calc(var(--glow-intensity) * 20px) calc(var(--glow-intensity) * 5px) rgb(var(--accent), .25);
-				animation: fadeIn .2s ease forwards;
+				box-shadow: 0 0 calc(var(--glow-intensity) * 20px) calc(var(--glow-intensity) * 5px) rgb(var(--accent), 0.25);
+				animation: fadeIn 0.2s ease forwards;
 			}
 			.public-DraftEditor-content {
 				cursor: text;
@@ -54,7 +54,7 @@
 				height: 24px;
 			}
 			&::before {
-				content: "";
+				content: '';
 				position: fixed;
 				top: -100vmax;
 				right: -100vmax;
@@ -63,7 +63,7 @@
 				background: var(--backdrop-background);
 				z-index: -1;
 				backdrop-filter: blur(var(--backdrop-blur));
-				animation: fadeIn .2s ease forwards;
+				animation: fadeIn 0.2s ease forwards;
 			}
 		}
 	}
@@ -74,7 +74,7 @@
 		}
 	}
 	.searchBar-jGtisZ {
-		background: rgb(255 255 255 / .05);
+		background: rgb(255 255 255 / 0.05);
 		border: 2px solid transparent;
 		padding: 0;
 		height: 32px;
@@ -82,7 +82,7 @@
 		transition: var(--transition);
 		transition-property: border-color;
 		&:hover {
-			border-color: rgb(255 255 255 / .05);
+			border-color: rgb(255 255 255 / 0.05);
 		}
 	}
 	.DraftEditor-root {
@@ -144,9 +144,9 @@
 		&::after {
 			background: linear-gradient(90deg, transparent, var(--bg-primary));
 		}
-		
-		&[aria-selected="true"] {
-			background: rgb(255 255 255 / .05);
+
+		&[aria-selected='true'] {
+			background: rgb(255 255 255 / 0.05);
 		}
 	}
 	.plusIcon-1RVszG {
@@ -158,7 +158,7 @@
 .full-motion {
 	.search-1FM8Qc.focused-1xh-wG::before,
 	.container-2McqkF {
-		animation: fadeIn .2s ease forwards;
+		animation: fadeIn 0.2s ease forwards;
 	}
 }
 

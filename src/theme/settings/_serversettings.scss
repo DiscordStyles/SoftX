@@ -1,4 +1,4 @@
-#app-mount .layer-86YKbF[aria-label="GUILD_SETTINGS"] {
+#app-mount .layer-86YKbF[aria-label='GUILD_SETTINGS'] {
 	// Roles
 	.page-15bX59 {
 		position: relative;
@@ -33,7 +33,7 @@
 			&.selected-g-kMVV {
 				background: var(--background-modifier-active);
 				&::before {
-					content: "";
+					content: '';
 					position: absolute;
 					top: 0;
 					left: 0;
@@ -45,8 +45,6 @@
 			}
 		}
 	}
-
-
 
 	.scroller-39BnzZ {
 		scroll-padding-top: 132px !important;
@@ -82,14 +80,15 @@
 			color: rgb(var(--accent));
 			text-shadow: 0 0 calc(var(--glow-intensity) * 10px) rgb(var(--accent));
 			&::before {
-				content: "";
+				content: '';
 				position: absolute;
 				bottom: 0;
 				left: 0;
 				width: 100%;
 				height: 1px;
 				background: rgb(var(--accent));
-				box-shadow: 0 0 calc(var(--glow-intensity) * 10px) rgb(var(--accent)), 0 0 calc(var(--glow-intensity) * 3px) rgb(var(--accent));
+				box-shadow: 0 0 calc(var(--glow-intensity) * 10px) rgb(var(--accent)),
+					0 0 calc(var(--glow-intensity) * 3px) rgb(var(--accent));
 			}
 		}
 	}
@@ -104,17 +103,18 @@
 		transition: var(--transition);
 		transition-property: border-color, box-shadow;
 		&:hover {
-			border-color: rgb(255 255 255 / .05);
+			border-color: rgb(255 255 255 / 0.05);
 		}
 		&:focus-within {
 			border-color: rgb(var(--accent));
-			box-shadow: 0 0 calc(var(--input-glow-intensity) * 15px) calc(var(--input-glow-intensity) * 2px) rgb(var(--accent), .25);
+			box-shadow: 0 0 calc(var(--input-glow-intensity) * 15px) calc(var(--input-glow-intensity) * 2px)
+				rgb(var(--accent), 0.25);
 		}
 	}
 	.container-3JOVER .list-38_JVu {
 		scroll-padding-top: 193px !important;
 	}
-	.content-2a4AW9 > div[style="height: 201px;"] {
+	.content-2a4AW9 > div[style='height: 201px;'] {
 		height: 193px !important;
 	}
 	.previewContainer-1xQAsw .theme-light {

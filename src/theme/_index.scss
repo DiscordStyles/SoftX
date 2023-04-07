@@ -1,18 +1,19 @@
-@use "./root";
+@use './root';
 
-@use "./app";
-@use "./inputs";
-@use "./guilds";
-@use "./sidebar";
-@use "./chat";
-@use "./members";
-@use "./popouts";
-@use "./pages";
-@use "./settings";
-@use "./os";
-@use "./modals";
-@use "./keyframes";
+@use './app';
+@use './inputs';
+@use './guilds';
+@use './sidebar';
+@use './chat';
+@use './members';
+@use './popouts';
+@use './pages';
+@use './settings';
+@use './os';
+@use './modals';
+@use './keyframes';
+@use './profile';
 
-@use "./betterdiscord";
+@use './betterdiscord';
 
-@use "../addons/serverrings";
+@use '../addons/serverrings';

@@ -14,11 +14,11 @@
 			height: 12px;
 			margin-top: -4px;
 			margin-left: -4px;
-			box-shadow: 0 0 calc(var(--glow-intensity) * 10px) calc(var(--glow-intensity) * 2px) rgb(255 255 255 / .3);
+			box-shadow: 0 0 calc(var(--glow-intensity) * 10px) calc(var(--glow-intensity) * 2px) rgb(255 255 255 / 0.3);
 		}
 		.barFill-Dhkah7 {
 			background: rgb(var(--accent));
-			box-shadow: 0 0 calc(var(--glow-intensity) * 10px) calc(var(--glow-intensity) * 2px) rgb(var(--accent), .3);
+			box-shadow: 0 0 calc(var(--glow-intensity) * 10px) calc(var(--glow-intensity) * 2px) rgb(var(--accent), 0.3);
 		}
 	}
 }

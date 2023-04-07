@@ -78,16 +78,17 @@
 		transition-property: border-color, box-shadow;
 
 		.divider-2rZFJK {
-			border-top: 2px solid rgb(255 255 255 / .05);
+			border-top: 2px solid rgb(255 255 255 / 0.05);
 			margin: 0 0 0 12px;
 		}
-		
+
 		&:hover {
-			border-color: rgb(255 255 255 / .05);
+			border-color: rgb(255 255 255 / 0.05);
 		}
 		&:focus-within {
 			border-color: rgb(var(--accent));
-			box-shadow: 0 0 calc(var(--input-glow-intensity) * 20px) calc(var(--input-glow-intensity) * 5px) rgb(var(--accent), .25);
+			box-shadow: 0 0 calc(var(--input-glow-intensity) * 20px) calc(var(--input-glow-intensity) * 5px)
+				rgb(var(--accent), 0.25);
 		}
 	}
 	.slateTextArea-27tjG0,
@@ -98,6 +99,7 @@
 		background: transparent;
 	}
 	.attachButton-_ACFSu {
+		height: 100%;
 		svg {
 			mask: url(assets.$icon_paper-clip) center/cover;
 			background: var(--interactive-muted);
@@ -110,7 +112,7 @@
 		&:hover svg {
 			background: var(--interactive-normal);
 		}
-		&[aria-expanded="true"] {
+		&[aria-expanded='true'] {
 			filter: drop-shadow(0 0 calc(var(--input-glow-intensity) * 5px) rgb(var(--accent)));
 			svg {
 				background: rgb(var(--accent)) !important;
@@ -137,7 +139,7 @@
 	}
 
 	.upload-3GTSF9 {
-		background: rgb(255 255 255 / .02);
+		background: rgb(255 255 255 / 0.02);
 		border-radius: 6px;
 	}
 
@@ -148,7 +150,7 @@
 	}
 	.replyBar-1oi75v,
 	.threadSuggestionBar-3ExSyc {
-		background: rgb(255 255 255 / .02);
+		background: rgb(255 255 255 / 0.02);
 		border-bottom: 2px solid var(--border);
 	}
 
@@ -177,7 +179,7 @@ $sizes: (
 	.font-size-#{$selector} {
 		.slateContainer-3x9zil,
 		.buttons-3JBrkn {
-			min-height: $value+px !important;
+			min-height: $value + px !important;
 		}
 	}
 }

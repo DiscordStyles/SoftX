@@ -44,11 +44,12 @@
 				width: 32px;
 			}
 			&:hover {
-				border-color: rgb(255 255 255 / .05);
+				border-color: rgb(255 255 255 / 0.05);
 			}
 			&:focus-within {
 				border-color: rgb(var(--accent));
-				box-shadow: 0 0 calc(var(--input-glow-intensity) * 15px) calc(var(--input-glow-intensity) * 2px) rgb(var(--accent), .25);
+				box-shadow: 0 0 calc(var(--input-glow-intensity) * 15px) calc(var(--input-glow-intensity) * 2px)
+					rgb(var(--accent), 0.25);
 			}
 		}
 	}

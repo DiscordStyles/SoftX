@@ -1,12 +1,12 @@
 #app-mount .guilds-2JjMmN {
-	[class*="unreadMentionsIndicator"] {
+	[class*='unreadMentionsIndicator'] {
 		width: var(--guilds-width);
 	}
 	.bar-2eAyLE {
 		box-shadow: 0 0 calc(var(--glow-intensity) * 10px) hsl(var(--discord-red));
 		opacity: 1;
 		visibility: visible;
-		&[aria-hidden="true"] {
+		&[aria-hidden='true'] {
 			opacity: 0;
 			visibility: hidden;
 		}

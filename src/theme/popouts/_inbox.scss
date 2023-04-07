@@ -35,19 +35,19 @@
 		border-radius: 0;
 		position: relative;
 		overflow: visible;
-		&[aria-selected="true"] {
+		&[aria-selected='true'] {
 			color: rgb(var(--accent));
-			background: rgb(var(--accent), .1);
-			text-shadow: 0 0 calc(var(--channel-glow-intensity) * 10px) rgb(var(--accent), .7);
+			background: rgb(var(--accent), 0.1);
+			text-shadow: 0 0 calc(var(--channel-glow-intensity) * 10px) rgb(var(--accent), 0.7);
 			&::before {
-				content: "";
+				content: '';
 				position: absolute;
 				top: 0;
 				left: 0;
 				width: 100%;
 				height: 2px;
 				background: rgb(var(--accent));
-				box-shadow: 0 0 calc(var(--glow-intensity) * 15px) calc(var(--glow-intensity) * 5px) rgb(var(--accent), .2);
+				box-shadow: 0 0 calc(var(--glow-intensity) * 15px) calc(var(--glow-intensity) * 5px) rgb(var(--accent), 0.2);
 			}
 		}
 	}

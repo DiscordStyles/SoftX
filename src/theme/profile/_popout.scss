@@ -1,5 +1,5 @@
 #app-mount {
-	.userPopoutOuter-3AVBmJ {
+	.userPopoutOuter-1OHwPL {
 		border-radius: 0;
 		border: 1px solid var(--border);
 		backdrop-filter: blur(var(--blur));
@@ -10,15 +10,15 @@
 		.banner-2boKnS {
 			border-radius: 0;
 		}
-		.avatarPositionPremiumNoBanner-nWzERs {
+		.avatarPositionPremiumNoBanner-2u3xDC {
 			top: 42px;
 			left: 18px;
 		}
-		.avatarPositionPremiumBanner-2nq2Fy {
+		.avatarPositionPremiumBanner-2EAbSH {
 			top: 72px;
 			left: 18px;
 		}
-		.scroller-1jBQYo {
+		.scroller-15bIdk {
 			padding: 0 16px !important;
 		}
 		.input-2g-os5 {
@@ -27,7 +27,7 @@
 				color: var(--user-popout-text);
 			}
 		}
-		.roles-3zC7MX {
+		.roles-3vQPxb {
 			display: flex;
 			flex-wrap: wrap;
 			gap: 8px;
@@ -76,7 +76,7 @@
 		}
 
 		&[style*='--profile-gradient-primary-color'] {
-			.userProfileInner-3F03PX::before {
+			.userProfileInner-1ngKnf::before {
 				content: '';
 				width: 100%;
 				height: 100%;
@@ -89,7 +89,7 @@
 				pointer-events: none;
 				z-index: -1;
 			}
-			.input-2g-os5:focus-within {
+			.input-3O04eu:focus-within {
 				border-color: var(--profile-gradient-primary-color, rgb(var(--accent))) !important;
 				box-shadow: 0 0 calc(var(--input-glow-intensity) * 12px) calc(var(--input-glow-intensity) * 2px)
 					var(--profile-gradient-primary-color, rgb(var(--accent), 0.25)) !important;
@@ -106,33 +106,34 @@
 			--input-background: hsl(0 0% 7% / 0.7) !important;
 		}
 	}
-	.userProfileInner-3F03PX {
+	.userPopoutInner-nv9Y92 {
 		border-radius: 0;
 		background: transparent;
 		&::before {
 			content: none;
 		}
-		&.userProfileInnerThemedNonPremium-1gT-zY {
+		&.userProfileInnerThemedNonPremium-2AJg-H {
 			background: var(--fg-primary);
 		}
 	}
-	.overlayBackground-1KgwVi {
+	.userPopoutOverlayBackground-3A0Pcz {
 		margin: 0;
 		padding-top: 16px;
 		background: transparent;
 	}
-	.messageInputContainer-2rGDH8 {
+	.messageInputContainer-24qqTx {
 		border: none;
 		border-radius: 0;
 	}
-	.messageInput-1KI8l8 {
-		background: var(--fg-secondary);
+	.input-3O04eu {
+		background: var(--fg-secondary) !important;
+		padding: 8px 10px !important;
 		&::placeholder {
 			color: #fff;
 			opacity: 0.35;
 		}
 		&:focus {
-			background: var(--fg-primary);
+			background: var(--fg-primary) !important;
 		}
 	}
 }
