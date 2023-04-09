@@ -27,7 +27,7 @@
   --server-size: 50px; /* Size of the servers inside the server list. | Default: 50px */
   --chat-avatar-size: 32px; /* Size of the chat avatars. | Default: 32px */
   --glow-intensity: 1; /* Intensity of the glow used around the app. | Set to 0 to disable the glow. | Decimals allowed | Default: 1 */
-  --opacity: .85; /* Opacity of overall app. | Default: .85 */
+  --opacity: 0.85; /* Opacity of overall app. | Default: .85 */
   --font: "Inter"; /* Custom font | Default: 'Inter' */
   --avatar-roundness: 50%; /* Roundness for avatars. | 0% = Square, 50% = Circle | Default: 50% */
   --server-roundness: 50%; /* Roundness for servers. | 0% = Square, 50% = Circle | Default: 50% */
