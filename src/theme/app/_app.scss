@@ -54,7 +54,8 @@ html.theme-light {
 }
 
 // Versioning
-[aria-label='USER_SETTINGS'] .info-1sUqUG > span:first-child::before {
+.layer-86YKbF:not(.baseLayer-W6S8cY) .info-3pQQBb > span:first-child::before {
 	display: block;
 	content: 'SoftX v' var(--softx-version);
+	text-transform: none;
 }
