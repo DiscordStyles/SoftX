@@ -9,7 +9,7 @@
 }
 
 :root {
-  --softx-version: "1.1.14";
+  --softx-version: "1.1.15";
   --hue: 0deg;
   --saturation: 0%;
   --lightness: 10%;
@@ -118,9 +118,10 @@ html.theme-light .container-YkUktl {
   opacity: 1 !important;
 }
 
-[aria-label=USER_SETTINGS] .info-1sUqUG > span:first-child::before {
+.layer-86YKbF:not(.baseLayer-W6S8cY) .info-3pQQBb > span:first-child::before {
   display: block;
   content: "SoftX v" var(--softx-version);
+  text-transform: none;
 }
 
 #app-mount .container-ZMc96U {
@@ -2521,7 +2522,7 @@ body .footer-GXWBBp,
   -webkit-backdrop-filter: blur(var(--blur));
           backdrop-filter: blur(var(--blur));
 }
-#app-mount .accountProfilePopoutWrapper-3GskID .userPopoutOuter-3AVBmJ {
+#app-mount .accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL {
   background: var(--bg-primary);
   -webkit-backdrop-filter: none;
           backdrop-filter: none;
@@ -2529,10 +2530,10 @@ body .footer-GXWBBp,
 #app-mount .accountProfilePopoutWrapper-3GskID .menu-2TXYjN {
   max-width: unset;
 }
-#app-mount .statusItem-2a1giL {
+#app-mount .statusItem-38ArJn {
   padding: 0;
 }
-#app-mount .statusItem-2a1giL .description-22_U3B {
+#app-mount .statusItem-38ArJn .description-1Dd2kv {
   display: none;
 }
 
