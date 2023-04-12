@@ -1,15 +1,17 @@
-// Wack ass text flickering
+// Hide spinner animation from all spans except those with classes that contain "spinner-" or "spinnerItem"
 html,
 span:not([class*='spinner-']):not([class*='spinnerItem']) {
 	backface-visibility: hidden;
 }
 
-// Background
+// Set transparent background for body and app-mount elements
 body,
 #app-mount,
 .app-2CXKsg {
 	background: transparent;
 }
+
+// Apply background image and blur to element with class "bg-1QIAus"
 .bg-1QIAus {
 	background-image: var(--background-image);
 	background-color: transparent;
@@ -19,12 +21,12 @@ body,
 	filter: blur(var(--background-blur, 0px)) hue-rotate(var(--background-hue, 0deg));
 }
 
-// Remove wack ass box shadow from chat
+// Remove box shadow from chat
 .content-1jQy2l::before {
 	content: none;
 }
 
-// Light more wanrning
+// Show warning message when in light mode
 html.theme-light {
 	.app-2CXKsg::after {
 		content: 'SoftX is not build for Lightmode.\APlease switch to Dark mode in your Discord Appearance Settings.';
@@ -41,7 +43,7 @@ html.theme-light {
 	}
 }
 
-// Remove animations
+// Remove animations from elements with class that contains "animator" when in full-motion mode
 .full-motion [class*='animator'] {
 	transform: none !important;
 	transition: none !important;
@@ -53,7 +55,7 @@ html.theme-light {
 	opacity: 1 !important;
 }
 
-// Versioning
+// Add SoftX version number to elements with class that contains "info-3pQQBb"
 .layer-86YKbF:not(.baseLayer-W6S8cY) .info-3pQQBb > span:first-child::before {
 	display: block;
 	content: 'SoftX v' var(--softx-version);
