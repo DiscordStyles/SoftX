@@ -9,7 +9,7 @@
 }
 
 :root {
-  --softx-version: "1.1.15";
+  --softx-version: "1.1.16";
   --hue: 0deg;
   --saturation: 0%;
   --lightness: 10%;
@@ -780,6 +780,7 @@ html.theme-light .container-YkUktl {
   padding: 0 18px;
   height: var(--channel-height);
   border-radius: 0;
+  align-items: center;
 }
 #app-mount .mainContent-20q_Hp {
   padding: 0;
