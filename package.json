@@ -12,9 +12,9 @@
 		"build": "bd-scss build"
 	},
 	"dependencies": {
-		"bd-scss": "^2.0.12"
+		"bd-scss": "^2.0.14"
 	},
 	"devDependencies": {
-		"prettier": "^2.8.7"
+		"prettier": "^2.8.8"
 	}
 }
