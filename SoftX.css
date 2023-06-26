@@ -9,7 +9,7 @@
 }
 
 :root {
-  --softx-version: "1.1.16";
+  --softx-version: "1.1.17";
   --hue: 0deg;
   --saturation: 0%;
   --lightness: 10%;
@@ -71,8 +71,7 @@
 
 html,
 span:not([class*=spinner-]):not([class*=spinnerItem]) {
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 body,
@@ -573,7 +572,7 @@ html.theme-light .container-YkUktl {
   margin: 0;
   padding: 0 6px;
   cursor: var(--cursor);
-  background: hsla(0deg, 0%, 100%, 0.2);
+  background: hsla(0, 0%, 100%, 0.2);
   transition: background 0.15s ease, border-color 0.15s ease;
 }
 #app-mount .container-2nx-BQ input::before {
@@ -586,7 +585,7 @@ html.theme-light .container-YkUktl {
   transition: background 0.15s ease, transform 0.15s ease, width 0.15s ease, height 0.15s ease;
 }
 #app-mount .container-2nx-BQ input:hover:not(:checked) {
-  background: hsla(0deg, 0%, 100%, 0.15) !important;
+  background: hsla(0, 0%, 100%, 0.15) !important;
 }
 #app-mount .container-2nx-BQ input:hover::before {
   width: 16px;
@@ -604,8 +603,8 @@ html.theme-light .container-YkUktl {
   transform: translateX(22px);
 }
 #app-mount .container-2nx-BQ input:checked:hover {
-  box-shadow: inset 0 0 0 100vmax hsla(0deg, 0%, 0%, 0.12);
-  border-color: hsla(0deg, 0%, 0%, 0.12);
+  box-shadow: inset 0 0 0 100vmax hsla(0, 0%, 0%, 0.12);
+  border-color: hsla(0, 0%, 0%, 0.12);
 }
 #app-mount .container-2nx-BQ input:checked:active::before {
   transform: translateX(18px);
@@ -751,6 +750,7 @@ html.theme-light .container-YkUktl {
   height: 15px;
   margin: 0;
   transform: translateY(-50%);
+  top: 50%;
   border-radius: 0;
 }
 #app-mount .wrapper-NhbLHG.modeUnread-3Cxepe .icon-2W8DHg,
@@ -1088,9 +1088,9 @@ html.theme-light .container-YkUktl {
   overflow: visible;
 }
 #app-mount .sidebar-1tnWFu .unread-2wipsx {
-  background: hsl(0deg, 0%, 100%);
+  background: hsl(0, 0%, 100%);
   color: #000;
-  box-shadow: 0 0 calc(var(--glow-intensity) * 10px) hsl(0deg, 0%, 100%);
+  box-shadow: 0 0 calc(var(--glow-intensity) * 10px) hsl(0, 0%, 100%);
 }
 
 #app-mount .container-2giAcK {
@@ -3522,28 +3522,28 @@ body .footer-GXWBBp,
   border-radius: 6px;
 }
 .bd-toasts .bd-toast.toast-success {
-  background: hsla(153deg, 46%, 49%, 0.7);
+  background: hsla(153, 46%, 49%, 0.7);
 }
 .bd-toasts .bd-toast.toast-success::before {
   -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>');
           mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>');
 }
 .bd-toasts .bd-toast.toast-warn {
-  background: hsla(39deg, 100%, 50%, 0.7);
+  background: hsla(39, 100%, 50%, 0.7);
 }
 .bd-toasts .bd-toast.toast-warn::before {
   -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>');
           mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>');
 }
 .bd-toasts .bd-toast.toast-error {
-  background: hsla(0deg, 85%, 61%, 0.7);
+  background: hsla(0, 85%, 61%, 0.7);
 }
 .bd-toasts .bd-toast.toast-error::before {
   -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>');
           mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>');
 }
 .bd-toasts .bd-toast.toast-info {
-  background: hsla(212deg, 72%, 59%, 0.7);
+  background: hsla(212, 72%, 59%, 0.7);
 }
 .bd-toasts .bd-toast.toast-info::before {
   -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>');
