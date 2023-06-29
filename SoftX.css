@@ -9,7 +9,7 @@
 }
 
 :root {
-  --softx-version: "1.1.17";
+  --softx-version: "1.1.18";
   --hue: 0deg;
   --saturation: 0%;
   --lightness: 10%;
@@ -163,6 +163,10 @@ html.theme-light .container-YkUktl {
   stroke: var(--interactive-normal);
   stroke-width: 2px;
   d: path("M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4");
+}
+#app-mount .container-ZMc96U.transparent-1lUmft {
+  background: linear-gradient(hsla(0, 0%, 0%, 0.5), transparent);
+  border-bottom: none;
 }
 #app-mount .toolbar-3_r2xA {
   margin-left: 24px;
@@ -1738,6 +1742,13 @@ body .footer-GXWBBp,
   z-index: -1;
 }
 
+#app-mount .voiceCallWrapper-3UtDiC {
+  padding-bottom: 0;
+}
+#app-mount .wrapper-1gVUIN.minimum-fXpVNc {
+  height: 300px;
+}
+
 #app-mount .membersWrap-3NUR2t {
   min-width: var(--members-width);
   max-width: var(--members-width);
@@ -3101,13 +3112,13 @@ body .footer-GXWBBp,
   opacity: 1 !important;
   animation: fadeIn 0.2s ease forwards;
 }
-#app-mount .root-g14mjS {
+#app-mount .root-1CAIjD {
   box-shadow: none !important;
   border-radius: 6px;
   border: 1px solid var(--border);
   background: var(--bg-primary);
 }
-#app-mount .footer-VCsJQY,
+#app-mount .footer-IubaaS,
 #app-mount .footer-31IekZ {
   background: transparent;
   border-top: 1px solid var(--border);
