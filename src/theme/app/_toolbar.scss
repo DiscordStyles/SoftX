@@ -51,6 +51,12 @@
 			stroke-width: 2px;
 			d: path(assets.$path_inbox);
 		}
+
+		// In voice call
+		&.transparent-1lUmft {
+			background: linear-gradient(hsl(0 0% 0% / 0.5), transparent);
+			border-bottom: none;
+		}
 	}
 	.toolbar-3_r2xA {
 		margin-left: 24px;
