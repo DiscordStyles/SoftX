@@ -13,6 +13,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap");
 /* Theme imports */
 @import url("https://discordstyles.github.io/SoftX/RadialGlow.css"); /* RadialGlow effect for avatars. | Remove this line to disable. */
+@import url("https://discordstyles.github.io/SoftX/VerticalUserArea.css"); /* Vertical user area. Moves the mute, defean and settings icons to the server list. | Remove this line to disable. */
 @import url("https://discordstyles.github.io/Addons/windows-titlebar.css"); /* Windows titlebar. | Remove this line to disable. */
 :root {
   /*
