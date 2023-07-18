@@ -1,7 +1,7 @@
 /** @type {import('bd-scss/lib/config').Config} */
 export default {
 	meta: {
-		name: 'SoftX',
+		name: 'Sheffui-SoftX',
 		author: 'Gibbu',
 		version: '1.0.0',
 		description: 'A soft and comfy feel for Discord.',
