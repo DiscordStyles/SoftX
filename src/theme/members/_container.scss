@@ -1,13 +1,13 @@
 #app-mount {
-	.membersWrap-3NUR2t {
+	.container-2vWgD2 {
+		background: var(--bg-primary);
+	}
+	.membersWrap-3GwLFp {
 		min-width: var(--members-width);
 		max-width: var(--members-width);
 		height: 100%;
 	}
-	.container-2o3qEW {
-		background: var(--bg-primary);
-	}
-	.members-3WRCEx {
+	.members-2y1nVj {
 		background: transparent;
 		width: 100%;
 		& > div {
@@ -16,7 +16,7 @@
 	}
 
 	// Fix group md members list
-	.content-1jQy2l > .membersWrap-3NUR2t > .members-3WRCEx {
+	.content-yjf30S > .membersWrap-3GwLFp > .members-2y1nVj {
 		background: var(--bg-primary);
 	}
 }

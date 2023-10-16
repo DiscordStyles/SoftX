@@ -3,7 +3,6 @@
 A soft and comfy feel for Discord.
 
 ![Server Chat](https://i.imgur.com/E57gF3L.png)
-![User Profile](https://i.imgur.com/01NlcPc.png)
 ![Server Search](https://i.imgur.com/nqgmfT0.png)
 ![Settings](https://i.imgur.com/KEC161G.png)
 

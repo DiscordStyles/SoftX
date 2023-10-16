@@ -5,9 +5,9 @@
 		opacity: 1 !important;
 		animation: fadeIn 0.2s ease forwards;
 	}
-	.root-1CAIjD {
+	.root-1CAIjD:not(.carouselModal-1eUFoq) {
 		box-shadow: none !important;
-		border-radius: 6px;
+		border-radius: 0;
 		border: 1px solid var(--border);
 		background: var(--bg-primary);
 	}

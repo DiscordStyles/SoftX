@@ -1,15 +1,50 @@
 // @use '../assets';
 
-// .root-8LYsGj {
-// 	border-radius: 0;
-// 	background: var(--fg-primary);
-// }
+.root-8LYsGj {
+	border-radius: 0;
+	background: var(--fg-primary) !important;
+}
 
-// .userProfileModalOuter-2wdWjU {
-// 	border-radius: 0;
-// 	border: 1px solid var(--border);
-// 	background: transparent;
-// }
+.userProfileModalOuter-2wdWjU {
+	border-radius: 0;
+	background: transparent;
+}
+
+.userProfileInner-1ngKnf {
+	border-radius: 0;
+}
+.roundedBanner-uNt2w- {
+	border-radius: 0;
+}
+
+.userProfileInnerThemedNonPremium-2AJg-H {
+	background: transparent;
+	.overlayBackground-2aa7wt {
+		background: transparent;
+	}
+}
+.userProfileOuterThemed-2BgJCM.userPopoutOuter-1OHwPL,
+.userProfileOuterThemed-2BgJCM.userProfileOuter-2tQwNf {
+	padding: 0;
+}
+.userProfileOuterThemed-2BgJCM .userProfileModalInner-3dx9L9 {
+	background: transparent;
+	&::before {
+		background: linear-gradient(
+			var(--profile-gradient-primary-color),
+			var(--profile-gradient-primary-color) 120px,
+			var(--profile-gradient-secondary-color)
+		);
+		opacity: 0.5;
+		width: 100%;
+		height: 100%;
+	}
+}
+.userProfileModalOverlayBackground-2dAaBg {
+	background: transparent;
+	margin: 0;
+	padding: 16px;
+}
 
 // .userProfileModalInner-3dx9L9 {
 // 	background: transparent;
