@@ -2,20 +2,21 @@
 	.panels-3wFtMD {
 		background: transparent;
 		padding: 0;
+		border-top: 1px solid var(--border);
 	}
 
 	// Connected voice
 	.wrapper-3Hk9OB:not(:empty) {
 		border-top: 1px solid var(--border);
 	}
-	.container-1zzFcN {
+	.container-2NLBJg {
 		background: transparent;
 		border: none;
 		padding: 0;
 		& > div:first-child {
 			padding: 0;
 			border-bottom: 1px solid var(--border);
-			.inner-llGtyq {
+			.inner-C_MH0f {
 				padding: 16px 18px;
 			}
 			& > .flex-2S1XBF {
@@ -31,7 +32,7 @@
 			}
 		}
 	}
-	.actionButtons-2vEOUh {
+	.actionButtons-1DmM2g {
 		padding: 0;
 		& > div > button,
 		& > button {
@@ -60,9 +61,9 @@
 	}
 
 	.activityPanel-9icbyU {
-		border-top: 1px solid var(--border);
-		border-bottom: none;
+		border-bottom: 1px solid var(--border);
 		padding: 16px;
+		background: transparent;
 	}
 
 	// Voice users
