@@ -9,7 +9,7 @@
 }
 
 :root {
-  --softx-version: "1.1.20";
+  --softx-version: "1.1.21";
   --hue: 0deg;
   --saturation: 0%;
   --lightness: 10%;
@@ -951,37 +951,38 @@ html.theme-light .container-YkUktl {
 #app-mount .panels-3wFtMD {
   background: transparent;
   padding: 0;
+  border-top: 1px solid var(--border);
 }
 #app-mount .wrapper-3Hk9OB:not(:empty) {
   border-top: 1px solid var(--border);
 }
-#app-mount .container-1zzFcN {
+#app-mount .container-2NLBJg {
   background: transparent;
   border: none;
   padding: 0;
 }
-#app-mount .container-1zzFcN > div:first-child {
+#app-mount .container-2NLBJg > div:first-child {
   padding: 0;
   border-bottom: 1px solid var(--border);
 }
-#app-mount .container-1zzFcN > div:first-child .inner-llGtyq {
+#app-mount .container-2NLBJg > div:first-child .inner-C_MH0f {
   padding: 16px 18px;
 }
-#app-mount .container-1zzFcN > div:first-child > .flex-2S1XBF {
+#app-mount .container-2NLBJg > div:first-child > .flex-2S1XBF {
   margin: 0;
 }
-#app-mount .container-1zzFcN > div:first-child .button-12Fmur {
+#app-mount .container-2NLBJg > div:first-child .button-12Fmur {
   height: 63px;
   border-radius: 0;
   width: 42px;
 }
-#app-mount .container-1zzFcN > div:first-child .button-12Fmur:hover {
+#app-mount .container-2NLBJg > div:first-child .button-12Fmur:hover {
   background: var(--background-modifier-hover) !important;
 }
-#app-mount .actionButtons-2vEOUh {
+#app-mount .actionButtons-1DmM2g {
   padding: 0;
 }
-#app-mount .actionButtons-2vEOUh > div > button, #app-mount .actionButtons-2vEOUh > button {
+#app-mount .actionButtons-1DmM2g > div > button, #app-mount .actionButtons-1DmM2g > button {
   margin: 0;
   border-radius: 0;
   background: transparent !important;
@@ -989,25 +990,25 @@ html.theme-light .container-YkUktl {
   font-size: 0;
   transition: none;
 }
-#app-mount .actionButtons-2vEOUh > div > button .contents-3NembX, #app-mount .actionButtons-2vEOUh > button .contents-3NembX {
+#app-mount .actionButtons-1DmM2g > div > button .contents-3NembX, #app-mount .actionButtons-1DmM2g > button .contents-3NembX {
   display: flex;
 }
-#app-mount .actionButtons-2vEOUh > div > button svg, #app-mount .actionButtons-2vEOUh > button svg {
+#app-mount .actionButtons-1DmM2g > div > button svg, #app-mount .actionButtons-1DmM2g > button svg {
   margin: auto;
   color: var(--interactive-normal);
   transition: var(--transition);
   transition-property: color;
 }
-#app-mount .actionButtons-2vEOUh > div > button:hover, #app-mount .actionButtons-2vEOUh > button:hover {
+#app-mount .actionButtons-1DmM2g > div > button:hover, #app-mount .actionButtons-1DmM2g > button:hover {
   background: var(--background-modifier-hover) !important;
 }
-#app-mount .actionButtons-2vEOUh > div > button:hover svg, #app-mount .actionButtons-2vEOUh > button:hover svg {
+#app-mount .actionButtons-1DmM2g > div > button:hover svg, #app-mount .actionButtons-1DmM2g > button:hover svg {
   color: var(--interactive-hover);
 }
 #app-mount .activityPanel-9icbyU {
-  border-top: 1px solid var(--border);
-  border-bottom: none;
+  border-bottom: 1px solid var(--border);
   padding: 16px;
+  background: transparent;
 }
 #app-mount .voiceUsers-3gPcwY {
   padding: 10px 16px;
@@ -1128,6 +1129,9 @@ html.theme-light .container-YkUktl {
 }
 #app-mount .content-yjf30S {
   z-index: 1;
+}
+#app-mount .content-18rAwf::before {
+  content: none;
 }
 #app-mount .wrapper-3HVHpV,
 #app-mount .wrapper-15CKyy {
