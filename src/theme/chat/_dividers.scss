@@ -1,5 +1,5 @@
 #app-mount {
-	.divider-IqmEqJ {
+	.divider__8cf56 {
 		border: none;
 		margin: 0;
 		height: auto;
@@ -15,24 +15,24 @@
 			display: block;
 			width: 100%;
 		}
-		.content-3spvdd {
+		.content_d67847 {
 			border-radius: 6px;
 			margin: 0;
 			padding: 8px 12px;
 		}
-		&:not(.isUnread-3Lojb-) {
+		&:not(.isUnread__6f880) {
 			&::before,
-			.content-3spvdd {
+			.content_d67847 {
 				background: var(--border);
 			}
 		}
-		&.isUnread-3Lojb- {
+		&.isUnread__6f880 {
 			margin: 8px 0;
 			&::before {
 				order: 1;
 				background: hsl(var(--discord-red));
 			}
-			.content-3spvdd {
+			.content_d67847 {
 				order: 2;
 				margin-right: 12px;
 				background: hsl(var(--discord-red) / 0.2);
@@ -40,7 +40,7 @@
 			}
 		}
 	}
-	.unreadPill-3nEWYM {
+	.unreadPill__715fc {
 		position: relative;
 		top: 0;
 		left: 0;

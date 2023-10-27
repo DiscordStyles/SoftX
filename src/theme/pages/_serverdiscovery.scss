@@ -7,15 +7,15 @@
 		padding: 0;
 		position: relative;
 		&.selectedCategoryItem-FHKU_o {
-			.layout-1qmrhw {
+			.layout_bb8e67 {
 				background: rgb(var(--accent), 0.1);
 				color: rgb(var(--accent));
 			}
 			path {
 				fill: rgb(var(--accent));
 			}
-			.avatar-6qzftW,
-			.content-1U25dZ {
+			.avatar__6337f,
+			.content_a6999d {
 				filter: drop-shadow(0 0 calc(var(--glow-intensity) * 5px) rgb(var(--accent)));
 			}
 			&::before {
@@ -33,7 +33,7 @@
 	.viewWrapper-2sTW6t {
 		max-width: unset;
 	}
-	.pageWrapper-2PwDoS {
+	.pageWrapper_fef757 {
 		background: var(--bg-secondary);
 		.scroller-3j5xK2 {
 			padding: 0 !important;
@@ -58,7 +58,7 @@
 			display: none;
 		}
 	}
-	.searchBox-pyIJJj {
+	.searchBox_a63854 {
 		overflow: visible;
 	}
 	.searchBox-31Zv9h {
@@ -68,21 +68,21 @@
 		padding: 0;
 		border: none;
 	}
-	.searchIcon-34RNw9 {
+	.searchIcon_e60ea8 {
 		display: none;
 	}
 	.search-25t1e9 {
 		width: 600px !important;
 	}
-	.clear-1JYfB5 {
+	.clear_a52805 {
 		position: absolute;
 		right: -24px;
 	}
-	.searchBoxInput-P0mWHW {
+	.searchBoxInput__73c9c {
 		padding-right: 52px !important;
 		width: 100% !important;
 	}
-	.cta-25g9OT {
+	.cta_f18d68 {
 		position: absolute;
 		margin-right: 0;
 		left: 50%;
@@ -90,17 +90,17 @@
 		top: 56px;
 	}
 
-	.guildListSection-27K5In {
+	.guildListSection__7daf6 {
 		padding: 248px 24px 24px;
 		box-sizing: border-box;
 	}
-	.guildList-3-B_6n {
+	.guildList__5e642 {
 		grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
 	}
 	.footer-26kPv_ {
 		padding: 24px;
 	}
-	.card-2TuZPZ {
+	.card__86773 {
 		border-radius: 6px;
 		background: rgb(255 255 255 / 0.05);
 		&:hover {

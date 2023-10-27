@@ -1,28 +1,28 @@
 #app-mount {
-	.panels-3wFtMD {
+	.panels__58331 {
 		background: transparent;
 		padding: 0;
 		border-top: 1px solid var(--border);
 	}
 
 	// Connected voice
-	.wrapper-3Hk9OB:not(:empty) {
+	.wrapper__0ed4a:not(:empty) {
 		border-top: 1px solid var(--border);
 	}
-	.container-2NLBJg {
+	.container_d667ff {
 		background: transparent;
 		border: none;
 		padding: 0;
 		& > div:first-child {
 			padding: 0;
 			border-bottom: 1px solid var(--border);
-			.inner-C_MH0f {
+			.inner_ab95dc {
 				padding: 16px 18px;
 			}
-			& > .flex-2S1XBF {
+			& > .flex_f5fbb7 {
 				margin: 0;
 			}
-			.button-12Fmur {
+			.button__4f306 {
 				height: 63px;
 				border-radius: 0;
 				width: 42px;
@@ -32,7 +32,7 @@
 			}
 		}
 	}
-	.actionButtons-1DmM2g {
+	.actionButtons_b58cbb {
 		padding: 0;
 		& > div > button,
 		& > button {
@@ -42,7 +42,7 @@
 			height: 42px;
 			font-size: 0;
 			transition: none;
-			.contents-3NembX {
+			.contents_fb6220 {
 				display: flex;
 			}
 			svg {
@@ -60,26 +60,26 @@
 		}
 	}
 
-	.activityPanel-9icbyU {
+	.activityPanel__22355 {
 		border-bottom: 1px solid var(--border);
 		padding: 16px;
 		background: transparent;
 	}
 
 	// Voice users
-	.voiceUsers-3gPcwY {
+	.voiceUsers_c72ec5 {
 		padding: 10px 16px;
 		border-bottom: 1px solid var(--border);
 	}
 
 	// User area
-	.container-1CH86i {
+	.container_ca50b9 {
 		background: transparent;
 		padding: 0 16px;
 		height: 64px;
 		border-top: 1px solid var(--border);
 	}
-	.avatarWrapper-1B9FTW {
+	.avatarWrapper_ba5175 {
 		flex: 1;
 	}
 }

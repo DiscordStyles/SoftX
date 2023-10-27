@@ -1,9 +1,9 @@
 #app-mount {
-	.guilds-2JjMmN {
+	.guilds__2b93a {
 		width: var(--guilds-width);
 		border-right: 1px solid var(--border);
 		background: var(--bg-primary);
-		.scroller-3X7KbA {
+		.scroller__3d071 {
 			background: transparent;
 			padding: 18px 0;
 			mask: radial-gradient(circle at top, black, black 95%, transparent) !important;
@@ -11,11 +11,11 @@
 				display: var(--guild-scrollbar);
 			}
 		}
-		&.hidden-10MsGQ {
+		&.hidden__7c832 {
 			display: none;
 		}
 	}
-	.guildSeparator-2ULOMe {
+	.guildSeparator__641a8 {
 		height: 1px;
 		background: var(--border);
 		width: var(--server-size);

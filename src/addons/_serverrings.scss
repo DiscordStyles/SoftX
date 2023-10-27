@@ -9,16 +9,16 @@
 }
 
 #app-mount {
-	.wrapper-38slSD ul[role='group'] {
+	.wrapper_ed1dea ul[role='group'] {
 		height: auto !important;
 	}
 
-	.scroller-3X7KbA > div[style]:not([class]) {
+	.scroller__3d071 > div[style]:not([class]) {
 		margin-bottom: var(--server-spacing);
 	}
 
 	// Container
-	.listItem-3SmSlK {
+	.listItem_fa7b36 {
 		width: 100%;
 		margin-bottom: var(--server-spacing);
 		[class*='pill'] {
@@ -29,7 +29,7 @@
 			height: calc(var(--server-size, 48px) + 8px);
 			overflow: visible;
 			margin-left: -2px;
-			.item-2LIpTv {
+			.item_f9d377 {
 				height: 100% !important;
 				width: 100%;
 				margin: 0;
@@ -78,8 +78,8 @@
 	}
 
 	// Active state
-	.blobContainer-ikKyFs,
-	.listItemWrapper-3d87LP {
+	.blobContainer__5ee50,
+	.listItemWrapper__1f93b {
 		transition: var(--transition, 0.15s ease);
 		transition-property: transform;
 		&:active {
@@ -87,7 +87,7 @@
 		}
 	}
 
-	.svg-2ifYOU foreignObject {
+	.svg_ad7356 foreignObject {
 		border-radius: var(--server-roundness, 50%);
 		mask: none !important;
 	}
