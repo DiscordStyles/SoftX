@@ -30,14 +30,14 @@
 			transition: var(--transition);
 			transition-property: border-color, box-shadow;
 
-			[class^='inner-'] {
+			[class^='inner_'] {
 				padding: 0;
 			}
-			[class^='input-'] {
+			[class^='input_'] {
 				font-size: 14px;
 				height: 26px;
 			}
-			[class^='iconLayout-'] {
+			[class^='iconLayout_'] {
 				height: 26px;
 			}
 
