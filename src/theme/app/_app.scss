@@ -1,16 +1,16 @@
 // Wack ass text flickering
 html,
-span:not([class*='spinner-']):not([class*='spinnerItem']) {
+span:not([class*='spinner_']):not([class*='spinnerItem']) {
 	backface-visibility: hidden;
 }
 
 // Background
 body,
 #app-mount,
-.app-2CXKsg {
+.app_de4237 {
 	background: transparent;
 }
-.bg-1QIAus {
+.bg__12180 {
 	background-image: var(--background-image);
 	background-color: transparent;
 	background-attachment: var(--background-attachment, fixed);
@@ -20,13 +20,13 @@ body,
 }
 
 // Remove wack ass box shadow from chat
-.content-18rAwf::before {
+.content__1a4fe::before {
 	content: none;
 }
 
 // Light more wanrning
 html.theme-light {
-	.app-2CXKsg::after {
+	.app_de4237::after {
 		content: 'SoftX is not build for Lightmode.\APlease switch to Dark mode in your Discord Appearance Settings.';
 		line-height: 1.5;
 		white-space: pre-wrap;
@@ -36,7 +36,7 @@ html.theme-light {
 		padding: 16px;
 		color: #fff;
 	}
-	.container-1CH86i {
+	.container_ca50b9 {
 		bottom: 81px !important;
 	}
 }
@@ -48,13 +48,13 @@ html.theme-light {
 }
 
 // Remove settings animation
-.layer-86YKbF.baseLayer-W6S8cY {
+.layer__2efaa .baseLayer__8fda3 {
 	transform: scale(1) !important;
 	opacity: 1 !important;
 }
 
 // Versioning
-.layer-86YKbF:not(.baseLayer-W6S8cY) .info-3pQQBb > span:first-child::before {
+.layer__2efaa :not(.baseLayer__8fda3) .info__755e1 > span:first-child::before {
 	display: block;
 	content: 'SoftX v' var(--softx-version);
 	text-transform: none;

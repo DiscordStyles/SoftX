@@ -1,17 +1,17 @@
 #app-mount {
-	.backdrop-2ByYRN {
+	.backdrop__7e89b {
 		background: var(--backdrop-background) !important;
 		backdrop-filter: blur(var(--backdrop-blur)) !important;
 		opacity: 1 !important;
 		animation: fadeIn 0.2s ease forwards;
 	}
-	.root-1CAIjD:not(.carouselModal-1eUFoq) {
+	.root_a28985:not(.carouselModal-1eUFoq) {
 		box-shadow: none !important;
 		border-radius: 0;
 		border: 1px solid var(--border);
 		background: var(--bg-primary);
 	}
-	.footer-IubaaS,
+	.footer__89240,
 	.footer-31IekZ {
 		background: transparent;
 		border-top: 1px solid var(--border);
@@ -22,7 +22,7 @@
 	// Parts for modals that don't need a separate file.
 
 	// Pin a message, message box
-	.message-G6O-Wv {
+	.message__04d9f {
 		background: transparent;
 		box-shadow: none;
 		padding: 0;

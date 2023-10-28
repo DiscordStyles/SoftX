@@ -1,17 +1,17 @@
 #app-mount {
-	.guilds-2JjMmN {
-		.tree-3agP2X {
+	.guilds__2b93a {
+		.tree__7a511 {
 			outline: none !important;
 		}
-		.scroller-3X7KbA {
+		.scroller__3d071 {
 			margin-bottom: var(--user-area, 220px);
 		}
-		.unreadMentionsIndicatorBottom-3RJMnQ {
+		.unreadMentionsIndicatorBottom_fdb943 {
 			bottom: calc(var(--user-area) + 10px);
 		}
 	}
 
-	.panels-3wFtMD > .container-1CH86i {
+	.panels__58331 > .container_ca50b9 {
 		background: transparent;
 		position: fixed;
 		bottom: 0;
@@ -24,31 +24,31 @@
 		& > [style='flex: 0 1 auto;'] {
 			flex-direction: column;
 			width: 100%;
-			.button-12Fmur {
+			.button__4f306 {
 				width: 100%;
 				border-radius: 0;
 				padding: 12px 0;
 				height: auto;
 			}
 		}
-		.avatarWrapper-12uuu4 {
+		.avatarWrapper_ba5175 {
 			margin-right: 0;
 			margin-top: 12px;
-			.svg-1G_H_8 {
+			.svg_f5b652 {
 				width: 50px;
 				height: 50px;
 				transform: translate(1px, 1px);
 			}
 		}
-		.avatar-19siqs {
+		.avatar_f8541f {
 			width: 42px !important;
 			height: 42px !important;
 		}
 	}
-	.nameTag-2Q56-H {
+	.nameTag__0e320 {
 		display: none;
 	}
-	.avatarWrapper-12uuu4 {
+	.avatarWrapper_ba5175 {
 		margin: 0;
 		min-width: unset;
 		&:hover {
