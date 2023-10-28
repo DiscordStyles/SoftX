@@ -18,37 +18,37 @@
   --rs-phone-visible: block; /* Visibility of the phone for mobile users | Default: block */
 }
 
-.wrapper-3Un6-K[aria-label*=Online i], .wrapper-3Un6-K[aria-label*=online i], .wrapper-3Un6-K[aria-label*=Conectado i], .wrapper-3Un6-K[aria-label*="En línea con móvil" i], .wrapper-3Un6-K[aria-label*="En ligne" i], .wrapper-3Un6-K[aria-label*="Na mreži" i],
-.avatarWrapper[data-status=online] .wrapper-3Un6-K {
+.wrapper_edb6e0[aria-label*=Online i], .wrapper_edb6e0[aria-label*=online i], .wrapper_edb6e0[aria-label*=Conectado i], .wrapper_edb6e0[aria-label*="En línea con móvil" i], .wrapper_edb6e0[aria-label*="En ligne" i], .wrapper_edb6e0[aria-label*="Na mreži" i],
+.avatarWrapper[data-status=online] .wrapper_edb6e0 {
   box-shadow: 0 0 calc(var(--glow-intensity) * 10px) var(--rs-online-color);
 }
 
-.wrapper-3Un6-K[aria-label*=Idle i], .wrapper-3Un6-K[aria-label*=Inaktiv i], .wrapper-3Un6-K[aria-label*=Abwesend i], .wrapper-3Un6-K[aria-label*=Ausente i], .wrapper-3Un6-K[aria-label*=Inactif i], .wrapper-3Un6-K[aria-label*="U mirovanju" i],
-.avatarWrapper[data-status=idle] .wrapper-3Un6-K {
+.wrapper_edb6e0[aria-label*=Idle i], .wrapper_edb6e0[aria-label*=Inaktiv i], .wrapper_edb6e0[aria-label*=Abwesend i], .wrapper_edb6e0[aria-label*=Ausente i], .wrapper_edb6e0[aria-label*=Inactif i], .wrapper_edb6e0[aria-label*="U mirovanju" i],
+.avatarWrapper[data-status=idle] .wrapper_edb6e0 {
   box-shadow: 0 0 calc(var(--glow-intensity) * 10px) var(--rs-idle-color);
 }
 
-.wrapper-3Un6-K[aria-label*="Do Not disturb" i], .wrapper-3Un6-K[aria-label*="Vil ikke forstyrres" i], .wrapper-3Un6-K[aria-label*="Bitte nicht stören" i], .wrapper-3Un6-K[aria-label*="No molestar" i], .wrapper-3Un6-K[aria-label*="Ne pas déranger" i], .wrapper-3Un6-K[aria-label*="Ne uznemiravaj" i],
-.avatarWrapper[data-status=dnd] .wrapper-3Un6-K {
+.wrapper_edb6e0[aria-label*="Do Not disturb" i], .wrapper_edb6e0[aria-label*="Vil ikke forstyrres" i], .wrapper_edb6e0[aria-label*="Bitte nicht stören" i], .wrapper_edb6e0[aria-label*="No molestar" i], .wrapper_edb6e0[aria-label*="Ne pas déranger" i], .wrapper_edb6e0[aria-label*="Ne uznemiravaj" i],
+.avatarWrapper[data-status=dnd] .wrapper_edb6e0 {
   box-shadow: 0 0 calc(var(--glow-intensity) * 10px) var(--rs-dnd-color);
 }
 
-.wrapper-3Un6-K[aria-label*=Streaming i], .wrapper-3Un6-K[aria-label*=Streamer i], .wrapper-3Un6-K[aria-label*=Streamt i], .wrapper-3Un6-K[aria-label*=Transmitiendo i], .wrapper-3Un6-K[aria-label*="En direct" i],
-.avatarWrapper[data-status=streaming] .wrapper-3Un6-K {
+.wrapper_edb6e0[aria-label*=Streaming i], .wrapper_edb6e0[aria-label*=Streamer i], .wrapper_edb6e0[aria-label*=Streamt i], .wrapper_edb6e0[aria-label*=Transmitiendo i], .wrapper_edb6e0[aria-label*="En direct" i],
+.avatarWrapper[data-status=streaming] .wrapper_edb6e0 {
   box-shadow: 0 0 calc(var(--glow-intensity) * 10px) var(--rs-streaming-color);
 }
 
-.wrapper-3Un6-K[aria-label*=Invisible i], .wrapper-3Un6-K[aria-label*=Usynlig i], .wrapper-3Un6-K[aria-label*=Unsichtbar i], .wrapper-3Un6-K[aria-label*="Nevidljiv/a" i],
-.avatarWrapper[data-status=invisible] .wrapper-3Un6-K {
+.wrapper_edb6e0[aria-label*=Invisible i], .wrapper_edb6e0[aria-label*=Usynlig i], .wrapper_edb6e0[aria-label*=Unsichtbar i], .wrapper_edb6e0[aria-label*="Nevidljiv/a" i],
+.avatarWrapper[data-status=invisible] .wrapper_edb6e0 {
   box-shadow: 0 0 calc(var(--glow-intensity) * 10px) var(--rs-invisible-color);
 }
 
-.wrapper-3Un6-K[aria-label*=Offline i], .wrapper-3Un6-K[aria-label*=Desconectado i], .wrapper-3Un6-K[aria-label*="Hors ligne" i], .wrapper-3Un6-K[aria-label*="Izvan mreže" i],
-.avatarWrapper[data-status=offline] .wrapper-3Un6-K {
+.wrapper_edb6e0[aria-label*=Offline i], .wrapper_edb6e0[aria-label*=Desconectado i], .wrapper_edb6e0[aria-label*="Hors ligne" i], .wrapper_edb6e0[aria-label*="Izvan mreže" i],
+.avatarWrapper[data-status=offline] .wrapper_edb6e0 {
   box-shadow: 0 0 calc(var(--glow-intensity) * 10px) var(--rs-offline-color);
 }
 
-#app-mount .wrapper-3Un6-K.StatusEverywhere-avatar-chatAvatar {
+#app-mount .wrapper_edb6e0.StatusEverywhere-avatar-chatAvatar {
   margin: 0;
 }
 #app-mount .avatarWrapper {
