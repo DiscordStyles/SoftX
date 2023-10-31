@@ -2784,7 +2784,7 @@ body .footer__06f4b,
   background: var(--bg-secondary);
 }
 
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) {
   background: var(--bg-primary);
   -webkit-backdrop-filter: blur(var(--backdrop-blur));
           backdrop-filter: blur(var(--backdrop-blur));
@@ -2799,7 +2799,7 @@ body .footer__06f4b,
   justify-content: center;
   z-index: 1;
 }
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .standardSidebarView__1129a {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .standardSidebarView__1129a {
   max-width: var(--settings-max-width);
   max-height: var(--settings-max-height);
   width: 90vw;
@@ -2809,12 +2809,12 @@ body .footer__06f4b,
   border: 1px solid var(--border);
   border-radius: 6px;
 }
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .contentRegion__0bec1 {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .contentRegion__0bec1 {
   flex: 1 1 auto;
   position: unset;
   height: 100%;
 }
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .toolsContainer_f5d55d {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .toolsContainer_f5d55d {
   padding-top: 0;
   top: 0;
   left: 0;
@@ -2824,15 +2824,15 @@ body .footer__06f4b,
   z-index: -1;
   opacity: 0;
 }
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .tools_c0ff70,
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .container_bb0c52 {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .tools_c0ff70,
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .container_bb0c52 {
   width: 100%;
   height: 100%;
 }
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .keybind__57645 {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .keybind__57645 {
   display: none;
 }
-#app-mount .layer__2efaa :not(.baseLayer__8fda3) .closeButton__34341 {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .closeButton__34341 {
   background: transparent;
   border: none;
   border-radius: 0;
