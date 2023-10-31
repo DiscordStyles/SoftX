@@ -48,13 +48,13 @@ html.theme-light {
 }
 
 // Remove settings animation
-.layer__2efaa .baseLayer__8fda3 {
+.layer__2efaa.baseLayer__8fda3 {
 	transform: scale(1) !important;
 	opacity: 1 !important;
 }
 
 // Versioning
-.layer__2efaa :not(.baseLayer__8fda3) .info__755e1 > span:first-child::before {
+.layer__2efaa:not(.baseLayer__8fda3) .info__755e1 > span:first-child::before {
 	display: block;
 	content: 'SoftX v' var(--softx-version);
 	text-transform: none;
