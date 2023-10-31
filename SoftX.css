@@ -9,7 +9,7 @@
 }
 
 :root {
-  --softx-version: "1.1.21";
+  --softx-version: "1.2.0";
   --hue: 0deg;
   --saturation: 0%;
   --lightness: 10%;
@@ -112,12 +112,12 @@ html.theme-light .container_ca50b9 {
   transition: none !important;
 }
 
-.layer__2efaa .baseLayer__8fda3 {
+.layer__2efaa.baseLayer__8fda3 {
   transform: scale(1) !important;
   opacity: 1 !important;
 }
 
-.layer__2efaa :not(.baseLayer__8fda3) .info__755e1 > span:first-child::before {
+.layer__2efaa:not(.baseLayer__8fda3) .info__755e1 > span:first-child::before {
   display: block;
   content: "SoftX v" var(--softx-version);
   text-transform: none;
