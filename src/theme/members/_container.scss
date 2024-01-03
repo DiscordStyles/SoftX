@@ -1,6 +1,6 @@
 #app-mount {
 	.container_b2ce9c {
-		background: var(--bg-primary);
+		background: transparent;
 	}
 	.membersWrap__90226 {
 		min-width: var(--members-width);
@@ -8,7 +8,7 @@
 		height: 100%;
 	}
 	.members__9f47b {
-		background: transparent;
+		background: var(--bg-primary);
 		width: 100%;
 		& > div {
 			background: transparent;
