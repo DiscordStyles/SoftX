@@ -42,7 +42,7 @@
   --server-spacing: 16px;
   --guild-scrollbar: none;
   --unread-colour: 255 255 255;
-  --backdrop-background: var(--bg-primary);
+  --backdrop-background: var(--bg-tertiary);
   --backdrop-blur: 10px;
   --channel-height: 40px;
   --member-height: 54px;
@@ -749,7 +749,7 @@ html.theme-light .container_ca50b9 {
   padding: 0;
   margin: 0;
 }
-#app-mount .wrapper__7bcde.modeUnread_f74c03 .unread__48cf4 {
+#app-mount .wrapper__7bcde.modeUnreadImportant_efb53e .unread__48cf4 {
   box-shadow: 0 0 calc(var(--channel-glow-intensity) * 10px) calc(var(--channel-glow-intensity) * 2px) rgb(var(--unread-colour)/0.3);
   width: 2px;
   height: 15px;
@@ -759,8 +759,8 @@ html.theme-light .container_ca50b9 {
   border-radius: 0;
   left: 0;
 }
-#app-mount .wrapper__7bcde.modeUnread_f74c03 .icon_eff5d4,
-#app-mount .wrapper__7bcde.modeUnread_f74c03 .name__8d1ec {
+#app-mount .wrapper__7bcde.modeUnreadImportant_efb53e .icon_eff5d4,
+#app-mount .wrapper__7bcde.modeUnreadImportant_efb53e .name__8d1ec {
   color: #fff;
   filter: drop-shadow(0 0 calc(var(--channel-glow-intensity) * 5px) rgb(var(--unread-colour)/0.3)) drop-shadow(0 0 calc(var(--channel-glow-intensity) * 2px) rgb(var(--unread-colour)/0.2));
 }
@@ -1746,7 +1746,7 @@ body .footer__06f4b,
 }
 
 #app-mount .container_b2ce9c {
-  background: var(--bg-primary);
+  background: transparent;
 }
 #app-mount .membersWrap__90226 {
   min-width: var(--members-width);
@@ -1754,7 +1754,7 @@ body .footer__06f4b,
   height: 100%;
 }
 #app-mount .members__9f47b {
-  background: transparent;
+  background: var(--bg-primary);
   width: 100%;
 }
 #app-mount .members__9f47b > div {
@@ -3103,10 +3103,6 @@ body .footer__06f4b,
 
 #app-mount .backdrop__7e89b {
   background: var(--backdrop-background) !important;
-  -webkit-backdrop-filter: blur(var(--backdrop-blur)) !important;
-          backdrop-filter: blur(var(--backdrop-blur)) !important;
-  opacity: 1 !important;
-  animation: fadeIn 0.2s ease forwards;
 }
 #app-mount .root_a28985:not(.carouselModal-1eUFoq) {
   box-shadow: none !important;
