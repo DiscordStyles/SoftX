@@ -3889,7 +3889,7 @@ body #ChannelsPreview::before {
   --server-hover-colour: 255, 255, 255;
   --server-selected-colour: var(--accent, 0, 231, 169);
   --server-spacing: 16px;
-  --server-glow-intensity: 1;
+  --server-glow-intensity: var(--glow-intensity, 1);
 }
 
 #app-mount .wrapper_ed1dea ul[role=group] {
