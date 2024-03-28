@@ -1,5 +1,5 @@
 #app-mount {
-	.quickswitcher_a3d29a {
+	.quickswitcher_b5bb0a {
 		background: transparent;
 		box-shadow: none;
 		padding: 0;
@@ -8,7 +8,7 @@
 			height: 100% !important;
 		}
 	}
-	.input__848cd {
+	.input__2a648 {
 		background: var(--input-background);
 		border: 2px solid transparent;
 		transition: var(--transition);
@@ -24,7 +24,7 @@
 				rgb(var(--accent), 0.25);
 		}
 	}
-	.scroller__52ae7 {
+	.scroller_d4b86c {
 		margin: 24px 0 0;
 		box-shadow: var(--shadow-lg);
 		border-radius: 6px;
@@ -36,7 +36,7 @@
 			display: none;
 		}
 	}
-	.header_a2a437 {
+	.header__794a7 {
 		margin: 0;
 		padding: 10px 16px;
 	}
@@ -48,7 +48,7 @@
 			background: var(--background-modifier-hover);
 		}
 	}
-	.content_ad5076 {
+	.content_fdd09a {
 		height: auto;
 		padding: 0;
 		line-height: 1;
@@ -60,8 +60,8 @@
 }
 
 .full-motion {
-	.input__848cd,
-	.scroller__52ae7 {
+	.input__2a648,
+	.scroller_d4b86c {
 		animation: fadeIn 0.2s ease forwards;
 	}
 }

@@ -1,5 +1,5 @@
 #app-mount {
-	.divider__8cf56 {
+	.divider__01aed {
 		border: none;
 		margin: 0;
 		height: auto;
@@ -15,24 +15,24 @@
 			display: block;
 			width: 100%;
 		}
-		.content_d67847 {
+		.content__7191e {
 			border-radius: 6px;
 			margin: 0;
 			padding: 8px 12px;
 		}
-		&:not(.isUnread__6f880) {
+		&:not(.isUnread_de09f5) {
 			&::before,
-			.content_d67847 {
+			.content__7191e {
 				background: var(--border);
 			}
 		}
-		&.isUnread__6f880 {
+		&.isUnread_de09f5 {
 			margin: 8px 0;
 			&::before {
 				order: 1;
 				background: hsl(var(--discord-red));
 			}
-			.content_d67847 {
+			.content__7191e {
 				order: 2;
 				margin-right: 12px;
 				background: hsl(var(--discord-red) / 0.2);
@@ -40,7 +40,7 @@
 			}
 		}
 	}
-	.unreadPill__715fc {
+	.unreadPill__1b4fa {
 		position: relative;
 		top: 0;
 		left: 0;

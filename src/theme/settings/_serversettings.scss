@@ -1,6 +1,6 @@
-#app-mount .layer__2efaa [aria-label='GUILD_SETTINGS'] {
+#app-mount .layer_f7d46a [aria-label='GUILD_SETTINGS'] {
 	// Roles
-	.page__9db5c {
+	.page_c3ed26 {
 		position: relative;
 		width: 100%;
 		max-width: var(--settings-content-width);
@@ -8,10 +8,10 @@
 		max-height: var(--settings-max-height);
 	}
 
-	.sidebar_bdf6b7 {
+	.sidebar__37984 {
 		height: var(--settings-max-height);
 	}
-	.titleContainer_e558ff {
+	.titleContainer_d09261 {
 		padding: 24px;
 		margin: 0;
 		border-bottom: 1px solid var(--border);
@@ -46,21 +46,21 @@
 		}
 	}
 
-	.scroller__79060 {
+	.scroller_bcb155 {
 		scroll-padding-top: 132px !important;
 	}
-	.contentWidth_b55791 {
+	.contentWidth_f1e6d4 {
 		width: 100%;
 		max-width: unset;
 		padding: 24px 24px 0;
 	}
-	.headerContainer__947de {
+	.headerContainer__282e2 {
 		right: 0;
-		.header__63c59 {
+		.header_ee0bd9 {
 			margin-bottom: 0;
 		}
 	}
-	.header__63c59 {
+	.header_ee0bd9 {
 		margin: -24px -24px 24px;
 		padding: 24px 24px 0;
 		background: var(--bg-primary);
@@ -71,7 +71,7 @@
 		border: none;
 		margin: 0;
 	}
-	.tabBarItem__0ff10 {
+	.tabBarItem_c97278 {
 		border: none;
 		overflow: visible;
 		position: relative;
@@ -92,11 +92,11 @@
 			}
 		}
 	}
-	.searchContainer__519fb,
-	.searchContainer__432a8 {
+	.searchContainer_eee0ea,
+	.searchContainer__58a66 {
 		margin: 24px 0;
 	}
-	.container__7712a {
+	.container__33507 {
 		background: var(--input-background);
 		border-radius: 6px;
 		border: 2px solid transparent;
@@ -111,13 +111,13 @@
 				rgb(var(--accent), 0.25);
 		}
 	}
-	.container_f7092d .list__8e7c9 {
+	.container_bc77c3 .list__8e7c9 {
 		scroll-padding-top: 193px !important;
 	}
 	.content-2a4AW9 > div[style='height: 201px;'] {
 		height: 193px !important;
 	}
-	.previewContainer_d2b616 .theme-light {
+	.previewContainer__30793 .theme-light {
 		display: none;
 	}
 }

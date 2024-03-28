@@ -20,7 +20,7 @@ body,
 }
 
 // Remove wack ass box shadow from chat
-.content__1a4fe::before {
+.content__01e65::before {
 	content: none;
 }
 
@@ -36,7 +36,7 @@ html.theme-light {
 		padding: 16px;
 		color: #fff;
 	}
-	.container_ca50b9 {
+	.container_debb33 {
 		bottom: 81px !important;
 	}
 }
@@ -48,13 +48,13 @@ html.theme-light {
 }
 
 // Remove settings animation
-.layer__2efaa.baseLayer__8fda3 {
+.layer_f7d46a.baseLayer__2b890 {
 	transform: scale(1) !important;
 	opacity: 1 !important;
 }
 
 // Versioning
-.layer__2efaa:not(.baseLayer__8fda3) .info__755e1 > span:first-child::before {
+.layer_f7d46a:not(.baseLayer__2b890) .info__755e1 > span:first-child::before {
 	display: block;
 	content: 'SoftX v' var(--softx-version);
 	text-transform: none;

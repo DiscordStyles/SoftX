@@ -1,4 +1,4 @@
-#app-mount .menu_dc52c6:not(#account.menu_dc52c6) {
+#app-mount .menu__088f7:not(#account.menu__088f7) {
 	background: var(--bg-primary);
 	border: 1px solid var(--border);
 	box-shadow: none;
@@ -14,7 +14,7 @@
 		backdrop-filter: blur(5px);
 		z-index: -1;
 	}
-	.scroller__750f5 {
+	.scroller__8f066 {
 		padding: 0;
 	}
 
@@ -27,7 +27,7 @@
 		}
 	}
 
-	.separator__18122 {
+	.separator__174fc {
 		margin: 0;
 		border-color: var(--border);
 	}
@@ -36,15 +36,15 @@
 		margin: 0;
 		border-radius: 0;
 		padding: 10px 14px;
-		&.focused__27621 {
+		&.focused_dcafb9 {
 			background: var(--background-modifier-hover);
 		}
-		&.colorDanger_eec36d.focused__27621 {
+		&.colorDanger__08c25.focused_dcafb9 {
 			background: hsl(var(--discord-red));
 		}
 	}
 
-	.submenuPaddingContainer__12a9d {
+	.submenuPaddingContainer__5a97c {
 		margin: 0 -4px;
 	}
 

@@ -1,6 +1,6 @@
 #app-mount {
 	// New messages
-	.newMessagesBar__8b6d7 {
+	.newMessagesBar__8b272 {
 		top: 12px;
 		right: 12px;
 		left: 12px;
@@ -12,11 +12,11 @@
 		backdrop-filter: blur(3px);
 		border-radius: 6px;
 	}
-	.barButtonBase__8fa46 {
+	.barButtonBase__5e4cf {
 		height: auto;
 		padding: 10px 16px;
 	}
-	.unreadBar__6ecda {
+	.unreadBar__4ead4 {
 		opacity: 1;
 		visibility: visible;
 		&[aria-hidden='true'] {
@@ -26,7 +26,7 @@
 	}
 
 	// Old messages
-	.jumpToPresentBar__0ff7f {
+	.jumpToPresentBar__69174 {
 		background: rgb(var(--accent), 0.1);
 		border: 1px solid var(--border);
 		padding: 0;
@@ -38,7 +38,7 @@
 	}
 
 	// Join thread
-	.chatHeaderBar_c1df53 {
+	.chatHeaderBar__9e6ac {
 		background: var(--bg-primary);
 		border-bottom: 1px solid var(--border);
 	}

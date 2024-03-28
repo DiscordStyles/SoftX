@@ -1,26 +1,26 @@
 @use '../assets';
 
 #app-mount {
-	.animatedContainer__341f6 {
+	.animatedContainer__0e828 {
 		margin-top: var(--toolbar-height);
 		background: transparent;
 		transform: none !important;
 	}
-	.bannerImage__39c51 {
+	.bannerImage_c73a57 {
 		width: var(--channels-width);
 		transform: none !important;
 	}
-	.bannerImg_c85b7f {
+	.bannerImg_fe5c1b {
 		width: 100%;
 	}
 	.content-2a4AW9 > div[style='height: 84px;'] {
 		margin-top: 48px;
 	}
 
-	.selected__0b1ad .header__104ca {
+	.selected__987e6 .header__77c95 {
 		background: transparent;
 	}
-	.header__104ca {
+	.header__77c95 {
 		height: var(--toolbar-height);
 		border-bottom: 1px solid var(--border);
 		filter: none;
@@ -30,19 +30,19 @@
 		align-items: center;
 		justify-content: space-between;
 
-		.headerContent_ee8727 {
+		.headerContent__6fcc7 {
 			flex: 1;
 		}
-		.headerChildren__7cd0b {
+		.headerChildren_e6a96f {
 			display: flex;
-			.button__07e07 {
+			.button__84b6b {
 				top: 0;
 			}
 		}
-		.name_c08dbc {
+		.name_e8e549 {
 			font-weight: 500;
 		}
-		.button__07e07 {
+		.button__84b6b {
 			margin-left: 0;
 			mask: url(assets.$icon_cog) center/cover;
 			background: var(--interactive-normal);
@@ -63,10 +63,10 @@
 	.guildIconContainer-2FW_iA {
 		display: none;
 	}
-	.headerButton__3af9f {
+	.headerButton__532a2 {
 		background: transparent;
 	}
-	.communityInfoContainer__286d6 {
+	.communityInfoContainer__6ea3a {
 		display: none;
 	}
 }
