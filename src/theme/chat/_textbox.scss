@@ -1,11 +1,11 @@
 @use '../assets';
 
 #app-mount {
-	.form__13a2c {
+	.form_d8a4a1 {
 		&::before {
 			content: none;
 		}
-		.button_afdfd9 {
+		.button__581d0 {
 			height: 100%;
 			// Gif Button
 			#icon {
@@ -22,7 +22,7 @@
 			&:hover #icon svg {
 				background: var(--interactive-normal);
 			}
-			&:not(.attachButton_b1db83) {
+			&:not(.attachButton__56f98) {
 				svg {
 					transition: var(--transition);
 					transition-property: filter;
@@ -35,7 +35,7 @@
 				}
 			}
 		}
-		.emojiButton__30ec7 {
+		.emojiButton_b63c38 {
 			padding: 0 4px;
 			max-height: 54px;
 			.sprite__294b3 {
@@ -52,7 +52,7 @@
 				background: var(--interactive-normal);
 			}
 		}
-		.stickerButton__8af38 {
+		.stickerButton_c02bc0 {
 			padding: 0;
 			svg {
 				width: 24px !important;
@@ -70,14 +70,14 @@
 			}
 		}
 	}
-	.channelTextArea__2e60f {
+	.channelTextArea_c2094b {
 		background: var(--input-background);
 		border: 2px solid transparent;
 		border-radius: 6px;
 		transition: var(--transition);
 		transition-property: border-color, box-shadow;
 
-		.divider_b9338f {
+		.divider__855e3 {
 			border-top: 2px solid rgb(255 255 255 / 0.05);
 			margin: 0 0 0 12px;
 		}
@@ -91,14 +91,14 @@
 				rgb(var(--accent), 0.25);
 		}
 	}
-	.slateTextArea__0661c,
-	.placeholder_e68c63 {
+	.slateTextArea_b19976,
+	.placeholder_dec8c7 {
 		padding: 16px 0;
 	}
-	.scrollableContainer__33e06 {
+	.scrollableContainer_ff917f {
 		background: transparent;
 	}
-	.attachButton_b1db83 {
+	.attachButton__56f98 {
 		height: 100%;
 		svg {
 			mask: url(assets.$icon_paper-clip) center/cover;
@@ -120,7 +120,7 @@
 		}
 	}
 
-	.buttons_ce5b56 {
+	.buttons__7ecff {
 		min-height: 54px;
 		& > button[aria-label] {
 			svg {
@@ -144,22 +144,22 @@
 	}
 
 	// Replying
-	.attachedBars_da3c74 {
+	.attachedBars_c1606a {
 		background: transparent;
 		border-radius: 6px 6px 0 0;
 	}
-	.replyBar_b64d74,
-	.threadSuggestionBar_b633f7 {
+	.replyBar_ed6afc,
+	.threadSuggestionBar__717a3 {
 		background: rgb(255 255 255 / 0.02);
 		border-bottom: 2px solid var(--border);
 	}
 
 	// Follow to get...
-	.wrapper_fbbb73 {
+	.wrapper__57349 {
 		background: var(--input-background);
 		border-radius: 6px;
 		padding: 24px 0;
-		.buttonContainer__1c00c {
+		.buttonContainer__1b685 {
 			margin-right: 24px;
 		}
 	}
@@ -177,7 +177,7 @@ $sizes: (
 );
 @each $selector, $value in $sizes {
 	.font-size-#{$selector} {
-		.slateContainer_b692b3,
+		.slateContainer__1d1fd,
 		.buttons-3JBrkn {
 			min-height: $value + px !important;
 		}

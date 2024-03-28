@@ -1,13 +1,13 @@
 #app-mount {
-	.privateChannels__93473,
-	.scroller__4b984 {
+	.privateChannels__9b518,
+	.scroller__89969 {
 		background: transparent;
 		div[style='height: 8px;'] {
 			display: none;
 		}
 	}
 
-	.searchBar_e4ea2a {
+	.searchBar__621ec {
 		height: var(--toolbar-height);
 		box-shadow: none;
 		border-bottom: 1px solid var(--border);
@@ -15,13 +15,13 @@
 		margin-top: -1px;
 	}
 
-	.privateChannelsHeaderContainer_ddcec6 {
+	.privateChannelsHeaderContainer_b22dc9 {
 		padding: 18px;
 		height: auto;
 		align-items: center;
 		line-height: normal;
 	}
-	.channel_c21703 {
+	.channel__0aef5 {
 		max-width: unset;
 		margin: 0;
 		padding: 0;
@@ -31,14 +31,14 @@
 			height: var(--dm-height);
 			border-radius: 0;
 		}
-		.content_f767b8 {
+		.content_b5e449 {
 			overflow: visible;
 		}
-		.name__02dbd {
+		.name_f842e4 {
 			overflow: visible;
 		}
 
-		.selected_d94cf9 {
+		.selected__37292 {
 			color: rgb(var(--accent));
 			background: rgb(var(--accent), 0.2);
 			&::before {
@@ -50,10 +50,10 @@
 				background: rgb(var(--accent));
 				box-shadow: 0 0 calc(var(--glow-intensity) * 15px) calc(var(--glow-intensity) * 5px) rgb(var(--accent), 0.2);
 			}
-			.name__02dbd {
+			.name_f842e4 {
 				filter: drop-shadow(0 0 calc(var(--glow-intensity) * 5px) rgb(var(--accent)));
 			}
-			.subText_ed6eed {
+			.subText__0b282 {
 				color: #fff;
 			}
 		}

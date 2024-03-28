@@ -3,15 +3,15 @@
 		.tree__7a511 {
 			outline: none !important;
 		}
-		.scroller__3d071 {
+		.scroller_de945b {
 			margin-bottom: var(--user-area, 220px);
 		}
-		.unreadMentionsIndicatorBottom_fdb943 {
+		.unreadMentionsIndicatorBottom__9351c {
 			bottom: calc(var(--user-area) + 10px);
 		}
 	}
 
-	.panels__58331 > .container_ca50b9 {
+	.panels__58331 > .container_debb33 {
 		background: transparent;
 		position: fixed;
 		bottom: 0;
@@ -24,17 +24,17 @@
 		& > [style='flex: 0 1 auto;'] {
 			flex-direction: column;
 			width: 100%;
-			.button__4f306 {
+			.button_ae40a4 {
 				width: 100%;
 				border-radius: 0;
 				padding: 12px 0;
 				height: auto;
 			}
 		}
-		.avatarWrapper_ba5175 {
+		.avatarWrapper__500a6 {
 			margin-right: 0;
 			margin-top: 12px;
-			.svg_f5b652 {
+			.svg_a6bf1c {
 				width: 50px;
 				height: 50px;
 				transform: translate(1px, 1px);
@@ -45,10 +45,10 @@
 			height: 42px !important;
 		}
 	}
-	.nameTag__0e320 {
+	.nameTag__77ab2 {
 		display: none;
 	}
-	.avatarWrapper_ba5175 {
+	.avatarWrapper__500a6 {
 		margin: 0;
 		min-width: unset;
 		&:hover {

@@ -6,10 +6,10 @@
 	}
 
 	// Connected voice
-	.wrapper__0ed4a:not(:empty) {
+	.wrapper_e832ee:not(:empty) {
 		border-top: 1px solid var(--border);
 	}
-	.container_d667ff {
+	.container_e1958d {
 		background: transparent;
 		border: none;
 		padding: 0;
@@ -19,10 +19,10 @@
 			.inner_ab95dc {
 				padding: 16px 18px;
 			}
-			& > .flex_f5fbb7 {
+			& > .flex_f18b02 {
 				margin: 0;
 			}
-			.button__4f306 {
+			.button_ae40a4 {
 				height: 63px;
 				border-radius: 0;
 				width: 42px;
@@ -32,7 +32,7 @@
 			}
 		}
 	}
-	.actionButtons_b58cbb {
+	.actionButtons__85e3c {
 		padding: 0;
 		& > div > button,
 		& > button {
@@ -42,7 +42,7 @@
 			height: 42px;
 			font-size: 0;
 			transition: none;
-			.contents_fb6220 {
+			.contents__322f4 {
 				display: flex;
 			}
 			svg {
@@ -60,26 +60,26 @@
 		}
 	}
 
-	.activityPanel__22355 {
+	.activityPanel_b73e7a {
 		border-bottom: 1px solid var(--border);
 		padding: 16px;
 		background: transparent;
 	}
 
 	// Voice users
-	.voiceUsers_c72ec5 {
+	.voiceUsers__665a5 {
 		padding: 10px 16px;
 		border-bottom: 1px solid var(--border);
 	}
 
 	// User area
-	.container_ca50b9 {
+	.container_debb33 {
 		background: transparent;
 		padding: 0 16px;
 		height: 64px;
 		border-top: 1px solid var(--border);
 	}
-	.avatarWrapper_ba5175 {
+	.avatarWrapper__500a6 {
 		flex: 1;
 	}
 }

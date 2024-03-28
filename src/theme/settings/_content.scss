@@ -1,25 +1,25 @@
 #app-mount {
-	.standardSidebarView__1129a .content-2a4AW9 {
+	.standardSidebarView__12528 .content-2a4AW9 {
 		min-width: 100%;
 		margin: 0;
 		& > div[style='height: 60px;'] {
 			display: none;
 		}
 	}
-	.contentRegion__0bec1 {
+	.contentRegion__08eba {
 		background: transparent;
-		& > .customColumn_e22a6e {
+		& > .customColumn__0b6a6 {
 			padding-right: 0;
 		}
 	}
-	.contentRegionScroller__86c79 {
+	.contentRegionScroller__9ae20 {
 		background: transparent;
 		width: calc(90vw - 302px);
 		max-height: var(--settings-max-height);
 		max-width: var(--settings-content-width);
 		height: 90vh;
 	}
-	.contentColumnDefault_c66386 {
+	.contentColumnDefault__78de3 {
 		max-width: unset;
 		width: 100%;
 		padding: 32px;
@@ -27,23 +27,23 @@
 	}
 
 	// Custom scroller bullshit. Why Discord. WHY?
-	.customColumn_e22a6e,
-	.contentColumn_dc7d36 {
+	.customColumn__0b6a6,
+	.contentColumn__5f80b {
 		width: calc(90vh - 300px);
 		max-width: var(--settings-content-width);
 		padding-right: 32px;
 	}
-	.contentColumn_dc7d36 > .customColumn_e22a6e {
+	.contentColumn__5f80b > .customColumn__0b6a6 {
 		padding-right: 0;
 	}
-	.customScroller_f72801 > div {
+	.customScroller_b96e1e > div {
 		max-width: var(--settings-content-width);
 		padding: 32px;
 	}
-	.customContainer__93c7c {
+	.customContainer__64260 {
 		position: static;
 	}
-	.customScroller_f72801 {
+	.customScroller_b96e1e {
 		width: 100%;
 		max-height: var(--settings-max-height);
 		max-width: var(--settings-content-width);
