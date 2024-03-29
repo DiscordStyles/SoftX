@@ -1021,6 +1021,7 @@ html.theme-light .container_debb33 {
   border-top: 1px solid var(--border);
 }
 #app-mount .avatarWrapper__500a6 {
+  justify-content: center;
   flex: 1;
 }
 
