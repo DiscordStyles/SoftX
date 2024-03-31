@@ -32,6 +32,22 @@ body,
 					rgb(var(--accent), 0.2);
 			}
 		}
+		// Chat decorations fix by @lioncat6
+		.avatarDecoration__8a0c2 {
+			--_radio: var(--decoration-to-avatar-ratio);
+			left: calc(
+				var(--custom-message-margin-horizontal) -
+					(calc(calc(var(--chat-avatar-size) * var(--_radio)) * var(--_radio)) - calc(var(--chat-avatar-size) * 1.25)) /
+					2.4
+			);
+			margin-top: calc(
+				4px - var(--custom-message-spacing-vertical-container-cozy) -
+					(calc(calc(var(--chat-avatar-size) * var(--_radio)) * var(--_radio)) - calc(var(--chat-avatar-size) * 1.25)) /
+					var(--_radio)
+			);
+			width: calc(var(--chat-avatar-size) * var(--_radio));
+			height: calc(var(--chat-avatar-size) * var(--_radio));
+		}
 	}
 
 	// Message actions
