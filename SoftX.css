@@ -9,7 +9,7 @@
 }
 
 :root {
-  --softx-version: "1.2.0";
+  --softx-version: "1.2.1";
   --hue: 0deg;
   --saturation: 0%;
   --lightness: 10%;
@@ -1172,6 +1172,14 @@ body .message_ccca67.replying__38514::before,
 #app-mount .message_ccca67.replying__38514::before {
   background: rgb(var(--accent));
   box-shadow: 0 0 calc(var(--chat-glow-intensity) * 15px) calc(var(--chat-glow-intensity) * 5px) rgb(var(--accent), 0.2);
+}
+body .message_ccca67 .avatarDecoration__8a0c2,
+#app-mount .message_ccca67 .avatarDecoration__8a0c2 {
+  --_radio: var(--decoration-to-avatar-ratio);
+  left: calc(var(--custom-message-margin-horizontal) - (var(--chat-avatar-size) * var(--_radio) * var(--_radio) - var(--chat-avatar-size) * 1.25) / 2.4);
+  margin-top: calc(4px - var(--custom-message-spacing-vertical-container-cozy) - (var(--chat-avatar-size) * var(--_radio) * var(--_radio) - var(--chat-avatar-size) * 1.25) / var(--_radio));
+  width: calc(var(--chat-avatar-size) * var(--_radio));
+  height: calc(var(--chat-avatar-size) * var(--_radio));
 }
 body .wrapper__4e6b6,
 #app-mount .wrapper__4e6b6 {
