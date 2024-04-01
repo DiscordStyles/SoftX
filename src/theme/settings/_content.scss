@@ -51,13 +51,14 @@
 	
 	//Fixing the roles tab. Why is the roles tab so different from the others? WHY?
 	.contentColumnMinimal__7b4f5{
-		padding-right: 0px;
+		padding-right: 0px !important;
 		.customColumn__0b6a6 {
 			width: 100%;
 			max-width: 100%;
 		}
 		.content__690c5 {
 			padding: 0px 70px 0px 0px;
+			border-right: none;
 		}
 		.page_c3ed26{
 			width: 100%;
@@ -67,5 +68,24 @@
 			width: 100%;
 			max-width: 100%;
 		}
+		.header_ee0bd9,
+		.headerContainer__282e2{
+			min-width: 100%;
+			margin-right: -6px;
+			border-right: none;
+		}
 	}
+	.contentRegionShownSidebar__9d1b9{
+		overflow: hidden !important;
+	}
+	.titleContainer_d09261{
+		background: transparent;
+	}
+	.header_ee0bd9 {
+		border-radius: 5px;
+		.menu__22341 {
+			padding-right: 10px;
+		}
+	}
+
 }
