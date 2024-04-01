@@ -2955,6 +2955,43 @@ body .footer__90194,
   max-height: var(--settings-max-height);
   max-width: var(--settings-content-width);
 }
+#app-mount .contentColumnMinimal__7b4f5 {
+  padding-right: 0px !important;
+}
+#app-mount .contentColumnMinimal__7b4f5 .customColumn__0b6a6 {
+  width: 100%;
+  max-width: 100%;
+}
+#app-mount .contentColumnMinimal__7b4f5 .content__690c5 {
+  padding: 0px 70px 0px 0px;
+  border-right: none;
+}
+#app-mount .contentColumnMinimal__7b4f5 .page_c3ed26 {
+  width: 100%;
+  max-width: 100%;
+}
+#app-mount .contentColumnMinimal__7b4f5 .contentWidth_f1e6d4 {
+  width: 100%;
+  max-width: 100%;
+}
+#app-mount .contentColumnMinimal__7b4f5 .header_ee0bd9,
+#app-mount .contentColumnMinimal__7b4f5 .headerContainer__282e2 {
+  min-width: 100%;
+  margin-right: -6px;
+  border-right: none;
+}
+#app-mount .contentRegionShownSidebar__9d1b9 {
+  overflow: hidden !important;
+}
+#app-mount .titleContainer_d09261 {
+  background: transparent;
+}
+#app-mount .header_ee0bd9 {
+  border-radius: 5px;
+}
+#app-mount .header_ee0bd9 .menu__22341 {
+  padding-right: 10px;
+}
 
 #app-mount .layer_f7d46a [aria-label=USER_SETTINGS] .accountProfileCard__744d8 {
   border: 1px solid var(--border);
