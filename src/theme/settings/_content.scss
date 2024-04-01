@@ -25,6 +25,7 @@
 		padding: 32px;
 		z-index: 1;
 	}
+
 	// Custom scroller bullshit. Why Discord. WHY?
 	.customColumn__0b6a6,
 	.contentColumn__5f80b {
@@ -46,24 +47,5 @@
 		width: 100%;
 		max-height: var(--settings-max-height);
 		max-width: var(--settings-content-width);
-	}
-	//Fixing the roles tab. Why is the roles tab so different from the others? WHY?
-	.contentColumnMinimal__7b4f5{
-		padding-right: 0px;
-		.customColumn__0b6a6 {
-			width: 100%;
-			max-width: 100%;
-		}
-		.content__690c5 {
-			padding: 0px 70px 0px 0px;
-		}
-		.page_c3ed26{
-			width: 100%;
-			max-width: 100%;
-		}
-		.contentWidth_f1e6d4{
-			width: 100%;
-			max-width: 100%;
-		}
 	}
 }
