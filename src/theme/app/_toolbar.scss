@@ -151,4 +151,12 @@
 	.threadSidebarOpen__62c31 .container__26baa {
 		border-right: 1px solid var(--border);
 	}
+
+	// Makes the top bar more easily grabbable
+	.titleBar__710b0  {
+		height: 20px;
+		-webkit-app-region: drag;
+		pointer-events: none;
+		top: 0;
+	}
 }
