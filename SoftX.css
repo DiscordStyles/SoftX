@@ -254,6 +254,12 @@ html.theme-light .container_debb33 {
 #app-mount .threadSidebarOpen__62c31 .container__26baa {
   border-right: 1px solid var(--border);
 }
+#app-mount .titleBar__710b0 {
+  height: 20px;
+  -webkit-app-region: drag;
+  pointer-events: none;
+  top: 0;
+}
 
 .members__573eb,
 .peopleList_d2f527,
