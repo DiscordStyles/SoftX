@@ -1,19 +1,19 @@
 #app-mount {
-	.messagesPopoutWrap__10dd1,
-	.recentMentionsPopout__40c54 {
+	.messagesPopoutWrap_ac90a2,
+	.recentMentionsPopout_ddb5b4 {
 		background: var(--bg-primary);
 		box-shadow: none;
 		border: 1px solid var(--border);
 		backdrop-filter: blur(var(--blur));
 	}
-	.recentMentionsPopout__40c54 .scroller_e3927b {
+	.recentMentionsPopout_ddb5b4 .scroller_f1c3d9 {
 		padding: 0 !important;
 		& > div {
 			border-bottom: 1px solid var(--border);
 			padding: 16px;
 		}
 	}
-	.header__58a85 {
+	.header_f0cd33 {
 		background: transparent;
 		border-bottom: 1px solid var(--border);
 		padding: 0;
@@ -28,7 +28,7 @@
 			}
 		}
 	}
-	.tab_a8a066 {
+	.tab_f0cd33 {
 		height: 55px;
 		padding: 0 12px;
 		margin: 0;
@@ -52,21 +52,21 @@
 		}
 	}
 
-	.container__7c2c1 {
+	.container_ddb5b4 {
 		border-bottom: 1px solid var(--border);
 		margin-bottom: 0;
 		padding: 16px !important;
 	}
-	.channelHeader_ea0f89 {
+	.channelHeader_f3978e {
 		background: transparent;
 		position: static;
 		padding: 0 0 16px 14px;
 	}
-	.messages__1aaa1 {
+	.messages_c06487 {
 		background: transparent;
 		padding: 0;
 	}
-	.messageContainer_cb3d47 {
+	.messageContainer_ddb5b4 {
 		padding: 0;
 		border-radius: 0;
 		background: transparent;

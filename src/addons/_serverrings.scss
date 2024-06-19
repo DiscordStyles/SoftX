@@ -9,16 +9,16 @@
 }
 
 #app-mount {
-	.wrapper__832f2 ul[role='group'] {
+	.wrapper_bc7085 ul[role='group'] {
 		height: auto !important;
 	}
 
-	.scroller_de945b > div[style]:not([class]) {
+	.scroller_fea3ef > div[style]:not([class]) {
 		margin-bottom: var(--server-spacing);
 	}
 
 	// Container
-	.listItem__48528 {
+	.listItem_c96c45 {
 		width: 100%;
 		margin-bottom: var(--server-spacing);
 		[class*='pill'] {
@@ -29,7 +29,7 @@
 			height: calc(var(--server-size, 48px) + 8px);
 			overflow: visible;
 			margin-left: -2px;
-			.item_f9d377 {
+			.item_fd07a3 {
 				height: 100% !important;
 				width: 100%;
 				margin: 0;
@@ -78,8 +78,8 @@
 	}
 
 	// Active state
-	.blobContainer_c44493,
-	.listItemWrapper__3d465 {
+	.blobContainer_a5ad63,
+	.listItemWrapper_dfb2f8 {
 		transition: var(--transition, 0.15s ease);
 		transition-property: transform;
 		&:active {
@@ -87,13 +87,13 @@
 		}
 	}
 
-	.svg__34dd4 foreignObject {
+	.svg_c5f96a foreignObject {
 		border-radius: var(--server-roundness, 50%);
 		mask: none !important;
 	}
 }
 
 // Hide Broken Discoverable Servers Ring
-.pill__13f64 {
+.pill_db6521 {
 	display: none;
 }

@@ -1,25 +1,25 @@
 #app-mount {
-	.standardSidebarView__12528 .content-2a4AW9 {
+	.standardSidebarView_c25c6d .content-2a4AW9 {
 		min-width: 100%;
 		margin: 0;
 		& > div[style='height: 60px;'] {
 			display: none;
 		}
 	}
-	.contentRegion__08eba {
+	.contentRegion_c25c6d {
 		background: transparent;
-		& > .customColumn__0b6a6 {
+		& > .customColumn_c25c6d {
 			padding-right: 0;
 		}
 	}
-	.contentRegionScroller__9ae20 {
+	.contentRegionScroller_c25c6d {
 		background: transparent;
 		width: calc(90vw - 302px);
 		max-height: var(--settings-max-height);
 		max-width: var(--settings-content-width);
 		height: 90vh;
 	}
-	.contentColumnDefault__78de3 {
+	.contentColumnDefault_c25c6d {
 		max-width: unset;
 		width: 100%;
 		padding: 32px;
@@ -27,60 +27,60 @@
 	}
 
 	// Custom scroller bullshit. Why Discord. WHY?
-	.customColumn__0b6a6,
-	.contentColumn__5f80b {
+	.customColumn_c25c6d,
+	.contentColumn_c25c6d {
 		width: calc(90vh - 300px);
 		max-width: var(--settings-content-width);
 		padding-right: 32px;
 	}
-	.contentColumn__5f80b > .customColumn__0b6a6 {
+	.contentColumn_c25c6d > .customColumn_c25c6d {
 		padding-right: 0;
 	}
-	.customScroller_b96e1e > div {
+	.customScroller_c25c6d > div {
 		max-width: var(--settings-content-width);
 		padding: 32px;
 	}
-	.customContainer__64260 {
+	.customContainer_c25c6d {
 		position: static;
 	}
-	.customScroller_b96e1e {
+	.customScroller_c25c6d {
 		width: 100%;
 		max-height: var(--settings-max-height);
 		max-width: var(--settings-content-width);
 	}
 	
 	//Fixing the roles tab. Why is the roles tab so different from the others? WHY?
-	.contentColumnMinimal__7b4f5{
+	.contentColumnMinimal_c25c6d{
 		padding-right: 0px !important;
-		.customColumn__0b6a6 {
+		.customColumn_c25c6d {
 			width: 100%;
 			max-width: 100%;
 		}
-		.content__690c5 {
+		.content_eed6a8 {
 			padding: 0px 70px 0px 0px;
 			border-right: none;
 		}
-		.page_c3ed26{
+		.page_e8251c{
 			width: 100%;
 			max-width: 100%;
 		}
-		.contentWidth_f1e6d4{
+		.contentWidth_bd05f1{
 			width: 100%;
 			max-width: 100%;
 		}
-		.header_ee0bd9,
-		.headerContainer__282e2{
+		.header_bd05f1,
+		.headerContainer_fe3229{
 			min-width: 100%;
 			margin-right: -6px;
 			border-right: none;
 		}
 	}
-	.titleContainer_d09261{
+	.titleContainer_e87574{
 		background: transparent;
 	}
-	.header_ee0bd9 {
+	.header_bd05f1 {
 		border-radius: 5px;
-		.menu__22341 {
+		.menu_c69589 {
 			padding-right: 10px;
 		}
 	}

@@ -1,4 +1,4 @@
-#app-mount .layer_f7d46a:not(.baseLayer__2b890) {
+#app-mount .layer_d4b6c5:not(.baseLayer_d4b6c5) {
 	background: var(--bg-primary);
 	backdrop-filter: blur(var(--backdrop-blur));
 	top: 0;
@@ -12,7 +12,7 @@
 	justify-content: center;
 	z-index: 1;
 
-	.standardSidebarView__12528 {
+	.standardSidebarView_c25c6d {
 		max-width: var(--settings-max-width);
 		max-height: var(--settings-max-height);
 		width: 90vw;
@@ -22,14 +22,14 @@
 		border: 1px solid var(--border);
 		border-radius: 6px;
 	}
-	.contentRegion__08eba {
+	.contentRegion_c25c6d {
 		flex: 1 1 auto;
 		position: unset;
 		height: 100%;
 		// width: calc(90vw - 300px);
 	}
 
-	.toolsContainer__4e6ad {
+	.toolsContainer_c25c6d {
 		padding-top: 0;
 		top: 0;
 		left: 0;
@@ -39,15 +39,15 @@
 		z-index: -1;
 		opacity: 0;
 	}
-	.tools_c0ff70,
-	.container__3529f {
+	.tools_c25c6d,
+	.container_df5532 {
 		width: 100%;
 		height: 100%;
 	}
-	.keybind_a619c1 {
+	.keybind_df5532 {
 		display: none;
 	}
-	.closeButton__8177f {
+	.closeButton_df5532 {
 		background: transparent;
 		border: none;
 		border-radius: 0;

@@ -1,5 +1,5 @@
 #app-mount {
-	.userPopoutOuter__3884e {
+	.userPopoutOuter_c69a7b {
 		border-radius: 0;
 		border: 1px solid var(--border);
 		backdrop-filter: blur(var(--blur));
@@ -10,15 +10,15 @@
 		.banner-2boKnS {
 			border-radius: 0;
 		}
-		.avatarPositionPremiumNoBanner__8beba {
+		.avatarPositionPremiumNoBanner_f89da9 {
 			top: 42px;
 			left: 18px;
 		}
-		.avatarPositionPremiumBanner_f3acc4 {
+		.avatarPositionPremiumBanner_f89da9 {
 			top: 72px;
 			left: 18px;
 		}
-		.scroller_f9a667 {
+		.scroller_d2b491 {
 			padding: 0 16px !important;
 		}
 		.input-2g-os5 {
@@ -27,12 +27,12 @@
 				color: var(--user-popout-text);
 			}
 		}
-		.roles__74a2b {
+		.roles_fa2f72 {
 			display: flex;
 			flex-wrap: wrap;
 			gap: 8px;
 		}
-		.role_d81130 {
+		.role_f9575e {
 			margin: 0;
 			border: none;
 			height: auto;
@@ -42,20 +42,20 @@
 			position: relative;
 			overflow: hidden;
 		}
-		.roleRemoveButton__20c70 {
+		.roleRemoveButton_e4010c {
 			position: absolute;
 			inset: 0;
 			&[aria-hidden='false']:hover {
-				.roleCircle__61ad8 {
+				.roleCircle_a26d7b {
 					opacity: 1;
 				}
-				& ~ .roleName__851c9 {
+				& ~ .roleName_e4010c {
 					opacity: 0;
 					pointer-events: none;
 				}
 			}
 		}
-		.roleCircle__61ad8 {
+		.roleCircle_a26d7b {
 			margin: 0;
 			position: absolute;
 			top: 0;
@@ -67,16 +67,16 @@
 			filter: none;
 			opacity: 0.35;
 		}
-		.roleName__851c9 {
+		.roleName_e4010c {
 			margin: 0;
 			color: #fff;
-			.roleNameOverflow__27401 {
+			.roleNameOverflow_e4010c {
 				color: inherit;
 			}
 		}
 
 		&[style*='--profile-gradient-primary-color'] {
-			.userProfileInner__61cc1::before {
+			.userProfileInner_c69a7b::before {
 				content: '';
 				width: 100%;
 				height: 100%;
@@ -89,7 +89,7 @@
 				pointer-events: none;
 				z-index: -1;
 			}
-			.input_f27786:focus-within {
+			.input_f8bc55:focus-within {
 				border-color: var(--profile-gradient-primary-color, rgb(var(--accent))) !important;
 				box-shadow: 0 0 calc(var(--input-glow-intensity) * 12px) calc(var(--input-glow-intensity) * 2px)
 					var(--profile-gradient-primary-color, rgb(var(--accent), 0.25)) !important;
@@ -106,26 +106,26 @@
 			--input-background: hsl(0 0% 7% / 0.7) !important;
 		}
 	}
-	.userPopoutInner_e90432 {
+	.userPopoutInner_c69a7b {
 		border-radius: 0;
 		background: transparent;
 		&::before {
 			content: none;
 		}
-		&.userProfileInnerThemedNonPremium_ed9022 {
+		&.userProfileInnerThemedNonPremium_c69a7b {
 			background: var(--fg-primary);
 		}
 	}
-	.userPopoutOverlayBackground_bf6444 {
+	.userPopoutOverlayBackground_c69a7b {
 		margin: 0;
 		padding-top: 16px;
 		background: transparent;
 	}
-	.messageInputContainer_a93946 {
+	.messageInputContainer_f2c0a8 {
 		border: none;
 		border-radius: 0;
 	}
-	.input_f27786 {
+	.input_f8bc55 {
 		background: var(--fg-secondary) !important;
 		padding: 8px 10px !important;
 		&::placeholder {

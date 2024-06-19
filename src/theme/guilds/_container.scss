@@ -1,9 +1,9 @@
 #app-mount {
-	.guilds__2b93a {
+	.guilds_a4d4d9 {
 		width: var(--guilds-width);
 		border-right: 1px solid var(--border);
 		background: var(--bg-primary);
-		.scroller_de945b {
+		.scroller_fea3ef {
 			background: transparent;
 			padding: 18px 0;
 			mask: radial-gradient(circle at top, black, black 95%, transparent) !important;
@@ -11,7 +11,7 @@
 				display: var(--guild-scrollbar);
 			}
 		}
-		&.hidden__7c832 {
+		&.hidden_fea3ef {
 			display: none;
 		}
 	}

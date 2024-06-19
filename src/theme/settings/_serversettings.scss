@@ -1,6 +1,6 @@
-#app-mount .layer_f7d46a [aria-label='GUILD_SETTINGS'] {
+#app-mount .layer_d4b6c5 [aria-label='GUILD_SETTINGS'] {
 	// Roles
-	.page_c3ed26 {
+	.page_e8251c {
 		position: relative;
 		width: 100%;
 		max-width: var(--settings-content-width);
@@ -8,17 +8,17 @@
 		max-height: var(--settings-max-height);
 	}
 
-	.sidebar__37984 {
+	.sidebar_e87574 {
 		height: var(--settings-max-height);
 	}
-	.titleContainer_d09261 {
+	.titleContainer_e87574 {
 		padding: 24px;
 		margin: 0;
 		border-bottom: 1px solid var(--border);
 		background: var(--bg-primary);
 		backdrop-filter: blur(var(--blur));
 	}
-	.list__41249 {
+	.list_e87574 {
 		padding: 73px 0 0 !important;
 		margin-top: -73px;
 		.item-3XjbnG {
@@ -46,32 +46,32 @@
 		}
 	}
 
-	.scroller_bcb155 {
+	.scroller_da1bd9 {
 		scroll-padding-top: 132px !important;
 	}
-	.contentWidth_f1e6d4 {
+	.contentWidth_bd05f1 {
 		width: 100%;
 		max-width: unset;
 		padding: 24px 24px 0;
 	}
-	.headerContainer__282e2 {
+	.headerContainer_fe3229 {
 		right: 0;
-		.header_ee0bd9 {
+		.header_bd05f1 {
 			margin-bottom: 0;
 		}
 	}
-	.header_ee0bd9 {
+	.header_bd05f1 {
 		margin: -24px -24px 24px;
 		padding: 24px 24px 0;
 		background: var(--bg-primary);
 		backdrop-filter: blur(var(--blur));
 		border-bottom: 1px solid var(--border);
 	}
-	.tabBar_a013ee {
+	.tabBar_c69589 {
 		border: none;
 		margin: 0;
 	}
-	.tabBarItem_c97278 {
+	.tabBarItem_c69589 {
 		border: none;
 		overflow: visible;
 		position: relative;
@@ -92,8 +92,8 @@
 			}
 		}
 	}
-	.searchContainer_eee0ea,
-	.searchContainer__58a66 {
+	.searchContainer_a73849,
+	.searchContainer_fe3229 {
 		margin: 24px 0;
 	}
 	.container__33507 {
@@ -111,13 +111,13 @@
 				rgb(var(--accent), 0.25);
 		}
 	}
-	.container_bc77c3 .list__8e7c9 {
+	.container_fe3229 .list_fe3229 {
 		scroll-padding-top: 193px !important;
 	}
 	.content-2a4AW9 > div[style='height: 201px;'] {
 		height: 193px !important;
 	}
-	.previewContainer__30793 .theme-light {
+	.previewContainer_da1bd9 .theme-light {
 		display: none;
 	}
 }

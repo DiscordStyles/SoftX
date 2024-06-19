@@ -1,11 +1,11 @@
 #app-mount {
-	.member_aa4760 {
+	.member_a31c43 {
 		max-width: 100%;
 		margin: 0;
 		padding: 0;
 		background: transparent;
-		&.selected__7f4cb {
-			.layout_bb8e67 {
+		&.selected_e9f61e {
+			.layout_e9f61e {
 				background: transparent;
 			}
 			.username_d272d6 {
@@ -36,23 +36,23 @@
 					pointer-events: none;
 				}
 			}
-			.activityText__31c22 {
+			.activityText_a31c43 {
 				color: #fff;
 				z-index: 1;
 			}
 		}
 	}
-	.layout_bb8e67 {
+	.layout_e9f61e {
 		padding: 0 16px;
 		height: var(--member-height);
 		border-radius: 0;
 
-		.name__7afe8,
-		.content_e8a0d1,
-		.username_ab1e31 {
+		.name_e9f61e,
+		.content_e9f61e,
+		.username_a31c43 {
 			overflow: visible;
 		}
-		.avatar__6337f {
+		.avatar_e9f61e {
 			z-index: 1;
 		}
 	}
