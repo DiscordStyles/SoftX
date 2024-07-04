@@ -1,6 +1,6 @@
 body,
 #app-mount {
-	$message: '.messageContent_ec86aa:not(:empty):not(.repliedTextContent_ec86aa):not(.threadMessageAccessoryContent_ec86aa)';
+	$message: '.messageContent_f9f2ca:not(:empty):not(.repliedTextContent_ec86aa):not(.threadMessageAccessoryContent_ec86aa)';
 
 	.message_d5deea {
 		.channelTextArea_d5deea {
@@ -60,16 +60,16 @@ body,
 		z-index: 1;
 	}
 
-	.cozy_ec86aa {
+	.cozy_f9f2ca {
 		padding-left: calc(var(--chat-avatar-size) + 26px);
-		.avatar_ec86aa {
+		.avatar_f9f2ca {
 			margin-top: 0;
 			left: 16px;
 			width: var(--chat-avatar-size);
 			height: var(--chat-avatar-size);
 			border-radius: var(--avatar-roundness, 50%);
 		}
-		.header_ec86aa {
+		.header_f9f2ca {
 			overflow: visible;
 			margin-left: 0;
 			margin-bottom: 10px;
@@ -88,11 +88,11 @@ body,
 				border: none;
 			}
 		}
-		.username_ec86aa {
+		.username_f9f2ca {
 			text-shadow: 0 0 calc(var(--chat-glow-intensity) * 10px) currentColor;
 			line-height: normal;
 		}
-		.messageContent_ec86aa {
+		.messageContent_f9f2ca {
 			pre {
 				max-width: 100%;
 			}
