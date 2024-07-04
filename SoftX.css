@@ -1845,23 +1845,14 @@ body .footer_ad9cbd,
   z-index: 1;
 }
 
+#app-mount .menu_d4e7c2 {
+  background: rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-5));
+  border: 1px solid var(--border-strong) !important;
+}
 #app-mount .menu_d90b3d:not(#account.menu_d90b3d) {
-  background: var(--bg-primary);
   border: 1px solid var(--border);
   box-shadow: none;
   border-radius: 6px;
-}
-#app-mount .menu_d90b3d:not(#account.menu_d90b3d)::before {
-  content: "";
-  border-radius: 6px;
-  position: absolute;
-  top: 1px;
-  right: 1px;
-  bottom: 1px;
-  left: 1px;
-  -webkit-backdrop-filter: blur(5px);
-          backdrop-filter: blur(5px);
-  z-index: -1;
 }
 #app-mount .menu_d90b3d:not(#account.menu_d90b3d) .scroller_d90b3d {
   padding: 0;
@@ -1873,8 +1864,8 @@ body .footer_ad9cbd,
   border-radius: 0 0 6px 6px;
 }
 #app-mount .menu_d90b3d:not(#account.menu_d90b3d) .separator_d90b3d {
-  margin: 0;
-  border-color: var(--border);
+  border-color: var(--profile-body-divider-color);
+  margin: 2px 12px;
 }
 #app-mount .menu_d90b3d:not(#account.menu_d90b3d) .item_d90b3d {
   margin: 0;
@@ -3418,7 +3409,6 @@ body .footer_ad9cbd,
   background: linear-gradient(var(--profile-gradient-primary-color), var(--profile-gradient-primary-color) 120px, var(--profile-gradient-secondary-color));
   opacity: 0.5;
   pointer-events: none;
-  z-index: -1;
 }
 #app-mount .userPopoutOuter_c69a7b[style*="--profile-gradient-primary-color"] .input_f8bc55:focus-within {
   border-color: var(--profile-gradient-primary-color, rgb(var(--accent))) !important;
