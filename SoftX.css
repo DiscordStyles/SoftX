@@ -261,6 +261,24 @@ html.theme-light .container_b2ca13 {
   top: 0;
 }
 
+.platform-win .winButton_a934d8 {
+  height: 74px;
+}
+
+.toolbar_fc4f04 {
+  margin-right: 150px;
+}
+
+.theme-dark .themed_fc4f04 {
+  background: var(--bg-secondary);
+  height: 74px;
+  border-bottom: 1px solid var(--border);
+}
+
+.theme-dark .children_fc4f04:after {
+  background: transparent;
+}
+
 .members_cbd271,
 .peopleList_e0840f,
 .sidebarRegionScroller_c25c6d,
@@ -1762,6 +1780,12 @@ body .footer_ad9cbd,
 #app-mount .chatButton_dd069c {
   top: 25px;
   right: 187px;
+}
+#app-mount .children_fc4f04 {
+  height: 60px;
+}
+#app-mount .disabledButtonWrapper_dd4f85 .button_dd4f85.grow_dd4f85 {
+  margin-left: 18px;
 }
 
 #app-mount .container_cbd271 {
