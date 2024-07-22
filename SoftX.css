@@ -1317,24 +1317,24 @@ body .repliedMessage_ec86aa::before,
 #app-mount .repliedMessage_ec86aa::before {
   left: calc(var(--chat-avatar-size) / 2 * -1 + var(--gutter) * -1 + 5px);
 }
-body .embedFull_ad0b71,
-body .wrapper_b9fe76,
-#app-mount .embedFull_ad0b71,
-#app-mount .wrapper_b9fe76 {
+body .embedFull_b0068a,
+body .wrapper_a71a1c,
+#app-mount .embedFull_b0068a,
+#app-mount .wrapper_a71a1c {
   background: rgba(255, 255, 255, 0.03);
 }
-body .wrapperAudio_f316dd,
-#app-mount .wrapperAudio_f316dd {
+body .wrapperAudio_f72aac,
+#app-mount .wrapperAudio_f72aac {
   border: none;
   background: rgba(255, 255, 255, 0.03);
 }
-body .textContainer_ad9cbd,
-#app-mount .textContainer_ad9cbd {
+body .textContainer_d8e2d0,
+#app-mount .textContainer_d8e2d0 {
   background: rgba(255, 255, 255, 0.03);
   border: none;
 }
-body .footer_ad9cbd,
-#app-mount .footer_ad9cbd {
+body .footer_d8e2d0,
+#app-mount .footer_d8e2d0 {
   background: rgba(255, 255, 255, 0.05);
   border: none;
 }
