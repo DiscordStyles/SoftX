@@ -1608,29 +1608,29 @@ body .footer_d8e2d0,
   display: block;
   width: 100%;
 }
-#app-mount .divider_d5deea .content_fc5f50 {
+#app-mount .divider_d5deea .content_c2654d {
   border-radius: 6px;
   margin: 0;
   padding: 8px 12px;
 }
-#app-mount .divider_d5deea:not(.isUnread_fc5f50)::before,
-#app-mount .divider_d5deea:not(.isUnread_fc5f50) .content_fc5f50 {
+#app-mount .divider_d5deea:not(.isUnread_c2654d)::before,
+#app-mount .divider_d5deea:not(.isUnread_c2654d) .content_c2654d {
   background: var(--border);
 }
-#app-mount .divider_d5deea.isUnread_fc5f50 {
+#app-mount .divider_d5deea.isUnread_c2654d {
   margin: 8px 0;
 }
-#app-mount .divider_d5deea.isUnread_fc5f50::before {
+#app-mount .divider_d5deea.isUnread_c2654d::before {
   order: 1;
   background: hsl(var(--discord-red));
 }
-#app-mount .divider_d5deea.isUnread_fc5f50 .content_fc5f50 {
+#app-mount .divider_d5deea.isUnread_c2654d .content_c2654d {
   order: 2;
   margin-right: 12px;
   background: hsl(var(--discord-red)/0.2);
   text-shadow: 0 0 calc(var(--chat-glow-intensity) * 5px) hsl(var(--discord-red)/0.5);
 }
-#app-mount .unreadPill_fc5f50 {
+#app-mount .unreadPill_c2654d {
   position: relative;
   top: 0;
   left: 0;
