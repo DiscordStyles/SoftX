@@ -1,6 +1,6 @@
 body,
 #app-mount {
-	$message: '.messageContent_f9f2ca:not(:empty):not(.repliedTextContent_ec86aa):not(.threadMessageAccessoryContent_ec86aa)';
+	$message: '.messageContent_f9f2ca:not(:empty):not(.repliedTextContent_f9f2ca):not(.threadMessageAccessoryContent_f9f2ca)';
 
 	.message_d5deea {
 		.channelTextArea_d5deea {
@@ -33,7 +33,7 @@ body,
 			}
 		}
 		// Chat decorations fix by @lioncat6
-		.avatarDecoration_ec86aa {
+		.avatarDecoration_f9f2ca {
 			--_radio: var(--decoration-to-avatar-ratio);
 			left: calc(
 				var(--custom-message-margin-horizontal) -
@@ -149,7 +149,7 @@ body,
 	}
 
 	// Reply
-	.repliedMessage_ec86aa::before {
+	.repliedMessage_f9f2ca::before {
 		left: calc(var(--chat-avatar-size) / 2 * -1 + var(--gutter) * -1 + 5px);
 	}
 
