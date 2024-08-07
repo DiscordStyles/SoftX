@@ -1,7 +1,7 @@
 @use '../assets';
 
 #app-mount {
-	.container_e44302 {
+	.container_fc4f04 {
 		background: var(--bg-primary);
 		height: var(--toolbar-height);
 		padding-left: 24px;
@@ -53,21 +53,21 @@
 		}
 
 		// In voice call
-		&.transparent_e44302 {
+		&.transparent_fc4f04 {
 			background: linear-gradient(hsl(0 0% 0% / 0.5), transparent);
 			border-bottom: none;
 		}
 	}
-	.toolbar_e44302 {
+	.toolbar_fc4f04 {
 		margin-left: 24px;
-		.iconWrapper_e44302 {
+		.iconWrapper_fc4f04 {
 			order: 1;
 			margin: 0 24px 0 0;
-			.iconBadge_e44302 {
+			.iconBadge_fc4f04 {
 				border-radius: 50%;
 				box-shadow: 0 0 calc(var(--glow-intensity) * 10px) calc(var(--glow-intensity) * 1px) hsl(var(--discord-red));
 			}
-			&.selected_e44302 {
+			&.selected_fc4f04 {
 				filter: drop-shadow(0 0 calc(var(--glow-intensity) * 8px) rgb(var(--accent), 0.35))
 					drop-shadow(0 0 calc(var(--glow-intensity) * 2px) rgb(var(--accent), 0.35));
 				svg path {
@@ -83,13 +83,13 @@
 			margin-right: 24px;
 		}
 	}
-	.children_e44302 {
+	.children_fc4f04 {
 		height: 100%;
-		.iconWrapper_e44302 {
+		.iconWrapper_fc4f04 {
 			grid-area: icon;
 			margin-left: 0;
 		}
-		.title_e44302 {
+		.title_fc4f04 {
 			margin-right: 24px;
 		}
 		.topic_bf3bbb {
@@ -108,7 +108,7 @@
 				height: 16px;
 			}
 		}
-		.divider_e44302 {
+		.divider_fc4f04 {
 			display: none;
 		}
 
@@ -148,7 +148,7 @@
 	}
 
 	// Open thread sidebar
-	.threadSidebarOpen_a7d72e .container_e44302 {
+	.threadSidebarOpen_a7d72e .container_fc4f04 {
 		border-right: 1px solid var(--border);
 	}
 

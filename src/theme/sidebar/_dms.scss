@@ -26,15 +26,15 @@
 		margin: 0;
 		padding: 0;
 		border-radius: 0;
-		.layout_f9647d {
+		.layout_ec8679 {
 			padding: 0 18px;
 			height: var(--dm-height);
 			border-radius: 0;
 		}
-		.content_f9647d {
+		.content_ec8679 {
 			overflow: visible;
 		}
-		.name_f9647d {
+		.name_ec8679 {
 			overflow: visible;
 		}
 
@@ -50,10 +50,10 @@
 				background: rgb(var(--accent));
 				box-shadow: 0 0 calc(var(--glow-intensity) * 15px) calc(var(--glow-intensity) * 5px) rgb(var(--accent), 0.2);
 			}
-			.name_f9647d {
+			.name_ec8679 {
 				filter: drop-shadow(0 0 calc(var(--glow-intensity) * 5px) rgb(var(--accent)));
 			}
-			.subText_f9647d {
+			.subText_ec8679 {
 				color: #fff;
 			}
 		}

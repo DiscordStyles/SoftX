@@ -4,8 +4,8 @@
 		margin: 0;
 		padding: 0;
 		background: transparent;
-		&.selected_e9f61e {
-			.layout_e9f61e {
+		&.selected_d808b0 {
+			.layout_d808b0 {
 				background: transparent;
 			}
 			.username_d272d6 {
@@ -42,17 +42,17 @@
 			}
 		}
 	}
-	.layout_e9f61e {
+	.layout_d808b0 {
 		padding: 0 16px;
 		height: var(--member-height);
 		border-radius: 0;
 
-		.name_e9f61e,
-		.content_e9f61e,
+		.name_d808b0,
+		.content_d808b0,
 		.username_a31c43 {
 			overflow: visible;
 		}
-		.avatar_e9f61e {
+		.avatar_d808b0 {
 			z-index: 1;
 		}
 	}
