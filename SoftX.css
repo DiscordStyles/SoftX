@@ -266,7 +266,7 @@ html.theme-light .container_b2ca13 {
 }
 
 .toolbar_fc4f04 {
-  margin-right: 150px;
+  margin-right: 0px;
 }
 
 .theme-dark .themed_fc4f04 {
@@ -1342,6 +1342,11 @@ body .footer_d8e2d0,
 #app-mount .form_a7d72e::before {
   content: none;
 }
+#app-mount .form_a7d72e .button_df39bd {
+  background: var(--input-background);
+  width: 58px !important;
+  height: 58px !important;
+}
 #app-mount .form_a7d72e .button_dd4f85 {
   height: 100%;
 }
@@ -1364,9 +1369,6 @@ body .footer_d8e2d0,
 }
 #app-mount .form_a7d72e .button_dd4f85:not(.attachButton_f298d4).active_f9af59 {
   filter: drop-shadow(0 0 calc(var(--chat-glow-intensity) * 5px) rgb(var(--accent)));
-}
-#app-mount .form_a7d72e .button_dd4f85:not(.attachButton_f298d4).active_f9af59 svg {
-  background: rgb(var(--accent)) !important;
 }
 #app-mount .form_a7d72e .emojiButton_d0696b {
   padding: 0 4px;
@@ -2680,6 +2682,13 @@ body .footer_d8e2d0,
 }
 #app-mount .separator_cd82a7 {
   background: var(--border);
+}
+
+.platform-win .closeAction_d936aa {
+  position: absolute;
+  top: 165.49px;
+  right: 314px;
+  z-index: 2;
 }
 
 #app-mount .discoverHeader-Ijkm_M {
