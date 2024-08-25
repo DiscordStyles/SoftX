@@ -5,6 +5,12 @@
 		&::before {
 			content: none;
 		}
+		.button_df39bd {
+			// Fixed Apps and Commands Button - Lion
+			background: var(--input-background);
+			width: 58px !important;
+			height: 58px !important;
+		}
 		.button_dd4f85 {
 			height: 100%;
 			// Gif Button
@@ -29,9 +35,7 @@
 				}
 				&.active_cecf00 {
 					filter: drop-shadow(0 0 calc(var(--chat-glow-intensity) * 5px) rgb(var(--accent)));
-					svg {
-						background: rgb(var(--accent)) !important;
-					}
+					
 				}
 			}
 		}
