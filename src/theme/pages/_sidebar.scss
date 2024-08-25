@@ -40,11 +40,12 @@
 	.separator_cd82a7 {
 		background: var(--border);
 	}
-	//fix for mod view - Lion
-	.closeAction_d936aa {
-		position: absolute;
-		top: 165.49px;
-		right: 314px;
-		z-index: 2;
-	}
+	
+}
+//fix for mod view - Lion
+.platform-win .closeAction_d936aa {
+	position: absolute;
+	top: 165.49px;
+	right: 314px;
+	z-index: 2;
 }
