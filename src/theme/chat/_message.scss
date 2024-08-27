@@ -1,6 +1,6 @@
 body,
 #app-mount {
-	$message: '.messageContent_f9f2ca:not(:empty):not(.repliedTextContent_ec86aa):not(.threadMessageAccessoryContent_ec86aa)';
+	$message: '.messageContent_f9f2ca:not(:empty):not(.repliedTextContent_f9f2ca):not(.threadMessageAccessoryContent_f9f2ca)';
 
 	.message_d5deea {
 		.channelTextArea_d5deea {
@@ -20,7 +20,7 @@ body,
 					rgb(var(--accent), 0.25);
 			}
 		}
-		.operations_ed9386 .anchor-1MIwyf {
+		.operations_baf0d6 .anchor-1MIwyf {
 			color: rgb(var(--accent));
 			text-shadow: 0 0 calc(var(--input-glow-intensity) * 5px) rgb(var(--accent));
 		}
@@ -33,7 +33,7 @@ body,
 			}
 		}
 		// Chat decorations fix by @lioncat6
-		.avatarDecoration_ec86aa {
+		.avatarDecoration_f9f2ca {
 			--_radio: var(--decoration-to-avatar-ratio);
 			left: calc(
 				var(--custom-message-margin-horizontal) -
@@ -51,7 +51,7 @@ body,
 	}
 
 	// Message actions
-	.wrapper_ef319f {
+	.wrapper_f7e168 {
 		background: rgb(255 255 255 / 0.03);
 		border: 1px solid var(--border);
 		backdrop-filter: blur(5px);
@@ -149,24 +149,24 @@ body,
 	}
 
 	// Reply
-	.repliedMessage_ec86aa::before {
+	.repliedMessage_f9f2ca::before {
 		left: calc(var(--chat-avatar-size) / 2 * -1 + var(--gutter) * -1 + 5px);
 	}
 
 	// Embeds, invites, ect...
-	.embedFull_ad0b71,
-	.wrapper_b9fe76 {
+	.embedFull_b0068a,
+	.wrapper_a71a1c {
 		background: rgb(255 255 255 / 0.03);
 	}
-	.wrapperAudio_f316dd {
+	.wrapperAudio_f72aac {
 		border: none;
 		background: rgb(255 255 255 / 0.03);
 	}
-	.textContainer_ad9cbd {
+	.textContainer_d8e2d0 {
 		background: rgb(255 255 255 / 0.03);
 		border: none;
 	}
-	.footer_ad9cbd {
+	.footer_d8e2d0 {
 		background: rgb(255 255 255 / 0.05);
 		border: none;
 	}

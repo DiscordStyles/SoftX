@@ -7,15 +7,15 @@
 		padding: 0;
 		position: relative;
 		&.selectedCategoryItem-FHKU_o {
-			.layout_e9f61e {
+			.layout_d808b0 {
 				background: rgb(var(--accent), 0.1);
 				color: rgb(var(--accent));
 			}
 			path {
 				fill: rgb(var(--accent));
 			}
-			.avatar_e9f61e,
-			.content_e9f61e {
+			.avatar_d808b0,
+			.content_d808b0 {
 				filter: drop-shadow(0 0 calc(var(--glow-intensity) * 5px) rgb(var(--accent)));
 			}
 			&::before {
@@ -100,7 +100,7 @@
 	.footer-26kPv_ {
 		padding: 24px;
 	}
-	.card_eb1ca6 {
+	.card_e90879 {
 		border-radius: 6px;
 		background: rgb(255 255 255 / 0.05);
 		&:hover {
