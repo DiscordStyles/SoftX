@@ -260,6 +260,12 @@ html.theme-light .container_b2ca13 {
   pointer-events: none;
   top: 0;
 }
+#app-mount .notice_b5000b {
+  border-radius: 0;
+}
+#app-mount .notice_b5000b .closeButton_be03aa {
+  left: 15px;
+}
 
 .platform-win .winButton_a934d8 {
   height: 74px;
@@ -432,13 +438,14 @@ html.theme-light .container_b2ca13 {
 #app-mount .input_f8bc55:not(.multiInput-1VARjC):not(.multiInputField-1zyopx),
 #app-mount .input_f8bc55.multiInput-1VARjC {
   padding: 10px 16px;
-  height: auto;
+  height: 42px;
   border: 2px solid transparent;
   background: var(--input-background);
   border-radius: 6px;
   transition: var(--transition);
   transition-property: border-color, box-shadow;
   color: var(--text-normal);
+  margin-top: -1px;
 }
 #app-mount .input_f8bc55:not(.multiInput-1VARjC):not(.multiInputField-1zyopx):hover,
 #app-mount .input_f8bc55.multiInput-1VARjC:hover {
@@ -466,6 +473,9 @@ html.theme-light .container_b2ca13 {
 }
 #app-mount .inputWrapper-1YNMmM > svg + .input_f8bc55 {
   padding-left: 48px !important;
+}
+#app-mount .inputContainer_d5bea8 .input_d5bea8 {
+  text-indent: 28px;
 }
 
 #app-mount [role=radiogroup][aria-orientation=vertical] {
@@ -929,6 +939,9 @@ html.theme-light .container_b2ca13 {
   padding: 0 12px;
   margin-top: -1px;
 }
+#app-mount .searchBar_f0963d .searchBarComponent_f0963d {
+  background-color: var(--input-background);
+}
 #app-mount .privateChannelsHeaderContainer_c47fa9 {
   padding: 18px;
   height: auto;
@@ -1346,6 +1359,16 @@ body .footer_d8e2d0,
   background: var(--input-background);
   width: 58px !important;
   height: 58px !important;
+  border: 2px solid transparent;
+  transition: var(--transition);
+  transition-property: border-color, box-shadow;
+}
+#app-mount .form_a7d72e .button_df39bd.buttonActive_df39bd {
+  border-color: rgb(var(--accent));
+  box-shadow: 0 0 calc(var(--input-glow-intensity) * 12px) calc(var(--input-glow-intensity) * 2px) rgb(var(--accent), 0.25);
+}
+#app-mount .form_a7d72e .attachButtonInner_f298d4 {
+  margin-bottom: 5px;
 }
 #app-mount .form_a7d72e .button_dd4f85 {
   height: 100%;
@@ -1369,6 +1392,9 @@ body .footer_d8e2d0,
 }
 #app-mount .form_a7d72e .button_dd4f85:not(.attachButton_f298d4).active_f9af59 {
   filter: drop-shadow(0 0 calc(var(--chat-glow-intensity) * 5px) rgb(var(--accent)));
+}
+#app-mount .form_a7d72e .button_dd4f85:not(.attachButton_f298d4).active_f9af59 svg {
+  background: rgb(var(--accent)) !important;
 }
 #app-mount .form_a7d72e .emojiButton_d0696b {
   padding: 0 4px;
@@ -1667,6 +1693,9 @@ body .footer_d8e2d0,
   color: rgb(var(--accent));
 }
 
+#app-mount .container_a6d69a {
+  background: var(--bg-secondary);
+}
 #app-mount .container-3wLKDe {
   background: var(--bg-secondary);
   border-right: 1px solid var(--border);
@@ -1876,7 +1905,7 @@ body .footer_d8e2d0,
   border: 1px solid var(--border-strong) !important;
 }
 #app-mount .menu_d90b3d:not(#account.menu_d90b3d) {
-  border: 1px solid var(--border);
+  border: none !important;
   box-shadow: none;
   border-radius: 6px;
 }
@@ -2444,6 +2473,10 @@ body .footer_d8e2d0,
 #app-mount #gif-picker-tab-panel .content_b56bbc {
   border-top: 1px solid var(--border);
 }
+#app-mount .container_b56bbc, #app-mount .header_b56bbc {
+  background: var(--bg-primary);
+  background-color: transparent;
+}
 
 #app-mount .messagesPopoutWrap_ac90a2 {
   width: 550px;
@@ -2583,6 +2616,15 @@ body .footer_d8e2d0,
 
 #app-mount .input-3eeNNl {
   padding-left: 36px !important;
+}
+
+#app-mount .contentWrapper_f7506e {
+  -webkit-backdrop-filter: blur(var(--blur));
+          backdrop-filter: blur(var(--blur));
+  background: var(--bg-primary);
+}
+#app-mount .container_e5da8b {
+  background-color: var(--fg-secondary);
 }
 
 #app-mount .tabBody_c2739c::before {
@@ -3019,6 +3061,13 @@ body .footer_d8e2d0,
 #app-mount .header_bd05f1 .menu_c69589 {
   padding-right: 10px;
 }
+#app-mount .searchBar_e7c031 {
+  background: var(--fg-secondary);
+  margin-top: 8px;
+  margin-left: 8px;
+  width: 95%;
+  margin-bottom: 0px;
+}
 
 #app-mount .layer_d4b6c5 [aria-label=USER_SETTINGS] .accountProfileCard_b69b77 {
   border: 1px solid var(--border);
@@ -3442,6 +3491,8 @@ body .footer_d8e2d0,
   background: linear-gradient(var(--profile-gradient-primary-color), var(--profile-gradient-primary-color) 120px, var(--profile-gradient-secondary-color));
   opacity: 0.5;
   pointer-events: none;
+  z-index: 0;
+  position: absolute;
 }
 #app-mount .userPopoutOuter_c69a7b[style*="--profile-gradient-primary-color"] .input_f8bc55:focus-within {
   border-color: var(--profile-gradient-primary-color, rgb(var(--accent))) !important;
