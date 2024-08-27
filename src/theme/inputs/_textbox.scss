@@ -2,13 +2,15 @@
 	.input_f8bc55:not(.multiInput-1VARjC):not(.multiInputField-1zyopx),
 	.input_f8bc55.multiInput-1VARjC {
 		padding: 10px 16px;
-		height: auto;
+		height: 42px;
 		border: 2px solid transparent;
 		background: var(--input-background);
 		border-radius: 6px;
 		transition: var(--transition);
 		transition-property: border-color, box-shadow;
 		color: var(--text-normal);
+		margin-top: -1px;
+		
 		&:hover {
 			border-color: var(--input-border);
 		}
@@ -38,5 +40,10 @@
 		& + .input_f8bc55 {
 			padding-left: 48px !important;
 		}
+	}
+
+	//Status editing field fix
+	.inputContainer_d5bea8 .input_d5bea8 {
+		text-indent: 28px;
 	}
 }

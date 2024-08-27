@@ -159,6 +159,15 @@
 		pointer-events: none;
 		top: 0;
 	}
+	
+	// Fix notice banner
+	.notice_b5000b  {
+		border-radius: 0;
+		.closeButton_be03aa{
+			left: 15px;
+		}
+	}
+
 }
 
 //fixed the shit -lion

@@ -1,0 +1,10 @@
+#app-mount {
+    //Apps and commands popout
+    .contentWrapper_f7506e{
+        backdrop-filter: blur(var(--blur));
+        background: var(--bg-primary);
+    }
+    .container_e5da8b {
+        background-color: var(--fg-secondary);
+    }
+}
