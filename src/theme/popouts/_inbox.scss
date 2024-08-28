@@ -10,7 +10,8 @@
 		padding: 0 !important;
 		& > div {
 			border-bottom: 1px solid var(--border);
-			padding: 16px;
+			//Credit to @shadowdevilsavenged
+			padding: unset;
 		}
 	}
 	.header_f0cd33 {
@@ -26,6 +27,22 @@
 			&:hover {
 				background: var(--background-modifier-hover);
 			}
+		}
+		min-height: 90px;
+		.expanded_f0cd33{
+			
+		}
+		.expandedInboxHeader_f0cd33{
+			padding: 7px 10px 12px 10px;
+		}
+		.expandedTabSection_f0cd33{
+			padding-right: 10px;
+		}
+	}
+	.container_fe1358 {
+		background: transparent;
+		.row_fd8ff1 {
+			padding-right: 10px;
 		}
 	}
 	.tab_f0cd33 {
@@ -55,20 +72,38 @@
 	.container_ddb5b4 {
 		border-bottom: 1px solid var(--border);
 		margin-bottom: 0;
-		padding: 16px !important;
+		padding: 16px 10px 16px 0px !important
 	}
 	.channelHeader_f3978e {
 		background: transparent;
 		position: static;
-		padding: 0 0 16px 14px;
+		padding: 0 0 16px 17px;
+		.collapseButton_d09ffd {
+			left: -2px
+		}
+		.guildIcon_f3978e{
+			margin-left: 4px;
+		}
+		.markReadButton_d09ffd{
+			margin-right: 10px;
+		}
+	}
+	.channel_d09ffd{
+		.channelHeader_f3978e {
+			padding-top: 18px;
+			padding-bottom: 0px;
+		}
 	}
 	.messages_c06487 {
 		background: transparent;
-		padding: 0;
+		padding: 0 8px 0 0;
 	}
 	.messageContainer_ddb5b4 {
 		padding: 0;
 		border-radius: 0;
 		background: transparent;
+	}
+	.messageContainer_c06487.message_c06487  {
+		padding-right: 8px;
 	}
 }
