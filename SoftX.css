@@ -1042,6 +1042,13 @@ html.theme-light .container_b2ca13 {
 #app-mount .actionButtons_adcaac > div > button:hover svg, #app-mount .actionButtons_adcaac > button:hover svg {
   color: var(--interactive-hover);
 }
+#app-mount .actionButtons_adcaac .disabledButtonWrapper_dd4f85 {
+  height: 100%;
+}
+#app-mount .actionButtons_adcaac .disabledButtonWrapper_dd4f85 .button_adcaac.disabled_adcaac {
+  margin-left: 0;
+  height: 100%;
+}
 #app-mount .activityPanel_a4d4d9 {
   border-bottom: 1px solid var(--border);
   padding: 16px;
@@ -2515,12 +2522,13 @@ body .footer_d8e2d0,
 }
 #app-mount .recentMentionsPopout_ddb5b4 .scroller_f1c3d9 > div {
   border-bottom: 1px solid var(--border);
-  padding: 16px;
+  padding: unset;
 }
 #app-mount .header_f0cd33 {
   background: transparent;
   border-bottom: 1px solid var(--border);
   padding: 0;
+  min-height: 90px;
 }
 #app-mount .header_f0cd33 .button__292b6 {
   height: 55px;
@@ -2531,6 +2539,18 @@ body .footer_d8e2d0,
 }
 #app-mount .header_f0cd33 .button__292b6:hover {
   background: var(--background-modifier-hover);
+}
+#app-mount .header_f0cd33 .expandedInboxHeader_f0cd33 {
+  padding: 7px 10px 12px 10px;
+}
+#app-mount .header_f0cd33 .expandedTabSection_f0cd33 {
+  padding-right: 10px;
+}
+#app-mount .container_fe1358 {
+  background: transparent;
+}
+#app-mount .container_fe1358 .row_fd8ff1 {
+  padding-right: 10px;
 }
 #app-mount .tab_f0cd33 {
   height: 55px;
@@ -2558,21 +2578,37 @@ body .footer_d8e2d0,
 #app-mount .container_ddb5b4 {
   border-bottom: 1px solid var(--border);
   margin-bottom: 0;
-  padding: 16px !important;
+  padding: 16px 10px 16px 0px !important;
 }
 #app-mount .channelHeader_f3978e {
   background: transparent;
   position: static;
-  padding: 0 0 16px 14px;
+  padding: 0 0 16px 17px;
+}
+#app-mount .channelHeader_f3978e .collapseButton_d09ffd {
+  left: -2px;
+}
+#app-mount .channelHeader_f3978e .guildIcon_f3978e {
+  margin-left: 4px;
+}
+#app-mount .channelHeader_f3978e .markReadButton_d09ffd {
+  margin-right: 10px;
+}
+#app-mount .channel_d09ffd .channelHeader_f3978e {
+  padding-top: 18px;
+  padding-bottom: 0px;
 }
 #app-mount .messages_c06487 {
   background: transparent;
-  padding: 0;
+  padding: 0 8px 0 0;
 }
 #app-mount .messageContainer_ddb5b4 {
   padding: 0;
   border-radius: 0;
   background: transparent;
+}
+#app-mount .messageContainer_c06487.message_c06487 {
+  padding-right: 8px;
 }
 
 #app-mount .popoutContent_e58351 {
