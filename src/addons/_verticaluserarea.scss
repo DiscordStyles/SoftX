@@ -3,11 +3,16 @@
 		.tree_fea3ef {
 			outline: none !important;
 		}
-		.scroller_fea3ef {
-			margin-bottom: var(--user-area, 220px);
-		}
 		.unreadMentionsIndicatorBottom_fea3ef {
 			bottom: calc(var(--user-area) + 10px);
+		}
+		// Discovery button
+		.footer_aa1bff {
+			width: 100%;
+			margin-bottom: var(--user-area, 225px);
+			.listItem_c96c45 {
+				margin-bottom: 0px;
+			}
 		}
 	}
 
