@@ -1358,6 +1358,14 @@ body .footer_d8e2d0,
   background: rgba(255, 255, 255, 0.05);
   border: none;
 }
+body .attachment_b52bef,
+#app-mount .attachment_b52bef {
+  background: rgba(255, 255, 255, 0.03);
+}
+body .container_d6cb89,
+#app-mount .container_d6cb89 {
+  background: rgba(255, 255, 255, 0.03);
+}
 
 #app-mount .form_a7d72e::before {
   content: none;
@@ -1688,15 +1696,15 @@ body .footer_d8e2d0,
   content: none;
 }
 
-#app-mount .reaction_f61c73 {
+#app-mount .reaction_ec6b19, #app-mount .reactionBtn_ec6b19 {
   background: rgba(255, 255, 255, 0.05);
   border-radius: 6px;
   border: none;
 }
-#app-mount .reaction_f61c73.reactionMe_f61c73 {
+#app-mount .reaction_ec6b19.reactionMe_ec6b19, #app-mount .reactionBtn_ec6b19.reactionMe_ec6b19 {
   background: rgb(var(--accent), 0.15);
 }
-#app-mount .reaction_f61c73.reactionMe_f61c73 .reactionCount-1zkLcN {
+#app-mount .reaction_ec6b19.reactionMe_ec6b19 .reactionCount-1zkLcN, #app-mount .reactionBtn_ec6b19.reactionMe_ec6b19 .reactionCount-1zkLcN {
   color: rgb(var(--accent));
 }
 
