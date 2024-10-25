@@ -25,21 +25,23 @@
 		.button_dd4f85 {
 			height: 100%;
 			// Gif Button
-			#icon {
-				svg {
-					mask: url(assets.$icon_photograph) center/cover;
-					background: var(--interactive-muted);
-					transition: var(--transition);
-					transition-property: background;
-					path {
-						display: none;
+			&[aria-label="Open GIF picker"] {
+				.lottieIcon_f73ef7 {
+					svg {
+						mask: url(assets.$icon_photograph) center/cover;
+						background: var(--interactive-muted);
+						transition: var(--transition);
+						transition-property: background;
+						path {
+							display: none;
+						}
 					}
 				}
+				&:hover .lottieIcon_f73ef7 svg {
+					background: var(--interactive-normal);
+				}
 			}
-			&:hover #icon svg {
-				background: var(--interactive-normal);
-			}
-			&:not(.attachButton_f298d4) {
+			&:not(.attachButton_bdf0de) {
 				svg {
 					transition: var(--transition);
 					transition-property: filter;
@@ -52,7 +54,7 @@
 				}
 			}
 		}
-		.emojiButton_d0696b {
+		.emojiButton_d91a75 {
 			padding: 0 4px;
 			max-height: 54px;
 			.sprite_d91a75 {
@@ -69,7 +71,7 @@
 				background: var(--interactive-normal);
 			}
 		}
-		.stickerButton_d0696b {
+		.stickerButton_bdf0de {
 			padding: 0;
 			svg {
 				width: 24px !important;
@@ -112,10 +114,10 @@
 	.placeholder_a552a6 {
 		padding: 16px 0;
 	}
-	.scrollableContainer_d0696b {
+	.scrollableContainer_bdf0de {
 		background: transparent;
 	}
-	.attachButton_f298d4 {
+	.attachButton_bdf0de {
 		height: 100%;
 		svg {
 			mask: url(assets.$icon_paper-clip) center/cover;
@@ -137,7 +139,7 @@
 		}
 	}
 
-	.buttons_d0696b {
+	.buttons_bdf0de {
 		min-height: 54px;
 		& > button[aria-label] {
 			svg {
@@ -161,7 +163,7 @@
 	}
 
 	// Replying
-	.attachedBars_d0696b {
+	.stackedBars_bdf0de {
 		background: transparent;
 		border-radius: 6px 6px 0 0;
 	}
