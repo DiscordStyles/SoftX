@@ -153,26 +153,25 @@
 	}
 
 	// Makes the top bar more easily grabbable
-	.titleBar_a934d8  {
+	.titleBar_a934d8 {
 		height: 20px;
 		-webkit-app-region: drag;
 		pointer-events: none;
 		top: 0;
 	}
-	
+
 	// Fix notice banner
-	.notice_b5000b  {
+	.notice_b5000b {
 		border-radius: 0;
-		.closeButton_be03aa{
+		.closeButton_be03aa {
 			left: 15px;
 		}
 	}
-
 }
 
 //fixed the shit -lion
 .platform-win .winButton_a934d8 {
-	height: 74px
+	height: 74px;
 }
 .toolbar_fc4f04 {
 	margin-right: 0px;

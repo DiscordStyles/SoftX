@@ -236,9 +236,9 @@
 	}
 
 	//Fix tenor gif picker not being theme color
-	.container_b56bbc, .header_b56bbc {
+	.container_b56bbc,
+	.header_b56bbc {
 		background: var(--bg-primary);
 		background-color: transparent;
 	}
-	
 }
