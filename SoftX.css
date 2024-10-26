@@ -1469,7 +1469,7 @@ body .container_d6cb89,
 #app-mount .placeholder_a552a6 {
   padding: 16px 0;
 }
-#app-mount .scrollableContainer_d0696b {
+#app-mount .scrollableContainer_bdf0de {
   background: transparent;
 }
 #app-mount .attachButton_f298d4 {
@@ -1696,15 +1696,18 @@ body .container_d6cb89,
   content: none;
 }
 
-#app-mount .reaction_ec6b19, #app-mount .reactionBtn_ec6b19 {
+#app-mount .reaction_ec6b19,
+#app-mount .reactionBtn_ec6b19 {
   background: rgba(255, 255, 255, 0.05);
   border-radius: 6px;
   border: none;
 }
-#app-mount .reaction_ec6b19.reactionMe_ec6b19, #app-mount .reactionBtn_ec6b19.reactionMe_ec6b19 {
+#app-mount .reaction_ec6b19.reactionMe_ec6b19,
+#app-mount .reactionBtn_ec6b19.reactionMe_ec6b19 {
   background: rgb(var(--accent), 0.15);
 }
-#app-mount .reaction_ec6b19.reactionMe_ec6b19 .reactionCount-1zkLcN, #app-mount .reactionBtn_ec6b19.reactionMe_ec6b19 .reactionCount-1zkLcN {
+#app-mount .reaction_ec6b19.reactionMe_ec6b19 .reactionCount-1zkLcN,
+#app-mount .reactionBtn_ec6b19.reactionMe_ec6b19 .reactionCount-1zkLcN {
   color: rgb(var(--accent));
 }
 
@@ -2488,7 +2491,8 @@ body .container_d6cb89,
 #app-mount #gif-picker-tab-panel .content_b56bbc {
   border-top: 1px solid var(--border);
 }
-#app-mount .container_b56bbc, #app-mount .header_b56bbc {
+#app-mount .container_b56bbc,
+#app-mount .header_b56bbc {
   background: var(--bg-primary);
   background-color: transparent;
 }
