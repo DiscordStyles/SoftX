@@ -2544,7 +2544,14 @@ body .container_d6cb89,
   background: transparent;
   border-bottom: 1px solid var(--border);
   padding: 0;
-  min-height: 90px;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+}
+#app-mount .header_f0cd33 .headerTabs_f0cd33 {
+  margin: 0;
+}
+#app-mount .header_f0cd33 .headerTabs_f0cd33 .tabBar_f0cd33 {
+  margin: 0;
 }
 #app-mount .header_f0cd33 .button__292b6 {
   height: 55px;
@@ -2569,7 +2576,7 @@ body .container_d6cb89,
   padding-right: 10px;
 }
 #app-mount .tab_f0cd33 {
-  height: 55px;
+  height: 45px;
   padding: 0 12px;
   margin: 0;
   border-radius: 0;
