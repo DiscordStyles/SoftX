@@ -1358,6 +1358,10 @@ body .footer_d8e2d0,
   background: rgba(255, 255, 255, 0.05);
   border: none;
 }
+body .spoilerContainer_aa9639,
+#app-mount .spoilerContainer_aa9639 {
+  background: none;
+}
 body .attachment_b52bef,
 #app-mount .attachment_b52bef {
   background: rgba(255, 255, 255, 0.03);
