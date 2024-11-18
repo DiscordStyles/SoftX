@@ -18,6 +18,12 @@
 		background: transparent;
 		border-bottom: 1px solid var(--border);
 		padding: 0;
+		.headerTabs_f0cd33 {
+			margin: 0;
+			.tabBar_f0cd33 {
+				margin: 0;
+			}
+		}
 		.button__292b6 {
 			height: 55px;
 			margin: 0;
@@ -28,7 +34,7 @@
 				background: var(--background-modifier-hover);
 			}
 		}
-		min-height: 90px;
+		min-height: fit-content;
 		.expanded_f0cd33 {
 		}
 		.expandedInboxHeader_f0cd33 {
@@ -45,7 +51,7 @@
 		}
 	}
 	.tab_f0cd33 {
-		height: 55px;
+		height: 45px;
 		padding: 0 12px;
 		margin: 0;
 		border-radius: 0;
