@@ -1392,34 +1392,34 @@ body .container_d6cb89,
 #app-mount .form_a7d72e .button_dd4f85 {
   height: 100%;
 }
-#app-mount .form_a7d72e .button_dd4f85 #icon svg {
+#app-mount .form_a7d72e .button_dd4f85[aria-label="Open GIF picker"] .lottieIcon_f73ef7 svg {
   -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>') center/cover;
           mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>') center/cover;
   background: var(--interactive-muted);
   transition: var(--transition);
   transition-property: background;
 }
-#app-mount .form_a7d72e .button_dd4f85 #icon svg path {
+#app-mount .form_a7d72e .button_dd4f85[aria-label="Open GIF picker"] .lottieIcon_f73ef7 svg path {
   display: none;
 }
-#app-mount .form_a7d72e .button_dd4f85:hover #icon svg {
+#app-mount .form_a7d72e .button_dd4f85[aria-label="Open GIF picker"]:hover .lottieIcon_f73ef7 svg {
   background: var(--interactive-normal);
 }
-#app-mount .form_a7d72e .button_dd4f85:not(.attachButton_f298d4) svg {
+#app-mount .form_a7d72e .button_dd4f85:not(.attachButton_bdf0de) svg {
   transition: var(--transition);
   transition-property: filter;
 }
-#app-mount .form_a7d72e .button_dd4f85:not(.attachButton_f298d4).active_f9af59 {
+#app-mount .form_a7d72e .button_dd4f85:not(.attachButton_bdf0de).active_f9af59 {
   filter: drop-shadow(0 0 calc(var(--chat-glow-intensity) * 5px) rgb(var(--accent)));
 }
-#app-mount .form_a7d72e .button_dd4f85:not(.attachButton_f298d4).active_f9af59 svg {
+#app-mount .form_a7d72e .button_dd4f85:not(.attachButton_bdf0de).active_f9af59 svg {
   background: rgb(var(--accent)) !important;
 }
-#app-mount .form_a7d72e .emojiButton_d0696b {
+#app-mount .form_a7d72e .emojiButton_d91a75 {
   padding: 0 4px;
   max-height: 54px;
 }
-#app-mount .form_a7d72e .emojiButton_d0696b .sprite_d91a75 {
+#app-mount .form_a7d72e .emojiButton_d91a75 .sprite_d91a75 {
   width: 24px;
   height: 24px;
   -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>') center/cover;
@@ -1430,13 +1430,13 @@ body .container_d6cb89,
   transition: var(--transition);
   transition-property: background;
 }
-#app-mount .form_a7d72e .emojiButton_d0696b:hover .sprite_d91a75 {
+#app-mount .form_a7d72e .emojiButton_d91a75:hover .sprite_d91a75 {
   background: var(--interactive-normal);
 }
-#app-mount .form_a7d72e .stickerButton_d0696b {
+#app-mount .form_a7d72e .stickerButton_bdf0de {
   padding: 0;
 }
-#app-mount .form_a7d72e .stickerButton_d0696b svg {
+#app-mount .form_a7d72e .stickerButton_bdf0de svg {
   width: 24px !important;
   height: 24px !important;
   -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" /></svg>') center/cover;
@@ -1445,10 +1445,10 @@ body .container_d6cb89,
   transition: var(--transition);
   transition-property: background;
 }
-#app-mount .form_a7d72e .stickerButton_d0696b svg path {
+#app-mount .form_a7d72e .stickerButton_bdf0de svg path {
   display: none;
 }
-#app-mount .form_a7d72e .stickerButton_d0696b:hover svg {
+#app-mount .form_a7d72e .stickerButton_bdf0de:hover svg {
   background: var(--interactive-normal);
 }
 #app-mount .channelTextArea_a7d72e {
@@ -1476,49 +1476,49 @@ body .container_d6cb89,
 #app-mount .scrollableContainer_bdf0de {
   background: transparent;
 }
-#app-mount .attachButton_f298d4 {
+#app-mount .attachButton_bdf0de {
   height: 100%;
 }
-#app-mount .attachButton_f298d4 svg {
+#app-mount .attachButton_bdf0de svg {
   -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.172 7l-6.586 6.586a2 2 0 102.828 2.828l6.414-6.586a4 4 0 00-5.656-5.656l-6.415 6.585a6 6 0 108.486 8.486L20.5 13" /></svg>') center/cover;
           mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.172 7l-6.586 6.586a2 2 0 102.828 2.828l6.414-6.586a4 4 0 00-5.656-5.656l-6.415 6.585a6 6 0 108.486 8.486L20.5 13" /></svg>') center/cover;
   background: var(--interactive-muted);
   transition: var(--transition);
   transition-property: background, filter;
 }
-#app-mount .attachButton_f298d4 svg path {
+#app-mount .attachButton_bdf0de svg path {
   display: none;
 }
-#app-mount .attachButton_f298d4:hover svg {
+#app-mount .attachButton_bdf0de:hover svg {
   background: var(--interactive-normal);
 }
-#app-mount .attachButton_f298d4[aria-expanded=true] {
+#app-mount .attachButton_bdf0de[aria-expanded=true] {
   filter: drop-shadow(0 0 calc(var(--input-glow-intensity) * 5px) rgb(var(--accent)));
 }
-#app-mount .attachButton_f298d4[aria-expanded=true] svg {
+#app-mount .attachButton_bdf0de[aria-expanded=true] svg {
   background: rgb(var(--accent)) !important;
 }
-#app-mount .buttons_d0696b {
+#app-mount .buttons_bdf0de {
   min-height: 54px;
 }
-#app-mount .buttons_d0696b > button[aria-label] svg {
+#app-mount .buttons_bdf0de > button[aria-label] svg {
   -webkit-mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7" /></svg>') center/cover;
           mask: url('data:image/svg+xml; utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7" /></svg>') center/cover;
   background: var(--interactive-muted);
   transition: var(--transition);
   transition-property: background;
 }
-#app-mount .buttons_d0696b > button[aria-label] svg path {
+#app-mount .buttons_bdf0de > button[aria-label] svg path {
   display: none;
 }
-#app-mount .buttons_d0696b > button[aria-label]:hover svg {
+#app-mount .buttons_bdf0de > button[aria-label]:hover svg {
   background: var(--interactive-normal);
 }
 #app-mount .upload-3GTSF9 {
   background: rgba(255, 255, 255, 0.02);
   border-radius: 6px;
 }
-#app-mount .attachedBars_d0696b {
+#app-mount .stackedBars_bdf0de {
   background: transparent;
   border-radius: 6px 6px 0 0;
 }
