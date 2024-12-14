@@ -4074,6 +4074,13 @@ body #ChannelsPreview::before {
   background: transparent;
 }
 
+#app-mount {
+  --iconOffset: 0px;
+}
+#app-mount :has(.button_adca65 .contents_dd4f85 > svg) {
+  --iconOffset: 40px !important;
+}
+
 :root {
   --server-unread-colour: 255, 255, 255;
   --server-hover-colour: 255, 255, 255;
