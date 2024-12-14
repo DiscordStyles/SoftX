@@ -7,9 +7,9 @@
 			bottom: calc(var(--user-area) + 10px);
 		}
 		// Discovery button
-		.footer_f8ec41 {
+		.footer_d71945 {
 			width: 100%;
-			margin-bottom: var(--user-area, 220px);
+			margin-bottom: calc(var(--user-area, 200px) + var(--iconOffset));
 			background: transparent;
 			.listItem_c96c45 {
 				margin-bottom: 0px;
