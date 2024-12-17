@@ -163,10 +163,15 @@
 	// Fix notice banner
 	.notice_b5000b {
 		border-radius: 0;
-		.closeButton_be03aa {
-			left: 15px;
-		}
 	}
+	.closeButton_be03aa {
+		left: 15px;
+	}
+	//I give up. for searching reasons in the future if anyone needs to find this damn thing. dm button dms button open dms dms icon button for dms this is the button to open the dms 
+	.childWrapper_f90abb {
+		background-color: var(--fg-primary);
+	}
+
 }
 
 //fixed the shit -lion
@@ -184,3 +189,4 @@
 .theme-dark .children_fc4f04:after {
 	background: transparent;
 }
+

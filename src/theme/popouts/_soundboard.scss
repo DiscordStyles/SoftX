@@ -8,4 +8,13 @@
     .header_d0dc1d {
         background: var(--bg-tertiary);
     }
+    .categoryList_ceda83 {
+        background: var(--bg-primary);
+        .scroller_d53d65 {
+            border-right: 1px solid var(--border);
+            &::-webkit-scrollbar {
+                display: none;
+            }
+        }
+    }
 }

@@ -20,10 +20,12 @@
 			box-shadow: none;
 		}
 	}
+	.wrapper_d8cdac,
 	.contentWrapper_af5dbb,
 	.emojiPicker_c6ee36 {
 		[class^='searchBar'],
-		.container_effbe2 {
+		.container_effbe2,
+		.container_c18ec9  {
 			background: var(--input-background);
 			border: 2px solid transparent;
 			border-radius: 6px;
@@ -59,6 +61,13 @@
 			border-radius: 6px;
 			box-shadow: var(--shadow-lg);
 		}
+	}
+
+	.wrapper_d8cdac, .container_b56bbc {
+		background: var(--bg-primary);
+		border: 1px solid var(--border);
+		border-radius: 6px;
+		box-shadow: var(--shadow-lg);
 	}
 
 	.nav_af5dbb {
@@ -129,19 +138,25 @@
 		}
 	}
 
-	.wrapper_dc0b29 {
+	#sticker-picker-tab-panel .wrapper_ba23fe {
+		left: -1px;
+		top: 63px;
+	}
+
+	.contentWrapper_af5dbb .wrapper_ba23fe  {
 		top: 64px;
 		border-top: 1px solid var(--border);
 		border-right: 1px solid var(--border);
 		background: transparent;
 		.listItems_d53d65 {
+			width: 100%;
 			margin: -8px;
 		}
 		.scroller_d53d65::-webkit-scrollbar {
 			display: none;
 		}
 	}
-	.categoryItemDefaultCategory_dfa278 {
+	.categoryItemDefaultCategory_dfa278, .stickerCategory_a7a485  {
 		width: 100%;
 		height: 48px;
 		padding: 0;
@@ -151,9 +166,9 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		&.categoryItemDefaultCategorySelected_dfa278 {
+		&.categoryItemDefaultCategorySelected_dfa278, &.stickerCategoryGenericSelected_a7a485, &.firstPartyCategorySelected_a7a485 {
 			background: rgb(var(--accent), 0.1);
-			.categoryIcon_dfa278 {
+			.categoryIcon_dfa278, .stickerCategoryGenericIcon_a7a485 {
 				color: rgb(var(--accent));
 				filter: drop-shadow(0 0 calc(var(--channel-glow-intensity) * 5px) rgb(var(--accent), 0.4));
 			}
@@ -239,6 +254,5 @@
 	.container_b56bbc,
 	.header_b56bbc {
 		background: var(--bg-primary);
-		background-color: transparent;
 	}
 }
