@@ -1,3 +1,6 @@
+#app-mount {
+  --iconOffset: 0;
+}
 #app-mount .guilds_a4d4d9 .tree_fea3ef {
   outline: none !important;
 }
