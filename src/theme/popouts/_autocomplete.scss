@@ -10,8 +10,10 @@
 
 		// Left side
 		.list_efd8e6 {
+			background-color: var(--bg-tertiary);
+			width: 55px;
 			.listItems_d53d65 {
-				margin: -16px -12px -8px;
+				margin: 0
 			}
 			.wrapper_efd8e6 {
 				width: 100% !important;
@@ -41,7 +43,7 @@
 				}
 			}
 			.section_efd8e6 {
-				margin-bottom: 0;
+				//margin-bottom: 0;
 			}
 		}
 

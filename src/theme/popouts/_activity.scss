@@ -1,0 +1,17 @@
+#app-mount {
+	.popout_a35965{
+		background: var(--bg-primary);
+		border-radius: 6px;
+		.popoutContentWrapper_a35965, .interactionsContainer_a35965 {
+			background: transparent;
+		} 
+		.interactionsContainer_a35965 {
+			.replyInput_d0fc0d {
+				background: var(--fg-secondary);
+				.slateTextArea_e52116  {
+					padding-left: 16px;
+				}
+			}
+		}
+	}
+}

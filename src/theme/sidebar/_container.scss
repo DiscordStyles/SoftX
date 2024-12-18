@@ -2,7 +2,7 @@
 	.sidebar_a4d4d9 {
 		border-radius: 0;
 		background: var(--bg-primary);
-		width: var(--channels-width);
+		width: var(--channels-width) !important; //importanter than you, discord. -lc
 		border-right: 1px solid var(--border);
 		z-index: 1;
 		&.hidden_a4d4d9 {
