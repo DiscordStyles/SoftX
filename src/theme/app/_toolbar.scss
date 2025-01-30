@@ -1,7 +1,7 @@
 @use '../assets';
 
 #app-mount {
-	.container_fc4f04 {
+	.container__9293f {
 		background: var(--bg-primary);
 		height: var(--toolbar-height);
 		padding-left: 24px;
@@ -53,21 +53,21 @@
 		}
 
 		// In voice call
-		&.transparent_fc4f04 {
+		&.transparent__9293f {
 			background: linear-gradient(hsl(0 0% 0% / 0.5), transparent);
 			border-bottom: none;
 		}
 	}
-	.toolbar_fc4f04 {
+	.toolbar__9293f {
 		margin-left: 24px;
-		.iconWrapper_fc4f04 {
+		.iconWrapper__9293f {
 			order: 1;
 			margin: 0 24px 0 0;
-			.iconBadge_fc4f04 {
+			.iconBadge__9293f {
 				border-radius: 50%;
 				box-shadow: 0 0 calc(var(--glow-intensity) * 10px) calc(var(--glow-intensity) * 1px) hsl(var(--discord-red));
 			}
-			&.selected_fc4f04 {
+			&.selected__9293f {
 				filter: drop-shadow(0 0 calc(var(--glow-intensity) * 8px) rgb(var(--accent), 0.35))
 					drop-shadow(0 0 calc(var(--glow-intensity) * 2px) rgb(var(--accent), 0.35));
 				svg path {
@@ -83,16 +83,16 @@
 			margin-right: 24px;
 		}
 	}
-	.children_fc4f04 {
+	.children__9293f {
 		height: 100%;
-		.iconWrapper_fc4f04 {
+		.iconWrapper__9293f {
 			grid-area: icon;
 			margin-left: 0;
 		}
-		.title_fc4f04 {
+		.title__9293f {
 			margin-right: 24px;
 		}
-		.topic_bf3bbb {
+		.topic__6ec1a {
 			grid-area: bottom;
 		}
 		.status__2a4a6 {
@@ -108,7 +108,7 @@
 				height: 16px;
 			}
 		}
-		.divider_fc4f04 {
+		.divider__9293f {
 			display: none;
 		}
 
@@ -117,9 +117,9 @@
 		}
 	}
 
-	.tabBar_c2739c {
+	.tabBar__133bf {
 		height: 100%;
-		.item_c2739c {
+		.item__133bf {
 			border-radius: 0;
 			background: transparent !important;
 			overflow: visible;
@@ -148,12 +148,12 @@
 	}
 
 	// Open thread sidebar
-	.threadSidebarOpen_a7d72e .container_fc4f04 {
+	.threadSidebarOpen_f75fb0 .container__9293f {
 		border-right: 1px solid var(--border);
 	}
 
 	// Makes the top bar more easily grabbable
-	.titleBar_a934d8 {
+	.titleBar__421ed {
 		height: 20px;
 		-webkit-app-region: drag;
 		pointer-events: none;
@@ -161,28 +161,28 @@
 	}
 
 	// Fix notice banner
-	.notice_b5000b {
+	.notice__36c3e {
 		border-radius: 0;
 	}
-	.closeButton_be03aa {
+	.closeButton__6e2b9 {
 		left: 15px;
 	}
 	
 }
 
 //fixed the shit -lion
-.platform-win .winButton_a934d8 {
+.platform-win .winButton__421ed {
 	height: 74px;
 }
-.toolbar_fc4f04 {
+.toolbar__9293f {
 	margin-right: 0px;
 }
-.theme-dark .themed_fc4f04 {
+.theme-dark .themed__9293f {
 	background: var(--bg-secondary);
 	height: 74px;
 	border-bottom: 1px solid var(--border);
 }
-.theme-dark .children_fc4f04:after {
+.theme-dark .children__9293f:after {
 	background: transparent;
 }
 

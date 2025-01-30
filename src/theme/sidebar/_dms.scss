@@ -1,46 +1,46 @@
 #app-mount {
-	.privateChannels_f0963d,
-	.scroller_c47fa9 {
+	.privateChannels__35e86,
+	.scroller__99e7c {
 		background: transparent;
 		div[style='height: 8px;'] {
 			display: none;
 		}
 	}
 
-	.searchBar_f0963d {
+	.searchBar__35e86 {
 		height: var(--toolbar-height);
 		box-shadow: none;
 		border-bottom: 1px solid var(--border);
 		padding: 0 12px;
 		margin-top: -1px;
-		.searchBarComponent_f0963d {
+		.searchBarComponent__35e86 {
 			background-color: var(--input-background);
 		}
 	}
-	.privateChannelsHeaderContainer_c47fa9 {
+	.privateChannelsHeaderContainer__99e7c {
 		padding: 18px;
 		height: auto;
 		align-items: center;
 		line-height: normal;
 	}
-	.channel_c91bad {
+	.channel__972a0 {
 		max-width: unset;
 		margin: 0;
 		padding: 0;
 		border-radius: 0;
-		.layout_ec8679 {
+		.layout__20a53 {
 			padding: 0 18px;
 			height: var(--dm-height);
 			border-radius: 0;
 		}
-		.content_ec8679 {
+		.content__20a53 {
 			overflow: visible;
 		}
-		.name_ec8679 {
+		.name__20a53 {
 			overflow: visible;
 		}
 
-		.selected_f5eb4b {
+		.selected_bf202d {
 			color: rgb(var(--accent));
 			background: rgb(var(--accent), 0.2);
 			&::before {
@@ -52,10 +52,10 @@
 				background: rgb(var(--accent));
 				box-shadow: 0 0 calc(var(--glow-intensity) * 15px) calc(var(--glow-intensity) * 5px) rgb(var(--accent), 0.2);
 			}
-			.name_ec8679 {
+			.name__20a53 {
 				filter: drop-shadow(0 0 calc(var(--glow-intensity) * 5px) rgb(var(--accent)));
 			}
-			.subText_ec8679 {
+			.subText__20a53 {
 				color: #fff;
 			}
 		}

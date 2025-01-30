@@ -1,27 +1,27 @@
 #app-mount {
-	.wrapper_c5f96a {
+	.wrapper_cc5dd2 {
 		width: var(--server-size);
 		height: var(--server-size);
 	}
-	.svg_c5f96a {
+	.svg_cc5dd2 {
 		width: var(--server-size);
 		height: var(--server-size);
 	}
 
 	// No icon, other buttons
-	.childWrapper_f90abb,
-	.circleIconButton_db6521 {
+	.childWrapper__6e9f8,
+	.circleIconButton__5bc7e {
 		background: rgb(255 255 255 / 0.1);
 	}
 	.wrapper__8436d.selected_ae80f7,
-	.circleIconButton_db6521:hover {
+	.circleIconButton__5bc7e:hover {
 		background: rgb(255 255 255 / 0.15);
 	}
-	.circleIconButton_db6521.selected_db6521 path {
+	.circleIconButton__5bc7e.selected__5bc7e path {
 		fill: rgb(var(--accent));
 	}
 
-	.wrapper_c4cd66 {
+	.wrapper__58105 {
 		width: 100%;
 		height: 100%;
 		overflow: visible;

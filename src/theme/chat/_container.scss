@@ -1,31 +1,31 @@
 #app-mount {
-	.chat_a7d72e {
+	.chat_f75fb0 {
 		background: transparent;
-		.chatContent_a7d72e {
+		.chatContent_f75fb0 {
 			background: var(--bg-secondary);
 			border-right: 1px solid var(--border);
 		}
-		.scroller_e2e187 {
+		.scroller__36d07 {
 			mask: linear-gradient(black 98%, transparent 100%) !important;
 		}
-		&.threadSidebarOpen_a7d72e {
+		&.threadSidebarOpen_f75fb0 {
 			border-radius: 0;
 		}
 	}
-	.messagesWrapper_e2e187 {
+	.messagesWrapper__36d07 {
 		margin-bottom: 8px;
 	}
-	.content_eed6a8 {
+	.content__99f8c {
 		z-index: 1;
 	}
-	.content_a7d72e::before {
+	.content_f75fb0::before {
 		content: none;
 	}
 
 	// Placeholder messages
-	.wrapper_cdfd51,
-	.wrapper_ba0ffb,
-	.wrapper_b75bb9 {
+	.wrapper_d852db,
+	.wrapper__0d1ef,
+	.wrapper_fc8177 {
 		background: transparent;
 	}
 }

@@ -1,11 +1,11 @@
 @use '../assets';
 
 #app-mount {
-	.form_a7d72e {
+	.form_f75fb0 {
 		&::before {
 			content: none;
 		}
-		.button_df39bd {
+		.button_e6e74f {
 			// Fixed Apps and Commands Button - Lion
 			background: var(--input-background);
 			width: 58px !important;
@@ -13,17 +13,17 @@
 			border: 2px solid transparent;
 			transition: var(--transition);
 			transition-property: border-color, box-shadow;
-			&.buttonActive_df39bd {
+			&.buttonActive_e6e74f {
 				border-color: rgb(var(--accent));
 				box-shadow: 0 0 calc(var(--input-glow-intensity) * 12px) calc(var(--input-glow-intensity) * 2px)
 					rgb(var(--accent), 0.25);
 			}
 		}
-		.button_dd4f85 {
+		.button__201d5 {
 			height: 100%;
 			// Gif Button
 			&[aria-label="Open GIF picker"] {
-				.lottieIcon_f73ef7 {
+				.lottieIcon__5eb9b {
 					svg {
 						mask: url(assets.$icon_photograph) center/cover;
 						background: var(--interactive-muted);
@@ -34,16 +34,16 @@
 						}
 					}
 				}
-				&:hover .lottieIcon_f73ef7 svg {
+				&:hover .lottieIcon__5eb9b svg {
 					background: var(--interactive-normal);
 				}
 			}
-			&:not(.attachButton_bdf0de) {
+			&:not(.attachButton__74017) {
 				svg {
 					transition: var(--transition);
 					transition-property: filter;
 				}
-				&.active_f9af59 {
+				&.active__24af7 {
 					filter: drop-shadow(0 0 calc(var(--chat-glow-intensity) * 5px) rgb(var(--accent)));
 					svg {
 						background: rgb(var(--accent)) !important;
@@ -51,10 +51,10 @@
 				}
 			}
 		}
-		.emojiButton_d91a75 {
+		.emojiButton__04eed {
 			padding: 0 4px;
 			max-height: 54px;
-			.sprite_d91a75 {
+			.sprite__04eed {
 				width: 24px;
 				height: 24px;
 				mask: url(assets.$icon_emoji-happy) center/cover;
@@ -64,11 +64,11 @@
 				transition: var(--transition);
 				transition-property: background;
 			}
-			&:hover .sprite_d91a75 {
+			&:hover .sprite__04eed {
 				background: var(--interactive-normal);
 			}
 		}
-		.stickerButton_bdf0de {
+		.stickerButton__74017 {
 			padding: 0;
 			svg {
 				width: 24px !important;
@@ -86,14 +86,14 @@
 			}
 		}
 	}
-	.channelTextArea_a7d72e {
+	.channelTextArea_f75fb0 {
 		background: var(--input-background);
 		border: 2px solid transparent;
 		border-radius: 6px;
 		transition: var(--transition);
 		transition-property: border-color, box-shadow;
 
-		.divider_c2654d {
+		.divider__908e2 {
 			border-top: 2px solid rgb(255 255 255 / 0.05);
 			margin: 0 0 0 12px;
 		}
@@ -107,14 +107,14 @@
 				rgb(var(--accent), 0.25);
 		}
 	}
-	.slateTextArea_e52116,
-	.placeholder_a552a6 {
+	.slateTextArea_ec4baf,
+	.placeholder__1b31f {
 		padding: 16px 0;
 	}
-	.scrollableContainer_bdf0de {
+	.scrollableContainer__74017 {
 		background: transparent;
 	}
-	.attachButton_bdf0de {
+	.attachButton__74017 {
 		height: 100%;
 		svg {
 			mask: url(assets.$icon_paper-clip) center/cover;
@@ -136,7 +136,7 @@
 		}
 	}
 
-	.buttons_bdf0de {
+	.buttons__74017 {
 		min-height: 54px;
 		& > button[aria-label] {
 			svg {
@@ -160,22 +160,22 @@
 	}
 
 	// Replying
-	.stackedBars_bdf0de {
+	.stackedBars__74017 {
 		background: transparent;
 		border-radius: 6px 6px 0 0;
 	}
-	.replyBar_b11c5e,
-	.threadSuggestionBar_b11c5e {
+	.replyBar__841c8,
+	.threadSuggestionBar__841c8 {
 		background: rgb(255 255 255 / 0.02);
 		border-bottom: 2px solid var(--border);
 	}
 
 	// Follow to get...
-	.wrapper_faf5ab {
+	.wrapper__44df5 {
 		background: var(--input-background);
 		border-radius: 6px;
 		padding: 24px 0;
-		.buttonContainer_faf5ab {
+		.buttonContainer__44df5 {
 			margin-right: 24px;
 		}
 	}
@@ -193,7 +193,7 @@ $sizes: (
 );
 @each $selector, $value in $sizes {
 	.font-size-#{$selector} {
-		.slateContainer_e52116,
+		.slateContainer_ec4baf,
 		.buttons-3JBrkn {
 			min-height: $value + px !important;
 		}

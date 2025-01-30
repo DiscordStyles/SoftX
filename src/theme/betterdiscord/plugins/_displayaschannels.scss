@@ -1,8 +1,8 @@
 .styledGuildsAsChannels-DNHtg_ #app-mount {
-	.guilds_a4d4d9 {
+	.guilds_c48ade {
 		width: calc(var(--guilds-width) * 2 + 44px) !important;
 	}
-	.listItem_c96c45 {
+	.listItem__650eb {
 		margin: 0 16px var(--server-spacing);
 		[class^='pill'] {
 			left: -4px;
@@ -13,7 +13,7 @@
 			overflow: visible;
 			margin-left: -2px;
 			box-sizing: border-box;
-			.item_c4cd66 {
+			.item__58105 {
 				height: 100% !important;
 				width: 100%;
 				margin: 0;
@@ -21,7 +21,7 @@
 			}
 		}
 	}
-	.expandedFolderBackground_bc7085 {
+	.expandedFolderBackground__48112 {
 		width: calc(100% - 34px);
 		border-radius: 4px;
 		top: 1px;

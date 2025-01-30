@@ -7,15 +7,15 @@
 		padding: 0;
 		position: relative;
 		&.selectedCategoryItem-FHKU_o {
-			.layout_d808b0 {
+			.layout__91a9d {
 				background: rgb(var(--accent), 0.1);
 				color: rgb(var(--accent));
 			}
 			path {
 				fill: rgb(var(--accent));
 			}
-			.avatar_d808b0,
-			.content_d808b0 {
+			.avatar__91a9d,
+			.content__91a9d {
 				filter: drop-shadow(0 0 calc(var(--glow-intensity) * 5px) rgb(var(--accent)));
 			}
 			&::before {

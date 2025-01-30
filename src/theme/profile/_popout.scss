@@ -32,7 +32,7 @@
 			flex-wrap: wrap;
 			gap: 8px;
 		}
-		.role_f9575e {
+		.role_dfa8b6 {
 			margin: 0;
 			border: none;
 			height: auto;
@@ -42,20 +42,20 @@
 			position: relative;
 			overflow: hidden;
 		}
-		.roleRemoveButton_f9575e {
+		.roleRemoveButton_dfa8b6 {
 			position: absolute;
 			inset: 0;
 			&[aria-hidden='false']:hover {
-				.roleCircle_a26d7b {
+				.roleCircle__4f569 {
 					opacity: 1;
 				}
-				& ~ .roleName_e4010c {
+				& ~ .roleName__48c1c {
 					opacity: 0;
 					pointer-events: none;
 				}
 			}
 		}
-		.roleCircle_a26d7b {
+		.roleCircle__4f569 {
 			margin: 0;
 			position: absolute;
 			top: 0;
@@ -67,10 +67,10 @@
 			filter: none;
 			opacity: 0.35;
 		}
-		.roleName_e4010c {
+		.roleName__48c1c {
 			margin: 0;
 			color: #fff;
-			.roleNameOverflow_e4010c {
+			.roleNameOverflow__48c1c {
 				color: inherit;
 			}
 		}
@@ -90,7 +90,7 @@
 				z-index: 0;
 				position: absolute;
 			}
-			.input_f8bc55:focus-within {
+			.input__0f084:focus-within {
 				border-color: var(--profile-gradient-primary-color, rgb(var(--accent))) !important;
 				box-shadow: 0 0 calc(var(--input-glow-intensity) * 12px) calc(var(--input-glow-intensity) * 2px)
 					var(--profile-gradient-primary-color, rgb(var(--accent), 0.25)) !important;
@@ -126,7 +126,7 @@
 		border: none;
 		border-radius: 0;
 	}
-	.input_f8bc55 {
+	.input__0f084 {
 		background: var(--fg-secondary) !important;
 		padding: 8px 10px !important;
 		&::placeholder {
@@ -137,7 +137,7 @@
 			background: var(--fg-primary) !important;
 		}
 	}
-	.loadingPopout_a8c724 {
+	.loadingPopout__58f1c {
 		background-color: var(--bg-tertiary);
 		border-radius: 5px;
 	}

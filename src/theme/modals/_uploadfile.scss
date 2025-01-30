@@ -1,15 +1,15 @@
 #app-mount {
-	.uploadModal_f82cc7 {
+	.uploadModal_dbca3c {
 		background: var(--bg-primary);
 		border-radius: 6px;
 		border: 1px solid var(--border);
 		box-shadow: none;
 
-		.inner_f82cc7 {
+		.inner_dbca3c {
 			margin: 0;
 		}
 
-		.channelTextArea_d0696b {
+		.channelTextArea__74017 {
 			background: var(--input-background);
 			border: 2px solid transparent;
 			transition: var(--transition);
@@ -24,11 +24,11 @@
 					rgb(var(--accent), 0.25);
 			}
 		}
-		.slateTextArea_e52116 {
+		.slateTextArea_ec4baf {
 			padding-left: 16px;
 		}
 	}
-	.image_f82cc7 {
+	.image_dbca3c {
 		width: 100% !important;
 		height: auto !important;
 		max-height: 298px;
@@ -37,11 +37,11 @@
 		background: transparent;
 		border-radius: 6px 6px 0 0;
 	}
-	.description_f82cc7 {
+	.description_dbca3c {
 		border-top: 1px solid var(--border);
 		padding: 24px 24px 0;
 	}
-	.comment_f82cc7 {
+	.comment_dbca3c {
 		padding: 24px;
 		margin: 0;
 	}

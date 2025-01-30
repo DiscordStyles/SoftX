@@ -1,7 +1,7 @@
 @use '../assets';
 
 #app-mount {
-	.contentWrapper_af5dbb {
+	.contentWrapper__08434 {
 		background: var(--bg-primary);
 		border-radius: 6px;
 		border: 1px solid var(--border);
@@ -10,22 +10,22 @@
 		padding: 0;
 		display: flex;
 		flex-direction: column;
-		.header_c6ee36,
-		.header_d8cdac,
+		.header_c0e32c,
+		.header__8ef02,
 		.header-JHwfVI,
-		.header_b56bbc {
+		.header_fed6d3 {
 			padding: 16px;
 			margin-left: 128px;
 			border-left: 1px solid var(--border);
 			box-shadow: none;
 		}
 	}
-	.wrapper_d8cdac,
-	.contentWrapper_af5dbb,
-	.emojiPicker_c6ee36 {
+	.wrapper__8ef02,
+	.contentWrapper__08434,
+	.emojiPicker_c0e32c {
 		[class^='searchBar'],
-		.container_effbe2,
-		.container_c18ec9  {
+		.container_fea832,
+		.container_a45028  {
 			background: var(--input-background);
 			border: 2px solid transparent;
 			border-radius: 6px;
@@ -53,9 +53,9 @@
 			}
 		}
 	}
-	.wrapper_c6ee36:not(.emojiPickerInExpressionPicker-2nOwH8) {
+	.wrapper_c0e32c:not(.emojiPickerInExpressionPicker-2nOwH8) {
 		height: 100%;
-		.emojiPicker_c6ee36 {
+		.emojiPicker_c0e32c {
 			background: var(--bg-primary);
 			border: 1px solid var(--border);
 			border-radius: 6px;
@@ -63,14 +63,14 @@
 		}
 	}
 
-	.wrapper_d8cdac, .container_b56bbc {
+	.wrapper__8ef02, .container_fed6d3 {
 		background: var(--bg-primary);
 		border: 1px solid var(--border);
 		border-radius: 6px;
 		box-shadow: var(--shadow-lg);
 	}
 
-	.nav_af5dbb {
+	.nav__08434 {
 		position: absolute;
 		padding: 0;
 		height: 64px;
@@ -79,11 +79,11 @@
 	.emojiPickerInExpressionPicker-2nOwH8 {
 		height: 100%;
 	}
-	.navList_af5dbb {
+	.navList__08434 {
 		height: 100%;
 		width: 128px;
 	}
-	.navItem_af5dbb {
+	.navItem__08434 {
 		height: 100%;
 		width: 33.33%;
 		margin: 0;
@@ -92,13 +92,13 @@
 		transition: none;
 		&:hover {
 			background: var(--background-modifier-hover);
-			.contents_dd4f85::before {
+			.contents__201d5::before {
 				background: var(--interactive-hover);
 			}
 		}
-		&.navButtonActive_af5dbb {
+		&.navButtonActive__08434 {
 			background: rgb(var(--accent), 0.1);
-			.contents_dd4f85 {
+			.contents__201d5 {
 				filter: drop-shadow(0 0 calc(var(--channel-glow-intensity) * 5px) rgb(var(--accent)));
 				&::before {
 					background: rgb(var(--accent));
@@ -115,7 +115,7 @@
 				box-shadow: 0 0 calc(var(--glow-intensity) * 15px) calc(var(--glow-intensity) * 5px) rgb(var(--accent), 0.2);
 			}
 		}
-		.contents_dd4f85 {
+		.contents__201d5 {
 			font-size: 0;
 			display: flex;
 			align-tracks: center;
@@ -127,36 +127,36 @@
 				background: var(--interactive-normal);
 			}
 		}
-		&#gif-picker-tab .contents_dd4f85::before {
+		&#gif-picker-tab .contents__201d5::before {
 			mask: url(assets.$icon_photograph);
 		}
-		&#sticker-picker-tab .contents_dd4f85::before {
+		&#sticker-picker-tab .contents__201d5::before {
 			mask: url(assets.$icon_sparkles);
 		}
-		&#emoji-picker-tab .contents_dd4f85::before {
+		&#emoji-picker-tab .contents__201d5::before {
 			mask: url(assets.$icon_emoji-happy);
 		}
 	}
 
-	#sticker-picker-tab-panel .wrapper_ba23fe {
+	#sticker-picker-tab-panel .wrapper__4e6ce {
 		left: -1px;
 		top: 63px;
 	}
 
-	.contentWrapper_af5dbb .wrapper_ba23fe  {
+	.contentWrapper__08434 .wrapper__4e6ce  {
 		top: 64px;
 		border-top: 1px solid var(--border);
 		border-right: 1px solid var(--border);
 		background: transparent;
-		.listItems_d53d65 {
+		.listItems_affa7e {
 			width: 100%;
 			margin: -8px;
 		}
-		.scroller_d53d65::-webkit-scrollbar {
+		.scroller_affa7e::-webkit-scrollbar {
 			display: none;
 		}
 	}
-	.categoryItemDefaultCategory_dfa278, .stickerCategory_a7a485  {
+	.categoryItemDefaultCategory_b9ee0c, .stickerCategory__3ad28  {
 		width: 100%;
 		height: 48px;
 		padding: 0;
@@ -166,9 +166,9 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		&.categoryItemDefaultCategorySelected_dfa278, &.stickerCategoryGenericSelected_a7a485, &.firstPartyCategorySelected_a7a485 {
+		&.categoryItemDefaultCategorySelected_b9ee0c, &.stickerCategoryGenericSelected__3ad28, &.firstPartyCategorySelected__3ad28 {
 			background: rgb(var(--accent), 0.1);
-			.categoryIcon_dfa278, .stickerCategoryGenericIcon_a7a485 {
+			.categoryIcon_b9ee0c, .stickerCategoryGenericIcon__3ad28 {
 				color: rgb(var(--accent));
 				filter: drop-shadow(0 0 calc(var(--channel-glow-intensity) * 5px) rgb(var(--accent), 0.4));
 			}
@@ -184,8 +184,8 @@
 			}
 		}
 	}
-	.categoryItemGuildCategory_dfa278,
-	.stickerCategory_a7a485 {
+	.categoryItemGuildCategory_b9ee0c,
+	.stickerCategory__3ad28 {
 		width: 100%;
 		height: 48px;
 		margin: 0;
@@ -197,18 +197,18 @@
 			mask: none;
 		}
 		img,
-		.guildIcon_bfabc4 {
+		.guildIcon__0fa6d {
 			border-radius: 6px;
 			background: rgb(255 255 255 / 0.05);
 		}
 		&:hover {
 			background: var(--background-modifier-hover);
-			.guildIcon_bfabc4 {
+			.guildIcon__0fa6d {
 				background: rgb(255 255 255 / 0.1);
 			}
 		}
 	}
-	.unicodeShortcut_dfa278 {
+	.unicodeShortcut_b9ee0c {
 		background: var(--bg-primary);
 		backdrop-filter: blur(var(--blur));
 		border-top: 1px solid var(--border);
@@ -217,42 +217,42 @@
 	.content-1CboaJ {
 		border-top: 1px solid var(--border);
 	}
-	.bodyWrapper_c6ee36,
-	.wrapper_de4721 {
+	.bodyWrapper_c0e32c,
+	.wrapper_e94b8c {
 		border-top: 1px solid var(--border);
-		.scroller_d53d65 {
+		.scroller_affa7e {
 			left: -7px;
 			width: calc(100% + 8px);
 		}
 	}
-	.wrapper_e06857 {
+	.wrapper__14245 {
 		background: var(--bg-primary);
 		border-bottom: 1px solid var(--border);
 		backdrop-filter: blur(var(--blur));
 	}
-	.emojiItem_fbfedd.emojiItemSelected_fbfedd {
+	.emojiItem_fc7141.emojiItemSelected_fc7141 {
 		background: rgb(255 255 255 / 0.1);
 	}
 
-	.inspector_c3120f {
+	.inspector_aeaaeb {
 		border-top: 1px solid var(--border);
 		background: transparent;
 	}
-	.emojiListRow_fbfedd {
+	.emojiListRow_fc7141 {
 		padding: 0 8px;
 	}
 
-	.wrapper_d8cdac {
+	.wrapper__8ef02 {
 		flex: 1 1 auto;
 	}
 
-	#gif-picker-tab-panel .content_b56bbc {
+	#gif-picker-tab-panel .content_fed6d3 {
 		border-top: 1px solid var(--border);
 	}
 
 	//Fix tenor gif picker not being theme color
-	.container_b56bbc,
-	.header_b56bbc {
+	.container_fed6d3,
+	.header_fed6d3 {
 		background: var(--bg-primary);
 	}
 }

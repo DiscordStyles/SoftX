@@ -1,6 +1,6 @@
-#app-mount .layer_d4b6c5 [aria-label='GUILD_SETTINGS'] {
+#app-mount .layer__960e4 [aria-label='GUILD_SETTINGS'] {
 	// Roles
-	.page_e8251c {
+	.page__91dc3 {
 		position: relative;
 		width: 100%;
 		max-width: var(--settings-content-width);
@@ -8,17 +8,17 @@
 		max-height: var(--settings-max-height);
 	}
 
-	.sidebar_e87574 {
+	.sidebar_e29cd7 {
 		height: var(--settings-max-height);
 	}
-	.titleContainer_e87574 {
+	.titleContainer_e29cd7 {
 		padding: 24px;
 		margin: 0;
 		border-bottom: 1px solid var(--border);
 		background: var(--bg-primary);
 		backdrop-filter: blur(var(--blur));
 	}
-	.list_e87574 {
+	.list_e29cd7 {
 		padding: 73px 0 0 !important;
 		margin-top: -73px;
 		.item-3XjbnG {
@@ -46,32 +46,32 @@
 		}
 	}
 
-	.scroller_da1bd9 {
+	.scroller__981c8 {
 		scroll-padding-top: 132px !important;
 	}
-	.contentWidth_bd05f1 {
+	.contentWidth_c6bf1b {
 		width: 100%;
 		max-width: unset;
 		padding: 24px 24px 0;
 	}
-	.headerContainer_fe3229 {
+	.headerContainer__9a73f {
 		right: 0;
-		.header_bd05f1 {
+		.header_c6bf1b {
 			margin-bottom: 0;
 		}
 	}
-	.header_bd05f1 {
+	.header_c6bf1b {
 		margin: -24px -24px 24px;
 		padding: 24px 24px 0;
 		background: var(--bg-primary);
 		backdrop-filter: blur(var(--blur));
 		border-bottom: 1px solid var(--border);
 	}
-	.tabBar_c69589 {
+	.tabBar__81b3e {
 		border: none;
 		margin: 0;
 	}
-	.tabBarItem_c69589 {
+	.tabBarItem__81b3e {
 		border: none;
 		overflow: visible;
 		position: relative;
@@ -92,8 +92,8 @@
 			}
 		}
 	}
-	.searchContainer_a73849,
-	.searchContainer_fe3229 {
+	.searchContainer__16663,
+	.searchContainer__9a73f {
 		margin: 24px 0;
 	}
 	.container__33507 {
@@ -111,13 +111,13 @@
 				rgb(var(--accent), 0.25);
 		}
 	}
-	.container_fe3229 .list_fe3229 {
+	.container__9a73f .list__9a73f {
 		scroll-padding-top: 193px !important;
 	}
 	.content-2a4AW9 > div[style='height: 201px;'] {
 		height: 193px !important;
 	}
-	.previewContainer_da1bd9 .theme-light {
+	.previewContainer__981c8 .theme-light {
 		display: none;
 	}
 }

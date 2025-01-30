@@ -4,42 +4,42 @@
 		border: 1px solid var(--border-strong) !important;
 	}
 
-	.menu_d90b3d:not(#account.menu_d90b3d) {
+	.menu_c1e9c4:not(#account.menu_c1e9c4) {
 		border: none !important;
 		box-shadow: none;
 		border-radius: 6px;
 
-		.scroller_d90b3d {
+		.scroller_c1e9c4 {
 			padding: 0;
 		}
 
 		[role='group'] {
-			&:first-child > .item_d90b3d:first-child {
+			&:first-child > .item_c1e9c4:first-child {
 				border-radius: 6px 6px 0 0;
 			}
-			&:nth-last-child(2) > .item_d90b3d:last-child {
+			&:nth-last-child(2) > .item_c1e9c4:last-child {
 				border-radius: 0 0 6px 6px;
 			}
 		}
 
-		.separator_d90b3d {
+		.separator_c1e9c4 {
 			border-color: var(--profile-body-divider-color);
 			margin: 2px 12px;
 		}
 
-		.item_d90b3d {
+		.item_c1e9c4 {
 			margin: 0;
 			border-radius: 0;
 			padding: 10px 14px;
-			&.focused_d90b3d {
+			&.focused_c1e9c4 {
 				background: var(--background-modifier-hover);
 			}
-			&.colorDanger_d90b3d.focused_d90b3d {
+			&.colorDanger_c1e9c4.focused_c1e9c4 {
 				background: hsl(var(--discord-red));
 			}
 		}
 
-		.submenuPaddingContainer_d90b3d {
+		.submenuPaddingContainer_c1e9c4 {
 			margin: 0 -4px;
 		}
 

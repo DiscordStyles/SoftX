@@ -1,22 +1,22 @@
 #app-mount {
-	.tabBody_c2739c::before {
+	.tabBody__133bf::before {
 		content: none;
 	}
-	.container_c2739c {
+	.container__133bf {
 		background: transparent;
 		.title_d1da5f {
 			margin: 0;
 			padding: 16px;
 		}
 	}
-	.peopleColumn_c2739c {
+	.peopleColumn__133bf {
 		background: var(--bg-secondary);
 		border-right: 1px solid var(--border);
 	}
-	.peopleList_e0840f {
+	.peopleList__5ec2f {
 		margin: 0;
 	}
-	.peopleListItem_d51464 {
+	.peopleListItem_cc6179 {
 		margin: 0;
 		padding: 0 0 0 16px;
 		border-color: var(--border);
@@ -28,13 +28,13 @@
 			background: var(--background-modifier-hover);
 		}
 	}
-	.userInfo_f3939d {
+	.userInfo__0a06e {
 		overflow: visible;
 	}
-	.actions_ea0e6d {
+	.actions_c72b78 {
 		height: 100%;
 	}
-	.actionButton_e01b91 {
+	.actionButton_f8fa06 {
 		height: 100%;
 		width: 42px;
 		border-radius: 0;
@@ -45,7 +45,7 @@
 		}
 	}
 
-	.addFriendInputWrapper_de812f {
+	.addFriendInputWrapper__72ba7 {
 		background: var(--input-background);
 		border: 2px solid transparent;
 		&:hover {
@@ -57,7 +57,7 @@
 		}
 	}
 
-	.emptyCard_f02fcf {
+	.emptyCard__7e549 {
 		background: var(--bg-tertiary);
 	}
 }

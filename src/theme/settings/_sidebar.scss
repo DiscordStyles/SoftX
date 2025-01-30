@@ -1,31 +1,31 @@
-#app-mount .sidebarRegion_c25c6d {
+#app-mount .sidebarRegion__23e6b {
 	flex: 0 0 auto;
-	.sidebarRegionScroller_c25c6d {
+	.sidebarRegionScroller__23e6b {
 		background: transparent;
 		flex: 1;
 		width: 100%;
 	}
-	.sidebar_c25c6d {
+	.sidebar__23e6b {
 		padding: 0;
 		overflow: hidden;
 		border-radius: 6px 0 0 6px;
 		width: 300px;
 		border-right: 1px solid var(--border);
 	}
-	.header_a0 {
+	.header_b3f026 {
 		padding: 10px 18px;
 		color: var(--text-muted);
 	}
-	.separator_a0 {
+	.separator_b3f026 {
 		height: 0;
 		background: transparent;
 		margin-bottom: 18px;
 	}
-	.item_a0 {
+	.item_b3f026 {
 		padding: 10px 18px;
 		margin: 0;
 		border-radius: 0;
-		&.selected_a0 {
+		&.selected_b3f026 {
 			background: rgb(var(--accent), 0.1) !important;
 			position: relative;
 			color: rgb(var(--accent)) !important;

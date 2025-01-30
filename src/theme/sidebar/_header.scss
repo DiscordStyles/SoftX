@@ -1,26 +1,26 @@
 @use '../assets';
 
 #app-mount {
-	.animatedContainer_fd6364 {
+	.animatedContainer_f37cb1 {
 		margin-top: var(--toolbar-height);
 		background: transparent;
 		transform: none !important;
 	}
-	.bannerImage_fd6364 {
+	.bannerImage_f37cb1 {
 		width: var(--channels-width);
 		transform: none !important;
 	}
-	.bannerImg_fd6364 {
+	.bannerImg_f37cb1 {
 		width: 100%;
 	}
 	.content-2a4AW9 > div[style='height: 84px;'] {
 		margin-top: 48px;
 	}
 
-	.selected_fd6364 .header_fd6364 {
+	.selected_f37cb1 .header_f37cb1 {
 		background: transparent;
 	}
-	.header_fd6364 {
+	.header_f37cb1 {
 		height: var(--toolbar-height);
 		border-bottom: 1px solid var(--border);
 		filter: none;
@@ -30,19 +30,19 @@
 		align-items: center;
 		justify-content: space-between;
 
-		.headerContent_fd6364 {
+		.headerContent_f37cb1 {
 			flex: 1;
 		}
-		.headerChildren_fd6364 {
+		.headerChildren_f37cb1 {
 			display: flex;
-			.button_a79c58 {
+			.button__353c4 {
 				top: 0;
 			}
 		}
-		.name_fd6364 {
+		.name_f37cb1 {
 			font-weight: 500;
 		}
-		.button_a79c58 {
+		.button__353c4 {
 			margin-left: 0;
 			mask: url(assets.$icon_cog) center/cover;
 			background: var(--interactive-normal);
@@ -51,7 +51,7 @@
 			g {
 				display: none;
 			}
-			&.open_a79c58 {
+			&.open__353c4 {
 				transform: rotate(-65deg);
 			}
 		}
@@ -63,10 +63,10 @@
 	.guildIconContainer-2FW_iA {
 		display: none;
 	}
-	.headerButton_fd6364 {
+	.headerButton_f37cb1 {
 		background: transparent;
 	}
-	.communityInfoContainer_fd6364 {
+	.communityInfoContainer_f37cb1 {
 		display: none;
 	}
 }

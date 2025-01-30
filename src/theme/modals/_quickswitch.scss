@@ -1,5 +1,5 @@
 #app-mount {
-	.quickswitcher_f4e139 {
+	.quickswitcher_ac6cb0 {
 		background: transparent;
 		box-shadow: none;
 		padding: 0;
@@ -8,7 +8,7 @@
 			height: 100% !important;
 		}
 	}
-	.input_f4e139 {
+	.input_ac6cb0 {
 		background: var(--input-background);
 		border: 2px solid transparent;
 		transition: var(--transition);
@@ -24,7 +24,7 @@
 				rgb(var(--accent), 0.25);
 		}
 	}
-	.scroller_f4e139 {
+	.scroller_ac6cb0 {
 		margin: 24px 0 0;
 		box-shadow: var(--shadow-lg);
 		border-radius: 6px;
@@ -36,11 +36,11 @@
 			display: none;
 		}
 	}
-	.header_e3c1c6 {
+	.header__71961 {
 		margin: 0;
 		padding: 10px 16px;
 	}
-	.result_e3c1c6 {
+	.result__71961 {
 		border-radius: 0;
 		padding: 10px 16px;
 		height: auto;
@@ -48,20 +48,20 @@
 			background: var(--background-modifier-hover);
 		}
 	}
-	.content_e3c1c6 {
+	.content__71961 {
 		height: auto;
 		padding: 0;
 		line-height: 1;
 	}
 
-	.protip_f4e139 {
+	.protip_ac6cb0 {
 		display: none;
 	}
 }
 
 .full-motion {
-	.input_f4e139,
-	.scroller_f4e139 {
+	.input_ac6cb0,
+	.scroller_ac6cb0 {
 		animation: fadeIn 0.2s ease forwards;
 	}
 }

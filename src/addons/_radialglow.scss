@@ -110,15 +110,15 @@ $statusMap: (
 	@each $status in $statusList {
 		$parsedItem: $parsedItem + '[aria-label*="' + $status + '" i]';
 	}
-	#{selector.append('.wrapper_c51b4e', selector.simple-selectors($parsedItem))},
-	#{selector.append('.avatarWrapper', '[data-status="#{$statusType}"]')} .wrapper_c51b4e {
+	#{selector.append('.wrapper__44b0c', selector.simple-selectors($parsedItem))},
+	#{selector.append('.avatarWrapper', '[data-status="#{$statusType}"]')} .wrapper__44b0c {
 		box-shadow: 0 0 calc(var(--glow-intensity) * 10px) var(--rs-#{$statusType}-color);
 	}
 }
 
 // StatusEverywhere by Strencher
 #app-mount {
-	.wrapper_c51b4e.StatusEverywhere-avatar-chatAvatar {
+	.wrapper__44b0c.StatusEverywhere-avatar-chatAvatar {
 		margin: 0;
 	}
 	.avatarWrapper {
