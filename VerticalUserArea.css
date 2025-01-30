@@ -1,21 +1,21 @@
 #app-mount {
   --iconOffset: 0px;
 }
-#app-mount .guilds_a4d4d9 .tree_fea3ef {
+#app-mount .guilds_c48ade .tree_ef3116 {
   outline: none !important;
 }
-#app-mount .guilds_a4d4d9 .unreadMentionsIndicatorBottom_fea3ef {
+#app-mount .guilds_c48ade .unreadMentionsIndicatorBottom_ef3116 {
   bottom: calc(var(--user-area) + 10px);
 }
-#app-mount .guilds_a4d4d9 .footer_d71945 {
+#app-mount .guilds_c48ade .footer__214dc {
   width: 100%;
   margin-bottom: calc(var(--user-area, 200px) + var(--iconOffset));
   background: transparent;
 }
-#app-mount .guilds_a4d4d9 .footer_d71945 .listItem_c96c45 {
+#app-mount .guilds_c48ade .footer__214dc .listItem__650eb {
   margin-bottom: 0px;
 }
-#app-mount .panels_a4d4d9 > .container_b2ca13 {
+#app-mount .panels_c48ade > .container__37e49 {
   background: transparent;
   position: fixed;
   bottom: 0;
@@ -26,36 +26,36 @@
   height: auto;
   border-top: none;
 }
-#app-mount .panels_a4d4d9 > .container_b2ca13 > [style="flex: 0 1 auto;"] {
+#app-mount .panels_c48ade > .container__37e49 > [style="flex: 0 1 auto;"] {
   flex-direction: column;
   width: 100%;
 }
-#app-mount .panels_a4d4d9 > .container_b2ca13 > [style="flex: 0 1 auto;"] .button_adca65 {
+#app-mount .panels_c48ade > .container__37e49 > [style="flex: 0 1 auto;"] .button__67645 {
   width: 100%;
   border-radius: 0;
   padding: 12px 0;
   height: auto;
 }
-#app-mount .panels_a4d4d9 > .container_b2ca13 .avatarWrapper_b2ca13 {
+#app-mount .panels_c48ade > .container__37e49 .avatarWrapper__37e49 {
   margin-right: 0;
   margin-top: 12px;
 }
-#app-mount .panels_a4d4d9 > .container_b2ca13 .avatarWrapper_b2ca13 .svg_c51b4e {
+#app-mount .panels_c48ade > .container__37e49 .avatarWrapper__37e49 .svg__44b0c {
   width: 50px;
   height: 50px;
   transform: translate(1px, 1px);
 }
-#app-mount .panels_a4d4d9 > .container_b2ca13 .avatar_b2ca13 {
+#app-mount .panels_c48ade > .container__37e49 .avatar__37e49 {
   width: 42px !important;
   height: 42px !important;
 }
-#app-mount .nameTag_b2ca13 {
+#app-mount .nameTag__37e49 {
   display: none;
 }
-#app-mount .avatarWrapper_b2ca13 {
+#app-mount .avatarWrapper__37e49 {
   margin: 0;
   min-width: unset;
 }
-#app-mount .avatarWrapper_b2ca13:hover {
+#app-mount .avatarWrapper__37e49:hover {
   background: transparent;
 }
