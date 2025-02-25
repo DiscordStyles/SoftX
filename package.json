@@ -9,10 +9,12 @@
 	"type": "module",
 	"scripts": {
 		"dev": "bd-scss dev",
-		"build": "bd-scss build"
+		"build": "bd-scss build",
+		"update_classes": "node update_classes.js"
 	},
 	"dependencies": {
-		"bd-scss": "^2.0.14"
+		"bd-scss": "^2.0.14",
+		"undici": "^7.3.0"
 	},
 	"devDependencies": {
 		"prettier": "^2.8.8"
