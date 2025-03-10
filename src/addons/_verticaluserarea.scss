@@ -11,7 +11,6 @@
 		.footer__214dc {
 			width: 100%;
 			margin-bottom: calc(var(--user-area, 200px) + var(--iconOffset));
-			background: transparent;
 			.listItem__650eb {
 				margin-bottom: 0px;
 			}
@@ -28,16 +27,6 @@
 		width: var(--guilds-width, 72px);
 		height: auto;
 		border-top: none;
-		& > [style='flex: 0 1 auto;'] {
-			flex-direction: column;
-			width: 100%;
-			.button__67645 {
-				width: 100%;
-				border-radius: 0;
-				padding: 12px 0;
-				height: auto;
-			}
-		}
 		.avatarWrapper__37e49 {
 			margin-right: 0;
 			margin-top: 12px;
@@ -50,6 +39,16 @@
 		.avatar__37e49 {
 			width: 42px !important;
 			height: 42px !important;
+		}
+	}
+	.buttons__37e49 {
+		flex-direction: column;
+		width: 100%;
+		.button__67645 {
+			width: 100%;
+			border-radius: 0;
+			padding: 12px 0;
+			height: auto;
 		}
 	}
 	.nameTag__37e49 {
