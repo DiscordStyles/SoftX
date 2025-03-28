@@ -2,4 +2,38 @@
 	.childWrapperNoHoverBg__6e9f8 {
 		background: var(--fg-primary);
 	}
+
+	.svg_cc5dd2 {
+		width: var(--g-48-r);
+		height: var(--g-48-r);
+		top: var(--g-4-r);
+		left: var(--g-4-r);
+	}
+	.wrapper__6e9f8,
+	.icon__6e9f8,
+	.childWrapper__6e9f8 {
+		width: 40px;
+		height: 40px;
+	}
+
+	.guildIcon__48112 {
+		width: var(--g-19-r);
+		height: var(--g-19-r);
+	}
+	.stack_dbd263 {
+		height: auto !important;
+		padding-bottom: 4px !important;
+	}
+	.tutorialContainer__1f388 .svg_cc5dd2 > mask > use:last-child {
+		display: none;
+	}
+	.tutorialContainer__1f388 .numberBadge__2b1f5 {
+		outline: 2px solid var(--bg-base-tertiary);
+		border-radius: 50%;
+	}
+	.circleIconButton__5bc7e {
+		background: var(--fg-primary);
+		width: calc(var(--guildbar-avatar-size) / 1.35);
+		height: calc(var(--guildbar-avatar-size) / 1.35);
+	}
 }

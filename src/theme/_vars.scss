@@ -19,7 +19,7 @@
 	--shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -1px rgb(0 0 0 / 0.06);
 	--shadow-lg: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 10px 10px -5px rgb(0 0 0 / 0.04);
 
-	--border: hsl(0 0% 5% / 0.6);
+	--border: hsl(0 0% 5% / 0.75);
 
 	--bg-primary: hsl(0 0% 10% / calc(var(--opacity) + 0.05));
 	--bg-secondary: hsl(0 0% 10% / calc(var(--opacity) + 0.1));
@@ -36,7 +36,18 @@
 	--font-primary: var(--font, 'Whitney');
 	--font-display: var(--font, 'Whitney');
 
-	--custom-guild-list-width: 95px;
+	--custom-guild-list-width: var(--guilds-width);
 	--panel-height-normal: 72px;
 	--panel-height-expanded: 186px;
+
+	// Yoinked straight from @refact0r
+	--guildbar-avatar-size: calc(var(--server-icon-size) * 1px);
+	--guildbar-folder-size: var(--g-48);
+	--g-48: calc(var(--guildbar-avatar-size) + 8px);
+	--g-19-r: calc((var(--server-icon-size) / 2 - 1) / var(--server-icon-size) * 40px);
+	--g-40-r: calc(var(--guildbar-avatar-size) / (var(--server-icon-size) + 8) * 48);
+	--g-48-r: calc(var(--guildbar-avatar-size) * 48 / 40);
+	--g-56-r: calc(var(--g-48) * 56 / 48);
+	--g-4-r: calc((var(--g-48-r) - var(--guildbar-avatar-size)) / -2);
+	--g-4-r-2: calc((var(--g-56-r) - var(--g-48)) / -2);
 }

@@ -5,7 +5,21 @@
 		margin-bottom: var(--custom-app-panels-height);
 	}
 
+	div.stack_dbd263:not([role='group']) {
+		gap: 0 !important;
+	}
+
+	.guildSeparator__252b6 {
+		background: var(--border);
+	}
+
 	.itemsContainer_ef3116 > div.stack_dbd263 {
 		padding-top: var(--server-spacing, 16px);
+	}
+
+	.unreadMentionsIndicatorBottom_ef3116,
+	.unreadMentionsIndicatorTop_ef3116 {
+		width: calc(var(--guildbar-avatar-size) + var(--custom-guild-list-padding) * 2);
+		padding: calc(var(--custom-guild-list-padding) / 2);
 	}
 }
