@@ -12,10 +12,6 @@
 	--talking-glow: rgb(var(--accent));
 	--overlaying-blur: 10px;
 
-	--TB-height: calc(var(--toolbar-height) - 1px);
-	--TB-width: 52px;
-	--TB-header-padding: 155px !important;
-
 	--shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -1px rgb(0 0 0 / 0.06);
 	--shadow-lg: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 10px 10px -5px rgb(0 0 0 / 0.04);
 
@@ -27,6 +23,8 @@
 
 	--fg-primary: hsl(0 0% 100% / 0.075);
 	--fg-secondary: hsl(0 0% 100% / 0.045);
+
+	--toolbar-height: 64px;
 
 	--chat-bubble-bg: rgba(255, 255, 255, 0.03);
 	--chat-bubble-bg-self: rgb(var(--accent), 0.15);

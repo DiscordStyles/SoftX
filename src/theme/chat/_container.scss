@@ -1,4 +1,10 @@
-#app-mount .chat_f75fb0 {
-	background: transparent;
-	border: none;
+#app-mount {
+	.chat_f75fb0 {
+		background: transparent;
+		border: none;
+	}
+	.chatContent_f75fb0 {
+		background: var(--bg-secondary);
+		border-left: 1px solid var(--border);
+	}
 }
