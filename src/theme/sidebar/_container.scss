@@ -1,6 +1,5 @@
 #app-mount {
 	.sidebar_c48ade {
-		--custom-app-panels-height: 72px;
 		border-radius: 0;
 		&::after {
 			content: none;
@@ -14,5 +13,14 @@
 	}
 	.container__2637a {
 		background: var(--bg-primary);
+		padding-bottom: 0;
+	}
+}
+
+// Set panel height and server list margin if in call or not.
+.sidebar_c48ade {
+	--custom-app-panels-height: var(--panel-height-normal);
+	&:has(.panels_c48ade .wrapper_e131a9:not(:empty)) {
+		--custom-app-panels-height: var(--panel-height-expanded);
 	}
 }
