@@ -1,18 +1,5 @@
-.theme-light {
-	--user-popout-bg: hsl(0 0% 100% / 0.25);
-	--user-popout-text: black;
-}
-.theme-dark {
-	--user-popout-bg: hsl(0 0% 0% / 0.25);
-	--user-popout-text: white;
-}
-
 :root {
-	--softx-version: '1.2.1';
-
-	--hue: 0deg;
-	--saturation: 0%;
-	--lightness: 10%;
+	--softx-version: '2.0.0';
 
 	--transition: 0.15s ease;
 
@@ -23,7 +10,7 @@
 	--server-glow-intensity: var(--glow-intensity);
 	--talking-bar: rgb(var(--accent));
 	--talking-glow: rgb(var(--accent));
-	--blur: 10px;
+	--overlaying-blur: 10px;
 
 	--TB-height: calc(var(--toolbar-height) - 1px);
 	--TB-width: 52px;
@@ -32,56 +19,22 @@
 	--shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -1px rgb(0 0 0 / 0.06);
 	--shadow-lg: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 10px 10px -5px rgb(0 0 0 / 0.04);
 
-	--border: hsl(var(--hue) var(--saturation) calc(var(--lightness) / 2) / 0.6);
+	--border: hsl(0 0% 5% / 0.6);
 
-	--bg-primary: hsl(var(--hue) var(--saturation) var(--lightness) / calc(var(--opacity) + 0.05));
-	--bg-secondary: hsl(var(--hue) var(--saturation) var(--lightness) / calc(var(--opacity) + 0.1));
-	--bg-tertiary: hsl(var(--hue) var(--saturation) var(--lightness) / calc(var(--opacity) + 0.15));
+	--bg-primary: hsl(0 0% 10% / calc(var(--opacity) + 0.05));
+	--bg-secondary: hsl(0 0% 10% / calc(var(--opacity) + 0.1));
+	--bg-tertiary: hsl(0 0% 10% / calc(var(--opacity) + 0.15));
 
-	--fg-primary: hsl(0 0% 100% / 0.1);
-	--fg-secondary: hsl(0 0% 100% / 0.05);
+	--fg-primary: hsl(0 0% 100% / 0.075);
+	--fg-secondary: hsl(0 0% 100% / 0.045);
 
 	--chat-bubble-bg: rgba(255, 255, 255, 0.03);
 	--chat-bubble-bg-self: rgb(var(--accent), 0.15);
 	--chat-bubble-padding: 10px 14px;
 	--chat-bubble-display: inline-block;
 
-	--user-area: calc(var(--server-size) + 175px);
-	--toolbar-height: 74px;
-	--server-spacing: 16px;
-	--guild-scrollbar: none;
-
-	--unread-colour: 255 255 255;
-
-	--backdrop-background: var(--bg-tertiary);
-	--backdrop-blur: 10px;
-
-	--channel-height: 40px;
-	--member-height: 54px;
-	--dm-height: 56px;
-
-	--scrollbar-background: rgb(255 255 255 / 0.05);
-	--scrollbar-background-hover: rgb(255 255 255 / 0.1);
-	--scrollbar-background-active: rgb(255 255 255 / 0.15);
-
-	--input-background: rgb(18 18 18 / 0.7);
-	--input-border: rgb(255 255 255 / 0.05);
-
-	--discord-red: 359 calc(var(--saturation-factor, 1) * 82.6%) 59.4%;
-	--discord-green: 139 calc(var(--saturation-factor, 1) * 47.3%) 43.9%;
-
-	--settings-sidebar-width: 300px;
-	--settings-content-width: 900px;
-	--settings-max-height: 800px;
-	--settings-max-width: calc(var(--settings-sidebar-width) + var(--settings-content-width));
-
-	--text-link: rgb(var(--accent));
 	--font-primary: var(--font, 'Whitney');
 	--font-display: var(--font, 'Whitney');
-	--channels-default: #aaa;
-	--background-modifier-hover: rgb(255 255 255 / 0.05);
-	--background-modifier-active: rgb(255 255 255 / 0.08);
-	--brand-experiment: rgb(var(--accent), 0.35);
-	--brand-experiment-560: rgb(var(--accent), 0.55);
-	--brand-experiment-600: rgb(var(--accent), 0.4);
+
+	--custom-guild-list-width: 95px;
 }

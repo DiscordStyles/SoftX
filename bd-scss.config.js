@@ -3,15 +3,15 @@ export default {
 	meta: {
 		name: 'SoftX',
 		author: 'Gibbu',
-		version: '1.0.0',
+		version: '2.0.0',
 		description: 'A soft and comfy feel for Discord.',
 		source: 'https://github.com/DiscordStyles/SoftX',
 		invite: 'ZHthyCw'
 	},
-	baseImport: 'https://discordstyles.github.io/SoftX/SoftX.css',
+	github: 'DiscordStyles',
+	imports: [{ url: 'https://discordstyles.github.io/Addons/windows-titlebar.css' }],
 	addons: [
-		['src/addons/_radialglow.scss', 'dist/RadialGlow.css'],
-		['src/addons/_verticaluserarea.scss', 'dist/VerticalUserArea.css'],
-		['src/addons/_serverrings.scss', 'dist/ServerRings.css']
+		{ target: 'src/addons/_radialglow.scss', name: 'RadialGlow', dist: true },
+		{ target: 'src/addons/_serverrings.scss', name: 'ServerRings', dist: true, dev: true }
 	]
 };

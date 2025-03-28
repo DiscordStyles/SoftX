@@ -1,26 +1,18 @@
 #app-mount {
 	.sidebar_c48ade {
+		--custom-app-panels-height: 72px;
 		border-radius: 0;
-		background: var(--bg-primary);
-		width: var(--channels-width) !important; //importanter than you, discord. -lc
-		border-right: 1px solid var(--border);
-		z-index: 1;
-		&.hidden_c48ade {
-			display: none;
+		&::after {
+			content: none;
 		}
 	}
-	.scrolling-20Of9p .content-2a4AW9 {
-		pointer-events: all !important;
+	.sidebarList_c48ade {
+		border-radius: 0;
+		border: none;
+		padding-bottom: 0;
+		margin-bottom: var(--custom-app-panels-height);
 	}
 	.container__2637a {
-		background: transparent;
-	}
-	.content-2a4AW9 > div[style='height: 16px;'] {
-		display: none;
-	}
-	.sectionDivider__629e4 {
-		margin: 0;
-		background: var(--border);
-		margin-top: 12px;
+		background: var(--bg-primary);
 	}
 }

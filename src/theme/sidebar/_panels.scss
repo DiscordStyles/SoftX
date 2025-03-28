@@ -1,94 +1,16 @@
 #app-mount {
 	.panels_c48ade {
-		background: transparent;
-		padding: 0;
-		border-top: 1px solid var(--border);
-	}
-
-	// Connected voice
-	.wrapper_e131a9:not(:empty) {
-		border-top: 1px solid var(--border);
-	}
-	.container_e131a9 {
-		background: transparent;
+		height: var(--custom-app-panels-height);
+		bottom: 0;
+		left: 0;
+		border-radius: 0;
+		width: 100%;
 		border: none;
-		padding: 0;
-		& > div:first-child {
-			padding: 0;
-			border-bottom: 1px solid var(--border);
-			.inner_e131a9 {
-				padding: 16px 18px;
-			}
-			& > .flex__7c0ba {
-				margin: 0;
-			}
-			.button__67645 {
-				height: 63px;
-				border-radius: 0;
-				width: 42px;
-				&:hover {
-					background: var(--background-modifier-hover) !important;
-				}
-			}
-		}
-	}
-	.actionButtons_e131a9 {
-		padding: 0;
-		& > div > button,
-		& > button {
-			margin: 0;
-			border-radius: 0;
-			background: transparent !important;
-			height: 42px;
-			font-size: 0;
-			transition: none;
-			.contents__201d5 {
-				display: flex;
-			}
-			svg {
-				margin: auto;
-				color: var(--interactive-normal);
-				transition: var(--transition);
-				transition-property: color;
-			}
-			&:hover {
-				background: var(--background-modifier-hover) !important;
-				svg {
-					color: var(--interactive-hover);
-				}
-			}
-		}
-		//disabled soundboard button fix
-		.disabledButtonWrapper__201d5 {
-			height: 100%;
-			.button_e131a9.disabled_e131a9 {
-				margin-left: 0;
-				height: 100%;
-			}
-		}
-	}
-
-	.activityPanel_c48ade {
-		border-bottom: 1px solid var(--border);
-		padding: 16px;
-		background: transparent;
-	}
-
-	// Voice users
-	.voiceUsers_e131a9 {
-		padding: 10px 16px;
-		border-bottom: 1px solid var(--border);
-	}
-
-	// User area
-	.container__37e49 {
-		background: transparent;
-		padding: 0 16px;
-		height: 64px;
 		border-top: 1px solid var(--border);
+		background: var(--bg-primary);
 	}
-	.avatarWrapper__37e49 {
-		justify-content: center;
-		flex: 1;
+
+	.container__37e49 {
+		padding: var(--space-md);
 	}
 }
