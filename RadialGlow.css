@@ -1,4 +1,4 @@
-@import url("https://discordstyles.github.io/RadialStatus/RadialStatus.css");
+@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
 :root {
   --rs-small-spacing: 2px; /* Spacing between profile image and outer ring on small icons (e.g. member list) | Default: 2px */
   --rs-medium-spacing: 4px; /* Spacing between profile image and outer ring on medium icons (e.g. user popout) | Default: 4px */
