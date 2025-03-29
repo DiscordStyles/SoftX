@@ -10,17 +10,18 @@
 	--server-glow-intensity: var(--glow-intensity);
 	--talking-bar: rgb(var(--accent));
 	--talking-glow: rgb(var(--accent));
-	--overlaying-blur: 10px;
+	--foreground-blur: 10px;
+	--foreground-brightness: 0.8;
 
 	--shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -1px rgb(0 0 0 / 0.06);
 	--shadow-lg: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 10px 10px -5px rgb(0 0 0 / 0.04);
 
-	--border: hsl(0 0% 5% / 0.75);
-
+	--bg-border: hsl(0 0% 5% / 0.75);
 	--bg-primary: hsl(0 0% 10% / calc(var(--opacity) + 0.05));
 	--bg-secondary: hsl(0 0% 10% / calc(var(--opacity) + 0.075));
 	--bg-tertiary: hsl(0 0% 10% / calc(var(--opacity) + 0.125));
 
+	--fg-border: hsl(0 0% 100% / 0.15);
 	--fg-primary: hsl(0 0% 100% / 0.075);
 	--fg-secondary: hsl(0 0% 100% / 0.045);
 
@@ -31,6 +32,7 @@
 	--chat-bubble-padding: 10px 14px;
 	--chat-bubble-display: inline-block;
 
+	--text-link: var(--accent);
 	--font-primary: var(--font, 'Whitney');
 	--font-display: var(--font, 'Whitney');
 

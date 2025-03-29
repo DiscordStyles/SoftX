@@ -1,7 +1,7 @@
 #app-mount {
 	.guilds_c48ade {
 		background: var(--bg-primary);
-		border-right: 1px solid var(--border);
+		border-right: 1px solid var(--bg-border);
 		margin-bottom: var(--custom-app-panels-height);
 	}
 
@@ -10,7 +10,7 @@
 	}
 
 	.guildSeparator__252b6 {
-		background: var(--border);
+		background: var(--bg-border);
 	}
 
 	.itemsContainer_ef3116 > div.stack_dbd263 {
