@@ -18,8 +18,8 @@
 	--border: hsl(0 0% 5% / 0.75);
 
 	--bg-primary: hsl(0 0% 10% / calc(var(--opacity) + 0.05));
-	--bg-secondary: hsl(0 0% 10% / calc(var(--opacity) + 0.1));
-	--bg-tertiary: hsl(0 0% 10% / calc(var(--opacity) + 0.15));
+	--bg-secondary: hsl(0 0% 10% / calc(var(--opacity) + 0.075));
+	--bg-tertiary: hsl(0 0% 10% / calc(var(--opacity) + 0.125));
 
 	--fg-primary: hsl(0 0% 100% / 0.075);
 	--fg-secondary: hsl(0 0% 100% / 0.045);
@@ -37,6 +37,10 @@
 	--custom-guild-list-width: var(--guilds-width);
 	--panel-height-normal: 72px;
 	--panel-height-expanded: 186px;
+
+	--channel-unread-colour: hsl(0 0% 100%);
+	--channel-pill-width: 3px;
+	--channel-pill-height: 35%;
 
 	// Yoinked straight from @refact0r
 	--guildbar-avatar-size: calc(var(--server-icon-size) * 1px);
