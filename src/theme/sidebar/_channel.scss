@@ -1,3 +1,5 @@
+@use '../assets/icons';
+
 #app-mount {
 	.wrapper__2ea32 {
 		margin: 0;
@@ -37,6 +39,24 @@
 	.link__2ea32 {
 		padding: var(--space-xs) var(--space-md);
 		border-radius: 0;
+	}
+
+	.typeThread__2ea32 .link__2ea32 {
+		padding-left: calc(var(--space-md) * 4);
+		&::before {
+			content: '';
+			width: 24px;
+			height: 24px;
+			mask: url(icons.$icon_triangle-right);
+			background: var(--channels-default);
+			top: 50%;
+			left: calc(var(--space-md) * 2);
+			translate: 0 -50%;
+		}
+	}
+	.spine__5b40b,
+	.spineBorder__5b40b {
+		display: none;
 	}
 
 	.unread__2ea32 {

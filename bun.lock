@@ -4,10 +4,10 @@
     "": {
       "name": "softx",
       "dependencies": {
-        "bd-scss": "latest",
+        "bd-scss": "^3.0.5",
       },
       "devDependencies": {
-        "prettier": "latest",
+        "prettier": "^3.5.3",
       },
     },
   },
