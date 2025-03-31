@@ -1,0 +1,25 @@
+#app-mount {
+	.form_f75fb0 {
+		padding: 0 var(--space-md);
+	}
+	.channelTextArea_f75fb0,
+	.channelTextArea__5126c {
+		background: var(--textbox-background);
+		border: 2px solid var(--textbox-border);
+		border-radius: 6px;
+		transition: var(--transition);
+		transition-property: border-color, box-shadow;
+
+		&:hover {
+			border-color: var(--textbox-hover-border);
+		}
+		&:focus-within {
+			border-color: hsl(from var(--accent) h s l);
+			box-shadow: 0 0 calc(var(--input-glow-intensity) * 20px) calc(var(--input-glow-intensity) * 5px)
+				hsl(from var(--accent) h s l / 0.25);
+		}
+	}
+	.scrollableContainer__74017 {
+		background: transparent;
+	}
+}
