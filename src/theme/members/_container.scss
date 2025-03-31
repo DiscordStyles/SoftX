@@ -5,5 +5,9 @@
 	}
 	.members_c8ffbb {
 		background: transparent;
+		padding: 0;
+		&::-webkit-scrollbar {
+			display: none;
+		}
 	}
 }

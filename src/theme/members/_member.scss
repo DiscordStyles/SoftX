@@ -1,5 +1,59 @@
 #app-mount {
 	.member_c8ffbb {
 		background: transparent;
+		max-width: 100%;
+		margin-left: 0;
+		border-radius: 0;
+		&.selected__91a9d {
+			.childContainer__91a9d {
+				background: transparent;
+			}
+			.name__5d473 {
+				text-shadow: 0 0 calc(var(--members-glow-intensity) * 10px) currentColor;
+				overflow: visible;
+				filter: none;
+				&::before,
+				&::after {
+					content: '';
+					position: absolute;
+					background: currentColor;
+					pointer-events: none;
+					z-index: 0;
+				}
+				&::before {
+					top: 0;
+					right: 0;
+					bottom: 0;
+					left: 0;
+					opacity: 0.2;
+				}
+				&::after {
+					top: 0;
+					left: 0;
+					width: 2px;
+					height: 100%;
+					box-shadow: 0 0 calc(var(--members-glow-intensity) * 15px) currentColor;
+				}
+			}
+			.activityText__5d473 {
+				color: #fff;
+				z-index: 1;
+			}
+		}
+	}
+	.childContainer__91a9d {
+		padding: var(--space-xs) var(--space-md);
+	}
+	.layout__91a9d {
+		overflow: visible;
+		position: initial;
+		.name__91a9d,
+		.content__91a9d,
+		.username__5d473 {
+			overflow: visible;
+		}
+		.avatar__91a9d {
+			z-index: 1;
+		}
 	}
 }
