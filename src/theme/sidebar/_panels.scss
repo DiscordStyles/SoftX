@@ -1,6 +1,5 @@
 #app-mount {
 	.panels_c48ade {
-		height: var(--custom-app-panels-height);
 		bottom: 0;
 		left: 0;
 		border-radius: 0;
@@ -8,6 +7,11 @@
 		border: none;
 		border-top: 1px solid var(--bg-border);
 		background: var(--bg-primary);
+	}
+
+	.activityPanel_c48ade {
+		background: transparent;
+		border-bottom: 1px solid var(--bg-border);
 	}
 
 	// Connected voice
