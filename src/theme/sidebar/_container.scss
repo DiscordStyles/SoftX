@@ -19,4 +19,18 @@
 		background: var(--bg-primary);
 		padding-bottom: 0;
 	}
+
+	// DMs
+	.privateChannels__35e86 {
+		background: var(--bg-primary);
+
+		.scroller__99e7c {
+			background: transparent;
+			margin-bottom: 0;
+
+			&::-webkit-scrollbar {
+				display: none;
+			}
+		}
+	}
 }
