@@ -1,18 +1,33 @@
 #app-mount {
 	.newMessagesBar__0f481 {
-		background: hsl(from var(--accent) h s l);
+		background: hsl(from var(--accent) h s l / 0.1);
 		backdrop-filter: blur(var(--foreground-blur));
-		color: var(--accent-text);
+		color: var(--accent);
 		left: 0;
 		right: 0;
 		border-radius: 0;
 		border: none;
 		border-bottom: 1px solid var(--bg-primary);
 		height: auto;
-		padding: var(--space-xs) var(--space-md);
+		padding: 0;
 		box-shadow: none;
 	}
 	.barButtonBase__0f481 {
-		font-weight: 600;
+		filter: drop-shadow(0 0 calc(var(--channel-glow-intensity) * 5px) hsl(from var(--accent) h s l / 0.3))
+			drop-shadow(0 0 calc(var(--channel-glow-intensity) * 2px) hsl(from var(--accent) h s l / 0.2));
+	}
+	.barButtonMain__0f481 {
+		padding: var(--space-xs) var(--space-md);
+		height: auto;
+	}
+	.barButtonAlt__0f481 {
+		padding: var(--space-xs) var(--space-md);
+		height: auto;
+		background: transparent;
+		border-radius: 0;
+		font-weight: 400;
+		&:hover {
+			background: hsl(0 0% 100% / 0.05);
+		}
 	}
 }
