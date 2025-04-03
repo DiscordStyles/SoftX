@@ -27,18 +27,9 @@
 
 	--toolbar-height: 64px;
 
-	--chat-bubble-bg: rgba(255, 255, 255, 0.03);
+	--chat-bubble-bg: hsl(0 0% 100% / 0.04);
 	--chat-bubble-padding: 10px 14px;
 	--chat-bubble-display: inline-block;
-
-	--text-link: var(--accent) !important;
-	--font-primary: var(--font, 'Whitney');
-	--font-display: var(--font, 'Whitney');
-
-	--custom-guild-list-width: var(--guilds-width);
-	--custom-member-list-width: var(--members-width);
-	--custom-message-avatar-size: var(--chat-avatar-size);
-	--custom-message-margin-horizontal: var(--space-xxl);
 
 	--channel-unread-colour: hsl(0 0% 100%);
 	--channel-pill-width: 3px;
@@ -47,6 +38,17 @@
 	--textbox-background: hsl(0 0% 7% / 0.7);
 	--textbox-border: hsl(0 0% 100% / 0.05);
 	--textbox-hover-border: hsl(0 0% 100% / 0.1);
+
+	// Discord variables
+	--custom-guild-list-width: var(--guilds-width);
+	--custom-member-list-width: var(--members-width);
+	--custom-message-avatar-size: var(--chat-avatar-size);
+	--custom-message-margin-horizontal: var(--space-xxl);
+	--text-link: var(--accent) !important;
+	--font-primary: var(--font, 'Whitney');
+	--font-display: var(--font, 'Whitney');
+	--background-mentioned: var(--accent);
+	--background-message-hover: hsl(0 0% 100% / 0.02) !important;
 
 	// Yoinked straight from @refact0r
 	--guildbar-avatar-size: calc(var(--server-icon-size) * 1px);

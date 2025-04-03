@@ -1,0 +1,18 @@
+#app-mount {
+	.newMessagesBar__0f481 {
+		background: hsl(from var(--accent) h s l);
+		backdrop-filter: blur(var(--foreground-blur));
+		color: var(--accent-text);
+		left: 0;
+		right: 0;
+		border-radius: 0;
+		border: none;
+		border-bottom: 1px solid var(--bg-primary);
+		height: auto;
+		padding: var(--space-xs) var(--space-md);
+		box-shadow: none;
+	}
+	.barButtonBase__0f481 {
+		font-weight: 600;
+	}
+}
