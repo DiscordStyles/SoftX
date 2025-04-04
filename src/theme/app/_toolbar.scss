@@ -4,5 +4,9 @@
 		height: var(--toolbar-height);
 		border-left: 1px solid var(--bg-border);
 		border-bottom: 1px solid var(--bg-border);
+		padding: 0 var(--space-lg);
+	}
+	.children__9293f::after {
+		content: none;
 	}
 }

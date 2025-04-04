@@ -1,4 +1,15 @@
 #app-mount {
+	.searchBar__35e86 {
+		height: var(--toolbar-height);
+		border-bottom: 1px solid var(--bg-border);
+		padding: 0;
+		.button__201d5 {
+			height: var(--toolbar-height);
+			border-radius: 0;
+			background: transparent;
+		}
+	}
+
 	.interactive_bf202d {
 		// Unread
 		&:not(.selected_bf202d) .layout__20a53.highlighted__20a53 {
@@ -37,10 +48,8 @@
 
 			.nameAndDecorators__20a53 {
 				color: hsl(from var(--accent) h s l);
-				filter: drop-shadow(
-						0 0 calc(var(--channel-glow-intensity) * 5px) hsl(from var(--channel-unread-colour) h s l / 0.3)
-					)
-					drop-shadow(0 0 calc(var(--channel-glow-intensity) * 2px) hsl(from var(--channel-unread-colour) h s l / 0.2));
+				filter: drop-shadow(0 0 calc(var(--channel-glow-intensity) * 5px) hsl(from var(--accent) h s l / 0.3))
+					drop-shadow(0 0 calc(var(--channel-glow-intensity) * 2px) hsl(from var(--accent) h s l / 0.2));
 			}
 			.text_c9d15c {
 				color: hsl(from var(--accent) h s l);
