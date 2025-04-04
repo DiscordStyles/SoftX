@@ -1,0 +1,7 @@
+#app-mount {
+	.info__2debe .line__2debe:last-of-type:after {
+		content: 'SoftX ' var(--softx-version);
+		display: block;
+		text-transform: none;
+	}
+}
