@@ -1,7 +1,8 @@
 #app-mount .popout__76f04 {
 	background: var(--fg-primary);
 	padding: 0;
-	backdrop-filter: blur(var(--foreground-blur)) brightness(var(--foreground-brightness));
+	backdrop-filter: blur(var(--foreground-blur));
+	box-shadow: var(--shadow-lg);
 
 	.title__76f04 {
 		padding: var(--space-md);

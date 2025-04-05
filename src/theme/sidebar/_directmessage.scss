@@ -10,6 +10,22 @@
 		}
 	}
 
+	// Friends, Nitro, Shop
+	.channel__972a0:not(.dm__972a0) {
+		max-width: unset;
+		margin: 0;
+		padding: 0;
+		border-radius: 0;
+		.link__972a0 {
+			padding: var(--space-md);
+		}
+	}
+
+	.privateChannelsHeaderContainer__99e7c {
+		padding: var(--space-md);
+		height: auto;
+	}
+
 	.interactive_bf202d {
 		// Unread
 		&:not(.selected_bf202d) .layout__20a53.highlighted__20a53 {
@@ -46,7 +62,8 @@
 					hsl(from var(--accent) h s l / 0.2);
 			}
 
-			.nameAndDecorators__20a53 {
+			.nameAndDecorators__20a53,
+			.linkButtonIcon__972a0 {
 				color: hsl(from var(--accent) h s l);
 				filter: drop-shadow(0 0 calc(var(--channel-glow-intensity) * 5px) hsl(from var(--accent) h s l / 0.3))
 					drop-shadow(0 0 calc(var(--channel-glow-intensity) * 2px) hsl(from var(--accent) h s l / 0.2));

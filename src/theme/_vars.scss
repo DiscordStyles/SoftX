@@ -10,11 +10,11 @@
 	--server-glow-intensity: var(--glow-intensity);
 	--talking-bar: rgb(var(--accent));
 	--talking-glow: rgb(var(--accent));
-	--foreground-blur: 10px;
-	--foreground-brightness: 0.8;
+	--foreground-blur: 20px;
+	--foreground-brightness: 1;
 
-	--shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -1px rgb(0 0 0 / 0.06);
-	--shadow-lg: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 10px 10px -5px rgb(0 0 0 / 0.04);
+	--shadow: 0 4px 6px -1px hsl(0 0% 0% / 0.1), 0 2px 4px -1px hsl(0 0% 0% / 0.06);
+	--shadow-lg: 0 20px 30px hsl(0 0% 0% / 0.1), 0 10px 20px hsl(0 0% 0% / 0.1);
 
 	--bg-border: hsl(0 0% 5% / 0.75);
 	--bg-primary: hsl(0 0% 10% / calc(var(--opacity) + 0.05));

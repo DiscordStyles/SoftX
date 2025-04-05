@@ -28,3 +28,8 @@ body,
 	height: 1px;
 	background: var(--bg-border);
 }
+
+::selection {
+	background: var(--accent);
+	color: var(--accent-text);
+}

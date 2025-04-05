@@ -9,9 +9,8 @@ export default {
 		invite: 'ZHthyCw'
 	},
 	github: 'DiscordStyles',
-	imports: [{ url: 'https://discordstyles.github.io/Addons/windows-titlebar.css' }],
 	addons: [
-		{ target: 'src/addons/_radialglow.scss', name: 'RadialGlow', dist: true },
+		{ target: 'src/addons/_radialglow.scss', name: 'RadialGlow' },
 		{ target: 'src/addons/_serverrings.scss', name: 'ServerRings', dist: true, dev: true }
 	]
 };
