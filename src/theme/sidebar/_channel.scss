@@ -23,6 +23,7 @@
 					left: 0;
 					height: 100%;
 					width: var(--channel-pill-width);
+					top: 0;
 					background: var(--accent);
 					box-shadow: 0 0 calc(var(--channel-glow-intensity) * 15px) calc(var(--channel-glow-intensity) * 5px)
 						hsl(from var(--accent) h s l / 0.2);

@@ -41,6 +41,8 @@
 
 	--chat-bottom-spacing: 16px;
 
+	--server-size: calc(var(--server-icon-size) * 1px);
+
 	// Discord variables
 	--custom-guild-list-width: var(--guilds-width);
 	--custom-member-list-width: var(--members-width);
@@ -51,15 +53,5 @@
 	--font-display: var(--font, 'Whitney');
 	--background-mentioned: var(--accent);
 	--background-message-hover: hsl(0 0% 100% / 0.02) !important;
-
-	// Yoinked straight from @refact0r
-	--guildbar-avatar-size: calc(var(--server-icon-size) * 1px);
-	--guildbar-folder-size: var(--g-48);
-	--g-48: calc(var(--guildbar-avatar-size) + 8px);
-	--g-19-r: calc((var(--server-icon-size) / 2 - 1) / var(--server-icon-size) * 40px);
-	--g-40-r: calc(var(--guildbar-avatar-size) / (var(--server-icon-size) + 8) * 48);
-	--g-48-r: calc(var(--guildbar-avatar-size) * 48 / 40);
-	--g-56-r: calc(var(--g-48) * 56 / 48);
-	--g-4-r: calc((var(--g-48-r) - var(--guildbar-avatar-size)) / -2);
-	--g-4-r-2: calc((var(--g-56-r) - var(--g-48)) / -2);
+	--guildbar-folder-size: var(--server-size);
 }

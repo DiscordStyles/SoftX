@@ -20,6 +20,16 @@
 		}
 	}
 
+	.wrapper_f61d60 {
+		background: hsl(from var(--accent) h s l / 0.15);
+		color: var(--accent);
+
+		&.interactive:hover {
+			background: hsl(from var(--accent) h s l);
+			color: var(--accent-text);
+		}
+	}
+
 	.embedWrapper_b7e1cb {
 		background: var(--fg-primary);
 	}

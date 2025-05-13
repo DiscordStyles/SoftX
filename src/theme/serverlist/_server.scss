@@ -1,41 +1,16 @@
 #app-mount {
-	.childWrapperNoHoverBg__6e9f8 {
-		background: var(--fg-primary);
-	}
-
-	.svg_cc5dd2 {
-		width: var(--g-48-r);
-		height: var(--g-48-r);
-		top: var(--g-4-r);
-		left: var(--g-4-r);
-	}
-	.wrapper__6e9f8,
-	.icon__6e9f8,
-	.childWrapper__6e9f8 {
-		width: 40px;
-		height: 40px;
-	}
-
-	.guildIcon__48112 {
-		width: var(--g-19-r);
-		height: var(--g-19-r);
-	}
-	.stack_dbd263 {
-		height: auto !important;
-		padding-bottom: 4px !important;
-	}
-	.tutorialContainer__1f388 .svg_cc5dd2 > mask > use:last-child {
-		display: none;
-	}
-	.tutorialContainer__1f388 .numberBadge__2b1f5 {
-		outline: 2px solid var(--bg-base-tertiary);
-		border-radius: 50%;
-	}
-	.circleIconButton__5bc7e {
-		background: var(--fg-primary);
-		translate: -50% -50%;
-		top: 50%;
-		left: 50%;
-		position: absolute;
-	}
+	// .blobContainer_e5445c {
+	// 	height: var(--server-size);
+	// 	width: var(--server-size);
+	// }
+	// .wrapper_cc5dd2 {
+	// 	width: var(--server-size) !important;
+	// 	height: var(--server-size) !important;
+	// }
+	// .svg_cc5dd2 {
+	// 	top: 0;
+	// 	left: 0;
+	// 	height: var(--server-size);
+	// 	width: var(--server-size);
+	// }
 }

@@ -10,7 +10,7 @@
 }
 
 #app-mount {
-	.wrapper__48112 {
+	.folderGroup__48112 {
 		--server-folder-offset: 6px;
 
 		ul.stack_dbd263[role='group'] {
@@ -31,13 +31,14 @@
 		width: 100%;
 		margin-bottom: var(--server-spacing);
 		[class*='pill'] {
+			--__ring-size: calc(
+				((var(--server-icon-size, 45) * 1px) - 5px) + var(--server-folder-offset, 0px) + var(--server-ring-offset)
+			);
 			left: 50%;
 			top: 50%;
 			transform: translate(-50%, -50%);
-			width: calc((var(--server-icon-size, 40px) * 1px) + var(--server-folder-offset, 0px) + var(--server-ring-offset));
-			height: calc(
-				(var(--server-icon-size, 40px) * 1px) + var(--server-folder-offset, 0px) + var(--server-ring-offset)
-			);
+			width: var(--__ring-size);
+			height: var(--__ring-size);
 			overflow: visible;
 			margin-left: -2px;
 			.item__58105 {

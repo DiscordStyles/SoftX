@@ -9,8 +9,5 @@ export default {
 		invite: 'ZHthyCw'
 	},
 	github: 'DiscordStyles',
-	addons: [
-		{ target: 'src/addons/_radialglow.scss', name: 'RadialGlow' },
-		{ target: 'src/addons/_serverrings.scss', name: 'ServerRings', dist: true, dev: true }
-	]
+	addons: [{ target: 'src/addons/_radialglow.scss', name: 'RadialGlow' }]
 };
