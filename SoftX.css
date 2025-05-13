@@ -62,6 +62,259 @@
 }
 
 :root {
+  --server-unread-colour: rgb(255, 255, 255);
+  --server-hover-colour: rgb(255, 255, 255);
+  --server-selected-colour: var(--accent, rgb(0, 231, 169));
+  --server-spacing: 16px;
+  --server-glow-intensity: var(--glow-intensity, 1);
+  --server-ring-offset: 6px;
+}
+
+#app-mount .folderGroup__48112 {
+  --server-folder-offset: 6px;
+}
+#app-mount .folderGroup__48112 ul.stack_dbd263[role=group] {
+  height: auto !important;
+  overflow: visible !important;
+}
+#app-mount .folderGroup__48112 ul.stack_dbd263[role=group] .listItem__650eb {
+  --server-folder-offset: 0px;
+}
+#app-mount .scroller_ef3116 > div[style]:not([class]) {
+  margin-bottom: var(--server-spacing);
+}
+#app-mount .listItem__650eb {
+  width: 100%;
+  margin-bottom: var(--server-spacing);
+}
+#app-mount .listItem__650eb [class*=pill] {
+  --__ring-size: calc(
+  	((var(--server-icon-size, 45) * 1px) - 5px) + var(--server-folder-offset, 0px) + var(--server-ring-offset)
+  );
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: var(--__ring-size);
+  height: var(--__ring-size);
+  overflow: visible;
+  margin-left: -2px;
+}
+#app-mount .listItem__650eb [class*=pill] .item__58105 {
+  height: 100% !important;
+  width: 100%;
+  margin: 0;
+  border-radius: 50%;
+  background: transparent;
+  border: 2px solid transparent;
+  box-shadow: none;
+  transform: none !important;
+  transition: var(--transition);
+  transition-property: box-shadow;
+}
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 0"] {
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-unread-colour) h s l/0.25);
+  border-color: hsl(from var(--server-unread-colour) h s l);
+}
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 1"] {
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-unread-colour) h s l/0.25);
+  border-color: hsl(from var(--server-unread-colour) h s l);
+}
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 2"] {
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-unread-colour) h s l/0.25);
+  border-color: hsl(from var(--server-unread-colour) h s l);
+}
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 3"] {
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-unread-colour) h s l/0.25);
+  border-color: hsl(from var(--server-unread-colour) h s l);
+}
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 4"] {
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-unread-colour) h s l/0.25);
+  border-color: hsl(from var(--server-unread-colour) h s l);
+}
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 5"] {
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-unread-colour) h s l/0.25);
+  border-color: hsl(from var(--server-unread-colour) h s l);
+}
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 6"] {
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-unread-colour) h s l/0.25);
+  border-color: hsl(from var(--server-unread-colour) h s l);
+}
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 7"] {
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-unread-colour) h s l/0.25);
+  border-color: hsl(from var(--server-unread-colour) h s l);
+}
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 8"] {
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-unread-colour) h s l/0.25);
+  border-color: hsl(from var(--server-unread-colour) h s l);
+}
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 9"] {
+  border-color: hsl(from var(--server-hover-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-hover-colour) h s l/0.25);
+}
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 10"] {
+  border-color: hsl(from var(--server-hover-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-hover-colour) h s l/0.25);
+}
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 11"] {
+  border-color: hsl(from var(--server-hover-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-hover-colour) h s l/0.25);
+}
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 12"] {
+  border-color: hsl(from var(--server-hover-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-hover-colour) h s l/0.25);
+}
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 13"] {
+  border-color: hsl(from var(--server-hover-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-hover-colour) h s l/0.25);
+}
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 14"] {
+  border-color: hsl(from var(--server-hover-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-hover-colour) h s l/0.25);
+}
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 15"] {
+  border-color: hsl(from var(--server-hover-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-hover-colour) h s l/0.25);
+}
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 16"] {
+  border-color: hsl(from var(--server-hover-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-hover-colour) h s l/0.25);
+}
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 17"] {
+  border-color: hsl(from var(--server-hover-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-hover-colour) h s l/0.25);
+}
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 18"] {
+  border-color: hsl(from var(--server-hover-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-hover-colour) h s l/0.25);
+}
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 19"] {
+  border-color: hsl(from var(--server-hover-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-hover-colour) h s l/0.25);
+}
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 20"] {
+  border-color: hsl(from var(--server-hover-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-hover-colour) h s l/0.25);
+}
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 21"] {
+  transform: scale(1) !important;
+  border-color: hsl(from var(--server-selected-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-selected-colour) h s l/0.25);
+}
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 22"] {
+  transform: scale(1) !important;
+  border-color: hsl(from var(--server-selected-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-selected-colour) h s l/0.25);
+}
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 23"] {
+  transform: scale(1) !important;
+  border-color: hsl(from var(--server-selected-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-selected-colour) h s l/0.25);
+}
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 24"] {
+  transform: scale(1) !important;
+  border-color: hsl(from var(--server-selected-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-selected-colour) h s l/0.25);
+}
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 25"] {
+  transform: scale(1) !important;
+  border-color: hsl(from var(--server-selected-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-selected-colour) h s l/0.25);
+}
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 26"] {
+  transform: scale(1) !important;
+  border-color: hsl(from var(--server-selected-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-selected-colour) h s l/0.25);
+}
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 27"] {
+  transform: scale(1) !important;
+  border-color: hsl(from var(--server-selected-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-selected-colour) h s l/0.25);
+}
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 28"] {
+  transform: scale(1) !important;
+  border-color: hsl(from var(--server-selected-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-selected-colour) h s l/0.25);
+}
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 29"] {
+  transform: scale(1) !important;
+  border-color: hsl(from var(--server-selected-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-selected-colour) h s l/0.25);
+}
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 30"] {
+  transform: scale(1) !important;
+  border-color: hsl(from var(--server-selected-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-selected-colour) h s l/0.25);
+}
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 31"] {
+  transform: scale(1) !important;
+  border-color: hsl(from var(--server-selected-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-selected-colour) h s l/0.25);
+}
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 32"] {
+  transform: scale(1) !important;
+  border-color: hsl(from var(--server-selected-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-selected-colour) h s l/0.25);
+}
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 33"] {
+  transform: scale(1) !important;
+  border-color: hsl(from var(--server-selected-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-selected-colour) h s l/0.25);
+}
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 34"] {
+  transform: scale(1) !important;
+  border-color: hsl(from var(--server-selected-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-selected-colour) h s l/0.25);
+}
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 35"] {
+  transform: scale(1) !important;
+  border-color: hsl(from var(--server-selected-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-selected-colour) h s l/0.25);
+}
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 36"] {
+  transform: scale(1) !important;
+  border-color: hsl(from var(--server-selected-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-selected-colour) h s l/0.25);
+}
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 37"] {
+  transform: scale(1) !important;
+  border-color: hsl(from var(--server-selected-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-selected-colour) h s l/0.25);
+}
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 38"] {
+  transform: scale(1) !important;
+  border-color: hsl(from var(--server-selected-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-selected-colour) h s l/0.25);
+}
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 39"] {
+  transform: scale(1) !important;
+  border-color: hsl(from var(--server-selected-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-selected-colour) h s l/0.25);
+}
+#app-mount .listItem__650eb [class*=pill] span[style*="height: 40"] {
+  transform: scale(1) !important;
+  border-color: hsl(from var(--server-selected-colour) h s l);
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) hsl(from var(--server-selected-colour) h s l/0.25);
+}
+#app-mount .blobContainer_e5445c,
+#app-mount .listItemWrapper_dfb2f8 {
+  transition: var(--transition, 0.15s ease);
+  transition-property: transform;
+}
+#app-mount .blobContainer_e5445c:active,
+#app-mount .listItemWrapper_dfb2f8:active {
+  transform: scale(0.9);
+}
+#app-mount .svg_cc5dd2 foreignObject {
+  border-radius: 50%;
+  -webkit-mask: none !important;
+          mask: none !important;
+}
+
+.pill__5bc7e {
+  display: none;
+}
+
+:root {
   --softx-version: "2.0.0-alpha";
   --transition: 0.15s ease;
   --chat-glow-intensity: var(--glow-intensity);
@@ -93,6 +346,7 @@
   --textbox-border: hsl(0 0% 100% / 0.05);
   --textbox-hover-border: hsl(0 0% 100% / 0.1);
   --chat-bottom-spacing: 16px;
+  --server-size: calc(var(--server-icon-size) * 1px);
   --custom-guild-list-width: var(--guilds-width);
   --custom-member-list-width: var(--members-width);
   --custom-message-avatar-size: var(--chat-avatar-size);
@@ -102,15 +356,7 @@
   --font-display: var(--font, "Whitney");
   --background-mentioned: var(--accent);
   --background-message-hover: hsl(0 0% 100% / 0.02) !important;
-  --guildbar-avatar-size: calc(var(--server-icon-size) * 1px);
-  --guildbar-folder-size: var(--g-48);
-  --g-48: calc(var(--guildbar-avatar-size) + 8px);
-  --g-19-r: calc((var(--server-icon-size) / 2 - 1) / var(--server-icon-size) * 40px);
-  --g-40-r: calc(var(--guildbar-avatar-size) / (var(--server-icon-size) + 8) * 48);
-  --g-48-r: calc(var(--guildbar-avatar-size) * 48 / 40);
-  --g-56-r: calc(var(--g-48) * 56 / 48);
-  --g-4-r: calc((var(--g-48-r) - var(--guildbar-avatar-size)) / -2);
-  --g-4-r-2: calc((var(--g-56-r) - var(--g-48)) / -2);
+  --guildbar-folder-size: var(--server-size);
 }
 
 #app-mount .bar_c38106 {
@@ -173,34 +419,10 @@ body,
   text-transform: none;
 }
 
-#app-mount .expandedFolderBackground__48112 {
-  background: var(--fg-primary);
+#app-mount .folderGroupBackground__48112 {
   left: 50%;
-  translate: -50% 0;
-}
-#app-mount .folderIcon__48112 > .wrapper_cc5dd2 {
-  width: var(--g-48) !important;
-  height: var(--g-48) !important;
-}
-#app-mount .folderIcon__48112 > .wrapper_cc5dd2 > .svg_cc5dd2 {
-  width: var(--g-56-r);
-  height: var(--g-56-r);
-  top: var(--g-4-r-2);
-  left: var(--g-4-r-2);
-}
-#app-mount .folder__48112,
-#app-mount .folderIconWrapper__48112 {
-  width: 48px;
-  height: 48px;
-}
-#app-mount .expandedFolderIconWrapper__48112 {
-  width: var(--g-40-r);
-  height: var(--g-40-r);
-  margin: 0;
-}
-#app-mount .closedFolderIconWrapper__48112 {
-  width: var(--g-40-r);
-  height: var(--g-40-r);
+  translate: -50%;
+  width: var(--server-size);
 }
 
 #app-mount .guilds_c48ade {
@@ -221,44 +443,6 @@ body,
 #app-mount .unreadMentionsIndicatorTop_ef3116 {
   width: calc(var(--guildbar-avatar-size) + var(--custom-guild-list-padding) * 2);
   padding: calc(var(--custom-guild-list-padding) / 2);
-}
-
-#app-mount .childWrapperNoHoverBg__6e9f8 {
-  background: var(--fg-primary);
-}
-#app-mount .svg_cc5dd2 {
-  width: var(--g-48-r);
-  height: var(--g-48-r);
-  top: var(--g-4-r);
-  left: var(--g-4-r);
-}
-#app-mount .wrapper__6e9f8,
-#app-mount .icon__6e9f8,
-#app-mount .childWrapper__6e9f8 {
-  width: 40px;
-  height: 40px;
-}
-#app-mount .guildIcon__48112 {
-  width: var(--g-19-r);
-  height: var(--g-19-r);
-}
-#app-mount .stack_dbd263 {
-  height: auto !important;
-  padding-bottom: 4px !important;
-}
-#app-mount .tutorialContainer__1f388 .svg_cc5dd2 > mask > use:last-child {
-  display: none;
-}
-#app-mount .tutorialContainer__1f388 .numberBadge__2b1f5 {
-  outline: 2px solid var(--bg-base-tertiary);
-  border-radius: 50%;
-}
-#app-mount .circleIconButton__5bc7e {
-  background: var(--fg-primary);
-  translate: -50% -50%;
-  top: 50%;
-  left: 50%;
-  position: absolute;
 }
 
 #app-mount .header_f37cb1 {
@@ -343,6 +527,7 @@ body,
   left: 0;
   height: 100%;
   width: var(--channel-pill-width);
+  top: 0;
   background: var(--accent);
   box-shadow: 0 0 calc(var(--channel-glow-intensity) * 15px) calc(var(--channel-glow-intensity) * 5px) hsl(from var(--accent) h s l/0.2);
 }
@@ -595,6 +780,14 @@ body,
   padding: var(--chat-bubble-padding);
   border-radius: var(--radius-xs);
   display: var(--chat-bubble-display);
+}
+#app-mount .wrapper_f61d60 {
+  background: hsl(from var(--accent) h s l/0.15);
+  color: var(--accent);
+}
+#app-mount .wrapper_f61d60.interactive:hover {
+  background: hsl(from var(--accent) h s l);
+  color: var(--accent-text);
 }
 #app-mount .embedWrapper_b7e1cb {
   background: var(--fg-primary);

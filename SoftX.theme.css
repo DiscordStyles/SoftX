@@ -9,7 +9,7 @@
 
 @import url('https://discordstyles.github.io/SoftX/SoftX.css');
 
-@import url('https://discordstyles.github.io/SoftX/ServerRings.css');
+
 
 /* Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap");
@@ -24,7 +24,7 @@
   --glow-intensity: 1; /* Intensity of the glow used around the app. | Set to 0 to disable the glow. | Decimals allowed | Default: 1 */
   --members-width: 280px; /* Width of the members list. | Default: 280px */
   --guilds-width: 95px; /* Width of the server list. | Default: 105px */
-  --server-icon-size: 45; /* Size of the servers inside the server list. | Default: 45px */
+  --server-icon-size: 46; /* Size of the servers inside the server list. | Default: 46px */
   --chat-avatar-size: 40px; /* Size of the chat avatars. | Default: 32px */
   --opacity: 0.85; /* Opacity of overall app. | Default: .85 */
   --font: "Inter"; /* Custom font | Default: 'Inter' */
