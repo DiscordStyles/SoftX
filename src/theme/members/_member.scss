@@ -1,39 +1,38 @@
 #app-mount {
-	.member__5d473 {
-		max-width: 100%;
-		margin: 0;
-		padding: 0;
+	.member_c8ffbb {
 		background: transparent;
+		max-width: 100%;
+		margin-left: 0;
+		border-radius: 0;
 		&.selected__91a9d {
-			.layout__91a9d {
+			.childContainer__91a9d {
 				background: transparent;
 			}
-			.username_d272d6 {
+			.name__5d473 {
 				text-shadow: 0 0 calc(var(--members-glow-intensity) * 10px) currentColor;
 				overflow: visible;
 				filter: none;
-				&::before {
+				&::before,
+				&::after {
 					content: '';
 					position: absolute;
+					background: currentColor;
+					pointer-events: none;
+					z-index: 0;
+				}
+				&::before {
 					top: 0;
 					right: 0;
 					bottom: 0;
 					left: 0;
-					background: currentColor;
 					opacity: 0.2;
-					z-index: 0;
-					pointer-events: none;
 				}
 				&::after {
-					content: '';
-					position: absolute;
 					top: 0;
 					left: 0;
 					width: 2px;
 					height: 100%;
-					background: currentColor;
 					box-shadow: 0 0 calc(var(--members-glow-intensity) * 15px) currentColor;
-					pointer-events: none;
 				}
 			}
 			.activityText__5d473 {
@@ -42,11 +41,12 @@
 			}
 		}
 	}
+	.childContainer__91a9d {
+		padding: var(--space-xs) var(--space-md);
+	}
 	.layout__91a9d {
-		padding: 0 16px;
-		height: var(--member-height);
-		border-radius: 0;
-
+		overflow: visible;
+		position: initial;
 		.name__91a9d,
 		.content__91a9d,
 		.username__5d473 {

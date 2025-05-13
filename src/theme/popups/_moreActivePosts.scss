@@ -1,0 +1,23 @@
+#app-mount .popout__76f04 {
+	background: var(--fg-primary);
+	padding: 0;
+	backdrop-filter: blur(var(--foreground-blur));
+	box-shadow: var(--shadow-lg);
+
+	.title__76f04 {
+		padding: var(--space-md);
+		margin: 0;
+	}
+
+	.row__76f04 {
+		margin: 0;
+		border-radius: 0;
+		padding: var(--space-sm);
+	}
+
+	.more__76f04 {
+		margin-top: 0;
+		border-color: var(--fg-border);
+		padding: var(--space-sm);
+	}
+}

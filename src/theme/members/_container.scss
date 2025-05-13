@@ -1,22 +1,13 @@
 #app-mount {
 	.container_c8ffbb {
-		background: transparent;
-	}
-	.membersWrap_c8ffbb {
-		min-width: var(--members-width);
-		max-width: var(--members-width);
-		height: 100%;
+		background: var(--bg-primary);
+		border-left: 1px solid var(--bg-border);
 	}
 	.members_c8ffbb {
-		background: var(--bg-primary);
-		width: 100%;
-		& > div {
-			background: transparent;
+		background: transparent;
+		padding: 0;
+		&::-webkit-scrollbar {
+			display: none;
 		}
-	}
-
-	// Fix group md members list
-	.content__99f8c > .membersWrap_c8ffbb > .members_c8ffbb {
-		background: var(--bg-primary);
 	}
 }

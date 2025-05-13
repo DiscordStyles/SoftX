@@ -1,16 +1,25 @@
 // Seperated to use individually, but is still included.
 
 :root {
-	--server-unread-colour: 255, 255, 255;
-	--server-hover-colour: 255, 255, 255;
-	--server-selected-colour: var(--accent, 0, 231, 169);
+	--server-unread-colour: rgb(255, 255, 255);
+	--server-hover-colour: rgb(255, 255, 255);
+	--server-selected-colour: var(--accent, rgb(0, 231, 169));
 	--server-spacing: 16px;
 	--server-glow-intensity: var(--glow-intensity, 1);
+	--server-ring-offset: 6px;
 }
 
 #app-mount {
-	.wrapper__48112 ul[role='group'] {
-		height: auto !important;
+	.wrapper__48112 {
+		--server-folder-offset: 6px;
+
+		ul.stack_dbd263[role='group'] {
+			height: auto !important;
+			overflow: visible !important;
+			.listItem__650eb {
+				--server-folder-offset: 0px;
+			}
+		}
 	}
 
 	.scroller_ef3116 > div[style]:not([class]) {
@@ -25,15 +34,17 @@
 			left: 50%;
 			top: 50%;
 			transform: translate(-50%, -50%);
-			width: calc(var(--server-size, 48px) + 8px);
-			height: calc(var(--server-size, 48px) + 8px);
+			width: calc((var(--server-icon-size, 40px) * 1px) + var(--server-folder-offset, 0px) + var(--server-ring-offset));
+			height: calc(
+				(var(--server-icon-size, 40px) * 1px) + var(--server-folder-offset, 0px) + var(--server-ring-offset)
+			);
 			overflow: visible;
 			margin-left: -2px;
 			.item__58105 {
 				height: 100% !important;
 				width: 100%;
 				margin: 0;
-				border-radius: var(--server-roundness, 50%);
+				border-radius: 50%;
 				background: transparent;
 				border: 2px solid transparent;
 				box-shadow: none;
@@ -47,31 +58,31 @@
 						0
 						calc(var(--server-glow-intensity) * 15px)
 						calc(var(--server-glow-intensity) * 5px)
-						rgb(var(--server-unread-colour), 0.25);
-					border-color: rgb(var(--server-unread-colour));
+						hsl(from var(--server-unread-colour) h s l / 0.25);
+					border-color: hsl(from var(--server-unread-colour) h s l);
 				}
 			}
 			// Hovered
 			@for $i from 9 through 20 {
 				span[style*='height: #{$i}'] {
-					border-color: rgb(var(--server-hover-colour));
+					border-color: hsl(from var(--server-hover-colour) h s l);
 					box-shadow: 0
 						0
 						calc(var(--server-glow-intensity) * 15px)
 						calc(var(--server-glow-intensity) * 5px)
-						rgb(var(--server-hover-colour), 0.25);
+						hsl(from var(--server-hover-colour) h s l / 0.25);
 				}
 			}
 			// Selected
 			@for $i from 21 through 40 {
 				span[style*='height: #{$i}'] {
 					transform: scale(1) !important;
-					border-color: rgb(var(--server-selected-colour));
+					border-color: hsl(from var(--server-selected-colour) h s l);
 					box-shadow: 0
 						0
 						calc(var(--server-glow-intensity) * 15px)
 						calc(var(--server-glow-intensity) * 5px)
-						rgb(var(--server-selected-colour), 0.25);
+						hsl(from var(--server-selected-colour) h s l / 0.25);
 				}
 			}
 		}
@@ -88,7 +99,7 @@
 	}
 
 	.svg_cc5dd2 foreignObject {
-		border-radius: var(--server-roundness, 50%);
+		border-radius: 50%;
 		mask: none !important;
 	}
 }

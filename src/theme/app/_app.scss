@@ -10,7 +10,7 @@ body,
 .app__160d8 {
 	background: transparent;
 }
-.bg__960e4 {
+#app-mount .bg__960e4 {
 	background-image: var(--background-image);
 	background-color: transparent;
 	background-attachment: var(--background-attachment, fixed);
@@ -19,48 +19,17 @@ body,
 	filter: blur(var(--background-blur, 0px)) hue-rotate(var(--background-hue, 0deg));
 }
 
-// Remove wack ass box shadow from chat
-.content_f75fb0::before {
-	content: none;
+// Global app top border
+.content_c48ade::before {
+	content: '';
+	position: absolute;
+	z-index: 101;
+	width: 100%;
+	height: 1px;
+	background: var(--bg-border);
 }
 
-// Light more wanrning
-html.theme-light {
-	.app__160d8::after {
-		content: 'SoftX is not designed for Light Mode.\APlease switch to Dark mode in your Discord Appearance Settings.';
-		line-height: 1.5;
-		white-space: pre-wrap;
-		border-top: 1px solid var(--border);
-		background: var(--bg-secondary);
-		z-index: 1;
-		padding: 16px;
-		color: #fff;
-	}
-	.container__37e49 {
-		bottom: 81px !important;
-	}
-}
-
-// Remove animations
-.full-motion [class*='animator'] {
-	transform: none !important;
-	transition: none !important;
-}
-
-// Remove settings animation
-.layer__960e4.baseLayer__960e4 {
-	transform: scale(1) !important;
-	opacity: 1 !important;
-}
-
-// Versioning
-.layer__960e4:not(.baseLayer__960e4) .info__2debe > span:first-child::before {
-	display: block;
-	content: 'SoftX v' var(--softx-version);
-	text-transform: none;
-}
-
-// theme loading screen
-.container_a2f514 {
-	background-color: hsl(0deg 0% 10%);
+::selection {
+	background: var(--accent);
+	color: var(--accent-text);
 }

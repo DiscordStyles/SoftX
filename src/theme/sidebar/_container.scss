@@ -1,26 +1,43 @@
 #app-mount {
 	.sidebar_c48ade {
 		border-radius: 0;
-		background: var(--bg-primary);
-		width: var(--channels-width) !important; //importanter than you, discord. -lc
-		border-right: 1px solid var(--border);
-		z-index: 1;
-		&.hidden_c48ade {
+		&::after {
+			content: none;
+		}
+
+		.scroller__629e4::-webkit-scrollbar {
 			display: none;
 		}
 	}
-	.scrolling-20Of9p .content-2a4AW9 {
-		pointer-events: all !important;
+	.sidebarList_c48ade {
+		border-radius: 0;
+		border: none;
+		padding-bottom: 0;
+		margin-bottom: var(--custom-app-panels-height);
 	}
 	.container__2637a {
-		background: transparent;
+		background: var(--bg-primary);
+		padding-bottom: 0;
 	}
-	.content-2a4AW9 > div[style='height: 16px;'] {
-		display: none;
+
+	// DMs
+	.privateChannels__35e86 {
+		background: var(--bg-primary);
+
+		.scroller__99e7c {
+			background: transparent;
+			margin-bottom: 0;
+
+			&::-webkit-scrollbar {
+				display: none;
+			}
+		}
 	}
-	.sectionDivider__629e4 {
+	.sectionDivider__35e86 {
+		background: var(--bg-border);
 		margin: 0;
-		background: var(--border);
-		margin-top: 12px;
+	}
+	.content__99f8c > div[aria-hidden='true']:first-child {
+		display: none;
 	}
 }

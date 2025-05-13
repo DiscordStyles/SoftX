@@ -1,0 +1,91 @@
+#app-mount {
+	.searchBar__35e86 {
+		height: var(--toolbar-height);
+		border-bottom: 1px solid var(--bg-border);
+		padding: 0;
+		.button__201d5 {
+			height: var(--toolbar-height);
+			border-radius: 0;
+			background: transparent;
+		}
+	}
+
+	// Friends, Nitro, Shop
+	.channel__972a0:not(.dm__972a0) {
+		max-width: unset;
+		margin: 0;
+		padding: 0;
+		border-radius: 0;
+		.link__972a0 {
+			padding: var(--space-md);
+		}
+	}
+
+	.privateChannelsHeaderContainer__99e7c {
+		padding: var(--space-md);
+		height: auto;
+	}
+
+	.interactive_bf202d {
+		// Unread
+		&:not(.selected_bf202d) .layout__20a53.highlighted__20a53 {
+			&::before {
+				content: '';
+				width: var(--channel-pill-width);
+				height: var(--channel-pill-height);
+				background: var(--channel-unread-colour);
+				left: 0;
+				position: absolute;
+				filter: drop-shadow(
+						0 0 calc(var(--channel-glow-intensity) * 5px) hsl(from var(--channel-unread-colour) h s l / 0.3)
+					)
+					drop-shadow(0 0 calc(var(--channel-glow-intensity) * 2px) hsl(from var(--channel-unread-colour) h s l / 0.2));
+			}
+			.nameAndDecorators__20a53 {
+				filter: drop-shadow(
+						0 0 calc(var(--channel-glow-intensity) * 5px) hsl(from var(--channel-unread-colour) h s l / 0.3)
+					)
+					drop-shadow(0 0 calc(var(--channel-glow-intensity) * 2px) hsl(from var(--channel-unread-colour) h s l / 0.2));
+			}
+		}
+		// Selected
+		&.selected_bf202d {
+			background: hsl(from var(--accent) h s l / 0.1);
+			&::before {
+				content: '';
+				position: absolute;
+				left: 0;
+				height: 100%;
+				width: var(--channel-pill-width);
+				background: var(--accent);
+				box-shadow: 0 0 calc(var(--channel-glow-intensity) * 15px) calc(var(--channel-glow-intensity) * 5px)
+					hsl(from var(--accent) h s l / 0.2);
+			}
+
+			.nameAndDecorators__20a53,
+			.linkButtonIcon__972a0 {
+				color: hsl(from var(--accent) h s l);
+				filter: drop-shadow(0 0 calc(var(--channel-glow-intensity) * 5px) hsl(from var(--accent) h s l / 0.3))
+					drop-shadow(0 0 calc(var(--channel-glow-intensity) * 2px) hsl(from var(--accent) h s l / 0.2));
+			}
+			.text_c9d15c {
+				color: hsl(from var(--accent) h s l);
+				opacity: 0.85;
+			}
+		}
+	}
+	.dm__972a0 {
+		margin: 0;
+		border-radius: 0;
+		padding: 0;
+	}
+
+	.link__972a0 {
+		padding: var(--space-xs) var(--space-md);
+
+		.subText__20a53,
+		.text_c9d15c {
+			overflow: visible;
+		}
+	}
+}

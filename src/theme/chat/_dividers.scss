@@ -4,8 +4,8 @@
 		margin: 0;
 		height: auto;
 		justify-content: flex-start;
-		padding: 0 16px 0 calc(var(--chat-avatar-size) + 26px);
-		margin: 32px 0;
+		padding: 0 16px 0 var(--custom-message-margin-horizontal);
+		margin: 16px 0 8px;
 		position: static;
 		flex-direction: row-reverse;
 		align-items: center;
@@ -23,20 +23,19 @@
 		&:not(.isUnread__908e2) {
 			&::before,
 			.content__908e2 {
-				background: var(--border);
+				background: var(--bg-border);
 			}
 		}
 		&.isUnread__908e2 {
-			margin: 8px 0;
 			&::before {
 				order: 1;
-				background: hsl(var(--discord-red));
+				background: var(--red-500);
 			}
 			.content__908e2 {
 				order: 2;
 				margin-right: 12px;
-				background: hsl(var(--discord-red) / 0.2);
-				text-shadow: 0 0 calc(var(--chat-glow-intensity) * 5px) hsl(var(--discord-red) / 0.5);
+				background: hsl(from var(--red-500) h s l / 0.1);
+				text-shadow: 0 0 calc(var(--chat-glow-intensity) * 5px) hsl(from var(--red-500) h s l / 0.5);
 			}
 		}
 	}
@@ -45,5 +44,12 @@
 		top: 0;
 		left: 0;
 		order: 0;
+		padding: var(--space-xxs) var(--space-xs);
+		border-radius: var(--radius-xs);
+		height: auto;
+
+		.unreadPillCap__908e2 {
+			display: none;
+		}
 	}
 }

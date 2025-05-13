@@ -1,0 +1,32 @@
+#app-mount {
+	.expandedFolderBackground__48112 {
+		background: var(--fg-primary);
+		left: 50%;
+		translate: -50% 0;
+	}
+
+	.folderIcon__48112 > .wrapper_cc5dd2 {
+		width: var(--g-48) !important;
+		height: var(--g-48) !important;
+	}
+	.folderIcon__48112 > .wrapper_cc5dd2 > .svg_cc5dd2 {
+		width: var(--g-56-r);
+		height: var(--g-56-r);
+		top: var(--g-4-r-2);
+		left: var(--g-4-r-2);
+	}
+	.folder__48112,
+	.folderIconWrapper__48112 {
+		width: 48px;
+		height: 48px;
+	}
+	.expandedFolderIconWrapper__48112 {
+		width: var(--g-40-r);
+		height: var(--g-40-r);
+		margin: 0;
+	}
+	.closedFolderIconWrapper__48112 {
+		width: var(--g-40-r);
+		height: var(--g-40-r);
+	}
+}

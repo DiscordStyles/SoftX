@@ -1,45 +1,33 @@
 #app-mount {
-	// New messages
 	.newMessagesBar__0f481 {
-		top: 12px;
-		right: 12px;
-		left: 12px;
-		background: rgb(var(--accent), 0.1);
-		border: 1px solid var(--border);
+		background: hsl(from var(--accent) h s l / 0.1);
+		backdrop-filter: blur(var(--foreground-blur));
+		color: var(--accent);
+		left: 0;
+		right: 0;
 		border-radius: 0;
+		border: none;
+		border-bottom: 1px solid var(--bg-primary);
+		height: auto;
+		padding: 0;
 		box-shadow: none;
-		opacity: 1;
-		backdrop-filter: blur(3px);
-		border-radius: 6px;
 	}
 	.barButtonBase__0f481 {
+		filter: drop-shadow(0 0 calc(var(--channel-glow-intensity) * 5px) hsl(from var(--accent) h s l / 0.3))
+			drop-shadow(0 0 calc(var(--channel-glow-intensity) * 2px) hsl(from var(--accent) h s l / 0.2));
+	}
+	.barButtonMain__0f481 {
+		padding: var(--space-xs) var(--space-md);
 		height: auto;
-		padding: 10px 16px;
 	}
-	.unreadBar__629e4 {
-		opacity: 1;
-		visibility: visible;
-		&[aria-hidden='true'] {
-			opacity: 0;
-			visibility: hidden;
+	.barButtonAlt__0f481 {
+		padding: var(--space-xs) var(--space-md);
+		height: auto;
+		background: transparent;
+		border-radius: 0;
+		font-weight: 400;
+		&:hover {
+			background: hsl(0 0% 100% / 0.05);
 		}
-	}
-
-	// Old messages
-	.jumpToPresentBar__0f481 {
-		background: rgb(var(--accent), 0.1);
-		border: 1px solid var(--border);
-		padding: 0;
-		opacity: 1;
-		border-radius: 6px;
-		right: 12px;
-		bottom: 16px;
-		backdrop-filter: blur(3px);
-	}
-
-	// Join thread
-	.chatHeaderBar_a5700d {
-		background: var(--bg-primary);
-		border-bottom: 1px solid var(--border);
 	}
 }
