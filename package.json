@@ -2,13 +2,13 @@
 	"private": false,
 	"type": "module",
 	"scripts": {
-		"dev": "bd-scss dev",
-		"build": "bd-scss build"
+		"dev": "bun --bun bd-scss dev",
+		"build": "bun --bun bd-scss build"
 	},
 	"dependencies": {
-		"bd-scss": "^3.0.5"
+		"bd-scss": "^3.0.7"
 	},
 	"devDependencies": {
-		"prettier": "^3.5.3"
+		"prettier": "^3.6.2"
 	}
 }
