@@ -483,9 +483,6 @@ body,
   background: var(--bg-border);
   margin: 0;
 }
-#app-mount .content__99f8c > div[aria-hidden=true]:first-child {
-  display: none;
-}
 
 #app-mount .panels_c48ade {
   bottom: 0;
