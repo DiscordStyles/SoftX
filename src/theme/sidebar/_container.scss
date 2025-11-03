@@ -1,5 +1,5 @@
 #app-mount {
-	.sidebar_c48ade {
+	.sidebar__5e434 {
 		border-radius: 0;
 		&::after {
 			content: none;
@@ -9,7 +9,7 @@
 			display: none;
 		}
 	}
-	.sidebarList_c48ade {
+	.sidebarList__5e434 {
 		border-radius: 0;
 		border: none;
 		padding-bottom: 0;
@@ -21,7 +21,7 @@
 	}
 
 	// DMs
-	.privateChannels__35e86 {
+	.privateChannels_e6b769 {
 		background: var(--bg-primary);
 
 		.scroller__99e7c {
@@ -33,7 +33,7 @@
 			}
 		}
 	}
-	.sectionDivider__35e86 {
+	.sectionDivider_e6b769 {
 		background: var(--bg-border);
 		margin: 0;
 	}
