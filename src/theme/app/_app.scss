@@ -7,10 +7,10 @@ span:not([class*='spinner_']):not([class*='spinnerItem']) {
 // Background
 body,
 #app-mount,
-.app__160d8 {
+._160d8e55254637e5-app {
 	background: transparent;
 }
-#app-mount .bg__960e4 {
+#app-mount ._960e4207cea8323e-bg {
 	background-image: var(--background-image);
 	background-color: transparent;
 	background-attachment: var(--background-attachment, fixed);
@@ -20,7 +20,7 @@ body,
 }
 
 // Global app top border
-.content__5e434::before {
+._5e434347c823b592-content::before {
 	content: '';
 	position: absolute;
 	z-index: 101;

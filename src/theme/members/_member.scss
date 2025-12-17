@@ -1,14 +1,14 @@
 #app-mount {
-	.member_c8ffbb {
+	.c8ffbb79449f399c-member {
 		background: transparent;
 		max-width: 100%;
 		margin-left: 0;
 		border-radius: 0;
-		&.selected__91a9d {
-			.childContainer__91a9d {
+		&._91a9d7f7e5248a56-selected {
+			._91a9d7f7e5248a56-childContainer {
 				background: transparent;
 			}
-			.name__5d473 {
+			._5d473ecff348c314-username {
 				text-shadow: 0 0 calc(var(--members-glow-intensity) * 10px) currentColor;
 				overflow: visible;
 				filter: none;
@@ -41,18 +41,18 @@
 			}
 		}
 	}
-	.childContainer__91a9d {
+	._91a9d7f7e5248a56-childContainer {
 		padding: var(--space-xs) var(--space-md);
 	}
-	.layout__91a9d {
+	._91a9d7f7e5248a56-layout {
 		overflow: visible;
 		position: initial;
-		.name__91a9d,
-		.content__91a9d,
-		.username__5d473 {
+		._91a9d7f7e5248a56-name,
+		._91a9d7f7e5248a56-content,
+		._5d473ecff348c314-username {
 			overflow: visible;
 		}
-		.avatar__91a9d {
+		._91a9d7f7e5248a56-avatar {
 			z-index: 1;
 		}
 	}

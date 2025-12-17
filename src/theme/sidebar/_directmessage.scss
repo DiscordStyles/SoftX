@@ -1,9 +1,9 @@
 #app-mount {
-	.searchBar_e6b769 {
+	.e6b7699ce8339e1c-searchBar {
 		height: var(--toolbar-height);
 		border-bottom: 1px solid var(--bg-border);
 		padding: 0;
-		.button__201d5 {
+		._201d5e8a3c09670a-button {
 			height: var(--toolbar-height);
 			border-radius: 0;
 			background: transparent;
@@ -11,24 +11,24 @@
 	}
 
 	// Friends, Nitro, Shop
-	.channel__972a0:not(.dm__972a0) {
+	._972a0d22c8afa7f0-channel:not(._972a0d22c8afa7f0-dm) {
 		max-width: unset;
 		margin: 0;
 		padding: 0;
 		border-radius: 0;
-		.link__972a0 {
+		._972a0d22c8afa7f0-link {
 			padding: var(--space-md);
 		}
 	}
 
-	.privateChannelsHeaderContainer__99e7c {
+	._99e7cad8d4c55236-privateChannelsHeaderContainer {
 		padding: var(--space-md);
 		height: auto;
 	}
 
-	.interactive_bf202d {
+	.bf202d63ad53e289-interactive {
 		// Unread
-		&:not(.selected_bf202d) .layout__20a53.highlighted__20a53 {
+		&:not(.bf202d63ad53e289-selected) ._20a53846fe2e8513-layout._20a53846fe2e8513-highlighted {
 			&::before {
 				content: '';
 				width: var(--channel-pill-width);
@@ -41,7 +41,7 @@
 					)
 					drop-shadow(0 0 calc(var(--channel-glow-intensity) * 2px) hsl(from var(--channel-unread-colour) h s l / 0.2));
 			}
-			.nameAndDecorators__20a53 {
+			._20a53846fe2e8513-nameAndDecorators {
 				filter: drop-shadow(
 						0 0 calc(var(--channel-glow-intensity) * 5px) hsl(from var(--channel-unread-colour) h s l / 0.3)
 					)
@@ -49,7 +49,7 @@
 			}
 		}
 		// Selected
-		&.selected_bf202d {
+		&.bf202d63ad53e289-selected {
 			background: hsl(from var(--accent) h s l / 0.1);
 			&::before {
 				content: '';
@@ -62,8 +62,8 @@
 					hsl(from var(--accent) h s l / 0.2);
 			}
 
-			.nameAndDecorators__20a53,
-			.linkButtonIcon__972a0 {
+			._20a53846fe2e8513-nameAndDecorators,
+			._972a0d22c8afa7f0-linkButtonIcon {
 				color: hsl(from var(--accent) h s l);
 				filter: drop-shadow(0 0 calc(var(--channel-glow-intensity) * 5px) hsl(from var(--accent) h s l / 0.3))
 					drop-shadow(0 0 calc(var(--channel-glow-intensity) * 2px) hsl(from var(--accent) h s l / 0.2));
@@ -74,16 +74,16 @@
 			}
 		}
 	}
-	.dm__972a0 {
+	._972a0d22c8afa7f0-dm {
 		margin: 0;
 		border-radius: 0;
 		padding: 0;
 	}
 
-	.link__972a0 {
+	._972a0d22c8afa7f0-link {
 		padding: var(--space-xs) var(--space-md);
 
-		.subText__20a53,
+		._20a53846fe2e8513-subText,
 		.text_c9d15c {
 			overflow: visible;
 		}

@@ -1,5 +1,5 @@
 #app-mount {
-	.message__5126c.mentioned__5126c {
+	._5126c0cd07f243a0-message._5126c0cd07f243a0-mentioned {
 		background: hsl(from var(--accent) h s l / 0.05);
 		&::before {
 			background: hsl(from var(--accent) h s l);
@@ -10,8 +10,8 @@
 		}
 	}
 
-	.cozyMessage__5126c {
-		.messageContent_c19a55:not(.repliedTextContent_c19a55):not(:empty) {
+	._5126c0cd07f243a0-cozyMessage {
+		.c19a557985eb7793-messageContent:not(.c19a557985eb7793-repliedTextContent):not(:empty) {
 			background: var(--chat-bubble-bg);
 			margin-left: var(----custom-message-margin-left-content-cozy);
 			padding: var(--chat-bubble-padding);
@@ -20,7 +20,7 @@
 		}
 	}
 
-	.wrapper_cdf8a9 {
+	._4106ae7c1472c1de-wrapper {
 		background: hsl(from var(--accent) h s l / 0.15);
 		color: var(--accent);
 

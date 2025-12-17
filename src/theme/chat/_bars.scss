@@ -1,5 +1,5 @@
 #app-mount {
-	.newMessagesBar__0f481 {
+	._0f481cbbd7530492-newMessagesBar {
 		background: hsl(from var(--accent) h s l / 0.1);
 		backdrop-filter: blur(var(--foreground-blur));
 		color: var(--accent);
@@ -12,15 +12,15 @@
 		padding: 0;
 		box-shadow: none;
 	}
-	.barButtonBase__0f481 {
+	._0f481cbbd7530492-barButtonBase {
 		filter: drop-shadow(0 0 calc(var(--channel-glow-intensity) * 5px) hsl(from var(--accent) h s l / 0.3))
 			drop-shadow(0 0 calc(var(--channel-glow-intensity) * 2px) hsl(from var(--accent) h s l / 0.2));
 	}
-	.barButtonMain__0f481 {
+	._0f481cbbd7530492-barButtonMain {
 		padding: var(--space-xs) var(--space-md);
 		height: auto;
 	}
-	.barButtonAlt__0f481 {
+	._0f481cbbd7530492-barButtonAlt {
 		padding: var(--space-xs) var(--space-md);
 		height: auto;
 		background: transparent;

@@ -1,5 +1,5 @@
 #app-mount {
-	.divider__5126c {
+	._5126c0cd07f243a0-divider {
 		border: none;
 		margin: 0;
 		height: auto;
@@ -15,23 +15,23 @@
 			display: block;
 			width: 100%;
 		}
-		.content__908e2 {
+		._908e20001ad67812-content {
 			border-radius: 6px;
 			margin: 0;
 			padding: 8px 12px;
 		}
-		&:not(.isUnread__908e2) {
+		&:not(._908e20001ad67812-isUnread) {
 			&::before,
-			.content__908e2 {
+			._908e20001ad67812-content {
 				background: var(--bg-border);
 			}
 		}
-		&.isUnread__908e2 {
+		&._908e20001ad67812-isUnread {
 			&::before {
 				order: 1;
 				background: var(--red-500);
 			}
-			.content__908e2 {
+			._908e20001ad67812-content {
 				order: 2;
 				margin-right: 12px;
 				background: hsl(from var(--red-500) h s l / 0.1);
@@ -39,7 +39,7 @@
 			}
 		}
 	}
-	.unreadPill__908e2 {
+	._908e20001ad67812-unreadPill {
 		position: relative;
 		top: 0;
 		left: 0;
@@ -48,7 +48,7 @@
 		border-radius: var(--radius-xs);
 		height: auto;
 
-		.unreadPillCap__908e2 {
+		._908e20001ad67812-unreadPillCap {
 			display: none;
 		}
 	}

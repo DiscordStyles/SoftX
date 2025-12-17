@@ -10,24 +10,24 @@
 }
 
 #app-mount {
-	.folderGroup__48112 {
+	._48112cbe77dc5022-folderGroup {
 		--server-folder-offset: 6px;
 
-		ul.stack_dbd263[role='group'] {
+		ul.dbd2630aec71879b-stack[role='group'] {
 			height: auto !important;
 			overflow: visible !important;
-			.listItem__650eb {
+			._650eb104245d257b-listItem {
 				--server-folder-offset: 0px;
 			}
 		}
 	}
 
-	.scroller_ef3116 > div[style]:not([class]) {
+	.ef3116c2da186559-scroller > div[style]:not([class]) {
 		margin-bottom: var(--server-spacing);
 	}
 
 	// Container
-	.listItem__650eb {
+	._650eb104245d257b-listItem {
 		width: 100%;
 		margin-bottom: var(--server-spacing);
 		[class*='pill'] {
@@ -41,7 +41,7 @@
 			height: var(--__ring-size);
 			overflow: visible;
 			margin-left: -2px;
-			.item__58105 {
+			._581051df43c5ebb6-item {
 				height: 100% !important;
 				width: 100%;
 				margin: 0;
@@ -90,8 +90,8 @@
 	}
 
 	// Active state
-	.blobContainer_e5445c,
-	.listItemWrapper_dfb2f8 {
+	.e5445cbd3ad226f2-blobContainer,
+	._918165dab2b1e10b-listItemWrapper {
 		transition: var(--transition, 0.15s ease);
 		transition-property: transform;
 		&:active {
@@ -99,13 +99,13 @@
 		}
 	}
 
-	.svg_cc5dd2 foreignObject {
+	.cc5dd25190031396-svg foreignObject {
 		border-radius: 50%;
 		mask: none !important;
 	}
 }
 
 // Hide Broken Discoverable Servers Ring
-.pill__5bc7e {
+._5bc7ed9d4097f6b5-pill {
 	display: none;
 }
